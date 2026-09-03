@@ -1,0 +1,90 @@
+FamilySide, stato dei lavori. Aggiornato 3 settembre 2026, sera. App di prova: 1.1.3 (canale di prova interno di Google Play).
+
+Cosa provare adesso:
+- Filtro per età nell'app 1.1.3: le cinque fasce, e le attività senza età che restano visibili (voce 7)
+- Pannello: categorie e sottocategorie con i nomi giusti, come sulle schede (voce 12)
+- Grafiche delle carte regalo: ricaricarle con l'occasione e ritrovarle nell'app (voce 8)
+- Ricerca e mappa: cerca un parco, apri la scheda, contatta (voci 6 e 11)
+
+Cosa non provare ancora:
+- Biglietto della carta regalo: dati e dicitura cambiano (voce 10)
+- Iscrizione delle attività e sezione Crea: l'ordine cambia (voci 14 e 15)
+- Periodo di prova e vecchia schermata dei pagamenti: da rifare (voce 18)
+- Contribution Program: non esiste ancora (voce 38)
+
+IMMAGINE E INGRESSO
+1. Logo e colori giusti su avvio, registrazione e accesso [In coda, Giacomo] I file grafici ci sono dal 14 agosto.
+2. Revisione dei testi italiani (date e altri testi ancora in inglese) [In coda, Giacomo] Le fasce d'età sono in italiano dalla 1.1.3.
+
+MAPPA, RICERCA E SCHEDE
+3. Pulsante per ricentrare la mappa [In coda, Giacomo]
+4. Colori fissi per categoria su mappa e ricerca, con le nuove icone [Aspetta una tua decisione, Jessica] Serve lo schema dei colori per categoria, deciso una volta sola; poi si fa.
+5. Cosa mostrare nel riquadro sotto il nome nelle schede della home [Aspetta una tua decisione, Jessica]
+6. La scheda di un'attività mostra solo i suoi eventi e i suoi regali [Fatto, team] server, dal 27 agosto. Resta un caso: un evento senza attività collegata compare sotto un'attività dello stesso autore (voce 36).
+7. Filtro per età con le cinque fasce, e le attività senza età sempre visibili [Fatto, Giacomo] app 1.1.3 e server, dal 3 settembre. Le fasce nell'app le ha fatte il team; il server è corretto da noi. Da provare.
+
+GIFT VOUCHER
+8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
+9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
+10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Da rifare, non provare, Giacomo] Oggi il biglietto dice "riscattabile presentando la carta" e alcuni dati non sono quelli dell'attività.
+
+CONTATTI E CONTENUTI
+11. Pulsanti sito, WhatsApp e indicazioni sulle schede [In lavorazione, Jessica] I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.
+12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Il file di prova è stato provato il 3 settembre; prezzo come numero, sottocategorie con lo stesso nome delle schede.
+13. Immagini mancanti sulle schede [In coda, Giacomo]
+
+ISCRIZIONE DELLE ATTIVITÀ
+14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [Da rifare, non provare, Giacomo]
+15. Sezione Crea riordinata [Da rifare, non provare, Giacomo]
+16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
+17. Assegnare una scheda esistente all'account di un'attività [In coda, Giacomo]
+46. Recensioni: modifica e cancellazione delle proprie, e "suggerisci un'attività" [In coda, Giacomo] Lasciato al nostro giudizio il 25 agosto; entra in coda dopo le cose senza cui l'app non si pubblica.
+
+PERIODO DI PROVA
+18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Da rifare, non provare, Giacomo]
+
+DASHBOARD
+19. Modifica in blocco delle attività selezionate [In coda, Giacomo] Oggi la selezione multipla cancella soltanto.
+20. Modifica completa dell'attività e cambio di stato del profilo [In coda, Giacomo]
+21. Gestione degli interessi: controllo che faccia quello che serve [In coda, Giacomo]
+22. Caricamento delle grafiche con l'occasione [Fatto, team] pannello, dal 3 settembre.
+42. Cancellazione vera di categorie, sottocategorie e tag (oggi solo "inattivo") [Aspetta una tua decisione, Jessica] "Inattivo" le toglie dall'app; la cancellazione è una modifica al pannello, da decidere.
+43. Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) [Aspetta una tua decisione, Jessica]
+
+SICUREZZA E PRIVACY
+23. Sicurezza dell'accesso all'app [In coda, Giacomo]
+24. Chiavi delle mappe limitate [In coda, Giacomo]
+25. Funzioni riservate alle attività protette davvero [In coda, Giacomo]
+26. Cosa vedono gli altri utenti nei profili delle famiglie [In coda, Giacomo]
+
+FONDAMENTA E MESSA IN PRODUZIONE
+27. Il progetto si ricostruisce da zero e si prova fuori dalla produzione [Fatto, Giacomo] dal 31 agosto.
+28. Pubblicazione di server e pannello da parte nostra, con un comando [Fatto, Giacomo] dal 31 agosto (server) e dal 2 settembre (pannello).
+29. Copia di sicurezza del database prima di ogni intervento [Fatto, Giacomo] dal 31 agosto.
+30. Verifica che le email dell'app partano davvero (codici di iscrizione, domanda sul benefit) [In coda, Giacomo]
+31. Certificato del sito da rinnovare [In coda, Giacomo]
+
+PUBBLICAZIONE NEGLI STORE
+32. Android: versione firmata sul canale di prova interno [Fatto, Giacomo] 1.1.2 il 2 settembre, 1.1.3 il 3 settembre.
+33. iPhone: account Apple e versione di prova [In lavorazione, Giacomo] Dipende dai tempi di Apple.
+34. Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione [In coda, Giacomo]
+
+AL TEAM
+35. Filtro per età sul server, nel loro codice [Al team, team] Nel nostro server è corretto dal 3 settembre (voce 7); nel loro no.
+36. Evento senza attività collegata mostrato sotto un'attività dello stesso autore [Al team, team]
+37. Costruttore della carta regalo: le due correzioni nel loro codice [Al team, team] Nella 1.1.3 ci sono già (voce 9).
+38. Contribution Program [Dopo il lancio, team] Seconda release, come deciso. Specifica consegnata il 19 agosto.
+39. Lavorare nel repository condiviso, per tutte e tre le parti [Al team, team] Oggi pubblicano da un archivio loro; il repository condiviso lo allineo io.
+
+DOPO IL LANCIO
+40. Pagamenti veri (incasso, rinnovi, disdette, fatture) [Dopo il lancio, Giacomo] Da stimare a parte quando i livelli saranno definiti.
+41. Stessa email per un account famiglia e un account attività [Dopo il lancio, Giacomo] Oggi l'email è unica per account.
+44. Raggruppamento dei segnaposto sulla mappa con la legenda dei colori [In coda, Giacomo] Accettato il 25 agosto; dopo le cose senza cui l'app non si pubblica.
+45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
+
+Novità:
+3 settembre: App 1.1.3 sul canale di prova: le cinque fasce d'età con etichette in italiano (team) e il costruttore delle carte regalo con le grafiche dell'occasione scelta caricate subito (Giacomo). Server: un tag che non è un'età non esclude più l'attività dai filtri (Giacomo). Pannello: caricamento delle grafiche con l'occasione (team).
+2 settembre: App 1.1.2 sul canale di prova. Pannello: il menu delle occasioni riparato (Giacomo).
+31 agosto: Il server si può ricostruire da zero e pubblicare da parte nostra; copia di sicurezza del database prima di ogni intervento (Giacomo).
+27 agosto: La scheda di un'attività mostra solo i regali collegati a quell'attività (team).
+26 agosto: Ogni grafica delle carte regalo ha un'occasione, lista fissa di nove (team, lato server).

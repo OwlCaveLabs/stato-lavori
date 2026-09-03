@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FamilySide, stato dei lavori</title>
+<style>
+:root { --testo: #1e1e1e; --muto: #666; --linea: #e3e3e3; --sfondo: #fafafa; --carta: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--sfondo); color: var(--testo);
+  font: 16px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 20px 16px 60px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--linea); }
+.sotto { color: var(--muto); margin: 0 0 18px; }
+.riquadro { background: var(--carta); border: 1px solid var(--linea); border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
+.riquadro h3 { margin: 0 0 8px; font-size: 1rem; }
+.riquadro ul { margin: 0; padding-left: 20px; }
+.riquadro li { margin: 4px 0; }
+.legenda { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+.chip { display: inline-block; font-size: 0.78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; white-space: nowrap; }
+.voce { display: grid; grid-template-columns: 2.6em 1fr; gap: 6px 10px; padding: 10px 0; border-bottom: 1px solid var(--linea); }
+.voce:last-child { border-bottom: 0; }
+.num { color: var(--muto); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.titolo { font-weight: 600; }
+.meta { color: var(--muto); font-size: 0.9rem; margin-top: 2px; }
+.nota { font-size: 0.93rem; margin-top: 4px; }
+.novita .data { font-weight: 600; white-space: nowrap; }
+.novita p { margin: 6px 0 12px; }
+footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
+@media (max-width: 480px) { body { font-size: 15px; } main { padding: 14px 12px 50px; } }
+</style>
+</head>
+<body>
+<main>
+<h1>FamilySide, stato dei lavori</h1>
+<p class="sotto">Aggiornato 3 settembre 2026, sera. App di prova: 1.1.3 (canale di prova interno di Google Play).</p>
+<div class="riquadro"><h3>Cosa provare adesso</h3><ul>
+<li>Filtro per età nell&#x27;app 1.1.3: le cinque fasce, e le attività senza età che restano visibili (voce 7)</li>
+<li>Pannello: categorie e sottocategorie con i nomi giusti, come sulle schede (voce 12)</li>
+<li>Grafiche delle carte regalo: ricaricarle con l&#x27;occasione e ritrovarle nell&#x27;app (voce 8)</li>
+<li>Ricerca e mappa: cerca un parco, apri la scheda, contatta (voci 6 e 11)</li>
+</ul></div>
+<div class="riquadro"><h3>Cosa non provare ancora</h3><ul>
+<li>Biglietto della carta regalo: dati e dicitura cambiano (voce 10)</li>
+<li>Iscrizione delle attività e sezione Crea: l&#x27;ordine cambia (voci 14 e 15)</li>
+<li>Periodo di prova e vecchia schermata dei pagamenti: da rifare (voce 18)</li>
+<li>Contribution Program: non esiste ancora (voce 38)</li>
+</ul></div>
+<div class="riquadro"><h3>Come segnalare</h3><p style="margin:0">Un messaggio per percorso provato, non per schermata. Per ogni problema tre righe: dove eri, cosa hai fatto, cosa ti aspettavi. Lo screenshot solo quando le parole non bastano. Cita il numero della voce se esiste già; se non esiste, la aggiungo io con la priorità che mi dici.</p></div>
+<h2>Le voci</h2>
+<div class="legenda"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span><span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span><span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span><span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
+<h2>Immagine e ingresso</h2>
+<div class="voce">
+<div class="num">1</div>
+<div>
+<div class="titolo">Logo e colori giusti su avvio, registrazione e accesso <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">I file grafici ci sono dal 14 agosto.</div>
+</div></div>
+<div class="voce">
+<div class="num">2</div>
+<div>
+<div class="titolo">Revisione dei testi italiani (date e altri testi ancora in inglese) <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Le fasce d&#x27;età sono in italiano dalla 1.1.3.</div>
+</div></div>
+<h2>Mappa, ricerca e schede</h2>
+<div class="voce">
+<div class="num">3</div>
+<div>
+<div class="titolo">Pulsante per ricentrare la mappa <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">4</div>
+<div>
+<div class="titolo">Colori fissi per categoria su mappa e ricerca, con le nuove icone <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica</div>
+<div class="nota">Serve lo schema dei colori per categoria, deciso una volta sola; poi si fa.</div>
+</div></div>
+<div class="voce">
+<div class="num">5</div>
+<div>
+<div class="titolo">Cosa mostrare nel riquadro sotto il nome nelle schede della home <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica</div>
+</div></div>
+<div class="voce">
+<div class="num">6</div>
+<div>
+<div class="titolo">La scheda di un&#x27;attività mostra solo i suoi eventi e i suoi regali <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: team · dove: server, dal 27 agosto</div>
+<div class="nota">Resta un caso: un evento senza attività collegata compare sotto un&#x27;attività dello stesso autore (voce 36).</div>
+</div></div>
+<div class="voce">
+<div class="num">7</div>
+<div>
+<div class="titolo">Filtro per età con le cinque fasce, e le attività senza età sempre visibili <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: app 1.1.3 e server, dal 3 settembre</div>
+<div class="nota">Le fasce nell&#x27;app le ha fatte il team; il server è corretto da noi. Da provare.</div>
+</div></div>
+<h2>Gift Voucher</h2>
+<div class="voce">
+<div class="num">8</div>
+<div>
+<div class="titolo">Grafiche delle carte regalo legate all&#x27;occasione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Jessica · dove: pannello e app 1.1.3</div>
+<div class="nota">Le sette grafiche caricate prima vanno ricaricate scegliendo l&#x27;occasione. Dal pannello l&#x27;occasione &quot;Altro&quot; non si può scegliere.</div>
+</div></div>
+<div class="voce">
+<div class="num">9</div>
+<div>
+<div class="titolo">Costruttore della carta regalo (occasione, grafiche, stati vuoti) <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: app 1.1.3</div>
+</div></div>
+<div class="voce">
+<div class="num">10</div>
+<div>
+<div class="titolo">Biglietto con i dati veri dell&#x27;attività, la dicitura concordata e l&#x27;italiano <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Oggi il biglietto dice &quot;riscattabile presentando la carta&quot; e alcuni dati non sono quelli dell&#x27;attività.</div>
+</div></div>
+<h2>Contatti e contenuti</h2>
+<div class="voce">
+<div class="num">11</div>
+<div>
+<div class="titolo">Pulsanti sito, WhatsApp e indicazioni sulle schede <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Jessica</div>
+<div class="nota">I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.</div>
+</div></div>
+<div class="voce">
+<div class="num">12</div>
+<div>
+<div class="titolo">Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Jessica</div>
+<div class="nota">Il file di prova è stato provato il 3 settembre; prezzo come numero, sottocategorie con lo stesso nome delle schede.</div>
+</div></div>
+<div class="voce">
+<div class="num">13</div>
+<div>
+<div class="titolo">Immagini mancanti sulle schede <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<h2>Iscrizione delle attività</h2>
+<div class="voce">
+<div class="num">14</div>
+<div>
+<div class="titolo">All&#x27;iscrizione prima i dati dell&#x27;attività (nome, categoria, indirizzo), poi i social <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">15</div>
+<div>
+<div class="titolo">Sezione Crea riordinata <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">16</div>
+<div>
+<div class="titolo">Domanda sul vantaggio per i Best Contributor, con la risposta via email <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">17</div>
+<div>
+<div class="titolo">Assegnare una scheda esistente all&#x27;account di un&#x27;attività <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">46</div>
+<div>
+<div class="titolo">Recensioni: modifica e cancellazione delle proprie, e &quot;suggerisci un&#x27;attività&quot; <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Lasciato al nostro giudizio il 25 agosto; entra in coda dopo le cose senza cui l&#x27;app non si pubblica.</div>
+</div></div>
+<h2>Periodo di prova</h2>
+<div class="voce">
+<div class="num">18</div>
+<div>
+<div class="titolo">Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<h2>Dashboard</h2>
+<div class="voce">
+<div class="num">19</div>
+<div>
+<div class="titolo">Modifica in blocco delle attività selezionate <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Oggi la selezione multipla cancella soltanto.</div>
+</div></div>
+<div class="voce">
+<div class="num">20</div>
+<div>
+<div class="titolo">Modifica completa dell&#x27;attività e cambio di stato del profilo <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">21</div>
+<div>
+<div class="titolo">Gestione degli interessi: controllo che faccia quello che serve <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">22</div>
+<div>
+<div class="titolo">Caricamento delle grafiche con l&#x27;occasione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: team · dove: pannello, dal 3 settembre</div>
+</div></div>
+<div class="voce">
+<div class="num">42</div>
+<div>
+<div class="titolo">Cancellazione vera di categorie, sottocategorie e tag (oggi solo &quot;inattivo&quot;) <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica</div>
+<div class="nota">&quot;Inattivo&quot; le toglie dall&#x27;app; la cancellazione è una modifica al pannello, da decidere.</div>
+</div></div>
+<div class="voce">
+<div class="num">43</div>
+<div>
+<div class="titolo">Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica</div>
+</div></div>
+<h2>Sicurezza e privacy</h2>
+<div class="voce">
+<div class="num">23</div>
+<div>
+<div class="titolo">Sicurezza dell&#x27;accesso all&#x27;app <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">24</div>
+<div>
+<div class="titolo">Chiavi delle mappe limitate <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">25</div>
+<div>
+<div class="titolo">Funzioni riservate alle attività protette davvero <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">26</div>
+<div>
+<div class="titolo">Cosa vedono gli altri utenti nei profili delle famiglie <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<h2>Fondamenta e messa in produzione</h2>
+<div class="voce">
+<div class="num">27</div>
+<div>
+<div class="titolo">Il progetto si ricostruisce da zero e si prova fuori dalla produzione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: dal 31 agosto</div>
+</div></div>
+<div class="voce">
+<div class="num">28</div>
+<div>
+<div class="titolo">Pubblicazione di server e pannello da parte nostra, con un comando <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: dal 31 agosto (server) e dal 2 settembre (pannello)</div>
+</div></div>
+<div class="voce">
+<div class="num">29</div>
+<div>
+<div class="titolo">Copia di sicurezza del database prima di ogni intervento <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: dal 31 agosto</div>
+</div></div>
+<div class="voce">
+<div class="num">30</div>
+<div>
+<div class="titolo">Verifica che le email dell&#x27;app partano davvero (codici di iscrizione, domanda sul benefit) <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">31</div>
+<div>
+<div class="titolo">Certificato del sito da rinnovare <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<h2>Pubblicazione negli store</h2>
+<div class="voce">
+<div class="num">32</div>
+<div>
+<div class="titolo">Android: versione firmata sul canale di prova interno <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: 1.1.2 il 2 settembre, 1.1.3 il 3 settembre</div>
+</div></div>
+<div class="voce">
+<div class="num">33</div>
+<div>
+<div class="titolo">iPhone: account Apple e versione di prova <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Dipende dai tempi di Apple.</div>
+</div></div>
+<div class="voce">
+<div class="num">34</div>
+<div>
+<div class="titolo">Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+</div></div>
+<h2>Al team</h2>
+<div class="voce">
+<div class="num">35</div>
+<div>
+<div class="titolo">Filtro per età sul server, nel loro codice <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
+<div class="meta">chi: team</div>
+<div class="nota">Nel nostro server è corretto dal 3 settembre (voce 7); nel loro no.</div>
+</div></div>
+<div class="voce">
+<div class="num">36</div>
+<div>
+<div class="titolo">Evento senza attività collegata mostrato sotto un&#x27;attività dello stesso autore <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
+<div class="meta">chi: team</div>
+</div></div>
+<div class="voce">
+<div class="num">37</div>
+<div>
+<div class="titolo">Costruttore della carta regalo: le due correzioni nel loro codice <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
+<div class="meta">chi: team</div>
+<div class="nota">Nella 1.1.3 ci sono già (voce 9).</div>
+</div></div>
+<div class="voce">
+<div class="num">38</div>
+<div>
+<div class="titolo">Contribution Program <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
+<div class="meta">chi: team</div>
+<div class="nota">Seconda release, come deciso. Specifica consegnata il 19 agosto.</div>
+</div></div>
+<div class="voce">
+<div class="num">39</div>
+<div>
+<div class="titolo">Lavorare nel repository condiviso, per tutte e tre le parti <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
+<div class="meta">chi: team</div>
+<div class="nota">Oggi pubblicano da un archivio loro; il repository condiviso lo allineo io.</div>
+</div></div>
+<h2>Dopo il lancio</h2>
+<div class="voce">
+<div class="num">40</div>
+<div>
+<div class="titolo">Pagamenti veri (incasso, rinnovi, disdette, fatture) <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Da stimare a parte quando i livelli saranno definiti.</div>
+</div></div>
+<div class="voce">
+<div class="num">41</div>
+<div>
+<div class="titolo">Stessa email per un account famiglia e un account attività <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Oggi l&#x27;email è unica per account.</div>
+</div></div>
+<div class="voce">
+<div class="num">44</div>
+<div>
+<div class="titolo">Raggruppamento dei segnaposto sulla mappa con la legenda dei colori <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Accettato il 25 agosto; dopo le cose senza cui l&#x27;app non si pubblica.</div>
+</div></div>
+<div class="voce">
+<div class="num">45</div>
+<div>
+<div class="titolo">Ritaglio della foto profilo <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Accettato il 25 agosto, non prioritario.</div>
+</div></div>
+<h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">3 settembre</span></div><p>App 1.1.3 sul canale di prova: le cinque fasce d&#x27;età con etichette in italiano (team) e il costruttore delle carte regalo con le grafiche dell&#x27;occasione scelta caricate subito (Giacomo). Server: un tag che non è un&#x27;età non esclude più l&#x27;attività dai filtri (Giacomo). Pannello: caricamento delle grafiche con l&#x27;occasione (team).</p>
+<div><span class="data">2 settembre</span></div><p>App 1.1.2 sul canale di prova. Pannello: il menu delle occasioni riparato (Giacomo).</p>
+<div><span class="data">31 agosto</span></div><p>Il server si può ricostruire da zero e pubblicare da parte nostra; copia di sicurezza del database prima di ogni intervento (Giacomo).</p>
+<div><span class="data">27 agosto</span></div><p>La scheda di un&#x27;attività mostra solo i regali collegati a quell&#x27;attività (team).</p>
+<div><span class="data">26 agosto</span></div><p>Ogni grafica delle carte regalo ha un&#x27;occasione, lista fissa di nove (team, lato server).</p>
+</div>
+<footer>Pagina generata da un file di lavoro di Giacomo. Le ore e il saldo restano nei messaggi su Fiverr.</footer>
+</main>
+</body>
+</html>
