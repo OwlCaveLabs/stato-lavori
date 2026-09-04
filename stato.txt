@@ -22,9 +22,9 @@ MAPPA, RICERCA E SCHEDE
 5. Cosa mostrare nel riquadro sotto il nome nelle schede della home [Aspetta una tua decisione, Jessica] Oggi quel riquadro mostra il tipo della scheda in inglese (activity, event). Da decidere cosa metterci: la sottocategoria, un tag, oppure niente.
 6. La scheda di un'attività mostra solo i suoi eventi e i suoi regali [Fatto, team] server, dal 27 agosto. Resta un caso: un evento senza attività collegata compare sotto un'attività dello stesso autore (voce 36).
 7. Filtro per età con le cinque fasce, e le attività senza età sempre visibili [Fatto, Giacomo] app 1.1.3 e server, dal 3 settembre. Le fasce nell'app le ha fatte il team; il server è corretto da noi. Da provare.
-47. Ricerca: il tasto della posizione apre l'elenco delle attività vicine, non la mappa [In coda, Giacomo] Segnalata il 3 settembre. Nel codice quel tasto apre l'elenco "vicino a te"; la mappa esiste solo in Esplora.
+47. Ricerca: il tasto della posizione apre l'elenco delle attività vicine, non la mappa [In coda, Giacomo] issue #23 su GitHub. Segnalata il 3 settembre. Nel codice quel tasto apre l'elenco "vicino a te"; la mappa esiste solo in Esplora.
 48. Ricerca: l'elenco di una categoria è senza filtri [In coda, Giacomo] Segnalata il 3 settembre. Quell'elenco non ha filtri e mostra sempre "0-20 anni" come età. Da unificare con l'elenco di Esplora, che i filtri li ha.
-49. Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività [In coda, Giacomo] Segnalata il 3 settembre. Le due etichette stanno sulla stessa riga sopra la foto. La data sulle attività è la data di inserimento, che il server manda negli elenchi di ricerca e di sottocategoria quando la scheda non ha una data.
+49. Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività [In coda, Giacomo] issue #24 su GitHub. Segnalata il 3 settembre. Le due etichette stanno sulla stessa riga sopra la foto. La data sulle attività è la data di inserimento, che il server manda negli elenchi di ricerca e di sottocategoria quando la scheda non ha una data.
 
 GIFT VOUCHER
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
@@ -55,7 +55,7 @@ DASHBOARD
 22. Caricamento delle grafiche con l'occasione [Fatto, team] pannello, dal 3 settembre.
 42. Cancellazione vera di categorie, sottocategorie e tag (oggi solo "inattivo") [Aspetta una tua decisione, Jessica] "Inattivo" le toglie dall'app; la cancellazione è una modifica al pannello, da decidere.
 43. Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) [Aspetta una tua decisione, Jessica]
-51. Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file [In coda, Giacomo] Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.
+51. Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file [In coda, Giacomo] issue #25 su GitHub. Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.
 
 SICUREZZA E PRIVACY
 23. Sicurezza dell'accesso all'app [In coda, Giacomo]
