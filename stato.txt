@@ -1,7 +1,9 @@
-FamilySide, stato dei lavori. Aggiornato 4 settembre 2026, mattina. App di prova: 1.1.3 (canale di prova interno di Google Play).
+FamilySide, stato dei lavori. Aggiornato 4 settembre 2026, sera. App di prova: 1.1.4 (canale di prova interno di Google Play).
 
 Cosa provare adesso:
-- Filtro per età nell'app 1.1.3: le cinque fasce, e le attività senza età che restano visibili (voce 7)
+- Ricerca: il tasto della posizione accanto alla casella apre la mappa, non l'elenco (voce 47)
+- Schede degli elenchi: la data solo dove c'è davvero, e la categoria lunga che non copre più la data. Anche in Esplora e in Salvati (voce 49)
+- Filtro per età nell'app: le cinque fasce, e le attività senza età che restano visibili (voce 7)
 - Pannello: categorie e sottocategorie con i nomi giusti, come sulle schede (voce 12)
 - Grafiche delle carte regalo: ricaricarle con l'occasione e ritrovarle nell'app (voce 8)
 - Ricerca e mappa: cerca un parco, apri la scheda, contatta (voci 6 e 11)
