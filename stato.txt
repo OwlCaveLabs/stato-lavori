@@ -34,7 +34,7 @@ GIFT VOUCHER
 
 CONTATTI E CONTENUTI
 11. Pulsanti sito, WhatsApp e indicazioni sulle schede [In lavorazione, Jessica] I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.
-12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Secondo file (prezzi a numero) provato il 4 settembre: 18 schede riconosciute, nessun errore. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).
+12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Secondo file (prezzi a numero) provato il 4 settembre sui dati aggiornati, dopo le rinomine nel pannello: 18 schede riconosciute, nessun errore, sottocategorie che combaciano. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).
 13. Immagini mancanti sulle schede [In coda, Giacomo]
 52. Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese [Aspetta una tua decisione, Jessica] Chi usa l'app in inglese vede lo stesso nome scritto nel pannello. Un nome per lingua è una modifica a server, pannello e app. Alternative: una lingua sola, oppure un nome doppio ("Parco giochi / Playground").
 
