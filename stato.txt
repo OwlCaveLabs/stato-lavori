@@ -22,9 +22,9 @@ MAPPA, RICERCA E SCHEDE
 5. Cosa mostrare nel riquadro sotto il nome nelle schede della home [Aspetta una tua decisione, Jessica] Oggi quel riquadro mostra il tipo della scheda in inglese (activity, event). Da decidere cosa metterci: la sottocategoria, un tag, oppure niente.
 6. La scheda di un'attività mostra solo i suoi eventi e i suoi regali [Fatto, team] server, dal 27 agosto. Resta un caso: un evento senza attività collegata compare sotto un'attività dello stesso autore (voce 36).
 7. Filtro per età con le cinque fasce, e le attività senza età sempre visibili [Fatto, Giacomo] app 1.1.3 e server, dal 3 settembre. Le fasce nell'app le ha fatte il team; il server è corretto da noi. Da provare.
-47. Ricerca: il tasto della posizione apre l'elenco delle attività vicine, non la mappa [In coda, Giacomo] issue #23 su GitHub. Segnalata il 3 settembre. Nel codice quel tasto apre l'elenco "vicino a te"; la mappa esiste solo in Esplora.
+47. Ricerca: il tasto della posizione apre l'elenco delle attività vicine, non la mappa [Fatto, Giacomo] issue #23 su GitHub. Segnalata il 3 settembre, corretta il 4. Ora il tasto apre la stessa mappa di Esplora; l'elenco "vicino a te" resta a portata dalle schede rapide. Nell'app 1.1.4 sul canale di prova.
 48. Ricerca: l'elenco di una categoria è senza filtri [In coda, Giacomo] Segnalata il 3 settembre. Quell'elenco non ha filtri e mostra sempre "0-20 anni" come età. Da unificare con l'elenco di Esplora, che i filtri li ha.
-49. Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività [In coda, Giacomo] issue #24 su GitHub. Segnalata il 3 settembre. Le due etichette stanno sulla stessa riga sopra la foto. La data sulle attività è la data di inserimento, che il server manda negli elenchi di ricerca e di sottocategoria quando la scheda non ha una data.
+49. Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività [Fatto, Giacomo] issue #24 su GitHub. Segnalata il 3 settembre, corretta il 4, sul server e nell'app. Il server non inventa più una data per le schede che non ne hanno, e le due etichette non possono più sovrapporsi, neanche in Esplora e Salvati. Server già in linea, app nella 1.1.4 sul canale di prova.
 
 GIFT VOUCHER
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
@@ -89,6 +89,7 @@ DOPO IL LANCIO
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 Novità:
+4 settembre: Voci 47 e 49 corrette e in prova: il tasto della posizione apre la mappa, e le schede mostrano una data solo quando ce l'hanno, senza che la categoria lunga la copra. Server in linea, app 1.1.4 sul canale di prova (Giacomo).
 4 settembre: Le segnalazioni di Jessica del 3 sera sono in elenco, ognuna con il suo numero (voci 47-52). Il secondo file delle attività, con i prezzi a numero, passa la prova: 18 schede riconosciute, nessun errore (Giacomo).
 3 settembre: App 1.1.3 sul canale di prova: le cinque fasce d'età con etichette in italiano (team) e il costruttore delle carte regalo con le grafiche dell'occasione scelta caricate subito (Giacomo). Server: un tag che non è un'età non esclude più l'attività dai filtri (Giacomo). Pannello: caricamento delle grafiche con l'occasione (team).
 2 settembre: App 1.1.2 sul canale di prova. Pannello: il menu delle occasioni riparato (Giacomo).
