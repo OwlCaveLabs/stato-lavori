@@ -1,4 +1,4 @@
-FamilySide, stato dei lavori. Aggiornato 3 settembre 2026, sera. App di prova: 1.1.3 (canale di prova interno di Google Play).
+FamilySide, stato dei lavori. Aggiornato 4 settembre 2026, mattina. App di prova: 1.1.3 (canale di prova interno di Google Play).
 
 Cosa provare adesso:
 - Filtro per età nell'app 1.1.3: le cinque fasce, e le attività senza età che restano visibili (voce 7)
@@ -19,19 +19,24 @@ IMMAGINE E INGRESSO
 MAPPA, RICERCA E SCHEDE
 3. Pulsante per ricentrare la mappa [In coda, Giacomo]
 4. Colori fissi per categoria su mappa e ricerca, con le nuove icone [Aspetta una tua decisione, Jessica] Serve lo schema dei colori per categoria, deciso una volta sola; poi si fa.
-5. Cosa mostrare nel riquadro sotto il nome nelle schede della home [Aspetta una tua decisione, Jessica]
+5. Cosa mostrare nel riquadro sotto il nome nelle schede della home [Aspetta una tua decisione, Jessica] Oggi quel riquadro mostra il tipo della scheda in inglese (activity, event). Da decidere cosa metterci: la sottocategoria, un tag, oppure niente.
 6. La scheda di un'attività mostra solo i suoi eventi e i suoi regali [Fatto, team] server, dal 27 agosto. Resta un caso: un evento senza attività collegata compare sotto un'attività dello stesso autore (voce 36).
 7. Filtro per età con le cinque fasce, e le attività senza età sempre visibili [Fatto, Giacomo] app 1.1.3 e server, dal 3 settembre. Le fasce nell'app le ha fatte il team; il server è corretto da noi. Da provare.
+47. Ricerca: il tasto della posizione apre l'elenco delle attività vicine, non la mappa [In coda, Giacomo] Segnalata il 3 settembre. Nel codice quel tasto apre l'elenco "vicino a te"; la mappa esiste solo in Esplora.
+48. Ricerca: l'elenco di una categoria è senza filtri [In coda, Giacomo] Segnalata il 3 settembre. Quell'elenco non ha filtri e mostra sempre "0-20 anni" come età. Da unificare con l'elenco di Esplora, che i filtri li ha.
+49. Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività [In coda, Giacomo] Segnalata il 3 settembre. Le due etichette stanno sulla stessa riga sopra la foto. La data sulle attività è la data di inserimento, che il server manda negli elenchi di ricerca e di sottocategoria quando la scheda non ha una data.
 
 GIFT VOUCHER
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
 9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
 10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Da rifare, non provare, Giacomo] Oggi il biglietto dice "riscattabile presentando la carta" e alcuni dati non sono quelli dell'attività.
+50. Occasione "Altro": nell'app c'è, nel pannello no [Aspetta una tua decisione, Jessica] Le occasioni sono nove voci fisse nel codice, tradotte dall'app stessa (per questo appaiono in italiano). Dal 3 settembre il pannello ne offre otto, senza "Altro". O torna nel pannello o sparisce dall'app: una riga in entrambi i casi. Vedi anche la voce 43.
 
 CONTATTI E CONTENUTI
 11. Pulsanti sito, WhatsApp e indicazioni sulle schede [In lavorazione, Jessica] I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.
-12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Il file di prova è stato provato il 3 settembre; prezzo come numero, sottocategorie con lo stesso nome delle schede.
+12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Secondo file (prezzi a numero) provato il 4 settembre: 18 schede riconosciute, nessun errore. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).
 13. Immagini mancanti sulle schede [In coda, Giacomo]
+52. Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese [Aspetta una tua decisione, Jessica] Chi usa l'app in inglese vede lo stesso nome scritto nel pannello. Un nome per lingua è una modifica a server, pannello e app. Alternative: una lingua sola, oppure un nome doppio ("Parco giochi / Playground").
 
 ISCRIZIONE DELLE ATTIVITÀ
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [Da rifare, non provare, Giacomo]
@@ -50,6 +55,7 @@ DASHBOARD
 22. Caricamento delle grafiche con l'occasione [Fatto, team] pannello, dal 3 settembre.
 42. Cancellazione vera di categorie, sottocategorie e tag (oggi solo "inattivo") [Aspetta una tua decisione, Jessica] "Inattivo" le toglie dall'app; la cancellazione è una modifica al pannello, da decidere.
 43. Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) [Aspetta una tua decisione, Jessica]
+51. Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file [In coda, Giacomo] Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.
 
 SICUREZZA E PRIVACY
 23. Sicurezza dell'accesso all'app [In coda, Giacomo]
@@ -83,6 +89,7 @@ DOPO IL LANCIO
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 Novità:
+4 settembre: Le segnalazioni di Jessica del 3 sera sono in elenco, ognuna con il suo numero (voci 47-52). Il secondo file delle attività, con i prezzi a numero, passa la prova: 18 schede riconosciute, nessun errore (Giacomo).
 3 settembre: App 1.1.3 sul canale di prova: le cinque fasce d'età con etichette in italiano (team) e il costruttore delle carte regalo con le grafiche dell'occasione scelta caricate subito (Giacomo). Server: un tag che non è un'età non esclude più l'attività dai filtri (Giacomo). Pannello: caricamento delle grafiche con l'occasione (team).
 2 settembre: App 1.1.2 sul canale di prova. Pannello: il menu delle occasioni riparato (Giacomo).
 31 agosto: Il server si può ricostruire da zero e pubblicare da parte nostra; copia di sicurezza del database prima di ogni intervento (Giacomo).

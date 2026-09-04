@@ -35,7 +35,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 3 settembre 2026, sera. App di prova: 1.1.3 (canale di prova interno di Google Play).</p>
+<p class="sotto">Aggiornato 4 settembre 2026, mattina. App di prova: 1.1.3 (canale di prova interno di Google Play).</p>
 <div class="riquadro"><h3>Cosa provare adesso</h3><ul>
 <li>Filtro per età nell&#x27;app 1.1.3: le cinque fasce, e le attività senza età che restano visibili (voce 7)</li>
 <li>Pannello: categorie e sottocategorie con i nomi giusti, come sulle schede (voce 12)</li>
@@ -85,6 +85,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div>
 <div class="titolo">Cosa mostrare nel riquadro sotto il nome nelle schede della home <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
+<div class="nota">Oggi quel riquadro mostra il tipo della scheda in inglese (activity, event). Da decidere cosa metterci: la sottocategoria, un tag, oppure niente.</div>
 </div></div>
 <div class="voce">
 <div class="num">6</div>
@@ -99,6 +100,27 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">Filtro per età con le cinque fasce, e le attività senza età sempre visibili <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: app 1.1.3 e server, dal 3 settembre</div>
 <div class="nota">Le fasce nell&#x27;app le ha fatte il team; il server è corretto da noi. Da provare.</div>
+</div></div>
+<div class="voce">
+<div class="num">47</div>
+<div>
+<div class="titolo">Ricerca: il tasto della posizione apre l&#x27;elenco delle attività vicine, non la mappa <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Segnalata il 3 settembre. Nel codice quel tasto apre l&#x27;elenco &quot;vicino a te&quot;; la mappa esiste solo in Esplora.</div>
+</div></div>
+<div class="voce">
+<div class="num">48</div>
+<div>
+<div class="titolo">Ricerca: l&#x27;elenco di una categoria è senza filtri <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Segnalata il 3 settembre. Quell&#x27;elenco non ha filtri e mostra sempre &quot;0-20 anni&quot; come età. Da unificare con l&#x27;elenco di Esplora, che i filtri li ha.</div>
+</div></div>
+<div class="voce">
+<div class="num">49</div>
+<div>
+<div class="titolo">Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Segnalata il 3 settembre. Le due etichette stanno sulla stessa riga sopra la foto. La data sulle attività è la data di inserimento, che il server manda negli elenchi di ricerca e di sottocategoria quando la scheda non ha una data.</div>
 </div></div>
 <h2>Gift Voucher</h2>
 <div class="voce">
@@ -121,6 +143,13 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Oggi il biglietto dice &quot;riscattabile presentando la carta&quot; e alcuni dati non sono quelli dell&#x27;attività.</div>
 </div></div>
+<div class="voce">
+<div class="num">50</div>
+<div>
+<div class="titolo">Occasione &quot;Altro&quot;: nell&#x27;app c&#x27;è, nel pannello no <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica</div>
+<div class="nota">Le occasioni sono nove voci fisse nel codice, tradotte dall&#x27;app stessa (per questo appaiono in italiano). Dal 3 settembre il pannello ne offre otto, senza &quot;Altro&quot;. O torna nel pannello o sparisce dall&#x27;app: una riga in entrambi i casi. Vedi anche la voce 43.</div>
+</div></div>
 <h2>Contatti e contenuti</h2>
 <div class="voce">
 <div class="num">11</div>
@@ -134,13 +163,20 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div>
 <div class="titolo">Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
 <div class="meta">chi: Jessica</div>
-<div class="nota">Il file di prova è stato provato il 3 settembre; prezzo come numero, sottocategorie con lo stesso nome delle schede.</div>
+<div class="nota">Secondo file (prezzi a numero) provato il 4 settembre: 18 schede riconosciute, nessun errore. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).</div>
 </div></div>
 <div class="voce">
 <div class="num">13</div>
 <div>
 <div class="titolo">Immagini mancanti sulle schede <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
+</div></div>
+<div class="voce">
+<div class="num">52</div>
+<div>
+<div class="titolo">Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica</div>
+<div class="nota">Chi usa l&#x27;app in inglese vede lo stesso nome scritto nel pannello. Un nome per lingua è una modifica a server, pannello e app. Alternative: una lingua sola, oppure un nome doppio (&quot;Parco giochi / Playground&quot;).</div>
 </div></div>
 <h2>Iscrizione delle attività</h2>
 <div class="voce">
@@ -219,6 +255,13 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div>
 <div class="titolo">Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
+</div></div>
+<div class="voce">
+<div class="num">51</div>
+<div>
+<div class="titolo">Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.</div>
 </div></div>
 <h2>Sicurezza e privacy</h2>
 <div class="voce">
@@ -361,6 +404,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">4 settembre</span></div><p>Le segnalazioni di Jessica del 3 sera sono in elenco, ognuna con il suo numero (voci 47-52). Il secondo file delle attività, con i prezzi a numero, passa la prova: 18 schede riconosciute, nessun errore (Giacomo).</p>
 <div><span class="data">3 settembre</span></div><p>App 1.1.3 sul canale di prova: le cinque fasce d&#x27;età con etichette in italiano (team) e il costruttore delle carte regalo con le grafiche dell&#x27;occasione scelta caricate subito (Giacomo). Server: un tag che non è un&#x27;età non esclude più l&#x27;attività dai filtri (Giacomo). Pannello: caricamento delle grafiche con l&#x27;occasione (team).</p>
 <div><span class="data">2 settembre</span></div><p>App 1.1.2 sul canale di prova. Pannello: il menu delle occasioni riparato (Giacomo).</p>
 <div><span class="data">31 agosto</span></div><p>Il server si può ricostruire da zero e pubblicare da parte nostra; copia di sicurezza del database prima di ogni intervento (Giacomo).</p>
