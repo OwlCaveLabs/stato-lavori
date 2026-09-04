@@ -186,6 +186,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div>
 <div class="titolo">Immagini mancanti sulle schede <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
+<div class="nota">La causa è quella spiegata nella voce 55: le attività caricate col file non hanno una foto propria e mostrano tutte lo stesso segnaposto.</div>
 </div></div>
 <div class="voce">
 <div class="num">52</div>
@@ -193,6 +194,13 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Chi usa l&#x27;app in inglese vede lo stesso nome scritto nel pannello. Un nome per lingua è una modifica a server, pannello e app. Alternative: una lingua sola, oppure un nome doppio (&quot;Parco giochi / Playground&quot;).</div>
+</div></div>
+<div class="voce">
+<div class="num">55</div>
+<div>
+<div class="titolo">L&#x27;immagine grande delle schede non cambia caricando la copertina della categoria <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/36">issue #36</a> su GitHub</div>
+<div class="nota">Segnalata il 4 settembre. Verificato: tutte le 1249 attività di &quot;Parco giochi&quot; hanno la stessa immagine segnaposto, quella che il caricamento in blocco mette quando il file non porta la colonna delle immagini, e l&#x27;immagine grande viene da lì, non dalla categoria. La copertina caricata sulla categoria il server la manda in un punto solo, la griglia di Search, dove l&#x27;app mostra l&#x27;icona: per questo cambia l&#x27;icona piccola e non l&#x27;immagine grande. Correzione: quando un&#x27;attività non ha una foto sua, il server usa la copertina della sua categoria, così una copertina nuova aggiorna tutte le attività di quella categoria. Piccola cosa a parte: la copertina caricata pesa 2,5 MB, conviene ricaricarla ridotta prima che diventi l&#x27;immagine grande scaricata dai telefoni. Vedi anche la voce 13.</div>
 </div></div>
 <h2>Iscrizione delle attività</h2>
 <div class="voce">
@@ -420,6 +428,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">4 settembre</span></div><p>Immagini delle schede: la segnalazione sulla copertina del parco giochi è verificata e spiegata nella voce 55. In breve: le attività caricate col file non hanno una foto propria, mostrano tutte lo stesso segnaposto, e la copertina della categoria oggi il server non la usa per le schede. Si corregge sul server, senza ricaricare niente (Giacomo).</p>
 <div><span class="data">4 settembre</span></div><p>Da oggi l&#x27;app viene provata in automatico prima di ogni pubblicazione: una prova guidata che parte dall&#x27;accesso e arriva fino alle schede, su un telefono simulato, contro il server vero. Ha già trovato da sola tre problemi che nessuno aveva segnalato, corretti insieme alle voci 47 e 49; sono tornati attivi anche i controlli automatici sul codice (Giacomo).</p>
 <div><span class="data">4 settembre</span></div><p>Voci 47 e 49 corrette e in prova: il tasto della posizione apre la mappa, e le schede mostrano una data solo quando ce l&#x27;hanno, senza che la categoria lunga la copra. Server in linea, app 1.1.4 sul canale di prova (Giacomo).</p>
 <div><span class="data">4 settembre</span></div><p>Le segnalazioni di Jessica del 3 sera sono in elenco, ognuna con il suo numero (voci 47-52). Il secondo file delle attività, con i prezzi a numero, passa la prova: 18 schede riconosciute, nessun errore (Giacomo).</p>

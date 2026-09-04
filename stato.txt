@@ -39,8 +39,9 @@ GIFT VOUCHER
 CONTATTI E CONTENUTI
 11. Pulsanti sito, WhatsApp e indicazioni sulle schede [In lavorazione, Jessica] I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.
 12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Secondo file (prezzi a numero) provato il 4 settembre sui dati aggiornati, dopo le rinomine nel pannello: 18 schede riconosciute, nessun errore, sottocategorie che combaciano. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).
-13. Immagini mancanti sulle schede [In coda, Giacomo]
+13. Immagini mancanti sulle schede [In coda, Giacomo] La causa è quella spiegata nella voce 55: le attività caricate col file non hanno una foto propria e mostrano tutte lo stesso segnaposto.
 52. Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese [Aspetta una tua decisione, Jessica] Chi usa l'app in inglese vede lo stesso nome scritto nel pannello. Un nome per lingua è una modifica a server, pannello e app. Alternative: una lingua sola, oppure un nome doppio ("Parco giochi / Playground").
+55. L'immagine grande delle schede non cambia caricando la copertina della categoria [In coda, Giacomo] issue #36 su GitHub. Segnalata il 4 settembre. Verificato: tutte le 1249 attività di "Parco giochi" hanno la stessa immagine segnaposto, quella che il caricamento in blocco mette quando il file non porta la colonna delle immagini, e l'immagine grande viene da lì, non dalla categoria. La copertina caricata sulla categoria il server la manda in un punto solo, la griglia di Search, dove l'app mostra l'icona: per questo cambia l'icona piccola e non l'immagine grande. Correzione: quando un'attività non ha una foto sua, il server usa la copertina della sua categoria, così una copertina nuova aggiorna tutte le attività di quella categoria. Piccola cosa a parte: la copertina caricata pesa 2,5 MB, conviene ricaricarla ridotta prima che diventi l'immagine grande scaricata dai telefoni. Vedi anche la voce 13.
 
 ISCRIZIONE DELLE ATTIVITÀ
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [Da rifare, non provare, Giacomo]
@@ -93,6 +94,7 @@ DOPO IL LANCIO
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 Novità:
+4 settembre: Immagini delle schede: la segnalazione sulla copertina del parco giochi è verificata e spiegata nella voce 55. In breve: le attività caricate col file non hanno una foto propria, mostrano tutte lo stesso segnaposto, e la copertina della categoria oggi il server non la usa per le schede. Si corregge sul server, senza ricaricare niente (Giacomo).
 4 settembre: Da oggi l'app viene provata in automatico prima di ogni pubblicazione: una prova guidata che parte dall'accesso e arriva fino alle schede, su un telefono simulato, contro il server vero. Ha già trovato da sola tre problemi che nessuno aveva segnalato, corretti insieme alle voci 47 e 49; sono tornati attivi anche i controlli automatici sul codice (Giacomo).
 4 settembre: Voci 47 e 49 corrette e in prova: il tasto della posizione apre la mappa, e le schede mostrano una data solo quando ce l'hanno, senza che la categoria lunga la copra. Server in linea, app 1.1.4 sul canale di prova (Giacomo).
 4 settembre: Le segnalazioni di Jessica del 3 sera sono in elenco, ognuna con il suo numero (voci 47-52). Il secondo file delle attività, con i prezzi a numero, passa la prova: 18 schede riconosciute, nessun errore (Giacomo).
