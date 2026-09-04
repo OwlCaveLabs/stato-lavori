@@ -35,7 +35,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 4 settembre 2026, sera. App di prova: 1.1.4 (canale di prova interno di Google Play).</p>
+<p class="sotto">Aggiornato 4 settembre 2026, notte. App di prova: 1.1.4 (canale di prova interno di Google Play).</p>
 <div class="riquadro"><h3>Cosa provare adesso</h3><ul>
 <li>Ricerca: il tasto della posizione accanto alla casella apre la mappa, non l&#x27;elenco (voce 47)</li>
 <li>Schede degli elenchi: la data solo dove c&#x27;è davvero, e la categoria lunga che non copre più la data. Anche in Esplora e in Salvati (voce 49)</li>
@@ -45,6 +45,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <li>Ricerca e mappa: cerca un parco, apri la scheda, contatta (voci 6 e 11)</li>
 </ul></div>
 <div class="riquadro"><h3>Cosa non provare ancora</h3><ul>
+<li>Accedere una seconda volta con un&#x27;utenza già registrata: l&#x27;app rifà tutte le domande iniziali e, se si va avanti, cancella i figli (voci 56 e 57)</li>
 <li>Biglietto della carta regalo: dati e dicitura cambiano (voce 10)</li>
 <li>Iscrizione delle attività e sezione Crea: l&#x27;ordine cambia (voci 14 e 15)</li>
 <li>Periodo di prova e vecchia schermata dei pagamenti: da rifare (voce 18)</li>
@@ -67,6 +68,35 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">Revisione dei testi italiani (date e altri testi ancora in inglese) <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Le fasce d&#x27;età sono in italiano dalla 1.1.3.</div>
+</div></div>
+<h2>Registrazione e accesso</h2>
+<div class="voce">
+<div class="num">56</div>
+<div>
+<div class="titolo">Accedendo di nuovo, l&#x27;app rifà tutte le domande iniziali <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/37">issue #37</a> su GitHub</div>
+<div class="nota">Trovata il 4 settembre provando la registrazione passo per passo, non segnalata. Chi si registra e risponde a tutto (ruolo, figli, interessi, posizione) ma salta la foto del profilo - che l&#x27;app presenta come facoltativa - resta per sempre segnato come «non ha finito». A ogni accesso successivo l&#x27;app riparte dalla scelta del ruolo. Riaprendo l&#x27;app senza uscire non si vede: serve un accesso vero. Il percorso dell&#x27;operatore non ha il problema. Vedi anche la voce 57: rifare quel giro non è innocuo.</div>
+</div></div>
+<div class="voce">
+<div class="num">57</div>
+<div>
+<div class="titolo">I figli inseriti spariscono quando l&#x27;app rifà le domande iniziali <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/38">issue #38</a> su GitHub</div>
+<div class="nota">Trovata il 4 settembre, insieme alla voce 56. La schermata dei figli dell&#x27;onboarding parte sempre vuota: non mostra i figli già registrati. Premendo «Continua» senza toccare niente, i figli vengono cancellati dal profilo, con un messaggio che dice che il salvataggio è riuscito. La stessa schermata dentro il profilo invece i figli li carica: il modo giusto esiste già nell&#x27;app. Si corregge da due lati, app e server.</div>
+</div></div>
+<div class="voce">
+<div class="num">58</div>
+<div>
+<div class="titolo">Un figlio senza data di nascita non viene salvato, e l&#x27;app non lo dice <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/39">issue #39</a> su GitHub</div>
+<div class="nota">Trovata il 4 settembre. Il modulo lascia salvare un figlio col solo nome, il figlio compare nell&#x27;elenco, ma il server rifiuta tutta la richiesta - anche gli altri figli inseriti insieme. L&#x27;app passa comunque alla schermata dopo; l&#x27;unico segnale è un «Error» generico che compare e sparisce.</div>
+</div></div>
+<div class="voce">
+<div class="num">59</div>
+<div>
+<div class="titolo">Chi prova ad accedere prima di inserire il codice resta bloccato fuori <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/40">issue #40</a> su GitHub</div>
+<div class="nota">Trovata il 4 settembre. Ci si registra, arriva il codice via email, si prova ad accedere prima di inserirlo: l&#x27;app dice «ti abbiamo mandato un codice nuovo». Quel codice non parte mai, e quello ricevuto davvero smette di funzionare in quel momento. Dalla schermata di accesso non si torna a quella del codice: l&#x27;unica uscita, per niente ovvia, è rifare la registrazione con la stessa email.</div>
 </div></div>
 <h2>Mappa, ricerca e schede</h2>
 <div class="voce">
@@ -428,6 +458,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">4 settembre</span></div><p>Registrazione e accesso passati al setaccio, passo per passo, con prove automatiche nuove: quattro problemi che si vedono usando l&#x27;app, voci 56-59. Il più serio: chi salta la foto del profilo si ritrova a rispondere di nuovo a tutte le domande iniziali a ogni accesso, e andando avanti perde i figli inseriti. Nessuno era stato segnalato. Le prove sono già in repository e diventano rosse quando la correzione arriva; le correzioni non sono ancora fatte (Giacomo).</p>
 <div><span class="data">4 settembre</span></div><p>Immagini delle schede: la segnalazione sulla copertina del parco giochi è verificata e spiegata nella voce 55. In breve: le attività caricate col file non hanno una foto propria, mostrano tutte lo stesso segnaposto, e la copertina della categoria oggi il server non la usa per le schede. Si corregge sul server, senza ricaricare niente (Giacomo).</p>
 <div><span class="data">4 settembre</span></div><p>Da oggi l&#x27;app viene provata in automatico prima di ogni pubblicazione: una prova guidata che parte dall&#x27;accesso e arriva fino alle schede, su un telefono simulato, contro il server vero. Ha già trovato da sola tre problemi che nessuno aveva segnalato, corretti insieme alle voci 47 e 49; sono tornati attivi anche i controlli automatici sul codice (Giacomo).</p>
 <div><span class="data">4 settembre</span></div><p>Voci 47 e 49 corrette e in prova: il tasto della posizione apre la mappa, e le schede mostrano una data solo quando ce l&#x27;hanno, senza che la categoria lunga la copra. Server in linea, app 1.1.4 sul canale di prova (Giacomo).</p>

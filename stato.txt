@@ -1,4 +1,4 @@
-FamilySide, stato dei lavori. Aggiornato 4 settembre 2026, sera. App di prova: 1.1.4 (canale di prova interno di Google Play).
+FamilySide, stato dei lavori. Aggiornato 4 settembre 2026, notte. App di prova: 1.1.4 (canale di prova interno di Google Play).
 
 Cosa provare adesso:
 - Ricerca: il tasto della posizione accanto alla casella apre la mappa, non l'elenco (voce 47)
@@ -9,6 +9,7 @@ Cosa provare adesso:
 - Ricerca e mappa: cerca un parco, apri la scheda, contatta (voci 6 e 11)
 
 Cosa non provare ancora:
+- Accedere una seconda volta con un'utenza già registrata: l'app rifà tutte le domande iniziali e, se si va avanti, cancella i figli (voci 56 e 57)
 - Biglietto della carta regalo: dati e dicitura cambiano (voce 10)
 - Iscrizione delle attività e sezione Crea: l'ordine cambia (voci 14 e 15)
 - Periodo di prova e vecchia schermata dei pagamenti: da rifare (voce 18)
@@ -17,6 +18,12 @@ Cosa non provare ancora:
 IMMAGINE E INGRESSO
 1. Logo e colori giusti su avvio, registrazione e accesso [In coda, Giacomo] I file grafici ci sono dal 14 agosto.
 2. Revisione dei testi italiani (date e altri testi ancora in inglese) [In coda, Giacomo] Le fasce d'età sono in italiano dalla 1.1.3.
+
+REGISTRAZIONE E ACCESSO
+56. Accedendo di nuovo, l'app rifà tutte le domande iniziali [In coda, Giacomo] issue #37 su GitHub. Trovata il 4 settembre provando la registrazione passo per passo, non segnalata. Chi si registra e risponde a tutto (ruolo, figli, interessi, posizione) ma salta la foto del profilo - che l'app presenta come facoltativa - resta per sempre segnato come «non ha finito». A ogni accesso successivo l'app riparte dalla scelta del ruolo. Riaprendo l'app senza uscire non si vede: serve un accesso vero. Il percorso dell'operatore non ha il problema. Vedi anche la voce 57: rifare quel giro non è innocuo.
+57. I figli inseriti spariscono quando l'app rifà le domande iniziali [In coda, Giacomo] issue #38 su GitHub. Trovata il 4 settembre, insieme alla voce 56. La schermata dei figli dell'onboarding parte sempre vuota: non mostra i figli già registrati. Premendo «Continua» senza toccare niente, i figli vengono cancellati dal profilo, con un messaggio che dice che il salvataggio è riuscito. La stessa schermata dentro il profilo invece i figli li carica: il modo giusto esiste già nell'app. Si corregge da due lati, app e server.
+58. Un figlio senza data di nascita non viene salvato, e l'app non lo dice [In coda, Giacomo] issue #39 su GitHub. Trovata il 4 settembre. Il modulo lascia salvare un figlio col solo nome, il figlio compare nell'elenco, ma il server rifiuta tutta la richiesta - anche gli altri figli inseriti insieme. L'app passa comunque alla schermata dopo; l'unico segnale è un «Error» generico che compare e sparisce.
+59. Chi prova ad accedere prima di inserire il codice resta bloccato fuori [In coda, Giacomo] issue #40 su GitHub. Trovata il 4 settembre. Ci si registra, arriva il codice via email, si prova ad accedere prima di inserirlo: l'app dice «ti abbiamo mandato un codice nuovo». Quel codice non parte mai, e quello ricevuto davvero smette di funzionare in quel momento. Dalla schermata di accesso non si torna a quella del codice: l'unica uscita, per niente ovvia, è rifare la registrazione con la stessa email.
 
 MAPPA, RICERCA E SCHEDE
 3. Pulsante per ricentrare la mappa [In coda, Giacomo]
@@ -94,6 +101,7 @@ DOPO IL LANCIO
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 Novità:
+4 settembre: Registrazione e accesso passati al setaccio, passo per passo, con prove automatiche nuove: quattro problemi che si vedono usando l'app, voci 56-59. Il più serio: chi salta la foto del profilo si ritrova a rispondere di nuovo a tutte le domande iniziali a ogni accesso, e andando avanti perde i figli inseriti. Nessuno era stato segnalato. Le prove sono già in repository e diventano rosse quando la correzione arriva; le correzioni non sono ancora fatte (Giacomo).
 4 settembre: Immagini delle schede: la segnalazione sulla copertina del parco giochi è verificata e spiegata nella voce 55. In breve: le attività caricate col file non hanno una foto propria, mostrano tutte lo stesso segnaposto, e la copertina della categoria oggi il server non la usa per le schede. Si corregge sul server, senza ricaricare niente (Giacomo).
 4 settembre: Da oggi l'app viene provata in automatico prima di ogni pubblicazione: una prova guidata che parte dall'accesso e arriva fino alle schede, su un telefono simulato, contro il server vero. Ha già trovato da sola tre problemi che nessuno aveva segnalato, corretti insieme alle voci 47 e 49; sono tornati attivi anche i controlli automatici sul codice (Giacomo).
 4 settembre: Voci 47 e 49 corrette e in prova: il tasto della posizione apre la mappa, e le schede mostrano una data solo quando ce l'hanno, senza che la categoria lunga la copra. Server in linea, app 1.1.4 sul canale di prova (Giacomo).
