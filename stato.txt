@@ -85,7 +85,7 @@ FONDAMENTA E MESSA IN PRODUZIONE
 
 PUBBLICAZIONE NEGLI STORE
 32. Android: versione firmata sul canale di prova interno [Fatto, Giacomo] 1.1.2 il 2 settembre, 1.1.3 il 3 settembre.
-33. iPhone: account Apple e versione di prova [Fatto, Giacomo] 1.1.4 (build 6) su TestFlight il 5 settembre. Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l'invito di Apple). Sul telefono serve l'app TestFlight.
+33. iPhone: account Apple e versione di prova [Fatto, Giacomo] issue #44 su GitHub; 1.1.4 (build 6) su TestFlight il 5 settembre. Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l'invito di Apple). Sul telefono serve l'app TestFlight.
 34. Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione [In coda, Giacomo]
 
 AL TEAM
