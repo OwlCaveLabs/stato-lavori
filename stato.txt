@@ -1,6 +1,7 @@
-FamilySide, stato dei lavori. Aggiornato 4 settembre 2026, notte. App di prova: 1.1.4 (canale di prova interno di Google Play).
+FamilySide, stato dei lavori. Aggiornato 5 settembre 2026, mattina. App di prova: 1.1.4 (canale di prova interno di Google Play).
 
 Cosa provare adesso:
+- iPhone: installare TestFlight dall'App Store, accettare l'invito arrivato per email e provare la stessa versione di Android: accesso con Google e con Apple, mappa (voce 33)
 - Ricerca: il tasto della posizione accanto alla casella apre la mappa, non l'elenco (voce 47)
 - Schede degli elenchi: la data solo dove c'è davvero, e la categoria lunga che non copre più la data. Anche in Esplora e in Salvati (voce 49)
 - Filtro per età nell'app: le cinque fasce, e le attività senza età che restano visibili (voce 7)
@@ -84,7 +85,7 @@ FONDAMENTA E MESSA IN PRODUZIONE
 
 PUBBLICAZIONE NEGLI STORE
 32. Android: versione firmata sul canale di prova interno [Fatto, Giacomo] 1.1.2 il 2 settembre, 1.1.3 il 3 settembre.
-33. iPhone: account Apple e versione di prova [In lavorazione, Giacomo] Dipende dai tempi di Apple.
+33. iPhone: account Apple e versione di prova [Fatto, Giacomo] 1.1.4 (build 6) su TestFlight il 5 settembre. Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l'invito di Apple). Sul telefono serve l'app TestFlight.
 34. Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione [In coda, Giacomo]
 
 AL TEAM
@@ -101,6 +102,7 @@ DOPO IL LANCIO
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 Novità:
+5 settembre: iPhone: la prima versione di prova (1.1.4, build 6) è su TestFlight e arriva in automatico ai tester invitati, senza passaggi in App Store Connect. L'account Apple è a posto grazie ai passaggi fatti da Jessica in mattinata; da qui in poi le versioni per iPhone escono con lo stesso comando di quelle Android (voce 33, Giacomo).
 4 settembre: Registrazione e accesso passati al setaccio, passo per passo, con prove automatiche nuove: quattro problemi che si vedono usando l'app, voci 56-59. Il più serio: chi salta la foto del profilo si ritrova a rispondere di nuovo a tutte le domande iniziali a ogni accesso, e andando avanti perde i figli inseriti. Nessuno era stato segnalato. Le prove sono già in repository e diventano rosse quando la correzione arriva; le correzioni non sono ancora fatte (Giacomo).
 4 settembre: Immagini delle schede: la segnalazione sulla copertina del parco giochi è verificata e spiegata nella voce 55. In breve: le attività caricate col file non hanno una foto propria, mostrano tutte lo stesso segnaposto, e la copertina della categoria oggi il server non la usa per le schede. Si corregge sul server, senza ricaricare niente (Giacomo).
 4 settembre: Da oggi l'app viene provata in automatico prima di ogni pubblicazione: una prova guidata che parte dall'accesso e arriva fino alle schede, su un telefono simulato, contro il server vero. Ha già trovato da sola tre problemi che nessuno aveva segnalato, corretti insieme alle voci 47 e 49; sono tornati attivi anche i controlli automatici sul codice (Giacomo).
