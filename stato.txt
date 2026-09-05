@@ -1,4 +1,4 @@
-FamilySide, stato dei lavori. Aggiornato 5 settembre 2026, sera, terza. App di prova: 1.1.4 (canale di prova interno di Google Play).
+FamilySide, stato dei lavori. Aggiornato 5 settembre 2026, sera, quarta. App di prova: 1.1.5 (canali di prova interni: Google Play e TestFlight).
 
 Cosa provare adesso:
 - iPhone: installare TestFlight dall'App Store, accettare l'invito arrivato per email e provare la stessa versione di Android: accesso con Google e con Apple, mappa (voce 33)
