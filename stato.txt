@@ -1,4 +1,4 @@
-FamilySide, stato dei lavori. Aggiornato 5 settembre 2026, sera, quinta. App di prova: 1.1.5 (canali di prova interni: Google Play e TestFlight).
+FamilySide, stato dei lavori. Aggiornato 5 settembre 2026, sera, sesta. App di prova: 1.1.5 (canali di prova interni: Google Play e TestFlight).
 
 Cosa provare adesso:
 - Registrazione e accessi, con la 1.1.5: registrarsi, rispondere alle domande, saltare la foto, uscire e rientrare: si torna in home senza domande e i figli ci sono (voci 56 e 57); un figlio con il solo nome viene salvato (voce 58); provare ad accedere prima di inserire il codice porta alla schermata del codice (voce 59). Se dopo l'uscita resta aperta la finestra della scelta del ruolo, è la voce 60: si chiude e si va avanti
@@ -86,8 +86,8 @@ FONDAMENTA E MESSA IN PRODUZIONE
 31. Certificato del sito da rinnovare [In coda, Giacomo]
 
 PUBBLICAZIONE NEGLI STORE
-32. Android: versione firmata sul canale di prova interno [Fatto, Giacomo] 1.1.2 il 2 settembre, 1.1.3 il 3 settembre.
-33. iPhone: account Apple e versione di prova [Fatto, Giacomo] issue #44 su GitHub; 1.1.4 (build 6) su TestFlight il 5 settembre. Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l'invito di Apple). Sul telefono serve l'app TestFlight.
+32. Android: versione firmata sul canale di prova interno [Fatto, Giacomo] 1.1.2 il 2 settembre, 1.1.3 il 3, 1.1.4 il 4, 1.1.5 il 5 settembre.
+33. iPhone: account Apple e versione di prova [Fatto, Giacomo] issue #44 su GitHub; 1.1.4 (build 6) e poi 1.1.5 (build 7) su TestFlight il 5 settembre. Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l'invito di Apple). Sul telefono serve l'app TestFlight.
 34. Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione [In coda, Giacomo]
 
 AL TEAM
