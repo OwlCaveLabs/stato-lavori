@@ -35,7 +35,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 5 settembre 2026, sera, sesta. App di prova: 1.1.5 (canali di prova interni: Google Play e TestFlight).</p>
+<p class="sotto">Aggiornato 6 settembre 2026, pomeriggio. App di prova: 1.1.5 (canali di prova interni: Google Play e TestFlight).</p>
 <div class="riquadro"><h3>Cosa provare adesso</h3><ul>
 <li>Registrazione e accessi, con la 1.1.5: registrarsi, rispondere alle domande, saltare la foto, uscire e rientrare: si torna in home senza domande e i figli ci sono (voci 56 e 57); un figlio con il solo nome viene salvato (voce 58); provare ad accedere prima di inserire il codice porta alla schermata del codice (voce 59). Se dopo l&#x27;uscita resta aperta la finestra della scelta del ruolo, è la voce 60: si chiude e si va avanti</li>
 <li>iPhone: installare TestFlight dall&#x27;App Store, accettare l&#x27;invito arrivato per email e provare la stessa versione di Android: accesso con Google e con Apple, mappa (voce 33)</li>
@@ -60,8 +60,8 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="num">1</div>
 <div>
 <div class="titolo">Logo e colori giusti su avvio, registrazione e accesso <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
-<div class="meta">chi: Giacomo</div>
-<div class="nota">I file grafici ci sono dal 14 agosto.</div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/49">issue #49</a> su GitHub</div>
+<div class="nota">I file grafici ci sono dal 14 agosto. Analisi del 6 settembre: l&#x27;icona dell&#x27;app è già quella giusta (la F. nel cerchio corallo); dentro l&#x27;app invece ventuno schermate - avvio, lingua, benvenuto, accesso, registrazione, codice, password, per famiglie e operatori - mostrano ancora un simbolo provvisorio con la scritta «Familyside», e il corallo dei bottoni è più chiaro di quello del marchio. Si sostituisce tutto con i file del 14 agosto. Da decidere con Jessica: quale variante del logo sulle pagine di benvenuto (domanda del 14 agosto) e un solo valore del corallo, perché nei file originali il logo esteso e il marchio compatto hanno due corallo appena diversi.</div>
 </div></div>
 <div class="voce">
 <div class="num">2</div>
@@ -69,6 +69,13 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">Revisione dei testi italiani (date e altri testi ancora in inglese) <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Le fasce d&#x27;età sono in italiano dalla 1.1.3.</div>
+</div></div>
+<div class="voce">
+<div class="num">62</div>
+<div>
+<div class="titolo">All&#x27;avvio compaiono due schermate di avvio in fila, con due loghi diversi <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/50">issue #50</a> su GitHub</div>
+<div class="nota">Segnalata da Giacomo il 6 settembre e riprodotta sul telefono simulato con Android 15. Prima la schermata di sistema con l&#x27;icona giusta, poi per due secondi e mezzo una schermata corallo con il simbolo provvisorio, poi la lingua o la home. Su iPhone la prima è bianca vuota. La seconda schermata esiste solo per un&#x27;attesa fissa messa nel codice: si toglie, e la schermata di sistema si veste col marchio. Si fa insieme alla voce 1.</div>
 </div></div>
 <h2>Registrazione e accesso</h2>
 <div class="voce">
@@ -473,6 +480,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">6 settembre</span></div><p>Logo e colori (voce 1): situazione analizzata schermata per schermata sulla 1.1.5. L&#x27;icona dell&#x27;app è già quella giusta, ma dentro l&#x27;app, su ventuno schermate fra avvio, lingua, benvenuto, accesso e registrazione, c&#x27;è ancora un simbolo provvisorio con un corallo diverso da quello del marchio. I file di Jessica del 14 agosto bastano; resta da scegliere la variante per le pagine di benvenuto e un solo valore del corallo, che nei file originali è leggermente diverso fra logo esteso e marchio compatto. Trovata anche una schermata di avvio doppia su Android, voce 62. Lavoro pianificato, non ancora fatto (Giacomo).</p>
 <div><span class="data">5 settembre</span></div><p>App 1.1.5 sui canali di prova, Android e per la prima volta anche iPhone insieme: chiude le voci 57, 58 e 59. La schermata dei figli mostra quelli già inseriti, un figlio senza data viene salvato e lo si vede subito se qualcosa non va, e chi prova ad accedere prima del codice viene portato alla schermata del codice (Giacomo).</p>
 <div><span class="data">5 settembre</span></div><p>Server pubblicato con le correzioni delle voci 56-59. Da subito, anche con l&#x27;app già installata: chi salta la foto del profilo non rifà più le domande iniziali (voce 56, chiusa), e rifare quel giro non cancella più i figli. La parte che si vede nell&#x27;app arriva con la 1.1.5 (Giacomo).</p>
 <div><span class="data">5 settembre</span></div><p>Registrazione e accesso: le correzioni delle voci 56-59 sono pronte e provate, sul server e nell&#x27;app, compresa la prova automatica sul telefono simulato che fa tutto il giro: una famiglia rimasta intrappolata accede, ritrova i figli inseriti, arriva in home e al secondo accesso entra direttamente. In attesa di pubblicazione: prima il server, poi l&#x27;app 1.1.5 sul canale di prova (Giacomo).</p>
