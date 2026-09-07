@@ -1,22 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 7 settembre 2026, sera. App di prova: 1.1.7 (canali di prova interni: Google Play e TestFlight).
 
-Cosa provare adesso:
-- Logo e avvio, con la 1.1.6: aprire l'app e guardare l'avvio (una sola schermata col marchio), poi lingua, benvenuto, accesso e registrazione. Il logo deve essere il tuo dappertutto, e il corallo dei bottoni uguale a quello del marchio (voci 1 e 62)
-- Registrazione e accessi, con la 1.1.5: registrarsi, rispondere alle domande, saltare la foto, uscire e rientrare: si torna in home senza domande e i figli ci sono (voci 56 e 57); un figlio con il solo nome viene salvato (voce 58); provare ad accedere prima di inserire il codice porta alla schermata del codice (voce 59). Se dopo l'uscita resta aperta la finestra della scelta del ruolo, è la voce 60: si chiude e si va avanti
-- iPhone: installare TestFlight dall'App Store, accettare l'invito arrivato per email e provare la stessa versione di Android: accesso con Google e con Apple, mappa (voce 33)
-- Ricerca: il tasto della posizione accanto alla casella apre la mappa, non l'elenco (voce 47)
-- Schede degli elenchi: la data solo dove c'è davvero, e la categoria lunga che non copre più la data. Anche in Esplora e in Salvati (voce 49)
-- Filtro per età nell'app: le cinque fasce, e le attività senza età che restano visibili (voce 7)
-- Pannello: categorie e sottocategorie con i nomi giusti, come sulle schede (voce 12)
-- Grafiche delle carte regalo: ricaricarle con l'occasione e ritrovarle nell'app (voce 8)
-- Ricerca e mappa: cerca un parco, apri la scheda, contatta (voci 6 e 11)
-
-Cosa non provare ancora:
-- Biglietto della carta regalo: dati e dicitura cambiano (voce 10)
-- Iscrizione delle attività e sezione Crea: l'ordine cambia (voci 14 e 15)
-- Periodo di prova e vecchia schermata dei pagamenti: da rifare (voce 18)
-- Contribution Program: non esiste ancora (voce 38)
-
 IMMAGINE E INGRESSO
 1. Logo e colori giusti su avvio, registrazione e accesso [Fatto, Giacomo] issue #49 su GitHub. I file grafici ci sono dal 14 agosto. Analisi del 6 settembre: l'icona dell'app è già quella giusta (la F. nel cerchio corallo); dentro l'app invece ventuno schermate - avvio, lingua, benvenuto, accesso, registrazione, codice, password, per famiglie e operatori - mostrano ancora un simbolo provvisorio con la scritta «Familyside», e il corallo dei bottoni è più chiaro di quello del marchio. Si sostituisce tutto con i file del 14 agosto. Il 6 settembre Jessica ha confermato la proposta: logo esteso in corallo sulle schermate chiare, in bianco sulle pagine di benvenuto, la sola F. negli spazi piccoli, e un solo corallo, quello dell'icona. Fatta: app 1.1.6 sui canali di prova Android e iPhone la sera del 6 settembre. Si guarda il risultato insieme e si ritocca se serve.
 2. Revisione dei testi italiani (date e altri testi ancora in inglese) [Fatto, Giacomo] issue #54 su GitHub. Le fasce d'età sono in italiano dalla 1.1.3. Controllo del 6 settembre: con l'app in italiano restavano in inglese le date e gli orari (23 August, 03:30 PM), le notifiche (5min ago, Today), i messaggi di errore e molte scritte fisse, più i testi di privacy e termini. Il lavoro è stato fatto in tre consegne fra il 6 e il 7 settembre: il server manda i dati grezzi, l'app li scrive in italiano (date «15 ottobre 2026», orari «15:30», tempi «5 min fa»), e tutte le frasi che l'app aveva scritte in inglese sono passate nel suo dizionario. Un controllo automatico impedisce che rientrino. Corretti strada facendo tre difetti: chi ha un nome con l'accento o l'apostrofo (Nicolò, D'Amico) non riusciva a registrarsi, quattro scritte comparivano come sigla, e annullare l'accesso con Apple veniva segnalato come errore. Fatta: versione 1.1.7 sui canali di prova Android e iPhone la sera del 7 settembre. Privacy e termini restano i testi provvisori tradotti come sono: quando arrivano i definitivi si sostituiscono senza toccare l'app. Il pannello di amministrazione è stato rimandato su decisione del 7 settembre (voce 63).
