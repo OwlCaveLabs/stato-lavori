@@ -35,7 +35,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 6 settembre 2026, sera, terza. App di prova: 1.1.6 (canali di prova interni: Google Play e TestFlight).</p>
+<p class="sotto">Aggiornato 7 settembre 2026, sera. App di prova: 1.1.7 (canali di prova interni: Google Play e TestFlight).</p>
 <div class="riquadro"><h3>Cosa provare adesso</h3><ul>
 <li>Logo e avvio, con la 1.1.6: aprire l&#x27;app e guardare l&#x27;avvio (una sola schermata col marchio), poi lingua, benvenuto, accesso e registrazione. Il logo deve essere il tuo dappertutto, e il corallo dei bottoni uguale a quello del marchio (voci 1 e 62)</li>
 <li>Registrazione e accessi, con la 1.1.5: registrarsi, rispondere alle domande, saltare la foto, uscire e rientrare: si torna in home senza domande e i figli ci sono (voci 56 e 57); un figlio con il solo nome viene salvato (voce 58); provare ad accedere prima di inserire il codice porta alla schermata del codice (voce 59). Se dopo l&#x27;uscita resta aperta la finestra della scelta del ruolo, è la voce 60: si chiude e si va avanti</li>
@@ -249,6 +249,13 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">La causa è quella spiegata nella voce 55: le attività caricate col file non hanno una foto propria e mostrano tutte lo stesso segnaposto.</div>
 </div></div>
 <div class="voce">
+<div class="num">64</div>
+<div>
+<div class="titolo">Le immagini caricate dal pannello vengono ridotte dal server <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/61">issue #61</a> su GitHub</div>
+<div class="nota">Aperta il 7 settembre, nasce dalla voce 55. Oggi il server salva le immagini tali e quali: la copertina di &quot;Parco giochi&quot; caricata il 3 settembre è un PNG da 2,5 MB, l&#x27;icona 1,2 MB. Correzione: al caricamento il server riduce da solo le immagini più larghe di 1200 pixel e le ricomprime, per copertine e icone di categoria e sottocategoria e per le foto delle attività, dal pannello e dall&#x27;app del fornitore. Vale per i caricamenti futuri: la copertina già caricata va ricaricata dal pannello una volta che la correzione è in produzione, e così la si prova. Niente da fare sui dati.</div>
+</div></div>
+<div class="voce">
 <div class="num">52</div>
 <div>
 <div class="titolo">Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
@@ -260,7 +267,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div>
 <div class="titolo">L&#x27;immagine grande delle schede non cambia caricando la copertina della categoria <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/36">issue #36</a> su GitHub</div>
-<div class="nota">Segnalata il 4 settembre. Verificato: tutte le 1249 attività di &quot;Parco giochi&quot; hanno la stessa immagine segnaposto, quella che il caricamento in blocco mette quando il file non porta la colonna delle immagini, e l&#x27;immagine grande viene da lì, non dalla categoria. La copertina caricata sulla categoria il server la manda in un punto solo, la griglia di Search, dove l&#x27;app mostra l&#x27;icona: per questo cambia l&#x27;icona piccola e non l&#x27;immagine grande. Correzione: quando un&#x27;attività non ha una foto sua, il server usa la copertina della sua categoria, così una copertina nuova aggiorna tutte le attività di quella categoria. Piccola cosa a parte: la copertina caricata pesa 2,5 MB, conviene ricaricarla ridotta prima che diventi l&#x27;immagine grande scaricata dai telefoni. Vedi anche la voce 13.</div>
+<div class="nota">Segnalata il 4 settembre. Verificato: tutte le 1249 attività di &quot;Parco giochi&quot; hanno la stessa immagine segnaposto, quella che il caricamento in blocco mette quando il file non porta la colonna delle immagini, e l&#x27;immagine grande viene da lì, non dalla categoria. La copertina caricata sulla categoria il server la manda in un punto solo, la griglia di Search, dove l&#x27;app mostra l&#x27;icona: per questo cambia l&#x27;icona piccola e non l&#x27;immagine grande. Correzione: quando un&#x27;attività non ha una foto sua, il server usa la copertina della sua categoria, così una copertina nuova aggiorna tutte le attività di quella categoria. La copertina caricata pesa 2,5 MB: la riduzione automatica delle immagini è la voce 64. Vedi anche la voce 13.</div>
 </div></div>
 <h2>Iscrizione delle attività</h2>
 <div class="voce">
@@ -488,6 +495,8 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">7 settembre</span></div><p>Immagini caricate dal pannello (voce 64, nuova): oggi il server le salva tali e quali, e la copertina di &quot;Parco giochi&quot; pesa 2,5 MB. Con la voce 55 quella copertina diventa l&#x27;immagine grande delle schede e i telefoni la scaricherebbero intera: si mette il server a ridurle da solo al caricamento, così non serve pensarci prima di caricare (Giacomo).</p>
+<div><span class="data">7 settembre</span></div><p>App 1.1.7 sui canali di prova, Android e iPhone: chiude la voce 2. Con l&#x27;app in italiano, date, orari, tempi delle notifiche e tutte le scritte fisse sono in italiano; privacy e termini restano i testi provvisori tradotti. Corretti strada facendo la registrazione con nomi accentati o con l&#x27;apostrofo, quattro scritte che comparivano come sigla e l&#x27;annullamento dell&#x27;accesso con Apple segnalato come errore (Giacomo).</p>
 <div><span class="data">6 settembre</span></div><p>App 1.1.6 sui canali di prova, Android e iPhone: c&#x27;è il tuo logo. Lo si vede sulla schermata di avvio, sulla scelta della lingua, sulle pagine di benvenuto, su accesso e registrazione, e in tutte le schermate del percorso: al posto del simbolo provvisorio ora c&#x27;è il marchio FAMILY SIDE, in corallo sulle schermate chiare e in bianco sulle foto. Anche il corallo dei bottoni è quello del marchio, e il nome sotto l&#x27;icona si scrive FamilySide. All&#x27;avvio non compaiono più due schermate diverse: una sola, col marchio (voci 1 e 62, Giacomo).</p>
 <div><span class="data">6 settembre</span></div><p>Logo e colori (voce 1): situazione analizzata schermata per schermata sulla 1.1.5. L&#x27;icona dell&#x27;app è già quella giusta, ma dentro l&#x27;app, su ventuno schermate fra avvio, lingua, benvenuto, accesso e registrazione, c&#x27;è ancora un simbolo provvisorio con un corallo diverso da quello del marchio. I file di Jessica del 14 agosto bastano; resta da scegliere la variante per le pagine di benvenuto e un solo valore del corallo, che nei file originali è leggermente diverso fra logo esteso e marchio compatto. Trovata anche una schermata di avvio doppia su Android, voce 62. In serata Jessica ha confermato variante e colore: si parte (Giacomo).</p>
 <div><span class="data">5 settembre</span></div><p>App 1.1.5 sui canali di prova, Android e per la prima volta anche iPhone insieme: chiude le voci 57, 58 e 59. La schermata dei figli mostra quelli già inseriti, un figlio senza data viene salvato e lo si vede subito se qualcosa non va, e chi prova ad accedere prima del codice viene portato alla schermata del codice (Giacomo).</p>
