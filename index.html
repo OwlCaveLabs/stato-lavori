@@ -35,7 +35,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 9 settembre 2026, mattina. App di prova: 1.1.7 (canali di prova interni: Google Play e TestFlight).</p>
+<p class="sotto">Aggiornato 9 settembre 2026, pomeriggio. App di prova: 1.1.10 (canali di prova interni: Google Play e TestFlight).</p>
 <div class="riquadro"><h3>Come segnalare</h3><p style="margin:0">Un messaggio per percorso provato, non per schermata. Per ogni problema tre righe: dove eri, cosa hai fatto, cosa ti aspettavi. Lo screenshot solo quando le parole non bastano. Cita il numero della voce se esiste già; se non esiste, la aggiungo io con la priorità che mi dici.</p></div>
 <h2>Le voci</h2>
 <div class="legenda"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span><span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span><span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span><span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
@@ -132,6 +132,20 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">I due comandi della riga «Intorno a...» si leggono come una frase unica <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/73">issue #73</a> su GitHub</div>
 <div class="nota">Trovata l&#x27;8 settembre provando l&#x27;app 1.1.8. Nella riga in cima alla schermata iniziale, quando l&#x27;app non ha il permesso di posizione, compaiono due comandi affiancati, «Cambia» e «Usa la mia posizione»: hanno lo stesso colore e sono attaccati, quindi sembrano una frase sola invece di due cose diverse da toccare. Corretto mettendo un puntino grigio in mezzo. Corretto e rilasciato con l&#x27;app 1.1.9 il 9 settembre. Resta il fatto che sono scritte colorate e non pulsanti veri: se qualcuno dice di non aver capito di poterle toccare, si passa a due pastiglie con il bordo, gia&#x27; disegnate.</div>
+</div></div>
+<div class="voce">
+<div class="num">69</div>
+<div>
+<div class="titolo">Le due frasi che l&#x27;app mostra quando chiede la posizione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Jessica · dove: <a href="https://github.com/FamilySide/familyside/issues/76">issue #76</a> su GitHub</div>
+<div class="nota">Erano provvisorie fin dall&#x27;inizio, scritte da noi l&#x27;8 settembre in attesa che si potessero vedere nell&#x27;app. Riscritte da Jessica il 9 settembre e messe in app come le ha scritte lei, con una sola differenza: la terza riga diceva che la scelta si cambia «dalle impostazioni», e lei stessa aveva chiesto di aspettare perché non sapeva dove l&#x27;avremmo messa. Una schermata di impostazioni per questa scelta non c&#x27;è: chi nega il permesso cambia idea dalla riga in cima alla schermata iniziale, chi lo concede e vuole toglierlo passa dalle impostazioni del telefono. La frase promette il ritorno indietro senza nominare un posto solo. Si vede con l&#x27;app 1.1.10. Se preferisci nominarlo, dimmi quale delle due strade vuoi che sia scritta.</div>
+</div></div>
+<div class="voce">
+<div class="num">70</div>
+<div>
+<div class="titolo">Tre cose fuori posto nelle carte e nella scheda di un&#x27;attività <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/78">issue #78</a> su GitHub</div>
+<div class="nota">Trovate il 9 settembre provando la 1.1.9. Il cartellino sotto le carte in Home e in «Consigliati per te» diceva «activity» invece di «Attività»: era l&#x27;unica schermata rimasta senza traduzione, tutte le altre la facevano già. Sulla mappa della scheda c&#x27;era un tasto tondo di centramento che non serviva e non rispondeva al tocco. Sotto la mappa compariva un orario di apertura in inglese e uguale per tutte le attività: quello era il più grave, perché l&#x27;orario non esisteva, se lo inventava il server per le 1259 attività su 1260 che non ne hanno uno. I primi due si vedono con l&#x27;app 1.1.10, il terzo è già in produzione.</div>
 </div></div>
 <div class="voce">
 <div class="num">4</div>
@@ -508,6 +522,9 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">9 settembre</span></div><p>App 1.1.10 sui canali di prova, Android e iPhone: chiude la voce 70 per la parte dell&#x27;app. Il cartellino sotto le carte in Home e in «Consigliati per te» era rimasto in inglese, «activity» invece di «Attività»: adesso è nella lingua di chi legge. Sulla mappa della scheda di un&#x27;attività c&#x27;era un tasto tondo di centramento che non faceva niente e non rispondeva al tocco: tolto (Giacomo).</p>
+<div><span class="data">9 settembre</span></div><p>Orari di apertura inventati (voce 70, nuova): server pubblicato. Sotto la mappa di ogni attività compariva un orario, «07:00 AM to 09:00 PM», in inglese e uguale per tutte. Non era una traduzione mancata: quell&#x27;orario non esisteva, se lo inventava il server per le attività che non ne hanno uno, cioè 1259 su 1260. Un genitore che ci si fidava rischiava di trovare chiuso. Adesso la riga compare solo per chi un orario ce l&#x27;ha davvero. Si vede dall&#x27;app già installata, senza aggiornarla (Giacomo).</p>
+<div><span class="data">9 settembre</span></div><p>Le due frasi del permesso di posizione (voce 69, nuova): riscritte da Jessica dopo aver provato la 1.1.9, e messe in app come le ha scritte lei. Una sola differenza: la sua terza riga diceva che la scelta si cambia «dalle impostazioni», e lei stessa aveva chiesto di aspettare. Aveva ragione: una schermata di impostazioni per questa scelta non c&#x27;è. Chi nega il permesso cambia idea dalla riga in cima alla schermata iniziale, che gli offre «Usa la mia posizione»; chi lo concede e vuole toglierlo passa dalle impostazioni del telefono. La frase quindi promette il ritorno indietro senza nominare un posto che non esiste (Giacomo).</p>
 <div><span class="data">9 settembre</span></div><p>App 1.1.9 sui canali di prova, Android e iPhone: chiude la voce 68. Nella riga in cima alla schermata iniziale i due comandi accanto al nome del luogo, «Cambia» e «Usa la mia posizione», adesso sono separati da un puntino e non sembrano piu&#x27; una frase sola. E&#x27; l&#x27;unica differenza rispetto alla 1.1.8 di ieri sera (Giacomo).</p>
 <div><span class="data">9 settembre</span></div><p>Riga «Intorno a...» (voce 68, nuova): provando la 1.1.8 si vede che i due comandi accanto al nome del luogo, «Cambia» e «Usa la mia posizione», sono attaccati e dello stesso colore, quindi sembrano una frase sola. Corretto con un puntino di separazione; si vedra&#x27; con la prossima versione dell&#x27;app. Segnalata da Giacomo (Giacomo).</p>
 <div><span class="data">8 settembre</span></div><p>Mappa di Esplora (voce 67, nuova): provando la 1.1.8 sull&#x27;emulatore si vede che passando alla mappa sparisce la barra in basso con le cinque schede, e che le scritte in alto sono disegnate sopra la cartina, con i nomi delle strade che trapassano da sotto. La schermata e&#x27; fatta cosi&#x27; dall&#x27;inizio; la riga nuova che dice da dove nascono i risultati e&#x27; pero&#x27; la piu&#x27; penalizzata. Segnalata da Giacomo (Giacomo).</p>
