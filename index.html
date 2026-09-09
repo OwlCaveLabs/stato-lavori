@@ -35,7 +35,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 9 settembre 2026, pomeriggio. App di prova: 1.1.10 (canali di prova interni: Google Play e TestFlight).</p>
+<p class="sotto">Aggiornato 9 settembre 2026, sera. App di prova: 1.1.10 (canali di prova interni: Google Play e TestFlight).</p>
 <div class="riquadro"><h3>Come segnalare</h3><p style="margin:0">Un messaggio per percorso provato, non per schermata. Per ogni problema tre righe: dove eri, cosa hai fatto, cosa ti aspettavi. Lo screenshot solo quando le parole non bastano. Cita il numero della voce se esiste già; se non esiste, la aggiungo io con la priorità che mi dici.</p></div>
 <h2>Le voci</h2>
 <div class="legenda"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span><span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span><span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span><span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
@@ -146,6 +146,27 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">Tre cose fuori posto nelle carte e nella scheda di un&#x27;attività <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/78">issue #78</a> su GitHub</div>
 <div class="nota">Trovate il 9 settembre provando la 1.1.9. Il cartellino sotto le carte in Home e in «Consigliati per te» diceva «activity» invece di «Attività»: era l&#x27;unica schermata rimasta senza traduzione, tutte le altre la facevano già. Sulla mappa della scheda c&#x27;era un tasto tondo di centramento che non serviva e non rispondeva al tocco. Sotto la mappa compariva un orario di apertura in inglese e uguale per tutte le attività: quello era il più grave, perché l&#x27;orario non esisteva, se lo inventava il server per le 1259 attività su 1260 che non ne hanno uno. I primi due si vedono con l&#x27;app 1.1.10, il terzo è già in produzione.</div>
+</div></div>
+<div class="voce">
+<div class="num">71</div>
+<div>
+<div class="titolo">La riga «Intorno a te» non deve costare una riga in cima alla schermata iniziale <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/81">issue #81</a> su GitHub</div>
+<div class="nota">Segnalata da Jessica il 9 settembre provando la 1.1.10. In cima alla schermata iniziale c&#x27;erano due righe sullo stesso argomento: sotto il nome l&#x27;indirizzo del profilo, e sotto ancora la riga che dice da dove nascono i risultati. Chi è a Milano con un profilo su Como leggeva «Como» e sotto «Intorno a te». Adesso ce n&#x27;è una sola, sotto il nome, ed è quella vera; i comandi per cambiare si aprono toccandola. In Esplora e sulla mappa la riga è entrata sotto il titolo, dentro la riga dei tasti, dove costa una decina di pixel invece di quaranta. Si vedrà con la prossima versione dell&#x27;app.</div>
+</div></div>
+<div class="voce">
+<div class="num">72</div>
+<div>
+<div class="titolo">Le distanze di Esplora restano ferme all&#x27;avvio dell&#x27;app <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/83">issue #83</a> su GitHub</div>
+<div class="nota">Trovata il 9 settembre provando l&#x27;app. Esplora dice «Intorno a te» ma mostra le distanze dell&#x27;indirizzo del profilo: nello stesso momento la stessa attività è a 0,06 km in Home e a 0,22 in Esplora. Esplora carica il suo elenco una volta sola, all&#x27;avvio dell&#x27;app, prima che il telefono abbia dato la posizione, e non lo rifà finché non si tira giù per aggiornare o si cambia scheda. Siccome la posizione non viene conservata fra un avvio e l&#x27;altro, succede ogni volta. Da correggere facendo ricaricare Esplora quando la posizione arriva.</div>
+</div></div>
+<div class="voce">
+<div class="num">73</div>
+<div>
+<div class="titolo">Le fasce d&#x27;età sulle schede sono inventate, e in inglese <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/84">issue #84</a> su GitHub</div>
+<div class="nota">Trovata il 9 settembre provando l&#x27;app. Sulle schede compare «0-20 years»: in inglese, e soprattutto inventata. Il server la scrive quando l&#x27;attività non ha un&#x27;età fra i suoi tag, in dieci punti diversi. Sui dati veri nessuna delle 1260 attività ha una fascia d&#x27;età, quindi la mostrano tutte. Stessa cosa degli orari di apertura della voce 70: si toglie il numero falso, e le età vere compariranno quando le attività avranno il tag, caricato dal pannello o dal file.</div>
 </div></div>
 <div class="voce">
 <div class="num">4</div>
@@ -522,6 +543,9 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">9 settembre</span></div><p>Fasce d&#x27;età inventate (voce 73, nuova): sulle schede compare «0-20 years», in inglese e uguale per tutte. È la stessa cosa degli orari di apertura di stamattina: quella fascia non l&#x27;ha inserita nessuno, se la scrive il server quando l&#x27;attività non ha un&#x27;età fra i suoi tag. Contato sui dati veri: nessuna delle 1260 attività ha una fascia d&#x27;età, quindi la mostrano tutte inventata. Da correggere sul server; le età vere compariranno quando le attività avranno il tag, caricato dal pannello o dal file (Giacomo).</p>
+<div><span class="data">9 settembre</span></div><p>Distanze di Esplora ferme all&#x27;avvio (voce 72, nuova): provando l&#x27;app si vede che Esplora dice «Intorno a te» mentre le distanze sono ancora quelle dell&#x27;indirizzo del profilo. Esplora carica il suo elenco una volta sola all&#x27;avvio, prima che il telefono abbia dato la posizione, e non lo rifà finché non tiri giù per aggiornare. Succede a ogni avvio. La riga che dice da dove nascono i risultati non lo causa: lo rende visibile, perché prima le distanze erano sbagliate senza che si potesse capire perché (Giacomo).</p>
+<div><span class="data">9 settembre</span></div><p>Riga «Intorno a te» (voce 71, fatta): Jessica ha chiesto di non lasciarle una riga tutta sua in cima alla schermata iniziale, che è uno degli spazi più preziosi. Aveva ragione doppiamente, perché quella riga era un doppione: sotto il nome c&#x27;era già l&#x27;indirizzo del profilo, e le due potevano contraddirsi. Adesso ce n&#x27;è una sola, sotto il nome, e dice la cosa vera: da dove nascono i risultati. Toccandola si apre un fogliettino con i modi per cambiare, che prima erano due scritte affiancate. In Esplora e sulla mappa è entrata sotto il titolo, dentro la riga dei tasti. Si vedrà con la prossima versione dell&#x27;app (Giacomo).</p>
 <div><span class="data">9 settembre</span></div><p>App 1.1.10 sui canali di prova, Android e iPhone: chiude la voce 70 per la parte dell&#x27;app. Il cartellino sotto le carte in Home e in «Consigliati per te» era rimasto in inglese, «activity» invece di «Attività»: adesso è nella lingua di chi legge. Sulla mappa della scheda di un&#x27;attività c&#x27;era un tasto tondo di centramento che non faceva niente e non rispondeva al tocco: tolto (Giacomo).</p>
 <div><span class="data">9 settembre</span></div><p>Orari di apertura inventati (voce 70, nuova): server pubblicato. Sotto la mappa di ogni attività compariva un orario, «07:00 AM to 09:00 PM», in inglese e uguale per tutte. Non era una traduzione mancata: quell&#x27;orario non esisteva, se lo inventava il server per le attività che non ne hanno uno, cioè 1259 su 1260. Un genitore che ci si fidava rischiava di trovare chiuso. Adesso la riga compare solo per chi un orario ce l&#x27;ha davvero. Si vede dall&#x27;app già installata, senza aggiornarla (Giacomo).</p>
 <div><span class="data">9 settembre</span></div><p>Le due frasi del permesso di posizione (voce 69, nuova): riscritte da Jessica dopo aver provato la 1.1.9, e messe in app come le ha scritte lei. Una sola differenza: la sua terza riga diceva che la scelta si cambia «dalle impostazioni», e lei stessa aveva chiesto di aspettare. Aveva ragione: una schermata di impostazioni per questa scelta non c&#x27;è. Chi nega il permesso cambia idea dalla riga in cima alla schermata iniziale, che gli offre «Usa la mia posizione»; chi lo concede e vuole toglierlo passa dalle impostazioni del telefono. La frase quindi promette il ritorno indietro senza nominare un posto che non esiste (Giacomo).</p>
