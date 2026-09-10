@@ -29,39 +29,174 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 .novita .data { font-weight: 600; white-space: nowrap; }
 .novita p { margin: 6px 0 12px; }
 footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
+
+/* Verso gli store */
+.store { padding: 16px; }
+.barra-riga { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.barra { flex: 1 1 120px; height: 14px; border-radius: 999px; background: #ececec; }
+.barra-piena { height: 100%; border-radius: 999px; background: #D73A51; }
+.barra-testo { font-size: 1.15rem; font-weight: 700; white-space: nowrap; }
+.corsia { margin-top: 18px; }
+.corsia-nome { font-weight: 600; font-size: 0.95rem; margin-bottom: 8px; }
+.gradini { display: flex; align-items: flex-start; }
+.gradino { flex: 0 1 auto; text-align: center; min-width: 0; }
+.giunto { flex: 1 1 12px; min-width: 12px; height: 2px; background: #d8d8d8; margin-top: 13px; }
+.pillola { display: inline-block; font-size: 0.85rem; font-weight: 600; padding: 4px 12px;
+  border-radius: 999px; white-space: nowrap; border: 1px solid transparent; }
+.pillola.fatto { background: #D73A51; border-color: #D73A51; color: #fff; }
+.pillola.in_corso { background: #fff; border-color: #D73A51; color: #D73A51; }
+.pillola.da_fare { background: #fff; border-color: #d0d0d0; color: var(--muto); }
+.gradino .etichetta { font-size: 0.78rem; color: var(--muto); margin-top: 4px; }
+.store ul.passi { list-style: none; margin: 20px 0 0; padding: 18px 0 0; border-top: 1px solid var(--linea); }
+.passo { display: grid; grid-template-columns: 20px 1fr; gap: 2px 10px; padding: 8px 0;
+  border-top: 1px solid var(--linea); }
+.passo:first-child { border-top: 0; }
+.segno { grid-row: span 3; display: inline-flex; align-items: center; justify-content: center;
+  width: 16px; height: 16px; margin-top: 3px; border-radius: 50%; font-size: 11px;
+  font-weight: 700; line-height: 1; }
+.segno.fatto { background: #D73A51; border: 1px solid #D73A51; color: #fff; }
+.segno.in_corso { background: linear-gradient(90deg, #D73A51 50%, #fff 50%); border: 1px solid #D73A51; }
+.segno.da_fare { background: #fff; border: 1px solid #cfcfcf; }
+.passo-titolo { font-weight: 600; }
+.passo-chi { color: var(--muto); font-size: 0.85rem; }
+.passo-voci { margin-top: 4px; }
+.voce-link { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 1px 8px;
+  border-radius: 999px; border: 1px solid #f0ccd2; background: #fdf2f4; color: #a82a3d;
+  text-decoration: none; margin: 2px 4px 0 0; }
+
 @media (max-width: 480px) { body { font-size: 15px; } main { padding: 14px 12px 50px; } }
+@media (max-width: 480px) {
+  .gradini { flex-direction: column; align-items: flex-start; }
+  .gradino { text-align: left; }
+  .giunto { flex: 0 0 auto; width: 2px; min-width: 0; height: 14px; margin: 3px 0 3px 20px; }
+  .barra-testo { font-size: 1.05rem; }
+}
 </style>
 </head>
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 9 settembre 2026, sera. App di prova: 1.1.11 (canali di prova interni: Google Play e TestFlight).</p>
+<p class="sotto">Aggiornato 10 settembre 2026. App di prova: 1.1.11 (canali di prova interni: Google Play e TestFlight).</p>
 <div class="riquadro"><h3>Come segnalare</h3><p style="margin:0">Un messaggio per percorso provato, non per schermata. Per ogni problema tre righe: dove eri, cosa hai fatto, cosa ti aspettavi. Lo screenshot solo quando le parole non bastano. Cita il numero della voce se esiste già; se non esiste, la aggiungo io con la priorità che mi dici.</p></div>
+<h2>Verso gli store</h2>
+<div class="riquadro store">
+<div class="barra-riga">
+<div class="barra"><div class="barra-piena" style="width:16.7%"></div></div>
+<div class="barra-testo">1,5 di 9 passi &middot; 17%</div>
+</div>
+<div class="corsia">
+<div class="corsia-nome">App Store</div>
+<div class="gradini">
+<div class="gradino">
+<div><span class="pillola fatto">Prova interna</span></div>
+<div class="etichetta">1.1.11, dal 5 settembre</div>
+</div>
+<div class="giunto"></div>
+<div class="gradino">
+<div><span class="pillola da_fare">Beta</span></div>
+</div>
+<div class="giunto"></div>
+<div class="gradino">
+<div><span class="pillola da_fare">Sullo store</span></div>
+</div>
+</div></div>
+<div class="corsia">
+<div class="corsia-nome">Google Play</div>
+<div class="gradini">
+<div class="gradino">
+<div><span class="pillola fatto">Prova interna</span></div>
+<div class="etichetta">1.1.11, dal 2 settembre</div>
+</div>
+<div class="giunto"></div>
+<div class="gradino">
+<div><span class="pillola da_fare">Beta</span></div>
+</div>
+<div class="giunto"></div>
+<div class="gradino">
+<div><span class="pillola da_fare">Sullo store</span></div>
+</div>
+</div></div>
+<ul class="passi">
+<li class="passo">
+<span class="segno fatto">&check;</span>
+<span class="passo-titolo">Versioni di prova sui due store</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-32">voce 32</a><a class="voce-link" href="#voce-33">voce 33</a></span>
+</li>
+<li class="passo">
+<span class="segno in_corso"></span>
+<span class="passo-titolo">Correzioni chieste dalle regole degli store</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-23">voce 23</a><a class="voce-link" href="#voce-78">voce 78</a><a class="voce-link" href="#voce-81">voce 81</a><a class="voce-link" href="#voce-82">voce 82</a><a class="voce-link" href="#voce-83">voce 83</a><a class="voce-link" href="#voce-84">voce 84</a><a class="voce-link" href="#voce-85">voce 85</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Account di prova per chi esamina l&#x27;app</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-30">voce 30</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Pubblicazione con un comando solo</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-34">voce 34</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Testi e immagini delle due schede</span>
+<span class="passo-chi">chi: Jessica</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-34">voce 34</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Dati del venditore e permessi negli store</span>
+<span class="passo-chi">chi: Jessica</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-34">voce 34</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Moduli su privacy e dati</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-34">voce 34</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Beta: l&#x27;app installabile dalle attività</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-34">voce 34</a></span>
+</li>
+<li class="passo">
+<span class="segno da_fare"></span>
+<span class="passo-titolo">Invio in revisione e pubblicazione</span>
+<span class="passo-chi">chi: Giacomo</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-34">voce 34</a></span>
+</li>
+</ul></div>
 <h2>Le voci</h2>
 <div class="legenda"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span><span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span><span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span><span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
 <h2>Immagine e ingresso</h2>
-<div class="voce">
+<div class="voce" id="voce-1">
 <div class="num">1</div>
 <div>
 <div class="titolo">Logo e colori giusti su avvio, registrazione e accesso <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/49">issue #49</a> su GitHub</div>
 <div class="nota">I file grafici ci sono dal 14 agosto. Analisi del 6 settembre: l&#x27;icona dell&#x27;app è già quella giusta (la F. nel cerchio corallo); dentro l&#x27;app invece ventuno schermate - avvio, lingua, benvenuto, accesso, registrazione, codice, password, per famiglie e operatori - mostrano ancora un simbolo provvisorio con la scritta «Familyside», e il corallo dei bottoni è più chiaro di quello del marchio. Si sostituisce tutto con i file del 14 agosto. Il 6 settembre Jessica ha confermato la proposta: logo esteso in corallo sulle schermate chiare, in bianco sulle pagine di benvenuto, la sola F. negli spazi piccoli, e un solo corallo, quello dell&#x27;icona. Fatta: app 1.1.6 sui canali di prova Android e iPhone la sera del 6 settembre. Si guarda il risultato insieme e si ritocca se serve.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-2">
 <div class="num">2</div>
 <div>
 <div class="titolo">Revisione dei testi italiani (date e altri testi ancora in inglese) <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/54">issue #54</a> su GitHub</div>
 <div class="nota">Le fasce d&#x27;età sono in italiano dalla 1.1.3. Controllo del 6 settembre: con l&#x27;app in italiano restavano in inglese le date e gli orari (23 August, 03:30 PM), le notifiche (5min ago, Today), i messaggi di errore e molte scritte fisse, più i testi di privacy e termini. Il lavoro è stato fatto in tre consegne fra il 6 e il 7 settembre: il server manda i dati grezzi, l&#x27;app li scrive in italiano (date «15 ottobre 2026», orari «15:30», tempi «5 min fa»), e tutte le frasi che l&#x27;app aveva scritte in inglese sono passate nel suo dizionario. Un controllo automatico impedisce che rientrino. Corretti strada facendo tre difetti: chi ha un nome con l&#x27;accento o l&#x27;apostrofo (Nicolò, D&#x27;Amico) non riusciva a registrarsi, quattro scritte comparivano come sigla, e annullare l&#x27;accesso con Apple veniva segnalato come errore. Fatta: versione 1.1.7 sui canali di prova Android e iPhone la sera del 7 settembre. Privacy e termini restano i testi provvisori tradotti come sono: quando arrivano i definitivi si sostituiscono senza toccare l&#x27;app. Il pannello di amministrazione è stato rimandato su decisione del 7 settembre (voce 63).</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-63">
 <div class="num">63</div>
 <div>
 <div class="titolo">Pannello di amministrazione in italiano <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">La traduzione italiana del pannello esiste già quasi tutta: manca il modo di attivarla e le date. Il 7 settembre Jessica ha deciso di non perderci tempo ora e di lasciarlo fra le cose in seguito.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-62">
 <div class="num">62</div>
 <div>
 <div class="titolo">All&#x27;avvio compaiono due schermate di avvio in fila, con due loghi diversi <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
@@ -69,42 +204,42 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Segnalata da Giacomo il 6 settembre e riprodotta sul telefono simulato con Android 15. Prima la schermata di sistema con l&#x27;icona giusta, poi per due secondi e mezzo una schermata corallo con il simbolo provvisorio, poi la lingua o la home. Su iPhone la prima è bianca vuota. La seconda schermata esiste solo per un&#x27;attesa fissa messa nel codice: si toglie, e la schermata di sistema si veste col marchio. Si fa insieme alla voce 1. Fatta: app 1.1.6 sui canali di prova Android e iPhone la sera del 6 settembre. Ora la schermata di avvio è una sola, col marchio, uguale su Android e iPhone.</div>
 </div></div>
 <h2>Registrazione e accesso</h2>
-<div class="voce">
+<div class="voce" id="voce-56">
 <div class="num">56</div>
 <div>
 <div class="titolo">Accedendo di nuovo, l&#x27;app rifà tutte le domande iniziali <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/37">issue #37</a> su GitHub</div>
 <div class="nota">Trovata il 4 settembre provando la registrazione passo per passo, non segnalata. Chi si registra e risponde a tutto (ruolo, figli, interessi, posizione) ma salta la foto del profilo - che l&#x27;app presenta come facoltativa - resta per sempre segnato come «non ha finito». A ogni accesso successivo l&#x27;app riparte dalla scelta del ruolo. Riaprendo l&#x27;app senza uscire non si vede: serve un accesso vero. Il percorso dell&#x27;operatore non ha il problema. Vedi anche la voce 57: rifare quel giro non è innocuo. Corretta sul server il 5 settembre: vale subito, anche con l&#x27;app 1.1.4 già installata.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-57">
 <div class="num">57</div>
 <div>
 <div class="titolo">I figli inseriti spariscono quando l&#x27;app rifà le domande iniziali <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/38">issue #38</a> su GitHub</div>
 <div class="nota">Trovata il 4 settembre, insieme alla voce 56. La schermata dei figli dell&#x27;onboarding parte sempre vuota: non mostra i figli già registrati. Premendo «Continua» senza toccare niente, i figli vengono cancellati dal profilo, con un messaggio che dice che il salvataggio è riuscito. La stessa schermata dentro il profilo invece i figli li carica: il modo giusto esiste già nell&#x27;app. Si corregge da due lati, app e server. Corretta: server pubblicato il 5 settembre, app 1.1.5 sui canali di prova Android e iPhone lo stesso giorno.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-58">
 <div class="num">58</div>
 <div>
 <div class="titolo">Un figlio senza data di nascita non viene salvato, e l&#x27;app non lo dice <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/39">issue #39</a> su GitHub</div>
 <div class="nota">Trovata il 4 settembre. Il modulo lascia salvare un figlio col solo nome, il figlio compare nell&#x27;elenco, ma il server rifiuta tutta la richiesta - anche gli altri figli inseriti insieme. L&#x27;app passa comunque alla schermata dopo; l&#x27;unico segnale è un «Error» generico che compare e sparisce. Corretta: server pubblicato il 5 settembre, app 1.1.5 sui canali di prova Android e iPhone lo stesso giorno.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-59">
 <div class="num">59</div>
 <div>
 <div class="titolo">Chi prova ad accedere prima di inserire il codice resta bloccato fuori <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/40">issue #40</a> su GitHub</div>
 <div class="nota">Trovata il 4 settembre. Ci si registra, arriva il codice via email, si prova ad accedere prima di inserirlo: l&#x27;app dice «ti abbiamo mandato un codice nuovo». Quel codice non parte mai, e quello ricevuto davvero smette di funzionare in quel momento. Dalla schermata di accesso non si torna a quella del codice: l&#x27;unica uscita, per niente ovvia, è rifare la registrazione con la stessa email. Corretta: server pubblicato il 5 settembre, app 1.1.5 sui canali di prova Android e iPhone lo stesso giorno.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-60">
 <div class="num">60</div>
 <div>
 <div class="titolo">Dopo l&#x27;uscita dall&#x27;app resta aperta la finestra della scelta del ruolo <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/47">issue #47</a> su GitHub</div>
 <div class="nota">Trovata il 5 settembre dalla prova automatica e confermata a mano. Uscendo dall&#x27;app dal profilo si torna alla schermata di benvenuto, ma con sopra la finestra «Family/Parent - Service Provider» rimasta aperta dalla prima volta. Non blocca: si può scegliere e rientrare, e il tasto indietro la chiude. Preesistente, leggera.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-61">
 <div class="num">61</div>
 <div>
 <div class="titolo">Luogo scritto ma non scelto dalla mappa: distanze e «vicino a te» vuoti <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
@@ -112,168 +247,168 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Nel passo del luogo, se si scrive il nome senza sceglierlo dalla mappa l&#x27;app va avanti ma salva una posizione inesistente: da quel momento «vicino a te», mappa e distanze per quella famiglia restano vuoti, senza avvisi. Preesistente. Approfondita l&#x27;8 settembre: si corregge sul server, quindi varrà subito anche sulle app già installate, come è successo per la voce 55. Chi ci è già finito ha una via d&#x27;uscita che nessuno conosce, perché l&#x27;app non segnala niente: basta cambiare il luogo dal proprio profilo e la posizione si sistema. Sale di priorità perché è il ripiego su cui si appoggia la voce 66: chi non concede il permesso di posizione torna a questo indirizzo, e deve essere un indirizzo vero.</div>
 </div></div>
 <h2>Mappa, ricerca e schede</h2>
-<div class="voce">
+<div class="voce" id="voce-3">
 <div class="num">3</div>
 <div>
 <div class="titolo">Pulsante per ricentrare la mappa <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Un pulsante col mirino sulla mappa c&#x27;e&#x27; gia&#x27;, ma oggi si limita a rimettere davanti i risultati della ricerca. Deciso da Jessica l&#x27;8 settembre: deve riportare dove sei in quel momento e rifare la ricerca intorno a quel punto. Si fa insieme alla voce 66, da cui dipende.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-67">
 <div class="num">67</div>
 <div>
 <div class="titolo">La mappa di Esplora e&#x27; una schermata a se&#x27;, con le scritte in alto poco leggibili <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/72">issue #72</a> su GitHub</div>
 <div class="nota">Trovata l&#x27;8 settembre provando l&#x27;app 1.1.8. Passando alla mappa in Esplora sparisce la barra in basso con le cinque schede, e per tornare indietro c&#x27;e&#x27; un solo comando, l&#x27;icona elenco in alto: su Android aiuta anche il tasto indietro del telefono, su iPhone quel tasto non esiste. In piu&#x27; le scritte in alto (titolo, filtri, categorie) sono disegnate direttamente sopra la cartina, e i nomi delle strade trapassano da sotto: su una citta&#x27; densa come Milano si legge male. La schermata e&#x27; fatta cosi&#x27; dall&#x27;inizio, non e&#x27; un cambiamento di adesso; la riga nuova che dice da dove nascono i risultati, aggiunta l&#x27;8 settembre, e&#x27; pero&#x27; la piu&#x27; penalizzata. Deciso da Jessica il 9 settembre: la mappa diventa un modo di vedere Esplora, non una schermata a parte. La barra in basso con le cinque icone resta al suo posto, si passa da elenco a mappa con lo stesso interruttore, e l&#x27;intestazione sta ferma su sfondo pieno cosi&#x27; si legge senza che i nomi delle strade le passino sotto.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-68">
 <div class="num">68</div>
 <div>
 <div class="titolo">I due comandi della riga «Intorno a...» si leggono come una frase unica <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/73">issue #73</a> su GitHub</div>
 <div class="nota">Trovata l&#x27;8 settembre provando l&#x27;app 1.1.8. Nella riga in cima alla schermata iniziale, quando l&#x27;app non ha il permesso di posizione, compaiono due comandi affiancati, «Cambia» e «Usa la mia posizione»: hanno lo stesso colore e sono attaccati, quindi sembrano una frase sola invece di due cose diverse da toccare. Corretto mettendo un puntino grigio in mezzo. Corretto e rilasciato con l&#x27;app 1.1.9 il 9 settembre. Resta il fatto che sono scritte colorate e non pulsanti veri: se qualcuno dice di non aver capito di poterle toccare, si passa a due pastiglie con il bordo, gia&#x27; disegnate.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-69">
 <div class="num">69</div>
 <div>
 <div class="titolo">Le due frasi che l&#x27;app mostra quando chiede la posizione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Jessica · dove: <a href="https://github.com/FamilySide/familyside/issues/76">issue #76</a> su GitHub</div>
 <div class="nota">Erano provvisorie fin dall&#x27;inizio, scritte da noi l&#x27;8 settembre in attesa che si potessero vedere nell&#x27;app. Riscritte da Jessica il 9 settembre e messe in app come le ha scritte lei, con una sola differenza: la terza riga diceva che la scelta si cambia «dalle impostazioni», e lei stessa aveva chiesto di aspettare perché non sapeva dove l&#x27;avremmo messa. Una schermata di impostazioni per questa scelta non c&#x27;è: chi nega il permesso cambia idea dalla riga in cima alla schermata iniziale, chi lo concede e vuole toglierlo passa dalle impostazioni del telefono. La frase promette il ritorno indietro senza nominare un posto solo. Si vede con l&#x27;app 1.1.10. Se preferisci nominarlo, dimmi quale delle due strade vuoi che sia scritta.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-70">
 <div class="num">70</div>
 <div>
 <div class="titolo">Tre cose fuori posto nelle carte e nella scheda di un&#x27;attività <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/78">issue #78</a> su GitHub</div>
 <div class="nota">Trovate il 9 settembre provando la 1.1.9. Il cartellino sotto le carte in Home e in «Consigliati per te» diceva «activity» invece di «Attività»: era l&#x27;unica schermata rimasta senza traduzione, tutte le altre la facevano già. Sulla mappa della scheda c&#x27;era un tasto tondo di centramento che non serviva e non rispondeva al tocco. Sotto la mappa compariva un orario di apertura in inglese e uguale per tutte le attività: quello era il più grave, perché l&#x27;orario non esisteva, se lo inventava il server per le 1259 attività su 1260 che non ne hanno uno. I primi due si vedono con l&#x27;app 1.1.10, il terzo è già in produzione.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-71">
 <div class="num">71</div>
 <div>
 <div class="titolo">La riga «Intorno a te» non deve costare una riga in cima alla schermata iniziale <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/81">issue #81</a> su GitHub</div>
 <div class="nota">Segnalata da Jessica il 9 settembre provando la 1.1.10. In cima alla schermata iniziale c&#x27;erano due righe sullo stesso argomento: sotto il nome l&#x27;indirizzo del profilo, e sotto ancora la riga che dice da dove nascono i risultati. Chi è a Milano con un profilo su Como leggeva «Como» e sotto «Intorno a te». Adesso ce n&#x27;è una sola, sotto il nome, ed è quella vera; i comandi per cambiare si aprono toccandola. In Esplora e sulla mappa la riga è entrata sotto il titolo, dentro la riga dei tasti, dove costa una decina di pixel invece di quaranta. Rilasciata con l&#x27;app 1.1.11 il 9 settembre.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-72">
 <div class="num">72</div>
 <div>
 <div class="titolo">Le distanze di Esplora restano ferme all&#x27;avvio dell&#x27;app <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/83">issue #83</a> su GitHub</div>
 <div class="nota">Trovata il 9 settembre provando l&#x27;app. Esplora dice «Intorno a te» ma mostra le distanze dell&#x27;indirizzo del profilo: nello stesso momento la stessa attività è a 0,06 km in Home e a 0,22 in Esplora. Esplora carica il suo elenco una volta sola, all&#x27;avvio dell&#x27;app, prima che il telefono abbia dato la posizione, e non lo rifà finché non si tira giù per aggiornare o si cambia scheda. Siccome la posizione non viene conservata fra un avvio e l&#x27;altro, succede ogni volta. Da correggere facendo ricaricare Esplora quando la posizione arriva.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-73">
 <div class="num">73</div>
 <div>
 <div class="titolo">Le fasce d&#x27;età sulle schede sono inventate, e in inglese <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/84">issue #84</a> su GitHub</div>
 <div class="nota">Trovata il 9 settembre provando l&#x27;app. Sulle schede compare «0-20 years»: in inglese, e soprattutto inventata. Il server la scrive quando l&#x27;attività non ha un&#x27;età fra i suoi tag, in dieci punti diversi. Sui dati veri nessuna delle 1260 attività ha una fascia d&#x27;età, quindi la mostrano tutte. Stessa cosa degli orari di apertura della voce 70: si toglie il numero falso, e le età vere compariranno quando le attività avranno il tag, caricato dal pannello o dal file.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-74">
 <div class="num">74</div>
 <div>
 <div class="titolo">Il prezzo sparisce dalle carte quando non c&#x27;è, e prende il verde di Jessica <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/89">issue #89</a> su GitHub</div>
 <div class="nota">Segnalata da Jessica il 9 settembre: il verde del prezzo è ancora quello del team. Nei file del logo del 14 agosto non c&#x27;è nessun verde, quindi la referenza la manda lei. Verificato anche il resto: le carte mostrano il prezzo sempre, anche quando è zero, e le attività caricate col file non ne hanno uno: oggi gli elenchi di Home, Ricerca, Esplora e Salvati dicono «€0» su tutte. Zero nel file vuol dire «non indicato», non gratis. Deciso da Jessica il 9 settembre: quando il prezzo non c&#x27;è sparisce. Si fa insieme alla voce 79; il verde si cambia quando arriva.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-75">
 <div class="num">75</div>
 <div>
 <div class="titolo">Le icone delle quattro card di Ricerca <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Segnalata da Jessica il 9 settembre: le icone di Per te, Vicino a te, Regali ed Eventi sono provvisorie. Sono anche file piccolissimi, 24 pixel, e per questo si vedono sgranate. Chiesti a Jessica quattro file, meglio SVG, altrimenti PNG con sfondo trasparente e almeno 96 pixel di lato: il 9 settembre ha detto che li manda. Le icone delle categorie nella griglia sotto vengono già dal pannello (voce 55) e non c&#x27;entrano; i colori per categoria restano la voce 4. Si fa quando arrivano i file.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-76">
 <div class="num">76</div>
 <div>
 <div class="titolo">Il cuore del riquadro «Per te» in Ricerca diventa corallo, e la scritta parla italiano <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/86">issue #86</a> su GitHub</div>
 <div class="nota">Chiesta da Jessica il 9 settembre: il cuore corallo, quello del logo, e la scritta «Per te, Mamma». Verificato: il cuore è un disegno rosso fisso, e la scritta la compone il server in inglese («For you, Mother») a partire dal ruolo scelto all&#x27;iscrizione, per questo resta in inglese anche con l&#x27;app in italiano; chi si è registrato come parente legge «For you, Relative». Correzione: il cuore prende i coralli del marchio; il server dice all&#x27;app il ruolo e l&#x27;app scrive «Per te, Mamma», «Per te, Papà» o «Per te». Cosa apre il riquadro al tocco, che oggi non fa niente, è la voce 77.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-77">
 <div class="num">77</div>
 <div>
 <div class="titolo">Le sezioni «Per te, Mamma» e «Per te, Papà»: contenuti riservati, raggiungibili da tutti <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Chiesta da Jessica il 9 settembre: una sezione con ciò che riguarda solo la mamma (gravidanza, consultori, associazioni di aiuto), visibile in Ricerca a chi si è registrata come mamma, ma raggiungibile anche dalla ricerca per categorie perché può servire ai papà; e un&#x27;attività può stare sia nella sua categoria normale sia lì dentro. Oggi il riquadro «Per te, Mamma» è solo una scritta: al tocco non apre niente. Verificato il vincolo: una scheda ha una sola categoria, quindi una categoria a parte non permetterebbe a un consultorio di stare anche in Salute. Proposta: nel pannello, su ogni scheda, due interruttori, «Per te, Mamma» e «Per te, Papà», e due colonne nel file di caricamento; la scheda resta nella sua categoria e in più compare nella sezione; chi è mamma o papà apre la sua dal riquadro col cuore, tutti gli altri le trovano come voci in più nella griglia delle categorie. Risposte di Jessica del 9 settembre: sì agli interruttori, «Per te, Papà» subito, va bene che a chi si registra come parente non sparisca niente. Restano due cose: cosa fare della categoria FOR MOM che aveva già creato nel pannello, spenta, con 14 tag suoi (gravidanza, post parto, yoga, massaggi...), perché i tag nel pannello appartengono a una categoria (domanda G); e se una sezione vuota debba comparire (voce 80). È una funzione nuova su server, pannello, file di caricamento e app: entra in coda alle risposte.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-79">
 <div class="num">79</div>
 <div>
 <div class="titolo">Il filtro prezzo non filtra, e quando filtrerà deve leggere i tag <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/90">issue #90</a> su GitHub</div>
 <div class="nota">Nata dal dubbio di Jessica del 9 settembre: i filtri dovevano essere legati ai tag. Verificato: oggi scegliere «Gratis» o «A pagamento» dà gli stessi risultati di «Tutti», perché app e server non usano la stessa parola per il filtro; e anche se il filtro scattasse guarderebbe il numero del prezzo, che è zero su tutte le attività caricate col file, e non i tag «Gratuito / Pubblico» e «A pagamento / Privato» del file, dove sta l&#x27;informazione vera (circa metà e metà). Il filtro per età i tag li legge già (voce 7). Nello stesso foglio dei filtri le caselle delle categorie sono un elenco fisso di prova che il server ignora. Correzione: il filtro prezzo legge i tag, e un prezzo in euro inserito da un&#x27;attività conta come a pagamento; le caselle delle categorie diventano le categorie vere del pannello. Da decidere con Jessica (domanda E del 9 settembre) cosa fare delle schede senza tag e senza prezzo: solo con «Tutti», oppure sempre visibili come per l&#x27;età. Si fa insieme alla voce 74.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-80">
 <div class="num">80</div>
 <div>
 <div class="titolo">Categorie e sezioni vuote: compaiono in Ricerca oppure no <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Domanda di Jessica del 9 settembre, nata dalla sezione «Per te, Mamma» ma che vale per tutte le categorie. Verificato: oggi una categoria attiva compare nella griglia di Ricerca e fra le linguette della Home anche senza nessuna scheda approvata, e in questo momento ne compaiono 14 così. Proposta a Jessica (domanda F): sparisce da sola tutto ciò che è vuoto, categorie e le due sezioni, e ricompare appena la prima scheda viene approvata, senza toccare il pannello. Si fa alla risposta.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-4">
 <div class="num">4</div>
 <div>
 <div class="titolo">Colori fissi per categoria su mappa e ricerca, con le nuove icone <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Serve lo schema dei colori per categoria, deciso una volta sola; poi si fa.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-5">
 <div class="num">5</div>
 <div>
 <div class="titolo">Cosa mostrare nel riquadro sotto il nome nelle schede della home <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Oggi quel riquadro mostra il tipo della scheda in inglese (activity, event). Da decidere cosa metterci: la sottocategoria, un tag, oppure niente.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-6">
 <div class="num">6</div>
 <div>
 <div class="titolo">La scheda di un&#x27;attività mostra solo i suoi eventi e i suoi regali <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: team · dove: server, dal 27 agosto</div>
 <div class="nota">Resta un caso: un evento senza attività collegata compare sotto un&#x27;attività dello stesso autore (voce 36).</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-7">
 <div class="num">7</div>
 <div>
 <div class="titolo">Filtro per età con le cinque fasce, e le attività senza età sempre visibili <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: app 1.1.3 e server, dal 3 settembre</div>
 <div class="nota">Le fasce nell&#x27;app le ha fatte il team; il server è corretto da noi. Da provare.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-66">
 <div class="num">66</div>
 <div>
 <div class="titolo">L&#x27;app tiene conto di dove sei in quel momento <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/66">issue #66</a> su GitHub</div>
 <div class="nota">Oggi l&#x27;app ragiona sempre sull&#x27;indirizzo dato all&#x27;iscrizione: distanze, mappa e «vicino a te» partono da li&#x27;, e il telefono non viene mai interrogato. Chi si iscrive a Como e passa la giornata a Milano continua a vedere le distanze da Como. Deciso da Jessica l&#x27;8 settembre: l&#x27;app chiede il permesso di usare la posizione del telefono e da quel momento i risultati seguono la persona. A chi nega il permesso l&#x27;app spiega a cosa serve e chiede da dove vuole vedere i risultati, ricadendo sull&#x27;indirizzo del profilo, che resta modificabile. La frase da mostrare in quel momento la scrive Jessica quando il percorso e&#x27; pronto da guardare. Va scritto anche nei testi su privacy e dati.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-47">
 <div class="num">47</div>
 <div>
 <div class="titolo">Ricerca: il tasto della posizione apre l&#x27;elenco delle attività vicine, non la mappa <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/23">issue #23</a> su GitHub</div>
 <div class="nota">Segnalata il 3 settembre, corretta il 4. Ora il tasto apre la stessa mappa di Esplora; l&#x27;elenco &quot;vicino a te&quot; resta a portata dalle schede rapide. Nell&#x27;app 1.1.4 sul canale di prova.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-48">
 <div class="num">48</div>
 <div>
 <div class="titolo">Ricerca: l&#x27;elenco di una categoria è senza filtri <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Segnalata il 3 settembre. Quell&#x27;elenco non ha filtri e mostra sempre &quot;0-20 anni&quot; come età. Da unificare con l&#x27;elenco di Esplora, che i filtri li ha.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-49">
 <div class="num">49</div>
 <div>
 <div class="titolo">Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/24">issue #24</a> su GitHub</div>
 <div class="nota">Segnalata il 3 settembre, corretta il 4, sul server e nell&#x27;app. Il server non inventa più una data per le schede che non ne hanno, e le due etichette non possono più sovrapporsi, neanche in Esplora e Salvati. Server già in linea, app nella 1.1.4 sul canale di prova.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-53">
 <div class="num">53</div>
 <div>
 <div class="titolo">Mappa: cambiando i filtri in fretta possono restare i risultati precedenti <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/30">issue #30</a> su GitHub</div>
 <div class="nota">Trovata il 4 settembre controllando la voce 47, non segnalata. Togliendo due filtri uno dopo l&#x27;altro molto rapidamente, i segnaposto sulla mappa possono restare quelli di prima mentre le etichette in alto mostrano già la selezione nuova. Si rimette a posto al cambio successivo.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-54">
 <div class="num">54</div>
 <div>
 <div class="titolo">App: uscendo in fretta da una schermata che sta ancora caricando può comparire un errore <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
@@ -281,27 +416,27 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Trovata il 4 settembre. Riguarda una trentina di punti dell&#x27;app; quello della mappa, l&#x27;unico raggiungibile dalla nuova scorciatoia della voce 47, è già corretto.</div>
 </div></div>
 <h2>Gift Voucher</h2>
-<div class="voce">
+<div class="voce" id="voce-8">
 <div class="num">8</div>
 <div>
 <div class="titolo">Grafiche delle carte regalo legate all&#x27;occasione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Jessica · dove: pannello e app 1.1.3</div>
 <div class="nota">Le sette grafiche caricate prima vanno ricaricate scegliendo l&#x27;occasione. Dal pannello l&#x27;occasione &quot;Altro&quot; non si può scegliere.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-9">
 <div class="num">9</div>
 <div>
 <div class="titolo">Costruttore della carta regalo (occasione, grafiche, stati vuoti) <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: app 1.1.3</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-10">
 <div class="num">10</div>
 <div>
 <div class="titolo">Biglietto con i dati veri dell&#x27;attività, la dicitura concordata e l&#x27;italiano <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Oggi il biglietto dice &quot;riscattabile presentando la carta&quot; e alcuni dati non sono quelli dell&#x27;attività.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-50">
 <div class="num">50</div>
 <div>
 <div class="titolo">Occasione &quot;Altro&quot;: nell&#x27;app c&#x27;è, nel pannello no <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
@@ -309,49 +444,49 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Le occasioni sono nove voci fisse nel codice, tradotte dall&#x27;app stessa (per questo appaiono in italiano). Dal 3 settembre il pannello ne offre otto, senza &quot;Altro&quot;. O torna nel pannello o sparisce dall&#x27;app: una riga in entrambi i casi. Vedi anche la voce 43.</div>
 </div></div>
 <h2>Contatti e contenuti</h2>
-<div class="voce">
+<div class="voce" id="voce-11">
 <div class="num">11</div>
 <div>
 <div class="titolo">Pulsanti sito, WhatsApp e indicazioni sulle schede <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-12">
 <div class="num">12</div>
 <div>
 <div class="titolo">Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Secondo file (prezzi a numero) provato il 4 settembre sui dati aggiornati, dopo le rinomine nel pannello: 18 schede riconosciute, nessun errore, sottocategorie che combaciano. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-13">
 <div class="num">13</div>
 <div>
 <div class="titolo">Immagini mancanti sulle schede <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Risolta la parte che dipendeva da noi con la voce 55, pubblicata l&#x27;8 settembre: nessuna scheda resta col disegno segnaposto, perché le attività senza foto propria prendono la copertina della loro categoria. Resta una scelta tua: se vuoi che una attività abbia la sua foto invece della copertina, la si carica dal pannello aprendo l&#x27;attività con la matita nell&#x27;elenco e scegliendo il file. Vale una per una, e la foto caricata vince sempre sulla copertina.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-64">
 <div class="num">64</div>
 <div>
 <div class="titolo">Le immagini caricate dal pannello vengono ridotte dal server <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/61">issue #61</a> su GitHub</div>
 <div class="nota">Aperta il 7 settembre, nasce dalla voce 55. Oggi il server salva le immagini tali e quali: la copertina di &quot;Parco giochi&quot; caricata il 3 settembre è un PNG da 2,5 MB, l&#x27;icona 1,2 MB. Correzione: al caricamento il server riduce da solo le immagini più larghe di 1200 pixel e le ricomprime, per copertine e icone di categoria e sottocategoria e per le foto delle attività, dal pannello e dall&#x27;app del fornitore. Vale per i caricamenti futuri: la copertina già caricata va ricaricata dal pannello una volta che la correzione è in produzione, e così la si prova. Niente da fare sui dati.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-65">
 <div class="num">65</div>
 <div>
 <div class="titolo">Il tasto delle indicazioni stradali apre sempre Google Maps, anche su iPhone <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/65">issue #65</a> su GitHub</div>
 <div class="nota">Trovata l&#x27;8 settembre guardando i tasti della voce 11. Nella pagina di un&#x27;attività o di un evento, il tasto in fondo alla fila apre sempre Google Maps: su iPhone, dove Google Maps quasi nessuno la installa, si apre il sito nel browser con l&#x27;invito a scaricare l&#x27;app, e Mappe di Apple non entra mai in gioco. Va aperta l&#x27;app di mappe del telefono, quella che la persona usa di solito. Nella stessa fila due cose piccole: il tasto si chiama Direction, in inglese anche con l&#x27;app in italiano, e compare anche sulle schede senza indirizzo sulla mappa, dove non porta da nessuna parte. Corretta e rilasciata con l&#x27;app 1.1.9: il tasto si chiama «Indicazioni» e apre Mappe su iPhone e l&#x27;app di mappe predefinita su Android, e non compare piu&#x27; sulle schede senza indirizzo. Provato il 9 settembre anche su un iPhone vero: Mappe si apre correttamente, quindi non serve far scegliere ogni volta fra due app di mappe.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-52">
 <div class="num">52</div>
 <div>
 <div class="titolo">Categorie, sottocategorie e tag hanno un nome solo, uguale in italiano e in inglese <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">Chi usa l&#x27;app in inglese vede lo stesso nome scritto nel pannello. Un nome per lingua è una modifica a server, pannello e app. Alternative: una lingua sola, oppure un nome doppio (&quot;Parco giochi / Playground&quot;).</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-55">
 <div class="num">55</div>
 <div>
 <div class="titolo">L&#x27;immagine grande delle schede non cambia caricando la copertina della categoria <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
@@ -359,31 +494,31 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Segnalata il 4 settembre. Verificato: tutte le 1249 attività di &quot;Parco giochi&quot; hanno la stessa immagine segnaposto, quella che il caricamento in blocco mette quando il file non porta la colonna delle immagini, e l&#x27;immagine grande viene da lì, non dalla categoria. La copertina caricata sulla categoria il server la manda in un punto solo, la griglia di Search, dove l&#x27;app mostra l&#x27;icona: per questo cambia l&#x27;icona piccola e non l&#x27;immagine grande. Correzione scritta e verificata il 7 settembre: quando un&#x27;attività non ha una foto sua, il server usa la copertina della sua categoria, così una copertina nuova aggiorna tutte le attività di quella categoria senza ricaricare niente. Vale per la pagina dell&#x27;attività, i risultati, la mappa, Esplora, Salvati, le liste regalo e il link condiviso. Provata anche sulla copia dei dati veri: una delle 1249 attività di Parco giochi prende la copertina caricata il 3 settembre, e un&#x27;attività con una foto sua la tiene. Emersa strada facendo una cosa più grande del previsto: su cinque elenchi (consigliati, eventi vicini, elenco per sottocategoria, Esplora, Salvati) l&#x27;app non mostrava il segnaposto ma l&#x27;icona di immagine rotta, e ora mostra l&#x27;immagine vera. Server pubblicato la mattina dell&#x27;8 settembre: si vede dall&#x27;app che hai già installata, senza aggiornarla. La copertina caricata pesa 2,5 MB: la riduzione automatica delle immagini è la voce 64. Vedi anche la voce 13.</div>
 </div></div>
 <h2>Iscrizione delle attività</h2>
-<div class="voce">
+<div class="voce" id="voce-14">
 <div class="num">14</div>
 <div>
 <div class="titolo">All&#x27;iscrizione prima i dati dell&#x27;attività (nome, categoria, indirizzo), poi i social <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-15">
 <div class="num">15</div>
 <div>
 <div class="titolo">Sezione Crea riordinata <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-16">
 <div class="num">16</div>
 <div>
 <div class="titolo">Domanda sul vantaggio per i Best Contributor, con la risposta via email <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-17">
 <div class="num">17</div>
 <div>
 <div class="titolo">Assegnare una scheda esistente all&#x27;account di un&#x27;attività <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-46">
 <div class="num">46</div>
 <div>
 <div class="titolo">Recensioni: modifica e cancellazione delle proprie, e &quot;suggerisci un&#x27;attività&quot; <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
@@ -391,52 +526,52 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Lasciato al nostro giudizio il 25 agosto; entra in coda dopo le cose senza cui l&#x27;app non si pubblica.</div>
 </div></div>
 <h2>Periodo di prova</h2>
-<div class="voce">
+<div class="voce" id="voce-18">
 <div class="num">18</div>
 <div>
 <div class="titolo">Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti <span class="chip" style="color:#8a1c1c;background:#fdeaea">Da rifare, non provare</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
 <h2>Dashboard</h2>
-<div class="voce">
+<div class="voce" id="voce-19">
 <div class="num">19</div>
 <div>
 <div class="titolo">Modifica in blocco delle attività selezionate <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Oggi la selezione multipla cancella soltanto.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-20">
 <div class="num">20</div>
 <div>
 <div class="titolo">Modifica completa dell&#x27;attività e cambio di stato del profilo <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-21">
 <div class="num">21</div>
 <div>
 <div class="titolo">Gestione degli interessi: controllo che faccia quello che serve <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-22">
 <div class="num">22</div>
 <div>
 <div class="titolo">Caricamento delle grafiche con l&#x27;occasione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: team · dove: pannello, dal 3 settembre</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-42">
 <div class="num">42</div>
 <div>
 <div class="titolo">Cancellazione vera di categorie, sottocategorie e tag (oggi solo &quot;inattivo&quot;) <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 <div class="nota">&quot;Inattivo&quot; le toglie dall&#x27;app; la cancellazione è una modifica al pannello, da decidere.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-43">
 <div class="num">43</div>
 <div>
 <div class="titolo">Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
 <div class="meta">chi: Jessica</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-51">
 <div class="num">51</div>
 <div>
 <div class="titolo">Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
@@ -444,118 +579,154 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.</div>
 </div></div>
 <h2>Sicurezza e privacy</h2>
-<div class="voce">
+<div class="voce" id="voce-23">
 <div class="num">23</div>
 <div>
-<div class="titolo">Sicurezza dell&#x27;accesso all&#x27;app <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="titolo">Sicurezza dell&#x27;accesso all&#x27;app <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
 <div class="meta">chi: Giacomo</div>
+<div class="nota">Ripresa il 10 settembre insieme alle correzioni chieste dalle regole degli store. Il lavoro è scritto e controllato, ma non è ancora pubblicato: non è sul server e non è in nessuna versione dell&#x27;app che puoi installare oggi. Si vedrà con la prossima pubblicazione.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-24">
 <div class="num">24</div>
 <div>
 <div class="titolo">Chiavi delle mappe limitate <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-25">
 <div class="num">25</div>
 <div>
 <div class="titolo">Funzioni riservate alle attività protette davvero <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-26">
 <div class="num">26</div>
 <div>
 <div class="titolo">Cosa vedono gli altri utenti nei profili delle famiglie <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
 <h2>Fondamenta e messa in produzione</h2>
-<div class="voce">
+<div class="voce" id="voce-27">
 <div class="num">27</div>
 <div>
 <div class="titolo">Il progetto si ricostruisce da zero e si prova fuori dalla produzione <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: dal 31 agosto</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-28">
 <div class="num">28</div>
 <div>
 <div class="titolo">Pubblicazione di server e pannello da parte nostra, con un comando <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: dal 31 agosto (server) e dal 2 settembre (pannello)</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-29">
 <div class="num">29</div>
 <div>
 <div class="titolo">Copia di sicurezza del database prima di ogni intervento <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: dal 31 agosto</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-30">
 <div class="num">30</div>
 <div>
 <div class="titolo">Verifica che le email dell&#x27;app partano davvero (codici di iscrizione, domanda sul benefit) <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-31">
 <div class="num">31</div>
 <div>
 <div class="titolo">Certificato del sito da rinnovare <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 </div></div>
 <h2>Pubblicazione negli store</h2>
-<div class="voce">
+<div class="voce" id="voce-32">
 <div class="num">32</div>
 <div>
 <div class="titolo">Android: versione firmata sul canale di prova interno <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: 1.1.2 il 2 settembre, 1.1.3 il 3, 1.1.4 il 4, 1.1.5 il 5 settembre</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-33">
 <div class="num">33</div>
 <div>
 <div class="titolo">iPhone: account Apple e versione di prova <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/44">issue #44</a> su GitHub; 1.1.4 (build 6) e poi 1.1.5 (build 7) su TestFlight il 5 settembre</div>
 <div class="nota">Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l&#x27;invito di Apple). Sul telefono serve l&#x27;app TestFlight.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-34">
 <div class="num">34</div>
 <div>
 <div class="titolo">Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Da sistemare prima di mandare l&#x27;app in revisione, trovato l&#x27;8 settembre: oggi l&#x27;app chiede il permesso di usare la posizione anche quando è chiusa, e non se ne serve mai. Sia Apple sia Google quel permesso lo esaminano a parte e chiedono di dimostrare a cosa serve, quindi va tolto: per quello che l&#x27;app deve fare basta la posizione mentre la si sta usando. Tolto l&#x27;8 settembre con l&#x27;app 1.1.8: l&#x27;app non chiede piu&#x27; quel permesso. Restano da compilare i moduli su privacy e dati delle due schede, che sono testo e non programmazione.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-78">
 <div class="num">78</div>
 <div>
-<div class="titolo">iPhone: Apple chiede che l&#x27;app parta da iOS 15, oggi dice iOS 13 <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="titolo">iPhone: Apple chiede che l&#x27;app parta da iOS 15, oggi dice iOS 13 <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/87">issue #87</a> su GitHub</div>
-<div class="nota">Arrivata da Apple il 9 settembre, dopo il caricamento della 1.1.11: un avviso, non un rifiuto, e la versione di prova è regolarmente su TestFlight. L&#x27;app dichiara di funzionare da iPhone con iOS 13 in su; dalla primavera 2027 Apple accetterà solo app che partono da iOS 15. Verificato che il 13 non è una scelta fatta per noi: è il valore predefinito con cui nasce ogni app Flutter. Le librerie di mappe e di accesso che l&#x27;app usa sono già fatte per iOS 15, quindi oggi l&#x27;app promette più di quello che può mantenere. Si cambia una riga di configurazione. Nessun modello di iPhone resta fuori: iOS 15 gira sugli stessi telefoni di iOS 13, dal 6s in poi; resta fuori solo chi ha un iPhone che potrebbe aggiornarsi e non lo ha mai fatto. Entra col prossimo rilascio per iPhone.</div>
+<div class="nota">Arrivata da Apple il 9 settembre, dopo il caricamento della 1.1.11: un avviso, non un rifiuto, e la versione di prova è regolarmente su TestFlight. L&#x27;app dichiara di funzionare da iPhone con iOS 13 in su; dalla primavera 2027 Apple accetterà solo app che partono da iOS 15. Verificato che il 13 non è una scelta fatta per noi: è il valore predefinito con cui nasce ogni app Flutter. Le librerie di mappe e di accesso che l&#x27;app usa sono già fatte per iOS 15, quindi oggi l&#x27;app promette più di quello che può mantenere. Si cambia una riga di configurazione. Nessun modello di iPhone resta fuori: iOS 15 gira sugli stessi telefoni di iOS 13, dal 6s in poi; resta fuori solo chi ha un iPhone che potrebbe aggiornarsi e non lo ha mai fatto. Entra col prossimo rilascio per iPhone. Aggiornamento del 10 settembre: la modifica è scritta e controllata, ma non è ancora pubblicata: la versione che puoi installare oggi dichiara ancora iOS 13.</div>
+</div></div>
+<div class="voce" id="voce-81">
+<div class="num">81</div>
+<div>
+<div class="titolo">iPhone: l&#x27;app si presentava ad Apple anche come app per iPad <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/88">issue #88</a> su GitHub</div>
+<div class="nota">L&#x27;app per iPhone dichiarava di funzionare anche su iPad, una versione che nessuno ha mai disegnato né provato. Apple l&#x27;avrebbe esaminata proprio lì e ci avrebbe chiesto anche le immagini delle schermate su iPad. Adesso è dichiarata per quello che è: un&#x27;app per iPhone. Nessuno ci perde niente, perché su un iPad si installa e funziona lo stesso, come qualsiasi app per iPhone. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-82">
+<div class="num">82</div>
+<div>
+<div class="titolo">Profilo dell&#x27;attività: i tre prezzi dell&#x27;abbonamento e il modulo della carta <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/91">issue #91</a> su GitHub</div>
+<div class="nota">Nel profilo di un&#x27;attività comparivano tre prezzi di abbonamento e un modulo per la carta di credito che non poteva incassare niente. Apple non accetta le app che vendono fuori dal suo sistema di pagamento: questa schermata da sola sarebbe bastata a farci respingere. Adesso al suo posto c&#x27;è una schermata che dice che fino al 22 novembre 2026 tutte le funzioni sono comprese, senza prezzi e senza niente da comprare. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-83">
+<div class="num">83</div>
+<div>
+<div class="titolo">Android: l&#x27;app chiedeva di vedere tutte le foto del telefono <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/93">issue #93</a> su GitHub</div>
+<div class="nota">Per cambiare un&#x27;immagine l&#x27;app chiedeva il permesso di leggere l&#x27;intera raccolta di foto del telefono, mentre le serve solo la foto che la persona sceglie. Google, per questo uso, quel permesso non lo concede più. Adesso l&#x27;app apre il selettore di immagini del telefono, che non richiede nessun permesso: chi lo usa sceglie una foto e l&#x27;app vede soltanto quella. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-84">
+<div class="num">84</div>
+<div>
+<div class="titolo">Cancellare il proprio account dall&#x27;app <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/94">issue #94</a> su GitHub</div>
+<div class="nota">Dall&#x27;app non c&#x27;era modo di cancellare il proprio account, e sia Apple sia Google lo pretendono. Adesso c&#x27;è, nel profilo della famiglia e in quello dell&#x27;attività, con una domanda di conferma prima di procedere. Per un&#x27;attività le schede, gli eventi e le idee regalo restano online e passano alla piattaforma: se ne vanno la persona e i suoi dati personali, non quello che le famiglie vedono. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-85">
+<div class="num">85</div>
+<div>
+<div class="titolo">Segnalare una recensione scritta da un&#x27;altra famiglia <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/95">issue #95</a> su GitHub</div>
+<div class="nota">Le recensioni scritte dalle famiglie le leggono tutti e non c&#x27;era modo di segnalarne una. Apple chiede che, dove le persone scrivono, ci sia anche il modo di segnalare quello che scrivono. Adesso ogni recensione ha la sua segnalazione. Scritta e controllata, non ancora pubblicata.</div>
 </div></div>
 <h2>Al team</h2>
-<div class="voce">
+<div class="voce" id="voce-35">
 <div class="num">35</div>
 <div>
 <div class="titolo">Filtro per età sul server, nel loro codice <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
 <div class="meta">chi: team</div>
 <div class="nota">Nel nostro server è corretto dal 3 settembre (voce 7); nel loro no.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-36">
 <div class="num">36</div>
 <div>
 <div class="titolo">Evento senza attività collegata mostrato sotto un&#x27;attività dello stesso autore <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
 <div class="meta">chi: team</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-37">
 <div class="num">37</div>
 <div>
 <div class="titolo">Costruttore della carta regalo: le due correzioni nel loro codice <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
 <div class="meta">chi: team</div>
 <div class="nota">Nella 1.1.3 ci sono già (voce 9).</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-38">
 <div class="num">38</div>
 <div>
 <div class="titolo">Contribution Program <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
 <div class="meta">chi: team</div>
 <div class="nota">Seconda release, come deciso. Specifica consegnata il 19 agosto.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-39">
 <div class="num">39</div>
 <div>
 <div class="titolo">Lavorare nel repository condiviso, per tutte e tre le parti <span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team</span></div>
@@ -563,28 +734,28 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Oggi pubblicano da un archivio loro; il repository condiviso lo allineo io.</div>
 </div></div>
 <h2>Dopo il lancio</h2>
-<div class="voce">
+<div class="voce" id="voce-40">
 <div class="num">40</div>
 <div>
 <div class="titolo">Pagamenti veri (incasso, rinnovi, disdette, fatture) <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Da stimare a parte quando i livelli saranno definiti.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-41">
 <div class="num">41</div>
 <div>
 <div class="titolo">Stessa email per un account famiglia e un account attività <span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Oggi l&#x27;email è unica per account.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-44">
 <div class="num">44</div>
 <div>
 <div class="titolo">Raggruppamento dei segnaposto sulla mappa con la legenda dei colori <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo</div>
 <div class="nota">Accettato il 25 agosto; dopo le cose senza cui l&#x27;app non si pubblica.</div>
 </div></div>
-<div class="voce">
+<div class="voce" id="voce-45">
 <div class="num">45</div>
 <div>
 <div class="titolo">Ritaglio della foto profilo <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
@@ -592,6 +763,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">10 settembre</span></div><p>Verso gli store (nuova sezione in cima a questa pagina): il lavoro che serve per presentare l&#x27;app ad Apple e a Google è scritto e controllato. Sette correzioni: l&#x27;app per iPhone non si presenta più anche come app per iPad, una versione che nessuno ha mai disegnato; il profilo dell&#x27;attività non mostra più tre prezzi di abbonamento né un modulo per la carta, ma dice che fino al 22 novembre 2026 tutte le funzioni sono comprese; su Android l&#x27;app non chiede più di vedere tutte le foto del telefono, apre il selettore di immagini e vede solo la foto scelta; da dentro l&#x27;app si può cancellare il proprio account, con una conferma, e per un&#x27;attività schede, eventi e idee regalo restano online; ogni recensione si può segnalare; l&#x27;app per iPhone parte da iOS 15, come Apple chiede; ed è più protetto l&#x27;accesso all&#x27;app. Niente di tutto questo si vede ancora: non è sul server e non è in nessuna versione che puoi installare oggi. Esce con la prossima pubblicazione del server e dell&#x27;app, e te lo scrivo quando succede. Le trovi come voci nuove sotto «Pubblicazione negli store» (Giacomo).</p>
 <div><span class="data">9 settembre</span></div><p>Mappa di Esplora (voce 67, decisa): Jessica ha scelto che la mappa non sia piu&#x27; una schermata a parte ma un modo di vedere Esplora. La barra in basso con le cinque icone resta sempre al suo posto, si passa da elenco a mappa con lo stesso interruttore, e l&#x27;intestazione in alto sta ferma su sfondo pieno invece che sopra la cartina. Serviva la sua decisione perche&#x27; cambia la forma di una schermata, non solo il suo aspetto (Jessica).</p>
 <div><span class="data">9 settembre</span></div><p>Categorie vuote (voce 80, nuova): Jessica chiede se una sezione senza schede debba comparire, e la domanda vale per tutte le categorie. Oggi sì: una categoria attiva compare in Ricerca anche vuota, e in questo momento ne compaiono 14 così. Proposto di far sparire da sola tutto ciò che è vuoto, con ricomparsa alla prima scheda approvata. Si aspetta la sua risposta (Jessica).</p>
 <div><span class="data">9 settembre</span></div><p>Filtro prezzo (voce 79, nuova): il dubbio di Jessica era fondato. Oggi scegliere «Gratis» o «A pagamento» dà gli stessi risultati di «Tutti», e anche se il filtro scattasse leggerebbe il numero del prezzo, zero su tutte le attività caricate col file, invece dei tag «Gratuito / Pubblico» e «A pagamento / Privato» che portano l&#x27;informazione vera. Si corregge facendo leggere i tag, insieme al prezzo nascosto quando manca (voce 74, decisa da Jessica). Una domanda a lei sulle schede senza tag né prezzo (Giacomo).</p>
