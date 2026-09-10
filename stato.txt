@@ -1,7 +1,7 @@
-FamilySide, stato dei lavori. Aggiornato 10 settembre 2026, pomeriggio. App di prova: 1.1.11 (canali di prova interni: Google Play e TestFlight).
+FamilySide, stato dei lavori. Aggiornato 10 settembre 2026, sera. App di prova: 1.1.11 (canali di prova interni: Google Play e TestFlight).
 
 VERSO GLI STORE
-1,5 di 9 passi · 17%
+2 di 9 passi · 22%
 
 App Store: Prova interna [x] (1.1.11, dal 5 settembre) -> Beta [ ] -> Sullo store [ ]
 Google Play: Prova interna [x] (1.1.11, dal 2 settembre) -> Beta [ ] -> Sullo store [ ]
@@ -10,7 +10,7 @@ Google Play: Prova interna [x] (1.1.11, dal 2 settembre) -> Beta [ ] -> Sullo st
 [~] Correzioni chieste dalle regole degli store (Giacomo) - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
 [ ] Account di prova per chi esamina l'app (Giacomo) - voce 30
 [ ] Pubblicazione con un comando solo (Giacomo) - voce 34
-[ ] Testi e immagini delle due schede (Jessica) - voce 34
+[~] Testi e immagini delle due schede (Jessica) - voce 34
 [ ] Dati del venditore e permessi negli store (Jessica) - voce 34
 [ ] Moduli su privacy e dati (Giacomo) - voce 34
 [ ] Beta: l'app installabile dalle attività (Giacomo) - voce 34
