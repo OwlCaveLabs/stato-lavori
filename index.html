@@ -487,6 +487,111 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="meta">chi: Jessica · dove: <a href="https://github.com/FamilySide/familyside/issues/125">issue #125</a> su GitHub</div>
 <div class="nota">Trovata l&#x27;11 settembre verificando, prima di scriverlo nella scheda dei negozi, se fosse vero che un&#x27;attività vede quante persone hanno guardato le sue schede. Non lo è: nel profilo dell&#x27;attività il grafico delle statistiche è piatto a zero, e sotto compare un riquadro che sembra un consiglio personalizzato - «nella tua zona cercano &#x27;Outdoor Play&#x27; il 20% in più questo mese» - che è scritto a mano nel codice, uguale per tutte le attività, in inglese, e con una percentuale che nessuno ha misurato. È la stessa cosa della voce 95, in un&#x27;altra schermata. Inoltre la voce predefinita del grafico conta le visite al profilo, che non vengono registrate da nessuna parte: non potrà mai valere altro che zero. Proposta: togliere il consiglio finto, perché meglio niente che un numero falso, e togliere o riempire la voce che non può avere dati. Da decidere quanto conti questa schermata prima del lancio: è dell&#x27;attività, non della famiglia, e nessuna attività vera la sta ancora guardando.</div>
 </div></div>
+<h2>Pubblicazione negli store</h2>
+<div class="voce" id="voce-102">
+<div class="num">102</div>
+<div>
+<div class="titolo">La scheda dei negozi promette «puoi suggerirlo», e la funzione non c&#x27;è <span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione</span></div>
+<div class="meta">chi: Jessica · dove: <a href="https://github.com/FamilySide/familyside/issues/130">issue #130</a> su GitHub</div>
+<div class="nota">La descrizione delle schede dice: «Se conosci un&#x27;attività o un luogo che ancora non trovi su FamilySide, puoi suggerirlo e contribuire a far crescere la rete». Nell&#x27;app quella funzione non c&#x27;è: una famiglia non ha nessun modo di proporre un luogo, né dall&#x27;app né dal server. La schermata dei suggerimenti esiste ma elenca soltanto le schede create dall&#x27;utente, quindi per una famiglia è sempre vuota. Una descrizione che promette una funzione assente è un motivo di rifiuto dichiarato da Apple, e su Google vale la stessa regola. Due strade: fare la funzione, cioè un modulo «suggerisci un luogo» che crea una scheda in attesa e la manda alla coda di approvazione che già esiste, oppure cambiare la frase. La prima è la più bella e riempirebbe da sola una schermata oggi vuota. Va decisa prima dell&#x27;invio ai negozi, non dopo.</div>
+</div></div>
+<div class="voce" id="voce-32">
+<div class="num">32</div>
+<div>
+<div class="titolo">Android: versione firmata sul canale di prova interno <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: 1.1.2 il 2 settembre, 1.1.3 il 3, 1.1.4 il 4, 1.1.5 il 5 settembre</div>
+</div></div>
+<div class="voce" id="voce-33">
+<div class="num">33</div>
+<div>
+<div class="titolo">iPhone: account Apple e versione di prova <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/44">issue #44</a> su GitHub; 1.1.4 (build 6) e poi 1.1.5 (build 7) su TestFlight il 5 settembre</div>
+<div class="nota">Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l&#x27;invito di Apple). Sul telefono serve l&#x27;app TestFlight.</div>
+</div></div>
+<div class="voce" id="voce-34">
+<div class="num">34</div>
+<div>
+<div class="titolo">Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">Da sistemare prima di mandare l&#x27;app in revisione, trovato l&#x27;8 settembre: oggi l&#x27;app chiede il permesso di usare la posizione anche quando è chiusa, e non se ne serve mai. Sia Apple sia Google quel permesso lo esaminano a parte e chiedono di dimostrare a cosa serve, quindi va tolto: per quello che l&#x27;app deve fare basta la posizione mentre la si sta usando. Tolto l&#x27;8 settembre con l&#x27;app 1.1.8: l&#x27;app non chiede piu&#x27; quel permesso. Restano da compilare i moduli su privacy e dati delle due schede, che sono testo e non programmazione.</div>
+</div></div>
+<div class="voce" id="voce-78">
+<div class="num">78</div>
+<div>
+<div class="titolo">iPhone: Apple chiede che l&#x27;app parta da iOS 15, oggi dice iOS 13 <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/87">issue #87</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
+<div class="nota">Arrivata da Apple il 9 settembre, dopo il caricamento della 1.1.11: un avviso, non un rifiuto, e la versione di prova è regolarmente su TestFlight. L&#x27;app dichiara di funzionare da iPhone con iOS 13 in su; dalla primavera 2027 Apple accetterà solo app che partono da iOS 15. Verificato che il 13 non è una scelta fatta per noi: è il valore predefinito con cui nasce ogni app Flutter. Le librerie di mappe e di accesso che l&#x27;app usa sono già fatte per iOS 15, quindi oggi l&#x27;app promette più di quello che può mantenere. Si cambia una riga di configurazione. Nessun modello di iPhone resta fuori: iOS 15 gira sugli stessi telefoni di iOS 13, dal 6s in poi; resta fuori solo chi ha un iPhone che potrebbe aggiornarsi e non lo ha mai fatto. Entra col prossimo rilascio per iPhone. Aggiornamento del 10 settembre: la modifica è scritta e controllata, ma non è ancora pubblicata: la versione che puoi installare oggi dichiara ancora iOS 13.</div>
+</div></div>
+<div class="voce" id="voce-81">
+<div class="num">81</div>
+<div>
+<div class="titolo">iPhone: l&#x27;app si presentava ad Apple anche come app per iPad <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/88">issue #88</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
+<div class="nota">L&#x27;app per iPhone dichiarava di funzionare anche su iPad, una versione che nessuno ha mai disegnato né provato. Apple l&#x27;avrebbe esaminata proprio lì e ci avrebbe chiesto anche le immagini delle schermate su iPad. Adesso è dichiarata per quello che è: un&#x27;app per iPhone. Nessuno ci perde niente, perché su un iPad si installa e funziona lo stesso, come qualsiasi app per iPhone. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-82">
+<div class="num">82</div>
+<div>
+<div class="titolo">Profilo dell&#x27;attività: i tre prezzi dell&#x27;abbonamento e il modulo della carta <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/91">issue #91</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
+<div class="nota">Nel profilo di un&#x27;attività comparivano tre prezzi di abbonamento e un modulo per la carta di credito che non poteva incassare niente. Apple non accetta le app che vendono fuori dal suo sistema di pagamento: questa schermata da sola sarebbe bastata a farci respingere. Adesso al suo posto c&#x27;è una schermata che dice che fino al 22 novembre 2026 tutte le funzioni sono comprese, senza prezzi e senza niente da comprare. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-83">
+<div class="num">83</div>
+<div>
+<div class="titolo">Android: l&#x27;app chiedeva di vedere tutte le foto del telefono <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/93">issue #93</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
+<div class="nota">Per cambiare un&#x27;immagine l&#x27;app chiedeva il permesso di leggere l&#x27;intera raccolta di foto del telefono, mentre le serve solo la foto che la persona sceglie. Google, per questo uso, quel permesso non lo concede più. Adesso l&#x27;app apre il selettore di immagini del telefono, che non richiede nessun permesso: chi lo usa sceglie una foto e l&#x27;app vede soltanto quella. Scritta e controllata, non ancora pubblicata.</div>
+</div></div>
+<div class="voce" id="voce-84">
+<div class="num">84</div>
+<div>
+<div class="titolo">Cancellare il proprio account dall&#x27;app <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/94">issue #94</a> su GitHub; server dal 10 settembre, app 1.1.12 dallo stesso giorno</div>
+<div class="nota">Dall&#x27;app non c&#x27;era modo di cancellare il proprio account, e sia Apple sia Google lo pretendono. Adesso c&#x27;è, nel profilo della famiglia e in quello dell&#x27;attività, con una domanda di conferma prima di procedere. Per un&#x27;attività le schede, gli eventi e le idee regalo restano online e passano alla piattaforma: se ne vanno la persona e i suoi dati personali, non quello che le famiglie vedono. La parte sul server è pubblicata dal 10 settembre; la voce nell&#x27;app arriva con la prossima versione.</div>
+</div></div>
+<div class="voce" id="voce-85">
+<div class="num">85</div>
+<div>
+<div class="titolo">Segnalare una recensione scritta da un&#x27;altra famiglia <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/95">issue #95</a> su GitHub; server dal 10 settembre, app 1.1.12 dallo stesso giorno</div>
+<div class="nota">Le recensioni scritte dalle famiglie le leggono tutti e non c&#x27;era modo di segnalarne una. Apple chiede che, dove le persone scrivono, ci sia anche il modo di segnalare quello che scrivono. Adesso ogni recensione ha la sua segnalazione. La parte sul server è pubblicata dal 10 settembre; la bandierina nell&#x27;app arriva con la prossima versione.</div>
+</div></div>
+<div class="voce" id="voce-88">
+<div class="num">88</div>
+<div>
+<div class="titolo">Account di prova per chi esamina l&#x27;app nei due negozi <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/106">issue #106</a> su GitHub</div>
+<div class="nota">Apple e Google provano l&#x27;app con un account vero prima di approvarla, e lo chiede anche la beta. Servono due account creati in produzione come farebbe un utente: una famiglia con figli e qualche elemento salvato, e un&#x27;attività con una scheda approvata, così chi esamina vede entrambi i ruoli. Fatti il 10 settembre: una famiglia a Como con due figli e qualche elemento salvato, e un&#x27;attività ad Aosta con una scheda approvata, lontana dai clienti veri. Le email con i codici di iscrizione partono davvero, quindi la voce 30 è chiusa.</div>
+</div></div>
+<div class="voce" id="voce-89">
+<div class="num">89</div>
+<div>
+<div class="titolo">Schede dei negozi scritte una volta sola e pubblicazione con un comando <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/107">issue #107</a> su GitHub</div>
+<div class="nota">I testi e le immagini delle due schede adesso stanno nel progetto, in italiano, con un segnaposto dove manca il testo di Jessica, e un controllo automatico si rifiuta di pubblicare finché un segnaposto è ancora lì. Sopra ci sono due comandi nuovi: uno porta l&#x27;app alla beta pubblica, l&#x27;altro la manda in revisione ai negozi. Nessuno dei due ricostruisce l&#x27;app: fanno salire di gradino la stessa versione già sui canali di prova. Scritti, provati a vuoto e messi in linea il 10 settembre. Provandoli è emerso che su Google Play oggi non abbiamo il permesso di scrivere la scheda né di aprire la beta: è la voce 92.</div>
+</div></div>
+<div class="voce" id="voce-90">
+<div class="num">90</div>
+<div>
+<div class="titolo">Le immagini delle schede si producono da sole <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/108">issue #108</a> su GitHub</div>
+<div class="nota">Le schede dei negozi vogliono le fotografie dell&#x27;app. Farle a mano andrebbe rifatto a ogni versione, quindi le fa un percorso automatico che apre l&#x27;app vera, in italiano, e fotografa sei schermate. Fatto e provato l&#x27;11 settembre: dodici fotografie, sei per negozio. Guardandole però si è visto che l&#x27;app non è ancora presentabile in vetrina, e i motivi sono già voci aperte: il titolo di Esplora che si sovrappone, «0-20 years» e «Costo: €0» sulle schede, un filtro che dice «All». Le immagini non vengono messe nelle schede finché quelle voci non sono chiuse: si rifanno con un comando solo.</div>
+</div></div>
+<div class="voce" id="voce-91">
+<div class="num">91</div>
+<div>
+<div class="titolo">Beta: l&#x27;app installabile dalle attività prima della pubblicazione <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">È il gradino che rende l&#x27;app installabile da chiunque abbia il link, senza aspettare che i negozi finiscano di esaminarla. Su iPhone è partita l&#x27;11 settembre: la versione di prova è in mano ad Apple, che la esamina di solito in un paio di giorni, e appena approvata il link per installarla è pronto. Su Android c&#x27;è un passaggio prima: per Google l&#x27;app è ancora una bozza, perché non è mai stata pubblicata, e finché è così accetta solo rilasci in bozza. Si esce compilando i moduli del negozio, che sono la voce 34.</div>
+</div></div>
+<div class="voce" id="voce-92">
+<div class="num">92</div>
+<div>
+<div class="titolo">Dati del venditore nei due negozi <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo</div>
+<div class="nota">La dichiarazione di venditore che l&#x27;Europa pretende su entrambi i negozi: senza, l&#x27;app non viene distribuita in Europa. I dati che ci si mettono (ragione sociale, sede, email e telefono) diventano pubblici sulla scheda dell&#x27;app. Si prova a farla dagli account che abbiamo; se il permesso non basta serve un passaggio dell&#x27;intestataria, e in quel caso arrivano le istruzioni con le immagini. Il permesso su Google Play, che fino al 10 settembre bloccava tutto oltre la prova interna, c&#x27;e&#x27;: sistemato e verificato lo stesso giorno.</div>
+</div></div>
 <h2>Contatti e contenuti</h2>
 <div class="voce" id="voce-11">
 <div class="num">11</div>
@@ -694,104 +799,6 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/112">issue #112</a> su GitHub</div>
 <div class="nota">Un profilo appena creato, senza niente alle spalle, dichiara dodici famiglie invitate, «Top 9%» e una barra di avanzamento a tre quarti. Non sono conti sbagliati: sono valori scritti nel codice, uguali per chiunque, e un meccanismo di invito non esiste nemmeno. Vale per le famiglie e per le attività, e nel pannello di amministrazione la scheda di un utente mostra recensioni e salvati finti, quindi chi guarda decide su numeri che non esistono. Per ognuno si sceglie: contarlo davvero o toglierlo.</div>
 </div></div>
-<h2>Pubblicazione negli store</h2>
-<div class="voce" id="voce-32">
-<div class="num">32</div>
-<div>
-<div class="titolo">Android: versione firmata sul canale di prova interno <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: 1.1.2 il 2 settembre, 1.1.3 il 3, 1.1.4 il 4, 1.1.5 il 5 settembre</div>
-</div></div>
-<div class="voce" id="voce-33">
-<div class="num">33</div>
-<div>
-<div class="titolo">iPhone: account Apple e versione di prova <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/44">issue #44</a> su GitHub; 1.1.4 (build 6) e poi 1.1.5 (build 7) su TestFlight il 5 settembre</div>
-<div class="nota">Da oggi la versione di prova per iPhone si pubblica con un comando, come per Android. Chi la riceve: chi è invitato come tester (Jessica e Giacomo; Andrea appena accetta l&#x27;invito di Apple). Sul telefono serve l&#x27;app TestFlight.</div>
-</div></div>
-<div class="voce" id="voce-34">
-<div class="num">34</div>
-<div>
-<div class="titolo">Schede su App Store e Play Store, moduli su privacy e dati, invio in revisione <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
-<div class="meta">chi: Giacomo</div>
-<div class="nota">Da sistemare prima di mandare l&#x27;app in revisione, trovato l&#x27;8 settembre: oggi l&#x27;app chiede il permesso di usare la posizione anche quando è chiusa, e non se ne serve mai. Sia Apple sia Google quel permesso lo esaminano a parte e chiedono di dimostrare a cosa serve, quindi va tolto: per quello che l&#x27;app deve fare basta la posizione mentre la si sta usando. Tolto l&#x27;8 settembre con l&#x27;app 1.1.8: l&#x27;app non chiede piu&#x27; quel permesso. Restano da compilare i moduli su privacy e dati delle due schede, che sono testo e non programmazione.</div>
-</div></div>
-<div class="voce" id="voce-78">
-<div class="num">78</div>
-<div>
-<div class="titolo">iPhone: Apple chiede che l&#x27;app parta da iOS 15, oggi dice iOS 13 <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/87">issue #87</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
-<div class="nota">Arrivata da Apple il 9 settembre, dopo il caricamento della 1.1.11: un avviso, non un rifiuto, e la versione di prova è regolarmente su TestFlight. L&#x27;app dichiara di funzionare da iPhone con iOS 13 in su; dalla primavera 2027 Apple accetterà solo app che partono da iOS 15. Verificato che il 13 non è una scelta fatta per noi: è il valore predefinito con cui nasce ogni app Flutter. Le librerie di mappe e di accesso che l&#x27;app usa sono già fatte per iOS 15, quindi oggi l&#x27;app promette più di quello che può mantenere. Si cambia una riga di configurazione. Nessun modello di iPhone resta fuori: iOS 15 gira sugli stessi telefoni di iOS 13, dal 6s in poi; resta fuori solo chi ha un iPhone che potrebbe aggiornarsi e non lo ha mai fatto. Entra col prossimo rilascio per iPhone. Aggiornamento del 10 settembre: la modifica è scritta e controllata, ma non è ancora pubblicata: la versione che puoi installare oggi dichiara ancora iOS 13.</div>
-</div></div>
-<div class="voce" id="voce-81">
-<div class="num">81</div>
-<div>
-<div class="titolo">iPhone: l&#x27;app si presentava ad Apple anche come app per iPad <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/88">issue #88</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
-<div class="nota">L&#x27;app per iPhone dichiarava di funzionare anche su iPad, una versione che nessuno ha mai disegnato né provato. Apple l&#x27;avrebbe esaminata proprio lì e ci avrebbe chiesto anche le immagini delle schermate su iPad. Adesso è dichiarata per quello che è: un&#x27;app per iPhone. Nessuno ci perde niente, perché su un iPad si installa e funziona lo stesso, come qualsiasi app per iPhone. Scritta e controllata, non ancora pubblicata.</div>
-</div></div>
-<div class="voce" id="voce-82">
-<div class="num">82</div>
-<div>
-<div class="titolo">Profilo dell&#x27;attività: i tre prezzi dell&#x27;abbonamento e il modulo della carta <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/91">issue #91</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
-<div class="nota">Nel profilo di un&#x27;attività comparivano tre prezzi di abbonamento e un modulo per la carta di credito che non poteva incassare niente. Apple non accetta le app che vendono fuori dal suo sistema di pagamento: questa schermata da sola sarebbe bastata a farci respingere. Adesso al suo posto c&#x27;è una schermata che dice che fino al 22 novembre 2026 tutte le funzioni sono comprese, senza prezzi e senza niente da comprare. Scritta e controllata, non ancora pubblicata.</div>
-</div></div>
-<div class="voce" id="voce-83">
-<div class="num">83</div>
-<div>
-<div class="titolo">Android: l&#x27;app chiedeva di vedere tutte le foto del telefono <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/93">issue #93</a> su GitHub; app 1.1.12 sui canali di prova dal 10 settembre</div>
-<div class="nota">Per cambiare un&#x27;immagine l&#x27;app chiedeva il permesso di leggere l&#x27;intera raccolta di foto del telefono, mentre le serve solo la foto che la persona sceglie. Google, per questo uso, quel permesso non lo concede più. Adesso l&#x27;app apre il selettore di immagini del telefono, che non richiede nessun permesso: chi lo usa sceglie una foto e l&#x27;app vede soltanto quella. Scritta e controllata, non ancora pubblicata.</div>
-</div></div>
-<div class="voce" id="voce-84">
-<div class="num">84</div>
-<div>
-<div class="titolo">Cancellare il proprio account dall&#x27;app <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/94">issue #94</a> su GitHub; server dal 10 settembre, app 1.1.12 dallo stesso giorno</div>
-<div class="nota">Dall&#x27;app non c&#x27;era modo di cancellare il proprio account, e sia Apple sia Google lo pretendono. Adesso c&#x27;è, nel profilo della famiglia e in quello dell&#x27;attività, con una domanda di conferma prima di procedere. Per un&#x27;attività le schede, gli eventi e le idee regalo restano online e passano alla piattaforma: se ne vanno la persona e i suoi dati personali, non quello che le famiglie vedono. La parte sul server è pubblicata dal 10 settembre; la voce nell&#x27;app arriva con la prossima versione.</div>
-</div></div>
-<div class="voce" id="voce-85">
-<div class="num">85</div>
-<div>
-<div class="titolo">Segnalare una recensione scritta da un&#x27;altra famiglia <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/95">issue #95</a> su GitHub; server dal 10 settembre, app 1.1.12 dallo stesso giorno</div>
-<div class="nota">Le recensioni scritte dalle famiglie le leggono tutti e non c&#x27;era modo di segnalarne una. Apple chiede che, dove le persone scrivono, ci sia anche il modo di segnalare quello che scrivono. Adesso ogni recensione ha la sua segnalazione. La parte sul server è pubblicata dal 10 settembre; la bandierina nell&#x27;app arriva con la prossima versione.</div>
-</div></div>
-<div class="voce" id="voce-88">
-<div class="num">88</div>
-<div>
-<div class="titolo">Account di prova per chi esamina l&#x27;app nei due negozi <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/106">issue #106</a> su GitHub</div>
-<div class="nota">Apple e Google provano l&#x27;app con un account vero prima di approvarla, e lo chiede anche la beta. Servono due account creati in produzione come farebbe un utente: una famiglia con figli e qualche elemento salvato, e un&#x27;attività con una scheda approvata, così chi esamina vede entrambi i ruoli. Fatti il 10 settembre: una famiglia a Como con due figli e qualche elemento salvato, e un&#x27;attività ad Aosta con una scheda approvata, lontana dai clienti veri. Le email con i codici di iscrizione partono davvero, quindi la voce 30 è chiusa.</div>
-</div></div>
-<div class="voce" id="voce-89">
-<div class="num">89</div>
-<div>
-<div class="titolo">Schede dei negozi scritte una volta sola e pubblicazione con un comando <span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/107">issue #107</a> su GitHub</div>
-<div class="nota">I testi e le immagini delle due schede adesso stanno nel progetto, in italiano, con un segnaposto dove manca il testo di Jessica, e un controllo automatico si rifiuta di pubblicare finché un segnaposto è ancora lì. Sopra ci sono due comandi nuovi: uno porta l&#x27;app alla beta pubblica, l&#x27;altro la manda in revisione ai negozi. Nessuno dei due ricostruisce l&#x27;app: fanno salire di gradino la stessa versione già sui canali di prova. Scritti, provati a vuoto e messi in linea il 10 settembre. Provandoli è emerso che su Google Play oggi non abbiamo il permesso di scrivere la scheda né di aprire la beta: è la voce 92.</div>
-</div></div>
-<div class="voce" id="voce-90">
-<div class="num">90</div>
-<div>
-<div class="titolo">Le immagini delle schede si producono da sole <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
-<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/108">issue #108</a> su GitHub</div>
-<div class="nota">Le schede dei negozi vogliono le fotografie dell&#x27;app. Farle a mano andrebbe rifatto a ogni versione, quindi le fa un percorso automatico che apre l&#x27;app vera, in italiano, e fotografa sei schermate. Fatto e provato l&#x27;11 settembre: dodici fotografie, sei per negozio. Guardandole però si è visto che l&#x27;app non è ancora presentabile in vetrina, e i motivi sono già voci aperte: il titolo di Esplora che si sovrappone, «0-20 years» e «Costo: €0» sulle schede, un filtro che dice «All». Le immagini non vengono messe nelle schede finché quelle voci non sono chiuse: si rifanno con un comando solo.</div>
-</div></div>
-<div class="voce" id="voce-91">
-<div class="num">91</div>
-<div>
-<div class="titolo">Beta: l&#x27;app installabile dalle attività prima della pubblicazione <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
-<div class="meta">chi: Giacomo</div>
-<div class="nota">È il gradino che rende l&#x27;app installabile da chiunque abbia il link, senza aspettare che i negozi finiscano di esaminarla. Su iPhone è partita l&#x27;11 settembre: la versione di prova è in mano ad Apple, che la esamina di solito in un paio di giorni, e appena approvata il link per installarla è pronto. Su Android c&#x27;è un passaggio prima: per Google l&#x27;app è ancora una bozza, perché non è mai stata pubblicata, e finché è così accetta solo rilasci in bozza. Si esce compilando i moduli del negozio, che sono la voce 34.</div>
-</div></div>
-<div class="voce" id="voce-92">
-<div class="num">92</div>
-<div>
-<div class="titolo">Dati del venditore nei due negozi <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
-<div class="meta">chi: Giacomo</div>
-<div class="nota">La dichiarazione di venditore che l&#x27;Europa pretende su entrambi i negozi: senza, l&#x27;app non viene distribuita in Europa. I dati che ci si mettono (ragione sociale, sede, email e telefono) diventano pubblici sulla scheda dell&#x27;app. Si prova a farla dagli account che abbiamo; se il permesso non basta serve un passaggio dell&#x27;intestataria, e in quel caso arrivano le istruzioni con le immagini. Il permesso su Google Play, che fino al 10 settembre bloccava tutto oltre la prova interna, c&#x27;e&#x27;: sistemato e verificato lo stesso giorno.</div>
-</div></div>
 <h2>Al team</h2>
 <div class="voce" id="voce-35">
 <div class="num">35</div>
@@ -881,6 +888,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="nota">Toccando un luogo sulla mappa di Esplora compare in basso la sua scheda, che su uno schermo 1080x1920 - la forma di moltissimi telefoni Android - usciva dai suoi limiti e veniva tagliata. Trovata l&#x27;11 settembre producendo le immagini per le schede dei negozi: nella fotografia della mappa compariva la fascia di avviso che in versione di prova segnala questi casi. Corretta lo stesso giorno: il contenuto si adatta allo spazio che ha invece di pretenderne di più, e dove lo spazio basta non cambia niente. Si vede con la prossima versione dell&#x27;app.</div>
 </div></div>
 <h2>Novità, dalla più recente</h2><div class="novita">
+<div><span class="data">11 settembre</span></div><p>Arrivati i testi delle schede dei negozi e messi nel progetto: nome, sottotitolo, descrizione breve e lunga, parole chiave, contatti e dati aziendali. Misurati contro i limiti dei negozi prima di scriverli, e ci stanno tutti senza tagliare niente. Controllate anche le promesse: le otto voci dell&#x27;elenco «cosa trovi su FamilySide» corrispondono tutte a categorie che esistono davvero. Una frase invece promette una cosa che l&#x27;app non sa ancora fare, suggerire un luogo che non c&#x27;è: è la voce 102, da decidere. Adesso la scheda di Apple è completa e a quella di Google manca soltanto l&#x27;immagine grande 1024x500. Due cose da segnalare: l&#x27;informativa sulla privacy attuale parla solo del sito e dei moduli di iscrizione, non dell&#x27;app, e dice che non si raccolgono dati di minori di 14 anni mentre l&#x27;app chiede nome e data di nascita dei figli; il testo che l&#x27;app mostra al suo interno è ancora un segnaposto in inglese. Servono entrambi nella versione definitiva prima dell&#x27;invio, e la buona notizia è che quello dentro l&#x27;app si cambia dal pannello, senza ripubblicare (Giacomo).</p>
 <div><span class="data">11 settembre</span></div><p>Scoperto rifacendo le fotografie per i negozi, e già corretto: su Android quasi tutte le immagini delle schede erano rotte, mentre su iPhone le stesse schermate le mostravano. Il server scriveva l&#x27;indirizzo dell&#x27;immagine senza sistemare gli spazi, e la copertina caricata dal pannello ha un nome pieno di spazi e virgole: su 53 schede controllate in produzione, 50 indirizzi erano rotti. iPhone li accettava lo stesso, Android no. Corretto e pubblicato, e verificato rifacendo le fotografie: adesso le copertine ci sono. Si vede senza aggiornare l&#x27;app. È la voce 101 (Giacomo).</p>
 <div><span class="data">11 settembre</span></div><p>Sistemate le quattro cose che le fotografie per le schede dei negozi avevano messo in luce, più il verde. Il primo filtro adesso si chiama «Tutti» e non «All», sulla schermata iniziale, sulla mappa e nei regali (voce 96). Il «€0» sparisce dalle carte di chi un prezzo non ce l&#x27;ha, cioè quasi tutte le attività caricate col file, e sparisce anche dalla scheda sotto la mappa e dalla finestrella del segnaposto (voce 74). Le fasce d&#x27;età inventate, «0-20 years» su tutte le schede, non vengono più scritte da nessuna parte: l&#x27;età comparirà quando le attività avranno davvero il tag (voce 73). E la scheda in basso sulla mappa non viene più tagliata sui telefoni con lo schermo meno alto, che sono moltissimi (voce 98). Insieme a queste, il verde #617d74 ha preso il posto di quello del team in tutti i punti che lo portavano: prezzo, voto medio, giudizio delle recensioni, targhetta della categoria, bottone della lista regali e icone del biglietto regalo. Il server è già pubblicato, quindi le fasce d&#x27;età inventate sono sparite da adesso, senza aggiornare l&#x27;app; il resto si vede con la prossima versione. Poi si rifanno le fotografie, che a quel punto mostrano l&#x27;app come la vogliamo far vedere (Giacomo).</p>
 <div><span class="data">11 settembre</span></div><p>Biglietto regalo (voce 10, chiusa): Jessica chiedeva se il punto non fosse già risolto, e ha ragione. Il biglietto non dice più «riscattabile presentando la carta» ma «Riscatta contattando l&#x27;attività», con sotto la dicitura concordata: è una cartolina digitale, non vale come prova di acquisto o di pagamento, e il regalo si concorda e si paga direttamente con l&#x27;attività. I dati sono quelli veri dell&#x27;attività: «Offerto da» porta il nome dell&#x27;attività invece della categoria (e, quando mancava, un nome inventato), e la riga con l&#x27;orologio porta la sua descrizione invece del sempre uguale «60-minute session». Quando il prezzo non c&#x27;è, il biglietto invita a contattare l&#x27;attività invece di scrivere «€0». È tutto nella versione 1.1.7 del 7 settembre, quindi già sul telefono. Controllando è però saltata fuori una cosa nuova: gli auguri in cima sono composti attaccando «Buon» al nome dell&#x27;occasione, così con la Festa della Mamma si legge «Buon Festa della Mamma». È la voce 99, si sistema con la prossima versione dell&#x27;app (Giacomo).</p>
