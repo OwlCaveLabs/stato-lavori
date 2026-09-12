@@ -76,7 +76,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <body>
 <main>
 <h1>FamilySide, stato dei lavori</h1>
-<p class="sotto">Aggiornato 11 settembre 2026, sera. App di prova: 1.1.12 (canali di prova interni: Google Play e TestFlight).</p>
+<p class="sotto">Aggiornato 12 settembre 2026, mattina. App di prova: 1.1.12 (canali di prova interni: Google Play e TestFlight).</p>
 <h2>Verso gli store</h2>
 <div class="riquadro store">
 <div class="barra-riga">
@@ -92,8 +92,8 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 </div>
 <div class="giunto"></div>
 <div class="gradino">
-<div><span class="pillola in_corso">Beta</span></div>
-<div class="etichetta">1.1.12, in revisione dall&#x27;11 settembre</div>
+<div><span class="pillola fatto">Beta</span></div>
+<div class="etichetta">1.1.12, approvata da Apple il 12 settembre</div>
 </div>
 <div class="giunto"></div>
 <div class="gradino">
@@ -110,7 +110,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="giunto"></div>
 <div class="gradino">
 <div><span class="pillola in_corso">Beta</span></div>
-<div class="etichetta">1.1.12, in revisione dall&#x27;11 settembre</div>
+<div class="etichetta">1.1.12, approvata l&#x27;11 settembre; canale in riattivazione</div>
 </div>
 <div class="giunto"></div>
 <div class="gradino">
@@ -604,7 +604,7 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div>
 <div class="titolo">Beta: l&#x27;app installabile dalle attività prima della pubblicazione <span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione</span></div>
 <div class="meta">chi: Giacomo</div>
-<div class="nota">È il gradino che rende l&#x27;app installabile da chiunque abbia il link, senza aspettare che i negozi finiscano di esaminarla. Su iPhone è partita l&#x27;11 settembre: la versione di prova è in mano ad Apple, che la esamina di solito in un paio di giorni, e appena approvata il link per installarla è pronto. Su Android è partita lo stesso giorno, nel pomeriggio. Google teneva l&#x27;app in stato di bozza perché non era mai stata pubblicata da nessuna parte, e in quello stato accetta solo rilasci in bozza: si esce completando tutti i moduli del negozio e mandando l&#x27;app in revisione. È stato fatto: la scheda italiana è completa, i paesi del canale sono Italia e Svizzera, e la versione 1.1.12 è stata inviata a Google per la revisione l&#x27;11 settembre. Google dichiara che di solito risponde entro sette giorni. Appena approvata, chiunque abbia il link potrà installare l&#x27;app dal Play Store senza essere invitato.</div>
+<div class="nota">È il gradino che rende l&#x27;app installabile da chiunque abbia il link, senza aspettare che i negozi finiscano di esaminarla. Su iPhone è partita l&#x27;11 settembre: la versione di prova è in mano ad Apple, che la esamina di solito in un paio di giorni, e appena approvata il link per installarla è pronto. Su Android è partita lo stesso giorno, nel pomeriggio. Google teneva l&#x27;app in stato di bozza perché non era mai stata pubblicata da nessuna parte, e in quello stato accetta solo rilasci in bozza: si esce completando tutti i moduli del negozio e mandando l&#x27;app in revisione. È stato fatto: la scheda italiana è completa, i paesi del canale sono Italia e Svizzera, e la versione 1.1.12 è stata inviata a Google per la revisione l&#x27;11 settembre. Aggiornamento del 12 settembre, mattina. Apple ha approvato: la beta per iPhone è installabile da chiunque abbia questo link, senza invito, con l&#x27;app TestFlight sul telefono: https://testflight.apple.com/join/TCArPDTS. Google ha approvato e pubblicato la sera stessa dell&#x27;11, ma il canale è risultato «in pausa», uno stato in cui i tester non ricevono ancora la versione: la riattivazione è stata inviata a Google la mattina del 12 ed è in revisione. Appena passa, arriva anche il link per Android.</div>
 </div></div>
 <div class="voce" id="voce-92">
 <div class="num">92</div>
@@ -619,6 +619,13 @@ footer { color: var(--muto); font-size: 0.85rem; margin-top: 40px; }
 <div class="titolo">Le fotografie automatiche venivano scattate prima che le immagini arrivassero <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
 <div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/140">issue #140</a> su GitHub</div>
 <div class="nota">Trovata l&#x27;11 settembre scegliendo quali fotografie caricare su Google Play. In quella della home le due schede consigliate sono vuote, con la rotellina di caricamento ancora a metà giro, mentre le stesse due schede fotografate pochi secondi dopo in Esplora mostrano la loro immagine. Il percorso automatico aspetta che la schermata smetta di muoversi, e una schermata ferma non è una schermata che ha finito di scaricare le immagini. È costato una fotografia su sei, ed è il motivo per cui la beta è partita con due immagini invece che con sei. Verificato che non è colpa del server: home, Esplora e dettaglio chiedono l&#x27;immagine esattamente allo stesso modo. Si corregge facendo aspettare al percorso che le immagini siano arrivate, non solo che i disegni stiano fermi.</div>
+</div></div>
+<div class="voce" id="voce-108">
+<div class="num">108</div>
+<div>
+<div class="titolo">Apple avvisa che manca una frase sulla posizione «sempre», che l&#x27;app non chiede <span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda</span></div>
+<div class="meta">chi: Giacomo · dove: <a href="https://github.com/FamilySide/familyside/issues/144">issue #144</a> su GitHub</div>
+<div class="nota">Email di Apple del 12 settembre dopo il caricamento della 1.1.12: un avviso, non un rifiuto, e la stessa versione è stata approvata per la beta. Con la voce 34 avevamo tolto dall&#x27;app la richiesta della posizione «anche quando l&#x27;app è chiusa», perché non serve. Ma il componente che usiamo per la posizione contiene comunque, nel suo codice, la chiamata a quel permesso, e ad Apple basta che ci sia nel pacchetto: vuole una frase che lo spieghi anche se non viene mai usato. Si rimette la frase, scritta onestamente («solo mentre usi l&#x27;app»), senza rimettere il permesso: la finestra sul telefono resta quella di adesso. Da fare prima del prossimo caricamento su iPhone, così l&#x27;avviso non torna.</div>
 </div></div>
 <h2>Contatti e contenuti</h2>
 <div class="voce" id="voce-11">
