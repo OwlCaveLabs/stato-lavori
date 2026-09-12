@@ -1,10 +1,10 @@
-FamilySide, stato dei lavori. Aggiornato 12 settembre 2026, mattina. App di prova: 1.1.12 (canali di prova interni: Google Play e TestFlight).
+FamilySide, stato dei lavori. Aggiornato 12 settembre 2026, sera. App di prova: 1.1.13 (canali di prova interni: Google Play e TestFlight).
 
 VERSO GLI STORE
 7 di 9 passi · 78%
 
-App Store: Prova interna [x] (1.1.12, dal 10 settembre) -> Beta [x] (1.1.12, approvata da Apple il 12 settembre) -> Sullo store [ ]
-Google Play: Prova interna [x] (1.1.12, dal 10 settembre) -> Beta [~] (1.1.12, approvata l'11 settembre; canale in riattivazione) -> Sullo store [ ]
+App Store: Prova interna [x] (1.1.13, dal 12 settembre) -> Beta [x] (1.1.12, approvata da Apple il 12 settembre) -> Sullo store [ ]
+Google Play: Prova interna [x] (1.1.13, dal 12 settembre) -> Beta [~] (1.1.12, approvata l'11 settembre; canale in riattivazione) -> Sullo store [ ]
 
 [x] Versioni di prova sui due store (Giacomo) - voce 32, voce 33
 [x] Correzioni chieste dalle regole degli store (Giacomo) - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
@@ -58,6 +58,7 @@ MAPPA, RICERCA E SCHEDE
 49. Schede: la categoria lunga si sovrappone alla data, e la data compare sulle attività [Fatto, Giacomo] issue #24 su GitHub. Segnalata il 3 settembre, corretta il 4, sul server e nell'app. Il server non inventa più una data per le schede che non ne hanno, e le due etichette non possono più sovrapporsi, neanche in Esplora e Salvati. Server già in linea, app nella 1.1.4 sul canale di prova.
 53. Mappa: cambiando i filtri in fretta possono restare i risultati precedenti [In coda, Giacomo] issue #30 su GitHub. Trovata il 4 settembre controllando la voce 47, non segnalata. Togliendo due filtri uno dopo l'altro molto rapidamente, i segnaposto sulla mappa possono restare quelli di prima mentre le etichette in alto mostrano già la selezione nuova. Si rimette a posto al cambio successivo.
 54. App: uscendo in fretta da una schermata che sta ancora caricando può comparire un errore [In coda, Giacomo] issue #29 su GitHub. Trovata il 4 settembre. Riguarda una trentina di punti dell'app; quello della mappa, l'unico raggiungibile dalla nuova scorciatoia della voce 47, è già corretto.
+112. La ricerca dell'indirizzo su Google non ha un limite di tempo nei moduli di creazione [In coda, Giacomo] issue #151 su GitHub. Se Google non risponde, il salvataggio resta appeso. Il limite esiste già per la posizione della famiglia; va usato anche qui.
 
 GIFT VOUCHER
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
@@ -71,7 +72,7 @@ PANNELLO E ATTIVITÀ
 100. Le statistiche dell'attività sono a zero, con un consiglio inventato in inglese [Aspetta una tua decisione, Jessica] issue #125 su GitHub. Nel profilo dell'attività il grafico è piatto a zero e sotto c'è un consiglio in inglese scritto nel codice, uguale per tutti, con una percentuale mai misurata. Proposta: togliere il consiglio finto e la voce del grafico che non può avere dati. Da decidere quanto conti questa schermata prima del lancio. Trovata verificando, per la scheda dei negozi, se un'attività vede quante persone guardano le sue schede: non è vero. La voce predefinita del grafico conta le visite al profilo, che non vengono registrate da nessuna parte. È la stessa cosa della voce 95; la schermata è dell'attività, e nessuna attività vera la sta ancora guardando.
 
 PUBBLICAZIONE NEGLI STORE
-102. La scheda dei negozi promette «puoi suggerirlo», e la funzione non c'è [Aspetta una tua decisione, Jessica] issue #130 su GitHub. La descrizione promette «puoi suggerirlo», e nell'app una famiglia non può proporre un luogo: Apple rifiuta le descrizioni che promettono funzioni assenti, Google pure. O si fa la funzione (un modulo che crea una scheda in attesa di approvazione) o si cambia la frase. Va deciso prima dell'invio ai negozi. La schermata dei suggerimenti esiste ma elenca solo le schede create dall'utente, quindi per una famiglia è sempre vuota. La funzione è la strada più bella e riempirebbe da sola quella schermata; la coda di approvazione esiste già.
+102. La scheda dei negozi promette «puoi suggerirlo», e ora la funzione c'è [Fatto, Giacomo] issue #130 su GitHub. Dal profilo, «Suggerisci un'attività»: una famiglia compila nome, indirizzo, categoria, descrizione e foto; la scheda entra in attesa nella stessa coda di approvazione del pannello, e la famiglia riceve una notifica quando viene approvata o rifiutata. Nell'elenco dei propri suggerimenti si vede lo stato, si modifica e si cancella; una modifica rimette la scheda in attesa. Server in linea e app 1.1.13 sui due canali di prova. La funzione l'ha costruita il team il 10 settembre; qui è stata portata dentro, verificata e corretta dove serviva (valori inventati nell'elenco, errori chiari su dati sbagliati, la modifica che scavalcava l'approvazione).
 103. L'app chiede il permesso del microfono e non lo usa mai [In coda, Giacomo] issue #132 su GitHub. L'app dichiara il permesso del microfono su entrambi i sistemi e non registra niente, né video né audio. Si toglie: Google chiede di giustificare i permessi sensibili, su Android compare nella scheda del negozio, e l'informativa dovrebbe citarlo dicendo una cosa falsa. Trovata compilando l'elenco dei dati raccolti per l'informativa e per il modulo di Google. La spiegazione nel codice dice «usiamo il microfono quando registri un video per le tue schede», in inglese.
 105. Pagina web per cancellare l'account, che Google pretende [Fatto, Giacomo] issue #135 su GitHub. Fatta e in linea l'11 settembre su dashboard.familyside.it/elimina-account, già dichiarata a Google. Google pretende un indirizzo web per chiedere la cancellazione, oltre a quella dentro l'app (voce 84), e il link compare sulla scheda del negozio. Servirà anche ad Apple e va citato nell'informativa privacy. La pagina spiega i passaggi dall'app, dà info@familyside.it per chi l'app non ce l'ha più, e dice cosa viene eliminato, cosa resta e per quanto i dati possono ancora trovarsi in una copia di sicurezza. È sotto il pannello e non sul sito perché lì la pubblichiamo noi, subito: se preferisci familyside.it/elimina-account si sposta quando vuoi.
 104. Chi apre l'app fuori zona vede le attività di Como a seicento chilometri [Aspetta una tua decisione, Jessica] issue #134 su GitHub. Dai negozi non si può limitare l'app a Como, Varese e Lugano: scelgono per paese. Dentro l'app sì: proposta, col primo aggiornamento dopo il lancio, la schermata «non siamo ancora arrivati nella tua zona» con l'iscrizione per essere avvisati. Serve da Jessica il testo del messaggio. Oggi chi apre l'app da lontano vede le attività di Como fra le consigliate, con seicento chilometri scritti sotto: la schermata iniziale non scarta per distanza, ordina soltanto; la mappa invece filtra e ha già il suo messaggio. La regola proposta si basa su quante attività ci sono intorno, non su un elenco di province, così si accende da sola man mano che si caricano città nuove, senza bloccare chi vuole guardare lo stesso.
@@ -106,7 +107,11 @@ ISCRIZIONE DELLE ATTIVITÀ
 15. Sezione Crea riordinata [Da rifare, non provare, Giacomo]
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
 17. Assegnare una scheda esistente all'account di un'attività [In coda, Giacomo]
-46. Recensioni: modifica e cancellazione delle proprie, e "suggerisci un'attività" [In coda, Giacomo] Lasciato al nostro giudizio il 25 agosto; entra in coda dopo le cose senza cui l'app non si pubblica.
+46. Recensioni: modifica e cancellazione delle proprie, e "suggerisci un'attività" [In coda, Giacomo] Lasciato al nostro giudizio il 25 agosto. «Suggerisci un'attività» è fatto con la voce 102; restano modifica e cancellazione delle proprie recensioni.
+109. Le notifiche alla famiglia sul suggerimento arrivano in inglese [In coda, Giacomo] issue #148 su GitHub. «Your activity was approved»: il testo lo compone il server, in inglese fisso, come per altre voci già corrette.
+110. Due foto con lo stesso nome si sovrascrivono, per famiglie e attività [In coda, Giacomo] issue #149 su GitHub. Il file caricato prende il nome dato dal telefono, senza pulizia: vale per il modulo dei suggerimenti e per quello delle attività.
+111. Nel modificare un suggerimento non si cambiano categoria, posizione e foto [In coda, Giacomo] issue #150 su GitHub. Il modulo di modifica è copiato da quello delle attività: ha campi che a una famiglia non servono (evento collegato, data, ora) e manca di quelli che servono.
+113. La vecchia schermata dei suggerimenti è ancora nel codice [In coda, Giacomo] issue #152 su GitHub. Sostituita dall'elenco nuovo della voce 102, non si apre più da nessuna parte: va tolta insieme al servizio che la alimentava.
 
 PERIODO DI PROVA
 18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Da rifare, non provare, Giacomo]
@@ -139,7 +144,7 @@ AL TEAM
 35. Filtro per età sul server, nel loro codice [Al team, team] Nel nostro server è corretto dal 3 settembre (voce 7); nel loro no.
 36. Evento senza attività collegata mostrato sotto un'attività dello stesso autore [Al team, team]
 37. Costruttore della carta regalo: le due correzioni nel loro codice [Al team, team] Nella 1.1.3 ci sono già (voce 9).
-38. Contribution Program [Dopo il lancio, team] Seconda release, come deciso. Specifica consegnata il 19 agosto.
+38. Contribution Program [Dopo il lancio, team] Seconda release, come deciso. Specifica consegnata il 19 agosto. Il 10 settembre il team ha consegnato spontaneamente la prima parte (la famiglia propone una scheda), entrata nella voce 102; la presa in carico da parte delle attività resta qui.
 39. Lavorare nel repository condiviso, per tutte e tre le parti [Al team, team] Oggi pubblicano da un archivio loro; il repository condiviso lo allineo io.
 
 DOPO IL LANCIO
@@ -161,6 +166,9 @@ TESTI E TRADUZIONI
 106. Nella scheda Cerca compare «For you, Father», in inglese [In coda, Giacomo] issue #139 su GitHub. Nella scheda Cerca la fascia col cuore dice «For you, Father» anche in italiano: la frase la compone il server. Conta perché è dentro una delle due fotografie su Google Play. Si corregge facendo comporre la frase all'app, che la traduzione ce l'ha già. Cambia col ruolo scelto all'iscrizione. Stessa cosa delle voci 70 e 95: testo inglese inventato dal server. Trovata guardando le fotografie per le schede dei negozi.
 
 NOVITÀ, DALLA PIÙ RECENTE
+12 settembre
+- Una famiglia può proporre un luogo: dal profilo compila il modulo, la scheda arriva nella coda di approvazione del pannello come quelle delle attività, e chi l'ha proposta viene avvisato quando la approvi o la rifiuti. La prima parte l'ha costruita il team, è stata portata dentro, provata e corretta. Server in linea e app 1.1.13 sui due canali di prova. (voce 102, voce 46, voce 38) [Giacomo]
+
 11 settembre
 - Anche su Android la beta è partita: la 1.1.12 inviata a Google per Italia e Svizzera, con gli ultimi tre moduli chiusi (classificazione PEGI 3, sicurezza dei dati con la pagina per cancellare l'account, scheda con icona, grafica di apertura e due fotografie). Guardando le fotografie è emersa la frase inglese «For you, Father». (voce 91, voce 105, voce 90, voce 106, voce 92) [Giacomo]
 - In serata su App Store Connect: dichiarazione di venditore già fatta, questionario sulla privacy pubblicato, età 4+, categoria e diritti. I moduli dei due negozi sono completi; per Apple manca solo l'invio in revisione, che aspetta l'informativa definitiva. (voce 92, voce 34) [Giacomo]
