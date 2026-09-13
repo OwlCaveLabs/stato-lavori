@@ -177,7 +177,7 @@ TESTI E TRADUZIONI
 NOVITÀ, DALLA PIÙ RECENTE
 13 settembre
 - Android: la riattivazione del canale beta è ancora in revisione da Google, ricontrollata il 13; il link per installare l'app non funziona finché non passa. Su iPhone tutto invariato. (voce 91) [Giacomo]
-- Nove voci nuove dalla lettura del lavoro del team portato dentro il 12: difetti sui suggerimenti delle famiglie e nel pannello, due che esistevano da prima (le attività perdono le sottocategorie, gli eventi con lo spillo vuoto) e una decisione tua, la 121, già chiesta nel messaggio di ieri. (voce 114, voce 115, voce 116, voce 118, voce 119, voce 120, voce 121, voce 122, voce 123) [Giacomo]
+- Nove voci nuove dalla lettura del lavoro del team portato dentro il 12: difetti sui suggerimenti delle famiglie e nel pannello, due che esistevano da prima (le attività perdono le sottocategorie, gli eventi con lo spillo vuoto) e una decisione tua, la 121, già chiesta nel messaggio del 13. (voce 114, voce 115, voce 116, voce 118, voce 119, voce 120, voce 121, voce 122, voce 123) [Giacomo]
 
 12 settembre
 - Una famiglia può proporre un luogo: dal profilo compila il modulo, la scheda arriva nella coda di approvazione del pannello come quelle delle attività, e chi l'ha proposta viene avvisato quando la approvi o la rifiuti. La prima parte l'ha costruita il team, è stata portata dentro, provata e corretta. Server in linea e app 1.1.13 sui due canali di prova. (voce 102, voce 46, voce 38) [Giacomo]
