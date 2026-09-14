@@ -14,7 +14,7 @@ Google Play: Prova interna [x] (1.1.18, dal 14 settembre sera. Tocca «Prova int
 [~] Testi e immagini delle due schede (Giacomo) - voce 90, voce 102, voce 107
 [x] Dati del venditore nei due negozi (Giacomo) - voce 92
 [x] Moduli su privacy e dati (Giacomo) - voce 34, voce 105, voce 133
-[~] Prima dell'apertura alle attività (divisione decisa con Jessica il 14 settembre) (Giacomo) - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 134, voce 64, voce 72, voce 90, voce 111
+[~] Prima dell'apertura alle attività (divisione decisa con Jessica il 14 settembre) (Giacomo) - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111
 [~] Beta: l'app installabile dalle attività (Giacomo) - voce 91
 [ ] Prima del lancio generale (la 77 solo se il lancio non è alle porte) (Giacomo) - voce 48, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
 [ ] Invio in revisione e pubblicazione (Giacomo) - voce 34
@@ -154,7 +154,7 @@ DASHBOARD
 42. Cancellazione vera delle categorie di prova (oggi solo "inattivo") [Dopo il lancio, Giacomo] issue #165 su GitHub. Deciso da Jessica il 10 settembre: si tolgono le categorie create come prova, restano quelle spente; non urgente, dopo il lancio, perché gli utenti non le vedono. Oggi «elimina» nel pannello spegne soltanto. Si farà un'eliminazione definitiva per le categorie spente e senza schede, con conferma; serve da Jessica l'elenco dei nomi da togliere.
 43. Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) [Dopo il lancio, Giacomo] Deciso da Jessica il 10 settembre: per ora le nove occasioni restano fisse; dopo il lancio si gestiranno dal pannello, anche per creare sezioni temporanee legate a festività o ricorrenze (per esempio la Festa della Mamma).
 51. Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file [In coda, Giacomo] issue #25 su GitHub. Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.
-134. Pannello: dal riquadro «To do today» non si arriva ad approvare [In coda, Giacomo] issue #216 su GitHub. Il riquadro «To do today» della pagina iniziale elenca le schede in attesa, ma toccando una riga o «View all» non succede niente: si approva solo dalla campanella in alto a destra, che apre la pagina Notifiche. È così che il 13 settembre Jessica non è riuscita ad approvare la sua scheda, che è ancora in attesa. Correzione: la riga del riquadro apre la stessa finestra della pagina Notifiche, con Approva e Rifiuta. Si fa insieme alla voce 114, con la pulizia della coda: oggi ci sono anche schede di prova del team di agosto.
+134. Pannello: dal riquadro «To do today» non si arriva ad approvare [In coda, Giacomo] issue #216 su GitHub. Il riquadro «To do today» della pagina iniziale elenca le schede in attesa, ma toccando una riga o «View all» non succede niente: si approva solo dalla campanella in alto a destra, che apre la pagina Notifiche. È così che il 13 settembre Jessica non è riuscita ad approvare la sua scheda, che è ancora in attesa. Correzione: la riga del riquadro apre la stessa finestra della pagina Notifiche, con Approva e Rifiuta. Jessica il 14 settembre: non è prioritario, è una comodità, si approva già dalla pagina Notifiche. Resta in coda, fuori dai due gruppi prima del lancio.
 
 SICUREZZA E PRIVACY
 (Fatto 2 · In coda 2)
