@@ -1,4 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.15 (canali di prova interni: Google Play e TestFlight).
+130 voci in tutto: Fatto 70 · In lavorazione 7 · In coda 32 · Da rifare, non provare 3 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 9.
 
 VERSO GLI STORE
 7 di 9 passi · 78%
@@ -17,6 +18,7 @@ Google Play: Prova interna [x] (1.1.14, dal 13 settembre) -> Beta [~] (1.1.12, a
 [ ] Invio in revisione e pubblicazione (Giacomo) - voce 34
 
 IMMAGINE E INGRESSO
+(Fatto 4 · Dopo il lancio 1)
 1. Logo e colori giusti su avvio, registrazione e accesso [Fatto, Giacomo] issue #49 su GitHub. Fatta: dal 6 settembre (app 1.1.6) il marchio FamilySide è su avvio, lingua, benvenuto, accesso e registrazione, con un solo corallo, quello dell'icona. Si guarda il risultato insieme e si ritocca se serve. Prima, ventuno schermate mostravano un simbolo provvisorio con la scritta «Familyside» e un corallo più chiaro del marchio; l'icona dell'app era già giusta. Scelte confermate da Jessica il 6 settembre: logo esteso in corallo sulle schermate chiare, in bianco sulle pagine di benvenuto, la sola F. negli spazi piccoli.
 2. Revisione dei testi italiani (date e altri testi ancora in inglese) [Fatto, Giacomo] issue #54 su GitHub. Fatta: dall'app 1.1.7 (7 settembre) date, orari, notifiche, errori e scritte fisse sono in italiano. Privacy e termini restano i testi provvisori tradotti: quando arrivano i definitivi si sostituiscono senza toccare l'app. Il server manda i dati grezzi e l'app li scrive in italiano («15 ottobre 2026», «15:30», «5 min fa»); tutte le frasi inglesi sono passate nel dizionario dell'app e un controllo automatico impedisce che rientrino. Corretti strada facendo tre difetti: chi ha un nome con accento o apostrofo (Nicolò, D'Amico) non riusciva a registrarsi, quattro scritte comparivano come sigla, e annullare l'accesso con Apple veniva segnalato come errore. Il pannello di amministrazione è rimandato (voce 63).
 63. Pannello di amministrazione in italiano [Dopo il lancio, Giacomo] La traduzione italiana del pannello esiste già quasi tutta: manca il modo di attivarla e le date. Il 7 settembre Jessica ha deciso di non perderci tempo ora e di lasciarlo fra le cose in seguito.
@@ -24,6 +26,7 @@ IMMAGINE E INGRESSO
 126. Pagine di benvenuto: il logo bianco con «Side» corallo e il tasto «Continua» [Fatto, Giacomo] issue #168 su GitHub; app 1.1.14 sui canali di prova dal 13 settembre. Fatta: le quattro pagine di benvenuto portano il logo che mi hai mandato, bianco con «Side» corallo e il foro nel segnaposto, e il tasto dice «Continua»; sull'ultima pagina «Iniziamo». Spariscono «Collegiamoci», che era anche scritto senza h, e «Inizia».
 
 REGISTRAZIONE E ACCESSO
+(Fatto 7 · In coda 1)
 56. Accedendo di nuovo, l'app rifà tutte le domande iniziali [Fatto, Giacomo] issue #37 su GitHub. Corretta sul server il 5 settembre, vale anche con l'app già installata. Chi saltava la foto del profilo, facoltativa, restava segnato come «non ha finito» e a ogni accesso ripartiva dalla scelta del ruolo. Trovata il 4 settembre provando la registrazione passo per passo. Riaprendo l'app senza uscire non si vedeva: serviva un accesso vero. Il percorso dell'operatore non aveva il problema. Rifare quel giro non era innocuo: vedi la voce 57.
 57. I figli inseriti spariscono quando l'app rifà le domande iniziali [Fatto, Giacomo] issue #38 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. La schermata dei figli partiva vuota e premendo «Continua» cancellava i figli già registrati, dicendo che il salvataggio era riuscito. Trovata il 4 settembre insieme alla voce 56. La stessa schermata dentro il profilo i figli li caricava: il modo giusto esisteva già. Corretta da due lati, app e server.
 58. Un figlio senza data di nascita non viene salvato, e l'app non lo dice [Fatto, Giacomo] issue #39 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. Un figlio col solo nome faceva rifiutare al server tutta la richiesta, anche gli altri figli, e l'app andava avanti con un «Error» che compariva e spariva.
@@ -34,6 +37,7 @@ REGISTRAZIONE E ACCESSO
 93. L'app rifiuta gli indirizzi email che contengono il segno più [Fatto, Giacomo] issue #110 su GitHub; app 1.1.15 sui canali di prova dal 14 settembre. Fatto: un indirizzo come nome.cognome+qualcosa@gmail.com adesso è accettato, su tutte e dieci le schermate che chiedono un'email. Era rifiutato dall'app, non dal server: chi usa un indirizzo di quella forma non poteva né iscriversi né rientrare.
 
 MAPPA, RICERCA E SCHEDE
+(Fatto 18 · In coda 7 · Aspetta una tua decisione 4)
 3. Pulsante per ricentrare la mappa [Fatto, Giacomo] Deciso da Jessica l'8 settembre e fatto con l'app 1.1.8 (voce 66): il pulsante col mirino riporta dove sei e rifà la ricerca intorno a quel punto. Prima si limitava a rimettere davanti i risultati.
 67. La mappa di Esplora e' una schermata a se', con le scritte in alto poco leggibili [In coda, Giacomo] issue #72 su GitHub. Deciso da Jessica il 9 settembre: la mappa diventa un modo di vedere Esplora, non una schermata a parte. La barra in basso resta, si passa da elenco a mappa con lo stesso interruttore, e l'intestazione sta su sfondo pieno così si legge. Oggi passando alla mappa sparisce la barra con le cinque schede, e per tornare c'è solo l'icona elenco in alto (su iPhone manca anche il tasto indietro del telefono). Le scritte in alto sono disegnate sopra la cartina, con i nomi delle strade che trapassano: su una città densa come Milano si legge male. La schermata è fatta così dall'inizio.
 68. I due comandi della riga «Intorno a...» si leggono come una frase unica [Fatto, Giacomo] issue #73 su GitHub. Corretta con l'app 1.1.9 (9 settembre): fra «Cambia» e «Usa la mia posizione», nella riga in cima alla schermata iniziale, c'è un puntino grigio e non sembrano più una frase sola. Restano scritte colorate e non pulsanti veri: se qualcuno dice di non aver capito di poterle toccare, si passa a due pastiglie col bordo, già disegnate.
@@ -65,6 +69,7 @@ MAPPA, RICERCA E SCHEDE
 129. «Consigliati per te»: oggi ordina per distanza, non guarda l'età dei figli [Aspetta una tua decisione, Jessica] Domanda di Jessica del 10 settembre: i contenuti sono personalizzati? Oggi poco: «Consigliati per te» e «Vicino a te» prendono tutte le attività approvate e le ordinano per distanza dalla posizione del profilo; l'età dei figli conta solo se si applica il filtro a mano, e gli interessi scelti all'iscrizione li usa solo la ricerca. Proposta, dopo il lancio: i consigliati leggono da soli le età dei figli dal profilo, con i filtri a mano che restano per cambiare. Le fasce d'età delle schede vengono dai tag del file (voce 7): la regola esiste già ed è la stessa del filtro; cambia solo che parte dal profilo invece che dal tocco.
 
 GIFT VOUCHER
+(Fatto 4 · In coda 2)
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
 9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
 10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Fatto, Giacomo] app 1.1.7 del 7 settembre (i dati veri già dalla 1.1.2). Sistemato, già nella versione sul telefono (1.1.7): «Riscatta contattando l'attività» con la dicitura concordata, «Offerto da» col nome vero dell'attività, la riga con l'orologio con la sua descrizione, e senza «€0» quando il prezzo manca. Resta la riga degli auguri: voce 99. La dicitura concordata: è una cartolina digitale, non vale come prova di acquisto o di pagamento, il regalo si concorda e si paga direttamente con l'attività. Prima «Offerto da» portava la categoria o un nome inventato, e la riga con l'orologio diceva sempre «60-minute session».
@@ -73,9 +78,11 @@ GIFT VOUCHER
 50. Occasione "Altro": nell'app c'è, nel pannello no [In coda, Giacomo] issue #105 su GitHub. Deciso da Jessica il 10 settembre: «Altro» si tiene. Nell'app c'è già; nel pannello manca dall'elenco per una riga sul server che era stata disattivata. Torna con la prossima pubblicazione del server, senza aggiornare l'app. Vedi anche la voce 43.
 
 PANNELLO E ATTIVITÀ
+(Fatto 1)
 100. Le statistiche dell'attività sono a zero, con un consiglio inventato in inglese [Fatto, Jessica] issue #125 su GitHub; server e app 1.1.15 dal 14 settembre. Fatta: il consiglio inventato in inglese non c'è più, il riquadro sparisce quando non c'è niente di vero da dire, e le due voci del grafico che non potevano che valere zero sono uscite dalle schede. Il grafico adesso conta le aperture vere delle schede di quell'attività, mese per mese. Il difetto era più largo di com'era scritto: l'app chiedeva una cosa e il server ne capiva un'altra, quindi il grafico restava a zero su tutte le schede, non solo sulla prima, e nessun uso vero lo avrebbe mosso. Resta una domanda per te: le due schede rimaste, «Coinvolgimento» e «Attività totali», oggi contano la stessa cosa.
 
 PUBBLICAZIONE NEGLI STORE
+(Fatto 17 · In lavorazione 3 · Aspetta una tua decisione 1)
 102. La scheda dei negozi promette «puoi suggerirlo», e ora la funzione c'è [Fatto, Giacomo] issue #130 su GitHub. Dal profilo, «Suggerisci un'attività»: una famiglia compila nome, indirizzo, categoria, descrizione e foto; la scheda entra in attesa nella stessa coda di approvazione del pannello, e la famiglia riceve una notifica quando viene approvata o rifiutata. Nell'elenco dei propri suggerimenti si vede lo stato, si modifica e si cancella; una modifica rimette la scheda in attesa. Server in linea e app 1.1.13 sui due canali di prova. La funzione l'ha costruita il team il 10 settembre; qui è stata portata dentro, verificata e corretta dove serviva (valori inventati nell'elenco, errori chiari su dati sbagliati, la modifica che scavalcava l'approvazione).
 103. L'app chiede il permesso del microfono e non lo usa mai [Fatto, Giacomo] issue #132 su GitHub. Fatta con l'app 1.1.14: il permesso del microfono non c'è più, né su Android né su iPhone. L'app non registra niente, e un permesso che non si usa Google chiede di giustificarlo, compare sulla scheda del negozio e obbligherebbe l'informativa a dire una cosa falsa. Trovata compilando l'elenco dei dati raccolti per l'informativa e per il modulo di Google. Controllato sul pacchetto costruito, non solo nel testo sorgente: nessuna libreria lo rimette di nascosto.
 105. Pagina web per cancellare l'account, che Google pretende [Fatto, Giacomo] issue #135 su GitHub. Fatta e in linea l'11 settembre su dashboard.familyside.it/elimina-account, già dichiarata a Google. Google pretende un indirizzo web per chiedere la cancellazione, oltre a quella dentro l'app (voce 84), e il link compare sulla scheda del negozio. Servirà anche ad Apple e va citato nell'informativa privacy. La pagina spiega i passaggi dall'app, dà info@familyside.it per chi l'app non ce l'ha più, e dice cosa viene eliminato, cosa resta e per quanto i dati possono ancora trovarsi in una copia di sicurezza. È sotto il pannello e non sul sito perché lì la pubblichiamo noi, subito: se preferisci familyside.it/elimina-account si sposta quando vuoi.
@@ -99,6 +106,7 @@ PUBBLICAZIONE NEGLI STORE
 130. I permessi che la scheda Android mostra, controllati uno per uno [Fatto, Giacomo] issue #181 su GitHub. Controllati uno per uno sul pacchetto vero, non sul testo del progetto: l'elenco è quello che serve, e il microfono non c'è più. Restano due voci legate all'impronta digitale, che arrivano insieme all'accesso con Google e non si staccano da quello: non danno all'app nessun potere in più, e se Google chiedesse spiegazioni la risposta è già scritta. Tre dei permessi che sembravano di troppo non lo erano: uno non è un permesso che l'app chiede ma una protezione su una sua parte, e gli altri due erano già spariti insieme al microfono. Quello sulla memoria serve davvero, per salvare il biglietto regalo nella galleria sui telefoni Android più vecchi. I due dell'impronta si potrebbero togliere, ma si toglierebbero anche alla libreria che fa l'accesso con Google, e non vale il rischio su una schermata che passano tutte le famiglie. Il controllo va rifatto prima dell'invio, perché l'elenco cambia con le librerie.
 
 CONTATTI E CONTENUTI
+(Fatto 2 · In lavorazione 2 · In coda 2 · Dopo il lancio 1)
 11. Pulsanti sito, WhatsApp e indicazioni sulle schede [In lavorazione, Jessica] I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.
 12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Secondo file (prezzi a numero) provato il 4 settembre sui dati aggiornati, dopo le rinomine nel pannello: 18 schede riconosciute, nessun errore, sottocategorie che combaciano. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).
 13. Immagini mancanti sulle schede [In coda, Jessica] La parte nostra è chiusa con la voce 55 (8 settembre): nessuna scheda resta col segnaposto, le attività senza foto prendono la copertina della categoria. Resta a te: se vuoi che un'attività abbia la sua foto, la carichi dal pannello aprendola con la matita; la foto caricata vince sulla copertina.
@@ -108,6 +116,7 @@ CONTATTI E CONTENUTI
 55. L'immagine grande delle schede non cambia caricando la copertina della categoria [Fatto, Giacomo] issue #36 su GitHub. Fatta, server pubblicato l'8 settembre, si vede senza aggiornare l'app: un'attività senza foto propria usa la copertina della sua categoria, ovunque (scheda, risultati, mappa, Esplora, Salvati, liste regalo, link condiviso). Una copertina nuova aggiorna tutte le attività della categoria. Tutte le 1249 attività di Parco giochi avevano lo stesso segnaposto del caricamento in blocco, e la copertina il server la mandava solo alla griglia di Search: per questo cambiava l'icona piccola e non l'immagine grande. Chi ha una foto sua la tiene. Emerso strada facendo: su cinque elenchi (consigliati, eventi vicini, sottocategoria, Esplora, Salvati) l'app mostrava l'icona di immagine rotta, ora l'immagine vera. La copertina caricata pesa 2,5 MB: la riduzione automatica è la voce 64. Vedi anche la voce 13.
 
 ISCRIZIONE DELLE ATTIVITÀ
+(Fatto 8 · In coda 7 · Da rifare, non provare 2 · Dopo il lancio 2)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [Da rifare, non provare, Giacomo]
 15. Sezione Crea riordinata [Da rifare, non provare, Giacomo]
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -129,9 +138,11 @@ ISCRIZIONE DELLE ATTIVITÀ
 131. Al massimo dieci eventi e dieci regali per ogni attività [In coda, Giacomo] issue #183 su GitHub. Deciso da Jessica il 13 settembre: dieci, «e vediamo che succede». Oggi un'attività può creare dall'app quanti eventi e regali vuole. Come si conta: dieci per tipo, solo quelli in corso, quindi un evento passato o una scheda rifiutata non occupano un posto; al limite l'app dice il perché. Si fa sul server, il numero si cambia senza aggiornare l'app.
 
 PERIODO DI PROVA
+(Da rifare, non provare 1)
 18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Da rifare, non provare, Giacomo]
 
 DASHBOARD
+(Fatto 1 · In coda 4 · Dopo il lancio 2)
 19. Modifica in blocco delle attività selezionate [In coda, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [In coda, Giacomo]
 21. Gestione degli interessi: controllo che faccia quello che serve [In coda, Giacomo]
@@ -141,12 +152,14 @@ DASHBOARD
 51. Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file [In coda, Giacomo] issue #25 su GitHub. Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.
 
 SICUREZZA E PRIVACY
+(Fatto 1 · In coda 3)
 23. Sicurezza dell'accesso all'app [Fatto, Giacomo] server, dal 10 settembre. Chiusa e pubblicata sul server il 10 settembre, vale anche con l'app già installata. Nel farlo è emerso che l'accesso con Apple non aveva mai funzionato: è la voce 86.
 24. Chiavi delle mappe limitate [In coda, Giacomo]
 25. Funzioni riservate alle attività protette davvero [In coda, Giacomo]
 26. Cosa vedono gli altri utenti nei profili delle famiglie [In coda, Giacomo]
 
 FONDAMENTA E MESSA IN PRODUZIONE
+(Fatto 5 · In coda 3)
 27. Il progetto si ricostruisce da zero e si prova fuori dalla produzione [Fatto, Giacomo] dal 31 agosto.
 28. Pubblicazione di server e pannello da parte nostra, con un comando [Fatto, Giacomo] dal 31 agosto (server) e dal 2 settembre (pannello).
 29. Copia di sicurezza del database prima di ogni intervento [Fatto, Giacomo] dal 31 agosto.
@@ -157,6 +170,7 @@ FONDAMENTA E MESSA IN PRODUZIONE
 128. Profilo: «I tuoi contributi» al posto della barra con la percentuale [In coda, Giacomo] issue #170 su GitHub; barra tolta con l'app 1.1.15. Deciso da Jessica il 10 settembre: per il lancio il profilo tiene recensioni, suggerimenti di attività e condivisioni; il Contribution Program vero resta la voce 38. La barra con la percentuale è già sparita con l'app 1.1.15, perché mostrava lo stesso numero a tutti. Resta «I tuoi contributi» al suo posto: Recensioni, Attività, Condivisioni, Regali, ognuno apre il proprio elenco con stato, modifica e cancellazione. Le icone arrivano da te (quella di Condivisioni c'è già). Recensioni e Attività (i suggerimenti, voce 102) hanno già il loro elenco. Le condivisioni oggi non vengono contate: il server genera il link e non se lo segna; si registreranno da qui in poi. Da chiarire cosa conta «Regali» per una famiglia e cosa apre.
 
 AL TEAM
+(Al team 4 · Dopo il lancio 1)
 35. Filtro per età sul server, nel loro codice [Al team, team] Nel nostro server è corretto dal 3 settembre (voce 7); nel loro no.
 36. Evento senza attività collegata mostrato sotto un'attività dello stesso autore [Al team, team]
 37. Costruttore della carta regalo: le due correzioni nel loro codice [Al team, team] Nella 1.1.3 ci sono già (voce 9).
@@ -164,26 +178,32 @@ AL TEAM
 39. Lavorare nel repository condiviso, per tutte e tre le parti [Al team, team] Oggi pubblicano da un archivio loro; il repository condiviso lo allineo io.
 
 DOPO IL LANCIO
+(In coda 2 · Dopo il lancio 2)
 40. Pagamenti veri (incasso, rinnovi, disdette, fatture) [Dopo il lancio, Giacomo] Da stimare a parte quando i livelli saranno definiti.
 41. Stessa email per un account famiglia e un account attività [Dopo il lancio, Giacomo] Oggi l'email è unica per account.
 44. Raggruppamento dei segnaposto sulla mappa con la legenda dei colori [In coda, Giacomo] Accettato il 25 agosto; dopo le cose senza cui l'app non si pubblica.
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 TESTI E LINGUA
+(In lavorazione 1)
 96. Il primo filtro delle categorie si chiama «All» anche in italiano [In lavorazione, Giacomo] issue #113 su GitHub. Corretta l'11 settembre: il primo filtro dice «Tutti». Si vede con la prossima versione dell'app. Sulla schermata iniziale, sulla mappa e nei regali diceva «All», e si vedeva in due delle fotografie per i negozi. Quella parola era anche il valore che il codice usa per «nessun filtro»: cambiarla e basta avrebbe rotto i filtri in italiano. Le due cose ora sono separate, e una prova automatica controlla entrambe.
 
 RECENSIONI
+(In coda 1)
 97. La bandierina per segnalare compare anche sulla propria recensione [In coda, Giacomo] issue #103 su GitHub. La bandierina per segnalare compare anche sulla propria recensione: segnalarsi da soli crea un messaggio inutile da archiviare. Il server non manda l'identificativo dell'autore, quindi tocca anche il server; lasciata fuori dalla voce 85 apposta.
 
 POSIZIONE E MAPPA
+(In lavorazione 1)
 98. Sulla mappa la scheda in basso è tagliata su molti telefoni Android [In lavorazione, Giacomo] issue #115 su GitHub. Corretta l'11 settembre: la scheda che compare toccando un luogo sulla mappa non viene più tagliata sugli schermi 1080x1920, la forma di moltissimi telefoni Android. Si vede con la prossima versione dell'app. Trovata producendo le immagini per i negozi: nella fotografia della mappa compariva la fascia di avviso che in versione di prova segnala questi casi. Il contenuto ora si adatta allo spazio che ha; dove lo spazio basta non cambia niente.
 
 TESTI E TRADUZIONI
+(Fatto 2)
 106. Nella scheda Cerca compare «For you, Father», in inglese [Fatto, Giacomo] issue #139 su GitHub. Fatta insieme alla voce 76, con il server in linea e l'app 1.1.14: nella scheda Cerca la fascia parla italiano. La fotografia della vetrina che la conteneva va rifatta, con le altre (voce 90).
 120. Le etichette proposte nei moduli sono in inglese [Fatto, Giacomo] issue #159 su GitHub; app 1.1.15 sui canali di prova dal 14 settembre. Fatto: nei moduli i tag si leggono «Bambini piccoli», «Al chiuso», «Sempre attivo», «Gratuito», «A pagamento» e i giorni «Lun», «Mar». Il valore che viaggia verso il server resta quello di prima, quindi le schede già salvate continuano a trovarsi con i filtri. Gli stessi elenchi in inglese erano copiati in cinque schermate, non solo nelle due segnalate: modulo dei suggerimenti, attività, eventi, regali e modifica di una scheda.
 
 NOVITÀ, DALLA PIÙ RECENTE
 14 settembre
+- Questa pagina ora si filtra. In cima all'elenco delle voci le etichette di stato sono diventate pulsanti, ognuno col numero di voci che ha: toccandone uno restano in vista solo quelle, «Tutte» le rimette in fila. E di fianco al titolo di ogni sezione c'è il riepilogo dei suoi stati, per vedere a colpo d'occhio quante voci sono fatte e quante rimandate. [Giacomo]
 - Versione 1.1.15 sui due canali di prova: gli indirizzi email col segno più sono accettati, il pulsante «Accedi con Apple» compare solo dove funziona, il biglietto regalo dice «Buona Festa della Mamma» invece di «Buon Festa della Mamma», i moduli mostrano tag e giorni in italiano, e le notifiche su una scheda suggerita si leggono in italiano. Via anche la barra del profilo, che mostrava la stessa percentuale a tutti. Col server pubblicato in serata, le statistiche di un'attività contano finalmente le aperture vere delle sue schede. (voce 93, voce 86, voce 99, voce 120, voce 109, voce 100, voce 128) [Giacomo]
 - Otto correzioni pubblicate stamattina sul server, senza bisogno di aggiornare l'app: il profilo e il pannello non mostrano più numeri inventati, l'indirizzo non si ricerca più a ogni salvataggio, due foto con lo stesso nome non si sovrascrivono, una scheda con recensioni di altre famiglie non si cancella più, e nella coda del pannello restano solo le schede da approvare. Due voci sono a metà: la loro parte nell'app esce con la prossima versione. (voce 95, voce 100, voce 109, voce 110, voce 112, voce 115, voce 116, voce 118) [Giacomo]
 
