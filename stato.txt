@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.15 (canali di prova interni: Google Play e TestFlight).
-130 voci in tutto: Fatto 72 · In lavorazione 5 · In coda 32 · Da rifare, non provare 3 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 9.
+130 voci in tutto: Fatto 73 · In lavorazione 5 · In coda 32 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 9.
 
 VERSO GLI STORE
 7 di 9 passi · 78%
@@ -116,9 +116,9 @@ CONTATTI E CONTENUTI
 55. L'immagine grande delle schede non cambia caricando la copertina della categoria [Fatto, Giacomo] issue #36 su GitHub. Fatta, server pubblicato l'8 settembre, si vede senza aggiornare l'app: un'attività senza foto propria usa la copertina della sua categoria, ovunque (scheda, risultati, mappa, Esplora, Salvati, liste regalo, link condiviso). Una copertina nuova aggiorna tutte le attività della categoria. Tutte le 1249 attività di Parco giochi avevano lo stesso segnaposto del caricamento in blocco, e la copertina il server la mandava solo alla griglia di Search: per questo cambiava l'icona piccola e non l'immagine grande. Chi ha una foto sua la tiene. Emerso strada facendo: su cinque elenchi (consigliati, eventi vicini, sottocategoria, Esplora, Salvati) l'app mostrava l'icona di immagine rotta, ora l'immagine vera. La copertina caricata pesa 2,5 MB: la riduzione automatica è la voce 64. Vedi anche la voce 13.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 8 · In coda 7 · Da rifare, non provare 2 · Dopo il lancio 2)
-14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [Da rifare, non provare, Giacomo]
-15. Sezione Crea riordinata [Da rifare, non provare, Giacomo]
+(Fatto 8 · In coda 7 · C'è ma va rifatta 2 · Dopo il lancio 2)
+14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve.
+15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
 17. Assegnare una scheda esistente all'account di un'attività [In coda, Giacomo] In coda. Il 10 settembre Jessica chiede di metterla in priorità, con il tasto «Rivendica la tua attività» sotto le attività, e cosa succede se una scheda è già di un altro account. Risposta: una scheda che ha già un'attività dietro non si può rivendicare, e ogni presa in carico passa dalla conferma nel pannello prima di cambiare mano. Del flusso confermato al team il 9 settembre è arrivata la prima metà, il suggerimento (voce 102); la presa in carico no: se non arriva, si fa qui dopo le voci per gli store.
 46. Recensioni: modifica e cancellazione delle proprie, e "suggerisci un'attività" [In coda, Giacomo] Lasciato al nostro giudizio il 25 agosto. «Suggerisci un'attività» è fatto con la voce 102; restano modifica e cancellazione delle proprie recensioni.
@@ -138,8 +138,8 @@ ISCRIZIONE DELLE ATTIVITÀ
 131. Al massimo dieci eventi e dieci regali per ogni attività [In coda, Giacomo] issue #183 su GitHub. Deciso da Jessica il 13 settembre: dieci, «e vediamo che succede». Oggi un'attività può creare dall'app quanti eventi e regali vuole. Come si conta: dieci per tipo, solo quelli in corso, quindi un evento passato o una scheda rifiutata non occupano un posto; al limite l'app dice il perché. Si fa sul server, il numero si cambia senza aggiornare l'app.
 
 PERIODO DI PROVA
-(Da rifare, non provare 1)
-18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Da rifare, non provare, Giacomo]
+(Fatto 1)
+18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Fatto, Giacomo] issue #91 su GitHub; app 1.1.12 sui canali di prova dal 10 settembre. Fatta con l'app 1.1.12, nello stesso lavoro della voce 82: la vecchia schermata dei pagamenti - tre prezzi e il modulo della carta - non c'è più, e al suo posto «Il tuo piano» dice che fino al 22 novembre 2026 tutte le funzionalità sono disponibili e non c'è niente da fare. Nessuna funzione dell'app è mai stata legata a un abbonamento, quindi sono tutte accessibili davvero, non solo dichiarate tali.
 
 DASHBOARD
 (Fatto 1 · In coda 4 · Dopo il lancio 2)
