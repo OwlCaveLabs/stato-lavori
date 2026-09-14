@@ -1272,5 +1272,15 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 </details>
 </div>
 </main>
+<script>
+for (const r of document.querySelectorAll('input[name="filtro"]')) {
+  r.addEventListener('change', () => {
+    if (!location.hash.startsWith('#voce-')) return;
+    const y = window.scrollY;
+    location.hash = '';
+    window.scrollTo(0, y);
+  });
+}
+</script>
 </body>
 </html>
