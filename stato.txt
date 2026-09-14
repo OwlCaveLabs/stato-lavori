@@ -1,11 +1,11 @@
-FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.17 (canali di prova interni: Google Play e TestFlight).
+FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.18 (canali di prova interni: Google Play e TestFlight).
 133 voci in tutto: Fatto 77 · In lavorazione 7 · In coda 23 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
 7,5 di 11 passi · 68%
 
-App Store: Prova interna [x] (1.1.17, dal 14 settembre. Arriva da sola nell'app TestFlight) -> Beta [x] (1.1.12, dal 12 settembre. Tocca «Beta» con l'app TestFlight) https://testflight.apple.com/join/TCArPDTS -> Sullo store [ ]
-Google Play: Prova interna [x] (1.1.17, dal 14 settembre. Tocca «Prova interna» con l'account tester) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [~] (1.1.12, dall'11 settembre. Il link si apre quando Google riattiva il canale) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [ ]
+App Store: Prova interna [x] (1.1.18, dal 14 settembre sera. Arriva da sola nell'app TestFlight) -> Beta [x] (1.1.12, dal 12 settembre. Tocca «Beta» con l'app TestFlight) https://testflight.apple.com/join/TCArPDTS -> Sullo store [ ]
+Google Play: Prova interna [x] (1.1.18, dal 14 settembre sera. Tocca «Prova interna» con l'account tester) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [~] (1.1.12, dall'11 settembre. Il link si apre quando Google riattiva il canale) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [ ]
 
 [x] Versioni di prova sui due store (Giacomo) - voce 32, voce 33
 [x] Correzioni chieste dalle regole degli store (Giacomo) - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
@@ -208,6 +208,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 14 settembre
+- Versione 1.1.18 sui due canali di prova: la mappa usa le tue chiavi nuove, ognuna limitata alla sua app, e quella del team non c'è più. Sotto, nella voce 24, cosa resta per chiuderla. (voce 24) [Giacomo]
 - Priorità decise con Jessica: in «Verso gli store» ci sono due passi nuovi, le voci da chiudere prima dell'apertura alle attività e quelle prima del lancio generale, ognuna col colore del suo stato. Sei voci passano a «Dopo il lancio» (44, 45, 19, 21, 54, 113); la 77 si fa prima del lancio solo se il lancio non è alle porte. (voce 77, voce 44, voce 45, voce 19, voce 21, voce 54, voce 113) [Giacomo]
 - Le email dell'app partono da info@familyside.it: codici di iscrizione e di recupero password, avvisi di assistenza. Prima partivano dalla casella privata di una persona del team. Provato con un codice vero, arriva dalla tua casella. (voce 94) [Giacomo]
 - Certificati controllati: si rinnovano da soli, sia quello del sito sia quelli del server. La voce 31 non ha lavoro da fare e passa a fatto. (voce 31) [Giacomo]
