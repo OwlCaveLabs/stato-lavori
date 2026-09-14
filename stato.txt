@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.15 (canali di prova interni: Google Play e TestFlight).
-132 voci in tutto: Fatto 73 · In lavorazione 6 · In coda 32 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 9.
+132 voci in tutto: Fatto 73 · In lavorazione 7 · In coda 31 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 9.
 
 VERSO GLI STORE
 7 di 9 passi · 78%
@@ -161,7 +161,7 @@ SICUREZZA E PRIVACY
 26. Cosa vedono gli altri utenti nei profili delle famiglie [In coda, Giacomo]
 
 FONDAMENTA E MESSA IN PRODUZIONE
-(Fatto 5 · In coda 3)
+(Fatto 5 · In lavorazione 1 · In coda 2)
 27. Il progetto si ricostruisce da zero e si prova fuori dalla produzione [Fatto, Giacomo] dal 31 agosto.
 28. Pubblicazione di server e pannello da parte nostra, con un comando [Fatto, Giacomo] dal 31 agosto (server) e dal 2 settembre (pannello).
 29. Copia di sicurezza del database prima di ogni intervento [Fatto, Giacomo] dal 31 agosto.
@@ -169,7 +169,7 @@ FONDAMENTA E MESSA IN PRODUZIONE
 31. Certificato del sito da rinnovare [In coda, Giacomo]
 94. Le email dell'app partono dalla casella personale di una persona del team [In coda, Giacomo] issue #111 su GitHub. Il codice di iscrizione arriva da un Gmail privato di una persona del team, non da un indirizzo FamilySide: sembra posta da uno sconosciuto, finisce spesso nello spam, e se quella persona cambia password le iscrizioni si fermano. Va messo un indirizzo sul dominio prima della pubblicazione.
 95. Il profilo mostra numeri inventati, uguali per tutti [Fatto, Giacomo] issue #112 su GitHub; server pubblicato il 14 settembre. Fatto: il profilo non dichiara più dodici famiglie invitate né «Top 9%», e la barra non è più a tre quarti per tutti. Un meccanismo di invito non esiste, quindi il numero è zero; livello e percentuale non hanno una regola che li calcoli, e finché non c'è restano vuoti. Nel pannello le recensioni e i salvataggi di un utente adesso sono contati davvero: prima erano numeri finti, uguali per chiunque, e chi guardava decideva su quelli. Nell'app la barra resta visibile fino alla prossima versione, ora ferma a zero: la toglie la voce 128, che aspetta le tue icone. Recensioni, attività e regali erano già contati davvero e non cambiano.
-128. Profilo: «I tuoi contributi» al posto della barra con la percentuale [In coda, Giacomo] issue #170 su GitHub; barra tolta con l'app 1.1.15. Deciso da Jessica il 10 settembre: per il lancio il profilo tiene recensioni, suggerimenti di attività e condivisioni; il Contribution Program vero resta la voce 38. La barra con la percentuale è già sparita con l'app 1.1.15, perché mostrava lo stesso numero a tutti. Resta «I tuoi contributi» al suo posto: Recensioni, Attività, Condivisioni, Regali, ognuno apre il proprio elenco con stato, modifica e cancellazione. Le icone arrivano da te (quella di Condivisioni c'è già). Dalla tua schermata di esempio del 14 settembre: i riquadri mostrano che si possono toccare, con la riga «Le tue recensioni» e la freccia, e sotto c'è il riquadro «Conosci un'attività che manca? Suggerisci un'attività», che apre il modulo direttamente. «Invita» e il tasto «Contribuisci» vanno con la voce 38. Recensioni e Attività (i suggerimenti, voce 102) hanno già il loro elenco. Le condivisioni oggi non vengono contate: il server genera il link e non se lo segna; si registreranno da qui in poi. Da chiarire cosa conta «Regali» per una famiglia e cosa apre.
+128. Profilo: «I tuoi contributi» al posto della barra con la percentuale [In lavorazione, Giacomo] issue #170 su GitHub; barra tolta con l'app 1.1.15. Deciso da Jessica il 10 settembre: per il lancio il profilo tiene recensioni, suggerimenti di attività e condivisioni; il Contribution Program vero resta la voce 38. La barra con la percentuale è già sparita con l'app 1.1.15, perché mostrava lo stesso numero a tutti. Resta «I tuoi contributi» al suo posto: Recensioni, Attività, Condivisioni, Regali, ognuno apre il proprio elenco con stato, modifica e cancellazione. Le icone arrivano da te (quella di Condivisioni c'è già). Deciso il 14 settembre, in due tempi. Prima, nella prossima versione: Recensioni e Attività chiaramente cliccabili, con la riga «Le tue recensioni» e la freccia, e sotto il riquadro «Conosci un'attività che manca? Suggerisci un'attività», che apre il modulo direttamente; Famiglie invitate e Regali restano di solo conteggio e non sembrano cliccabili. Dopo l'invio ai negozi: «Invita» e «Regali», definendo prima logica e funzionamento (voce 38). Recensioni e Attività (i suggerimenti, voce 102) hanno già il loro elenco. Le condivisioni oggi non vengono contate: il server genera il link e non se lo segna; si registreranno da qui in poi. Da chiarire cosa conta «Regali» per una famiglia e cosa apre.
 
 AL TEAM
 (Al team 4 · Dopo il lancio 1)
