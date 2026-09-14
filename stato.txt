@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.15 (canali di prova interni: Google Play e TestFlight).
-130 voci in tutto: Fatto 70 · In lavorazione 7 · In coda 32 · Da rifare, non provare 3 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 9.
+130 voci in tutto: Fatto 72 · In lavorazione 5 · In coda 32 · Da rifare, non provare 3 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 9.
 
 VERSO GLI STORE
 7 di 9 passi · 78%
@@ -185,16 +185,16 @@ DOPO IL LANCIO
 45. Ritaglio della foto profilo [In coda, Giacomo] Accettato il 25 agosto, non prioritario.
 
 TESTI E LINGUA
-(In lavorazione 1)
-96. Il primo filtro delle categorie si chiama «All» anche in italiano [In lavorazione, Giacomo] issue #113 su GitHub. Corretta l'11 settembre: il primo filtro dice «Tutti». Si vede con la prossima versione dell'app. Sulla schermata iniziale, sulla mappa e nei regali diceva «All», e si vedeva in due delle fotografie per i negozi. Quella parola era anche il valore che il codice usa per «nessun filtro»: cambiarla e basta avrebbe rotto i filtri in italiano. Le due cose ora sono separate, e una prova automatica controlla entrambe.
+(Fatto 1)
+96. Il primo filtro delle categorie si chiama «All» anche in italiano [Fatto, Giacomo] issue #113 su GitHub; app 1.1.13 sui canali di prova dal 12 settembre. Fatta, nell'app 1.1.13 sui due canali di prova: il primo filtro dice «Tutti» sulla schermata iniziale, sulla mappa e nei regali. Sulla schermata iniziale, sulla mappa e nei regali diceva «All», e si vedeva in due delle fotografie per i negozi. Quella parola era anche il valore che il codice usa per «nessun filtro»: cambiarla e basta avrebbe rotto i filtri in italiano. Le due cose ora sono separate, e una prova automatica controlla entrambe.
 
 RECENSIONI
 (In coda 1)
 97. La bandierina per segnalare compare anche sulla propria recensione [In coda, Giacomo] issue #103 su GitHub. La bandierina per segnalare compare anche sulla propria recensione: segnalarsi da soli crea un messaggio inutile da archiviare. Il server non manda l'identificativo dell'autore, quindi tocca anche il server; lasciata fuori dalla voce 85 apposta.
 
 POSIZIONE E MAPPA
-(In lavorazione 1)
-98. Sulla mappa la scheda in basso è tagliata su molti telefoni Android [In lavorazione, Giacomo] issue #115 su GitHub. Corretta l'11 settembre: la scheda che compare toccando un luogo sulla mappa non viene più tagliata sugli schermi 1080x1920, la forma di moltissimi telefoni Android. Si vede con la prossima versione dell'app. Trovata producendo le immagini per i negozi: nella fotografia della mappa compariva la fascia di avviso che in versione di prova segnala questi casi. Il contenuto ora si adatta allo spazio che ha; dove lo spazio basta non cambia niente.
+(Fatto 1)
+98. Sulla mappa la scheda in basso è tagliata su molti telefoni Android [Fatto, Giacomo] issue #115 su GitHub; app 1.1.13 sui canali di prova dal 12 settembre. Fatta, nell'app 1.1.13 sui due canali di prova: la scheda che compare toccando un luogo sulla mappa non viene più tagliata sugli schermi 1080x1920, la forma di moltissimi telefoni Android. Trovata producendo le immagini per i negozi: nella fotografia della mappa compariva la fascia di avviso che in versione di prova segnala questi casi. Il contenuto ora si adatta allo spazio che ha; dove lo spazio basta non cambia niente.
 
 TESTI E TRADUZIONI
 (Fatto 2)
