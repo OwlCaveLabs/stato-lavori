@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.17 (canali di prova interni: Google Play e TestFlight).
-132 voci in tutto: Fatto 77 · In lavorazione 6 · In coda 23 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 15.
+133 voci in tutto: Fatto 77 · In lavorazione 6 · In coda 24 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
 7,5 di 11 passi · 68%
@@ -14,7 +14,7 @@ Google Play: Prova interna [x] (1.1.17, dal 14 settembre. Tocca «Prova interna�
 [~] Testi e immagini delle due schede (Giacomo) - voce 90, voce 102, voce 107
 [x] Dati del venditore nei due negozi (Giacomo) - voce 92
 [x] Moduli su privacy e dati (Giacomo) - voce 34, voce 105, voce 133
-[~] Prima dell'apertura alle attività (divisione decisa con Jessica il 14 settembre) (Giacomo) - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111
+[~] Prima dell'apertura alle attività (divisione decisa con Jessica il 14 settembre) (Giacomo) - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 134, voce 64, voce 72, voce 90, voce 111
 [~] Beta: l'app installabile dalle attività (Giacomo) - voce 91
 [ ] Prima del lancio generale (la 77 solo se il lancio non è alle porte) (Giacomo) - voce 48, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
 [ ] Invio in revisione e pubblicazione (Giacomo) - voce 34
@@ -146,7 +146,7 @@ PERIODO DI PROVA
 18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Fatto, Giacomo] issue #91 su GitHub; app 1.1.12 sui canali di prova dal 10 settembre. Fatta con l'app 1.1.12, nello stesso lavoro della voce 82: la vecchia schermata dei pagamenti - tre prezzi e il modulo della carta - non c'è più, e al suo posto «Il tuo piano» dice che fino al 22 novembre 2026 tutte le funzionalità sono disponibili e non c'è niente da fare. Nessuna funzione dell'app è mai stata legata a un abbonamento, quindi sono tutte accessibili davvero, non solo dichiarate tali.
 
 DASHBOARD
-(Fatto 1 · In coda 2 · Dopo il lancio 4)
+(Fatto 1 · In coda 3 · Dopo il lancio 4)
 19. Modifica in blocco delle attività selezionate [Dopo il lancio, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [In coda, Giacomo]
 21. Gestione degli interessi: controllo che faccia quello che serve [Dopo il lancio, Giacomo]
@@ -154,6 +154,7 @@ DASHBOARD
 42. Cancellazione vera delle categorie di prova (oggi solo "inattivo") [Dopo il lancio, Giacomo] issue #165 su GitHub. Deciso da Jessica il 10 settembre: si tolgono le categorie create come prova, restano quelle spente; non urgente, dopo il lancio, perché gli utenti non le vedono. Oggi «elimina» nel pannello spegne soltanto. Si farà un'eliminazione definitiva per le categorie spente e senza schede, con conferma; serve da Jessica l'elenco dei nomi da togliere.
 43. Gestione delle occasioni delle carte regalo dal pannello (oggi sono nove, fisse) [Dopo il lancio, Giacomo] Deciso da Jessica il 10 settembre: per ora le nove occasioni restano fisse; dopo il lancio si gestiranno dal pannello, anche per creare sezioni temporanee legate a festività o ricorrenze (per esempio la Festa della Mamma).
 51. Pannello: mostrare il numero di ogni categoria, quello da scrivere nel file [In coda, Giacomo] issue #25 su GitHub. Segnalata il 3 settembre. Oggi il numero non compare da nessuna parte nel pannello.
+134. Pannello: dal riquadro «To do today» non si arriva ad approvare [In coda, Giacomo] issue #216 su GitHub. Il riquadro «To do today» della pagina iniziale elenca le schede in attesa, ma toccando una riga o «View all» non succede niente: si approva solo dalla campanella in alto a destra, che apre la pagina Notifiche. È così che il 13 settembre Jessica non è riuscita ad approvare la sua scheda, che è ancora in attesa. Correzione: la riga del riquadro apre la stessa finestra della pagina Notifiche, con Approva e Rifiuta. Si fa insieme alla voce 114, con la pulizia della coda: oggi ci sono anche schede di prova del team di agosto.
 
 SICUREZZA E PRIVACY
 (Fatto 1 · In coda 3)
