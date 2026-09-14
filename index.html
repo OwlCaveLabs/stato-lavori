@@ -14,10 +14,6 @@ main { max-width: 860px; margin: 0 auto; padding: 20px 16px 60px; }
 h1 { font-size: 1.6rem; margin: 0 0 4px; }
 h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--linea); }
 .sotto { color: var(--muto); margin: 0 0 18px; }
-.prove { display: flex; flex-wrap: wrap; gap: 8px 10px; margin: 0 0 18px; padding: 0; list-style: none; }
-.prove li { background: var(--carta); border: 1px solid var(--linea); border-radius: 8px; padding: 6px 10px; font-size: 0.9rem; }
-.prove .prova-nome { font-weight: 600; }
-.prove .prova-come { color: var(--muto); }
 .riquadro { background: var(--carta); border: 1px solid var(--linea); border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
 .riquadro h3 { margin: 0 0 8px; font-size: 1rem; }
 .riquadro ul { margin: 0; padding-left: 20px; }
@@ -74,6 +70,8 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 .pillola.in_corso { background: #fff7ea; border-color: #e08a1e; color: #9a5a05; }
 .pillola.da_fare { background: #fff; border-color: #d0d0d0; color: var(--muto); }
 .gradino .etichetta { font-size: 0.78rem; color: var(--muto); margin-top: 4px; }
+a.pillola { text-decoration: underline; text-underline-offset: 3px; }
+a.pillola:hover { filter: brightness(0.92); }
 .store ul.passi { list-style: none; margin: 20px 0 0; padding: 18px 0 0; border-top: 1px solid var(--linea); }
 .passo { display: grid; grid-template-columns: 20px 1fr; gap: 2px 10px; padding: 8px 0;
   border-top: 1px solid var(--linea); }
@@ -148,13 +146,6 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 <input class="rb" type="radio" name="filtro" id="f-dopo_il_lancio">
 <h1>FamilySide, stato dei lavori</h1>
 <p class="sotto">Aggiornato 14 settembre 2026, sera. App di prova: 1.1.16 (canali di prova interni: Google Play e TestFlight).</p>
-<ul class="prove">
-<li><span class="prova-nome">iPhone, prova interna (1.1.16)</span> <span class="prova-come">dall&#x27;app TestFlight sul tuo iPhone: sei nel gruppo interno, la versione nuova compare da sola</span></li>
-<li><span class="prova-nome"><a href="https://testflight.apple.com/join/TCArPDTS">iPhone, beta (1.1.12)</a></span> <span class="prova-come">chiunque, con l&#x27;app TestFlight</span></li>
-<li><span class="prova-nome"><a href="https://play.google.com/apps/internaltest/4701708261354884420">Android, prova interna (1.1.16)</a></span> <span class="prova-come">con l&#x27;account Google registrato come tester</span></li>
-<li><span class="prova-nome"><a href="https://play.google.com/apps/testing/com.fs.familyside">Android, beta (1.1.12)</a></span> <span class="prova-come">il link si apre quando Google approva la riattivazione del canale</span></li>
-<li><span class="prova-nome">Sugli store</span> <span class="prova-come">non ancora: è il traguardo di «Verso gli store» qui sotto</span></li>
-</ul>
 <h2>Verso gli store</h2>
 <div class="riquadro store">
 <div class="barra-riga">
@@ -166,12 +157,12 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 <div class="gradini">
 <div class="gradino">
 <div><span class="pillola fatto">Prova interna</span></div>
-<div class="etichetta">1.1.16, dal 14 settembre</div>
+<div class="etichetta">1.1.16, dal 14 settembre. Dall&#x27;app TestFlight sul tuo iPhone: sei nel gruppo interno, la versione nuova compare da sola</div>
 </div>
 <div class="giunto"></div>
 <div class="gradino">
-<div><span class="pillola fatto">Beta</span></div>
-<div class="etichetta">1.1.12, approvata da Apple il 12 settembre</div>
+<div><a class="pillola fatto" href="https://testflight.apple.com/join/TCArPDTS">Beta</a></div>
+<div class="etichetta">1.1.12, approvata da Apple il 12 settembre. Chiunque, con l&#x27;app TestFlight: tocca «Beta»</div>
 </div>
 <div class="giunto"></div>
 <div class="gradino">
@@ -182,13 +173,13 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 <div class="corsia-nome">Google Play</div>
 <div class="gradini">
 <div class="gradino">
-<div><span class="pillola fatto">Prova interna</span></div>
-<div class="etichetta">1.1.16, dal 14 settembre</div>
+<div><a class="pillola fatto" href="https://play.google.com/apps/internaltest/4701708261354884420">Prova interna</a></div>
+<div class="etichetta">1.1.16, dal 14 settembre. Tocca «Prova interna» con l&#x27;account Google registrato come tester</div>
 </div>
 <div class="giunto"></div>
 <div class="gradino">
-<div><span class="pillola in_corso">Beta</span></div>
-<div class="etichetta">1.1.12, approvata l&#x27;11 settembre; riattivazione del canale in revisione</div>
+<div><a class="pillola in_corso" href="https://play.google.com/apps/testing/com.fs.familyside">Beta</a></div>
+<div class="etichetta">1.1.12, approvata l&#x27;11 settembre; riattivazione del canale in revisione: il link si apre quando Google la approva</div>
 </div>
 <div class="giunto"></div>
 <div class="gradino">
