@@ -1,6 +1,13 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.16 (canali di prova interni: Google Play e TestFlight).
 132 voci in tutto: Fatto 74 · In lavorazione 7 · In coda 31 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 9.
 
+VERSIONI DI PROVA
+iPhone, prova interna (1.1.16) (dall'app TestFlight sul tuo iPhone: sei nel gruppo interno, la versione nuova compare da sola)
+iPhone, beta (1.1.12): https://testflight.apple.com/join/TCArPDTS (chiunque, con l'app TestFlight)
+Android, prova interna (1.1.16): https://play.google.com/apps/internaltest/4701708261354884420 (con l'account Google registrato come tester)
+Android, beta (1.1.12): https://play.google.com/apps/testing/com.fs.familyside (il link si apre quando Google approva la riattivazione del canale)
+Sugli store (non ancora: è il traguardo di «Verso gli store» qui sotto)
+
 VERSO GLI STORE
 7 di 9 passi · 78%
 
