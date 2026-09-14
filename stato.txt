@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 14 settembre 2026, sera. App di prova: 1.1.18 (canali di prova interni: Google Play e TestFlight).
-133 voci in tutto: Fatto 77 · In lavorazione 7 · In coda 23 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 15.
+133 voci in tutto: Fatto 78 · In lavorazione 6 · In coda 23 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
 7,5 di 11 passi · 68%
@@ -157,9 +157,9 @@ DASHBOARD
 134. Pannello: dal riquadro «To do today» non si arriva ad approvare [In coda, Giacomo] issue #216 su GitHub. Il riquadro «To do today» della pagina iniziale elenca le schede in attesa, ma toccando una riga o «View all» non succede niente: si approva solo dalla campanella in alto a destra, che apre la pagina Notifiche. È così che il 13 settembre Jessica non è riuscita ad approvare la sua scheda, che è ancora in attesa. Correzione: la riga del riquadro apre la stessa finestra della pagina Notifiche, con Approva e Rifiuta. Si fa insieme alla voce 114, con la pulizia della coda: oggi ci sono anche schede di prova del team di agosto.
 
 SICUREZZA E PRIVACY
-(Fatto 1 · In lavorazione 1 · In coda 2)
+(Fatto 2 · In coda 2)
 23. Sicurezza dell'accesso all'app [Fatto, Giacomo] server, dal 10 settembre. Chiusa e pubblicata sul server il 10 settembre, vale anche con l'app già installata. Nel farlo è emerso che l'accesso con Apple non aveva mai funzionato: è la voce 86.
-24. Chiavi delle mappe limitate [In lavorazione, Giacomo] issue #217 su GitHub. In lavorazione dal 14 settembre, con l'accesso al tuo progetto Google. Fatte e provate: una chiave per il server (funziona solo dal server), una per il pannello (solo dal suo indirizzo), una per la mappa Android (solo dall'app firmata) e una per la mappa iPhone (solo dall'app). Manca: metterle in linea (server, pannello e una versione nuova dell'app) e poi stringere la chiave vecchia, che resta per le ricerche di indirizzi dal telefono.
+24. Chiavi delle mappe limitate [Fatto, Giacomo] issue #217 su GitHub. Fatta il 14 settembre sera, col tuo ruolo Editor. Nel tuo progetto Google ci sono cinque chiavi, una per uso, ognuna limitata a dove serve e a cosa serve: server (solo dal server, solo geocodifica), pannello (solo dal suo indirizzo), mappa Android (solo dall'app firmata da te e da Google), mappa iPhone (solo dall'app), e la chiave che avevi, tenuta per le ricerche di indirizzi dal telefono e ridotta a quelle due funzioni. Provate tutte: dal server e dal container, dal pannello in linea, sull'emulatore Android e sull'iPhone con la 1.1.18; le chiamate fuori dai limiti vengono rifiutate. La mappa Android non usa più la chiave del team.
 25. Funzioni riservate alle attività protette davvero [In coda, Giacomo]
 26. Cosa vedono gli altri utenti nei profili delle famiglie [In coda, Giacomo]
 
@@ -208,7 +208,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 14 settembre
-- Versione 1.1.18 sui due canali di prova: la mappa usa le tue chiavi nuove, ognuna limitata alla sua app, e quella del team non c'è più. Sotto, nella voce 24, cosa resta per chiuderla. (voce 24) [Giacomo]
+- Versione 1.1.18 sui due canali di prova: la mappa usa le tue chiavi nuove, ognuna limitata alla sua app, e quella del team non c'è più. Server e pannello già con le loro: la voce 24 è chiusa. (voce 24) [Giacomo]
 - Priorità decise con Jessica: in «Verso gli store» ci sono due passi nuovi, le voci da chiudere prima dell'apertura alle attività e quelle prima del lancio generale, ognuna col colore del suo stato. Sei voci passano a «Dopo il lancio» (44, 45, 19, 21, 54, 113); la 77 si fa prima del lancio solo se il lancio non è alle porte. (voce 77, voce 44, voce 45, voce 19, voce 21, voce 54, voce 113) [Giacomo]
 - Le email dell'app partono da info@familyside.it: codici di iscrizione e di recupero password, avvisi di assistenza. Prima partivano dalla casella privata di una persona del team. Provato con un codice vero, arriva dalla tua casella. (voce 94) [Giacomo]
 - Certificati controllati: si rinnovano da soli, sia quello del sito sia quelli del server. La voce 31 non ha lavoro da fare e passa a fatto. (voce 31) [Giacomo]
