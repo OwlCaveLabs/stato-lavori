@@ -2,7 +2,8 @@ FamilySide, stato dei lavori. Aggiornato 15 settembre 2026. App di prova: 1.1.18
 133 voci in tutto: Fatto 80 · In lavorazione 5 · In coda 23 · C'è ma va rifatta 2 · Aspetta una tua decisione 4 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
-8 di 11 passi · 73%
+7,5 di 9 passi · 83%
+Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione. Qui c'è solo quello che serve a pubblicare; quello che manca all'app sta nel blocco qui sotto.
 
 App Store: Prova interna [x] (1.1.18, dal 14 settembre sera. Arriva da sola nell'app TestFlight) -> Beta [x] (1.1.18 mandata in esame ad Apple il 15 settembre; intanto si installa la 1.1.12. Tocca «Beta» con l'app TestFlight) https://testflight.apple.com/join/TCArPDTS -> Sullo store [ ]
 Google Play: Prova interna [x] (1.1.18, dal 14 settembre sera. Tocca «Prova interna» con l'account tester) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.18, dal 15 settembre. Apri il link col telefono e tocca «Diventa tester») https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [ ]
@@ -14,10 +15,15 @@ Google Play: Prova interna [x] (1.1.18, dal 14 settembre sera. Tocca «Prova int
 [~] Testi e immagini delle due schede (Giacomo) - voce 90, voce 102, voce 107
 [x] Dati del venditore nei due negozi (Giacomo) - voce 92
 [x] Moduli su privacy e dati (Giacomo) - voce 34, voce 105, voce 133
-[~] Prima dell'apertura alle attività (divisione decisa con Jessica il 14 settembre) (Giacomo) - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111
 [x] Beta: l'app installabile dalle attività (Giacomo) - voce 91
-[ ] Prima del lancio generale (la 77 solo se il lancio non è alle porte) (Giacomo) - voce 48, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
 [ ] Invio in revisione e pubblicazione (Giacomo) - voce 34
+
+LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
+2 di 21 voci · 10%
+Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
+
+[~] Prima di invitare le attività a provare l'app - 2 di 11 fatte (Giacomo) - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111
+[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 0 di 10 fatte (Giacomo) - voce 48, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
 
 IMMAGINE E INGRESSO
 (Fatto 5 · Dopo il lancio 1)
@@ -208,6 +214,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 15 settembre
+- La pagina si legge in due blocchi. «Verso gli store» parla solo dei due negozi: cosa serve per pubblicare, dove siamo con le versioni di prova, cosa manca all'invio in revisione. «Le due aperture» dice invece cosa resta dell'app: le voci prima di invitare le attività a provarla, e quelle prima di aprirla a tutti. [Giacomo]
 - La prova aperta per Android è aperta: Google ha approvato in giornata. Chi vuole l'app senza aspettare la pubblicazione apre questo link col telefono e tocca «Diventa tester»: https://play.google.com/apps/testing/com.fs.familyside. Con l'approvazione si vede anche la scheda di FamilySide sul Play Store, con la tua icona e la tua grafica di apertura. Su iPhone il link di sempre resta valido e la 1.1.18 è ancora in esame da Apple. (voce 91, voce 34, voce 132) [Giacomo]
 - Le prove aperte passano dalla 1.1.12 alla 1.1.18 su tutti e due i telefoni. Su Android la versione nuova va al canale beta insieme alla tua grafica di apertura e alla tua icona, e sostituisce la richiesta rimasta in esame dal 12 settembre: il link si apre quando Google finisce di esaminarla. Su iPhone la 1.1.18 è in esame da Apple, col link di sempre: chi ha già l'app riceve la versione nuova appena passa. (voce 91, voce 132, voce 34) [Giacomo]
 
