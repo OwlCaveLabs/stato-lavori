@@ -23,6 +23,8 @@ LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
 [~] Prima di invitare le attività a provare l'app - 2 di 11 fatte - voce 25, voce 94, voce 24, voce 17, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111
+    Prova aperta per Android: https://play.google.com/apps/testing/com.fs.familyside
+    Prova aperta per iPhone: https://testflight.apple.com/join/TCArPDTS
 [ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 0 di 10 fatte - voce 48, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
 
 IMMAGINE E INGRESSO
