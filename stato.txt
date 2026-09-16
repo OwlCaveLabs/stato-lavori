@@ -1,11 +1,11 @@
-FamilySide, stato dei lavori. Aggiornato 15 settembre 2026. App di prova: 1.1.19 (canali di prova interni: Google Play e TestFlight).
+FamilySide, stato dei lavori. Aggiornato 16 settembre 2026. App di prova: 1.1.19 (canali di prova interni: Google Play e TestFlight).
 133 voci in tutto: Fatto 80 · In lavorazione 5 · In coda 23 · C'è ma va rifatta 2 · Aspetta una tua decisione 4 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
 7,5 di 9 passi · 83%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
-App Store: Prova interna [x] (1.1.19, dal 15 settembre) -> Beta [x] (1.1.12, dal 12 settembre) (in revisione: 1.1.19, dal 15 settembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [ ]
+App Store: Prova interna [x] (1.1.19, dal 15 settembre) -> Beta [x] (1.1.19, dal 16 settembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [ ]
 Google Play: Prova interna [x] (1.1.19, dal 15 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.18, dal 15 settembre) (in revisione: 1.1.19, dal 15 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [ ]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
@@ -215,6 +215,9 @@ TESTI E TRADUZIONI
 120. Le etichette proposte nei moduli sono in inglese [Fatto, Giacomo] issue #159 su GitHub; app 1.1.15 sui canali di prova dal 14 settembre. Fatto: nei moduli i tag si leggono «Bambini piccoli», «Al chiuso», «Sempre attivo», «Gratuito», «A pagamento» e i giorni «Lun», «Mar». Il valore che viaggia verso il server resta quello di prima, quindi le schede già salvate continuano a trovarsi con i filtri. Gli stessi elenchi in inglese erano copiati in cinque schermate, non solo nelle due segnalate: modulo dei suggerimenti, attività, eventi, regali e modifica di una scheda.
 
 NOVITÀ, DALLA PIÙ RECENTE
+16 settembre
+- Apple ha approvato la 1.1.19 per la Versione Beta su iPhone: chi ha installato da TestFlight riceve la versione con le icone nuove di Ricerca. Su Android la stessa versione è ancora in revisione da Google dal 15 settembre, e dal link della Beta si scarica la 1.1.18. (voce 91, voce 75) [Giacomo]
+
 15 settembre
 - Versione 1.1.19 sui canali di prova: le quattro icone che hai disegnato sono sulle card di Ricerca, al posto dei disegni di prima. È partita anche verso le due prove aperte, dove arriva quando Google e Apple la esaminano. (voce 75) [Giacomo]
 - La pagina si legge in due blocchi. «Verso gli store» parla solo dei due negozi: cosa serve per pubblicare, dove siamo con le versioni di prova, cosa manca all'invio in revisione. «Le due aperture» dice invece cosa resta dell'app: le voci prima di invitare le attività a provarla, e quelle prima di aprirla a tutti. [Giacomo]
