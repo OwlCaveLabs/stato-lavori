@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 16 settembre 2026. App di prova: 1.1.19 (canali di prova interni: Google Play e TestFlight).
-133 voci in tutto: Fatto 80 · In lavorazione 12 · In coda 16 · C'è ma va rifatta 2 · Aspetta una tua decisione 4 · Al team 4 · Dopo il lancio 15.
+134 voci in tutto: Fatto 80 · In lavorazione 12 · In coda 17 · C'è ma va rifatta 2 · Aspetta una tua decisione 4 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
 7,5 di 9 passi · 83%
@@ -118,8 +118,9 @@ PUBBLICAZIONE NEGLI STORE
 133. Informativa privacy e termini definitivi, dentro l'app e sul sito [Fatto, Giacomo] issue #213 su GitHub; app 1.1.17 sui canali di prova dal 14 settembre. Fatto, in tutti e due i posti. Nell'app ci sono i tuoi testi, in italiano e in inglese: l'informativa completa, che si apre dal profilo e dalla registrazione, e i termini di utilizzo alla registrazione, ognuno i suoi (chi si registra come famiglia legge quelli per gli utenti, chi si registra come attività quelli per i provider). Sul sito hai sostituito le tre pagine il 14 settembre: privacy, cookie e termini, controllate una per una. La cookie policy resta solo sul sito, e l'informativa la collega. Quando la legale manderà una revisione, si sostituiscono con una versione dell'app e una pagina del sito.
 
 CONTATTI E CONTENUTI
-(Fatto 2 · In lavorazione 3 · In coda 1 · Dopo il lancio 1)
+(Fatto 2 · In lavorazione 3 · In coda 2 · Dopo il lancio 1)
 11. Pulsanti sito, WhatsApp e indicazioni sulle schede [In lavorazione, Jessica] I pulsanti esistono; compaiono quando la scheda ha quei dati, cioè dopo il ricaricamento del file.
+135. Telefono e Facebook sulle schede; i WhatsApp che sono numeri fissi [In coda, Giacomo] Chiesto da Jessica il 16 settembre: nelle schede servono il numero di telefono con la sua icona (chiamata diretta) e il link Facebook; il sito web c'è già. Oggi molti numeri fissi stanno nel campo WhatsApp, anche perché il pannello sotto quel campo chiede "inserisci il numero di telefono": l'icona apre WhatsApp e con un fisso, o con un cellulare senza +39, dà errore. Telefono e Facebook sono campi nuovi in tre posti, file, pannello e app. Le note di Jessica su cosa mostrare nella scheda e nei riquadri sono in arrivo.
 12. Ricaricamento dei contenuti (file delle attività, categorie e sottocategorie) [In lavorazione, Jessica] Secondo file (prezzi a numero) provato il 4 settembre sui dati aggiornati, dopo le rinomine nel pannello: 18 schede riconosciute, nessun errore, sottocategorie che combaciano. Regole: prezzo a numero (0 = gratuito), sottocategorie con lo stesso nome del pannello maiuscole comprese, categoria con il suo numero (voce 51), nessuna virgola in coda ai tag (crea un tag vuoto).
 13. Immagini mancanti sulle schede [In coda, Jessica] La parte nostra è chiusa con la voce 55 (8 settembre): nessuna scheda resta col segnaposto, le attività senza foto prendono la copertina della categoria. Resta a te: se vuoi che un'attività abbia la sua foto, la carichi dal pannello aprendola con la matita; la foto caricata vince sulla copertina.
 64. Le immagini caricate dal pannello vengono ridotte dal server [In lavorazione, Giacomo] issue #61 su GitHub. In lavorazione oggi, 16 settembre. Oggi il server salva le immagini tali e quali (la copertina di Parco giochi è un PNG da 2,5 MB). Correzione: al caricamento il server riduce da solo le immagini più larghe di 1200 pixel, per copertine, icone e foto delle attività, dal pannello e dall'app. Vale per i caricamenti futuri: la copertina già caricata va ricaricata una volta.
@@ -216,6 +217,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 16 settembre
+- Nelle schede servono il telefono con la sua icona e il link Facebook (voce 135). I numeri fissi messi nel campo WhatsApp danno errore al tocco: l'icona apre WhatsApp, che i fissi non hanno. (voce 135, voce 11) [Jessica]
 - Decisi colore, font e contenuto del biglietto regalo nuovo: verde scuro, DM Sans e Caveat, dentro descrizione, indirizzo e contatti, fuori il prezzo, scritta in fondo nuova. Le grafiche senza testo valgono per tutte le lingue. (voce 87) [Jessica]
 - Giornata sul primo gruppo di «Le due aperture»: sette voci in lavorazione insieme, quelle che restano prima di invitare le attività a provare l'app. Cinque si risolvono sul server e si vedono senza aggiornare l'app; due vogliono una versione nuova e usciranno con la 1.1.20. Le trovi qui sotto in arancione, ognuna con cosa si vede oggi e cosa cambia. (voce 25, voce 20, voce 131, voce 114, voce 64, voce 111, voce 72) [Giacomo]
 - Arrivato lo schema del biglietto regalo: verticale, grafica in alto con gli auguri dentro e i testi in basso in verde scuro. La voce 87 parte da lì, nel gruppo prima dell'apertura a tutti. (voce 87) [Jessica]
