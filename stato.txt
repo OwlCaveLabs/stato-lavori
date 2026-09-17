@@ -2,7 +2,7 @@ FamilySide, stato dei lavori. Aggiornato 17 settembre 2026. App di prova: 1.1.21
 137 voci in tutto: Fatto 89 · In lavorazione 6 · In coda 16 · C'è ma va rifatta 2 · Aspetta una tua decisione 5 · Al team 4 · Dopo il lancio 15.
 
 VERSO GLI STORE
-8 di 9 passi · 89%
+8,5 di 9 passi · 94%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
 App Store: Prova interna [x] (1.1.21, dal 17 settembre) -> Beta [x] (1.1.20, dal 16 settembre) (in revisione: 1.1.21, dal 17 settembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [~] (in revisione: 1.1.20, dal 16 settembre)
@@ -12,7 +12,7 @@ Google Play: Prova interna [x] (1.1.21, dal 17 settembre) https://play.google.co
 [x] Correzioni chieste dalle regole degli store - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
 [x] Account di prova per chi esamina l'app - voce 88, voce 30
 [x] Pubblicazione con un comando solo - voce 89
-[~] Testi e immagini delle due schede - voce 90, voce 102, voce 107
+[x] Testi e immagini delle due schede - voce 90, voce 102, voce 107
 [x] Dati del venditore nei due negozi - voce 92
 [x] Moduli su privacy e dati - voce 34, voce 105, voce 133
 [x] Beta: l'app installabile dalle attività - voce 91
