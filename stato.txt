@@ -19,10 +19,10 @@ Google Play: Prova interna [x] (1.1.22, dal 17 settembre) https://play.google.co
 [~] Invio in revisione e pubblicazione - voce 34
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
-16 di 30 voci · 53%
+17 di 31 voci · 55%
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
-[~] Prima di invitare le attività a provare l'app - 16 di 19 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174
+[~] Prima di invitare le attività a provare l'app - 17 di 20 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 175
     Versione Beta per Android: https://play.google.com/apps/testing/com.fs.familyside
     Versione Beta per iPhone: https://testflight.apple.com/join/TCArPDTS
 [ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 0 di 11 fatte - voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
