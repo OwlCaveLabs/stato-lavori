@@ -5,8 +5,8 @@ VERSO GLI STORE
 8,5 di 9 passi · 94%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
-App Store: Prova interna [x] (1.1.23, dal 19 settembre) -> Beta [x] (1.1.23, dal 22 settembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [~] (Apple ha chiesto una modifica il 20 settembre: vedi la voce 176)
-Google Play: Prova interna [x] (1.1.23, dal 19 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.23, dal 22 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [~]
+App Store: Prova interna [x] (1.1.23, dal 19 settembre) -> Beta [x] (1.1.23, dal 22 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (Apple ha chiesto una modifica il 20 settembre: vedi la voce 176) -> Sullo store [ ]
+Google Play: Prova interna [x] (1.1.23, dal 19 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.23, dal 22 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
 [x] Correzioni chieste dalle regole degli store - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
