@@ -1,5 +1,5 @@
-FamilySide, stato dei lavori. Aggiornato 22 settembre 2026. App di prova: 1.1.23 (canali di prova interni: App Store e Google Play).
-178 voci in tutto: Fatto 99 · In lavorazione 5 · In coda 45 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
+FamilySide, stato dei lavori. Aggiornato 23 settembre 2026. App di prova: 1.1.23 (canali di prova interni: App Store e Google Play).
+179 voci in tutto: Fatto 99 · In lavorazione 5 · In coda 46 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -206,7 +206,7 @@ SICUREZZA E PRIVACY
 177. Le schede non ancora approvate si possono leggere con l'indirizzo diretto [In coda, Giacomo] issue #284 su GitHub. Trovato il 22 settembre rivedendo la modifica chiesta da Apple. Nell'app una scheda compare solo dopo la tua approvazione, e questo resta vero: ma chi conosce l'indirizzo esatto di una scheda in attesa o rifiutata può leggerla lo stesso, contatti compresi. Navigando non ci si arriva, quindi il rischio è basso, ma va chiuso. La correzione lascia leggere una scheda solo se è approvata oppure a chi l'ha inserita, perché una famiglia deve continuare a vedere i propri suggerimenti in attesa. Vale anche per i link di condivisione.
 
 FONDAMENTA E MESSA IN PRODUZIONE
-(Fatto 13 · In coda 1 · Aspetta una tua decisione 1 · Dopo il lancio 1)
+(Fatto 13 · In coda 2 · Aspetta una tua decisione 1 · Dopo il lancio 1)
 27. Il progetto si ricostruisce da zero e si prova fuori dalla produzione [Fatto, Giacomo] dal 31 agosto.
 28. Pubblicazione di server e pannello da parte nostra, con un comando [Fatto, Giacomo] dal 31 agosto (server) e dal 2 settembre (pannello).
 29. Copia di sicurezza del database prima di ogni intervento [Fatto, Giacomo] dal 31 agosto.
@@ -223,6 +223,7 @@ FONDAMENTA E MESSA IN PRODUZIONE
 147. Sapere come viene usata l'app, come Google Analytics per un sito [Aspetta una tua decisione, Jessica] Chiesto da Jessica il 17 settembre. Oggi l'app non misura niente di quello che fanno le famiglie: il server conta solo le aperture di una scheda, ed è il numero che ogni attività vede nelle sue statistiche. Uno strumento che misuri schermate, percorsi e tempi si può aggiungere, e quello di Google è gratuito e a metà strada già c'è, perché l'app usa Firebase per l'accesso con Google. Prima però c'è una decisione tua, e non è tecnica: uno strumento così raccoglie dati sull'uso, va dichiarato nei moduli dei due negozi e nell'informativa privacy che abbiamo appena depositato, e in Europa il consenso va chiesto all'utente la prima volta che apre l'app. Se si fa, conviene farlo prima dell'apertura al pubblico: i dati cominciano a contare dal giorno in cui lo si accende, e quelli di prima non si recuperano.
 149. Profilo: «Le tue recensioni» si spezza e lascia una lettera da sola [Fatto, Giacomo] issue #267 su GitHub. Fatto, insieme alla voce 171: era lo stesso difetto visto da due segnalazioni, la tua del 17 e quella del 18 settembre. I riquadri del profilo avevano una larghezza fissa e «Le tue recensioni» non ci stava dentro, così andava a capo in mezzo alla parola e lasciava la «i» da sola. Ora i riquadri si dividono la larghezza della riga e la scritta sta su una riga sola. È nella versione 1.1.23, da stasera sui canali di prova. Provata anche sui telefoni più stretti e con il testo di sistema ingrandito di due tacche.
 178. Un indirizzo che Google Maps non riconosce viene ricercato a ogni apertura della scheda [In coda, Giacomo] issue #285 su GitHub. Trovato il 22 settembre nella stessa revisione. Quando l'indirizzo di una scheda non viene riconosciuto da Google Maps, ogni apertura della scheda rifà la ricerca, e ognuna è una chiamata che Google fa pagare. Ogni apertura conta anche come visita nelle statistiche dell'attività, chiunque la faccia. Con la navigazione senza account le aperture aumenteranno. Prima di correggere misuro quante schede sono in questa situazione; poi la ricerca si farà una volta sola, quando la scheda viene inserita o modificata. Su come contare le visite ti chiederò una scelta.
+180. Alcune schermate registrano un errore quando si esce prima che abbiano finito di caricare [In coda, Giacomo] issue #289 su GitHub. Trovato il 23 settembre nelle prove automatiche su Android della voce 176. Se si lascia una schermata mentre sta ancora caricando i dati, l'app prova ad aggiornare una parte che non c'è più. L'app non si chiude, ma l'errore resta nei registri. Corretto già dove serve a chi naviga senza account: home, ricerca e regali. Restano mappa, schede, notifiche e profilo, da sistemare con la stessa correzione.
 
 AL TEAM
 (Al team 4 · Dopo il lancio 1)
@@ -260,6 +261,9 @@ TESTI E TRADUZIONI
 120. Le etichette proposte nei moduli sono in inglese [Fatto, Giacomo] issue #159 su GitHub; app 1.1.15 sui canali di prova dal 14 settembre. Fatto: nei moduli i tag si leggono «Bambini piccoli», «Al chiuso», «Sempre attivo», «Gratuito», «A pagamento» e i giorni «Lun», «Mar». Il valore che viaggia verso il server resta quello di prima, quindi le schede già salvate continuano a trovarsi con i filtri. Gli stessi elenchi in inglese erano copiati in cinque schermate, non solo nelle due segnalate: modulo dei suggerimenti, attività, eventi, regali e modifica di una scheda.
 
 NOVITÀ, DALLA PIÙ RECENTE
+23 settembre
+- La parte dell'app è pronta e provata su due telefoni Android di prova (uno recente e uno di qualche anno fa) e sull'iPhone di prova: la presentazione una volta sola, la navigazione senza account, l'invito ad accedere quando serve, il ritorno dove si era dopo l'accesso. Su Android la scheda chiede l'account, su iPhone si apre, come concordato. Prima di pubblicarla va aggiornato lo strumento con cui si costruisce l'app, per la nuova versione di Xcode. Le prove hanno fatto emergere anche un errore di fondo, corretto nelle schermate che usa chi non ha un account; il resto è segnato a parte. (voce 176, voce 179, voce 180) [Giacomo]
+
 22 settembre
 - La parte sul server è in linea da stasera. Per chi usa l'app oggi non cambia niente: il cambiamento si vedrà con la nuova versione dell'app, che è il passo successivo. (voce 176) [Giacomo]
 - La parte sul server della modifica chiesta da Apple è pronta e verificata: senza account si vedono home, mappa, ricerca e schede, e tutto ciò che è legato al profilo resta dietro l'accesso. Va ancora messa in linea, insieme alla parte dell'app. Rivedendola sono venute fuori due cose da sistemare a parte: una scheda non ancora approvata si può leggere conoscendone l'indirizzo, e un indirizzo che Google Maps non riconosce viene ricercato di nuovo a ogni apertura della scheda. (voce 176, voce 177, voce 178) [Giacomo]
