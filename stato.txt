@@ -1,12 +1,12 @@
-FamilySide, stato dei lavori. Aggiornato 23 settembre 2026. App di prova: 1.1.26 (canali di prova interni: App Store e Google Play).
-182 voci in tutto: Fatto 104 · In lavorazione 5 · In coda 44 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
+FamilySide, stato dei lavori. Aggiornato 23 settembre 2026. App di prova: 1.1.27 (canali di prova interni: App Store e Google Play).
+182 voci in tutto: Fatto 105 · In lavorazione 4 · In coda 44 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
-App Store: Prova interna [x] (1.1.26, dal 23 settembre) -> Beta [x] (1.1.23, dal 22 settembre) (in revisione: 1.1.26, dal 23 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.24 reinviata il 23 settembre, in attesa dell'esame di Apple) -> Sullo store [ ]
-Google Play: Prova interna [x] (1.1.26, dal 23 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.26, dal 23 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
+App Store: Prova interna [x] (1.1.27, dal 23 settembre) -> Beta [x] (1.1.26, dal 23 settembre) (in revisione: 1.1.27, dal 23 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.24 reinviata il 23 settembre, in attesa dell'esame di Apple) -> Sullo store [ ]
+Google Play: Prova interna [x] (1.1.27, dal 23 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.27, dal 23 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
 [x] Correzioni chieste dalle regole degli store - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
@@ -19,13 +19,13 @@ Google Play: Prova interna [x] (1.1.26, dal 23 settembre) https://play.google.co
 [~] Invio in revisione e pubblicazione - voce 34, voce 176
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
-20 di 33 voci · 61%
+21 di 33 voci · 64%
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
 [~] Prima di invitare le attività a provare l'app - 20 di 21 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 182, voce 175
     Versione Beta per Android: https://play.google.com/apps/testing/com.fs.familyside
     Versione Beta per iPhone: https://testflight.apple.com/join/TCArPDTS
-[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 0 di 12 fatte - voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
+[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 1 di 12 fatte - voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 77
 
 IMMAGINE E INGRESSO
 (Fatto 5 · Dopo il lancio 1)
@@ -37,7 +37,7 @@ IMMAGINE E INGRESSO
 132. L'icona dell'app dal tuo file, sul telefono e sulla scheda Play [Fatto, Giacomo] issue #205 e #209 su GitHub; app 1.1.16 sui canali di prova dal 14 settembre. Fatta con l'app 1.1.16: l'icona sul telefono (Android e iPhone) e la schermata di avvio sono disegnate dal tuo file, la F. bianca su corallo, con il foro nel pin. Nel file bianco di agosto il foro non c'era; il 14 settembre è arrivato quello giusto. La stessa icona è salita sulla scheda di Google Play il 15 settembre, col passaggio della 1.1.18 al canale beta, e si vede sul negozio. La F «all'accesso» era la schermata di avvio, quella che si vede per un attimo: i colori sono giusti, mancava solo il foro nel pin. Prima l'icona sul telefono era una versione ridisegnata, con la F più grossa e il pin pieno.
 
 REGISTRAZIONE E ACCESSO
-(Fatto 10 · In lavorazione 1 · In coda 3 · Dopo il lancio 1)
+(Fatto 11 · In coda 3 · Dopo il lancio 1)
 56. Accedendo di nuovo, l'app rifà tutte le domande iniziali [Fatto, Giacomo] issue #37 su GitHub. Corretta sul server il 5 settembre, vale anche con l'app già installata. Chi saltava la foto del profilo, facoltativa, restava segnato come «non ha finito» e a ogni accesso ripartiva dalla scelta del ruolo. Trovata il 4 settembre provando la registrazione passo per passo. Riaprendo l'app senza uscire non si vedeva: serviva un accesso vero. Il percorso dell'operatore non aveva il problema. Rifare quel giro non era innocuo: vedi la voce 57.
 57. I figli inseriti spariscono quando l'app rifà le domande iniziali [Fatto, Giacomo] issue #38 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. La schermata dei figli partiva vuota e premendo «Continua» cancellava i figli già registrati, dicendo che il salvataggio era riuscito. Trovata il 4 settembre insieme alla voce 56. La stessa schermata dentro il profilo i figli li caricava: il modo giusto esisteva già. Corretta da due lati, app e server.
 58. Un figlio senza data di nascita non viene salvato, e l'app non lo dice [Fatto, Giacomo] issue #39 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. Un figlio col solo nome faceva rifiutare al server tutta la richiesta, anche gli altri figli, e l'app andava avanti con un «Error» che compariva e spariva.
@@ -52,7 +52,7 @@ REGISTRAZIONE E ACCESSO
 169. Le email dell'app passeranno dal servizio che usi già per il sito [Dopo il lancio, Giacomo] Oggi i codici di verifica partono da info@familyside.it attraverso Google, e dal 18 settembre arrivano come si deve (voce 165). Google però conta quei messaggi come se a scriverli fosse una persona, e il tetto giornaliero è pensato per quello: finché siamo in prova non si vede, ma quando le attività cominceranno a iscriversi sul serio diventa stretto. Resend, il servizio che hai già configurato per il sito e per i moduli di contatto, è fatto apposta per le email che manda un programma. Il dominio è già verificato lì, quindi il passaggio non si vede da fuori: cambia solo la strada che fa il messaggio, non il mittente e non il testo. Prima serve sapere quale piano hai attivo su Resend. Non c'è urgenza, si fa dopo il lancio.
 170. Manca la firma del dominio sulle email che manda l'app [Fatto, Giacomo] issue #273 su GitHub. Visto il 18 settembre mentre verificavo la voce 165. Oltre alle due diciture aggiunte nel pannello Aruba ce n'è una terza, una firma che il dominio mette su ogni messaggio e che i gestori di posta controllano. Per familyside.it era stata preparata a luglio, ma non è mai stata accesa nelle impostazioni di Google: i messaggi partono senza. Oggi non si nota, perché basta quello che abbiamo appena sistemato. Si vede quando chi riceve fa rimbalzare la posta su un altro indirizzo, cosa comune fra le attività: in quel caso il controllo che ci salva oggi salta per forza, e senza firma il messaggio può tornare nella posta indesiderata. L'hai accesa tu dalle impostazioni di Google il 18 settembre, seguendo i passaggi che ti avevo mandato per email, e senza generare niente di nuovo: la firma che il dominio usa è proprio quella registrata a luglio. Provato subito dopo con un altro codice vero: adesso arriva firmato dal dominio, e anche se rimbalza su un altro indirizzo resta riconoscibile come nostro. Non ha toccato né l'app né il server. Va fatto prima di invitare le attività, per lo stesso motivo della 165: riguarda l'email che ognuna di loro riceve per completare l'iscrizione.
 181. Dopo l'uscita dall'account l'app resta sul profilo invece di tornare alla Home [In coda, Giacomo] issue #292 su GitHub. Trovato il 23 settembre nelle prove automatiche della voce 176. Chi esce dall'account, o lo cancella, dalla scheda Profilo resta su quella scheda, che ora mostra la versione per chi non ha un account (i due accessi, la lingua, la privacy), invece di tornare alla Home. La correzione è piccola: all'uscita si torna alla Home. Prima di farla vale la pena decidere se restare sul profilo non sia invece utile, perché mostra subito come rientrare. Non blocca la versione in revisione da Apple.
-183. Dopo aver reinstallato l'app su Android resta bloccata su «Sessione scaduta» [In lavorazione, Giacomo] issue #300 su GitHub. Segnalato da te il 23 settembre sulla 1.1.26. Android rimette da solo i dati della vecchia installazione, compreso l'accesso scaduto: l'app salta la presentazione, ogni schermata dice «Sessione scaduta» e non c'è modo di uscire. Riprodotto sul telefono di prova, insieme al rimedio di oggi, «Cancella dati» nelle impostazioni dell'app. Chi installa l'app per la prima volta non lo incontra. La correzione fa due cose: i dati dell'accesso non passano più da un'installazione all'altra, e quando un accesso non vale più l'app torna a funzionare senza account e ti chiede di rientrare, invece di bloccarsi.
+183. Dopo aver reinstallato l'app su Android resta bloccata su «Sessione scaduta» [Fatto, Giacomo] issue #300 su GitHub. Segnalato da te il 23 settembre sulla 1.1.26. Android rimetteva da solo i dati della vecchia installazione, compreso l'accesso scaduto: l'app saltava la presentazione, ogni schermata diceva «Sessione scaduta» e non c'era modo di uscire. Dalla versione 1.1.27 i dati dell'accesso non passano più da un'installazione all'altra né a un telefono nuovo, e quando un accesso non vale più l'app torna a funzionare senza account e ti chiede di rientrare. Chi ha ancora la 1.1.26 bloccata si sblocca con «Cancella dati» nelle impostazioni dell'app.
 
 MAPPA, RICERCA E SCHEDE
 (Fatto 20 · In coda 10 · Aspetta una tua decisione 3 · Dopo il lancio 1)
@@ -265,6 +265,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 23 settembre
+- La correzione per il blocco su «Sessione scaduta» è nella versione 1.1.27, appena mandata alle app di prova. Reinstallando l'app si riparte dalla presentazione, e se l'accesso non vale più l'app torna a funzionare senza account e ti chiede di rientrare. (voce 183) [Giacomo]
 - Ho trovato perché dopo aver reinstallato l'app su Android restavi bloccata su «Sessione scaduta»: il telefono rimette da solo i dati della vecchia installazione, compreso l'accesso ormai scaduto, e l'app non sapeva uscirne. L'ho riprodotto sul telefono di prova, e anche il rimedio, «Cancella dati» nelle impostazioni dell'app. La correzione è cominciata. (voce 183) [Giacomo]
 - Il modulo con cui un'attività inserisce la sua scheda è corretto: la scheda parte anche senza foto, l'indirizzo è un campo vero con la sua etichetta, l'app dice cosa manca prima di inviare, conferma l'invio e mostra la scheda nell'elenco «Gestisci», segnata «In attesa». L'ho provato dall'inizio alla fine sull'iPhone di prova, con il nostro server. È nella versione 1.1.26, appena mandata alle app di prova: ti scrivo appena si installa dai due link, e da lì puoi mandarlo alle attività. (voce 173, voce 174, voce 182) [Giacomo]
 - Ho risposto al messaggio di Apple e reinviato l'app in revisione con la versione 1.1.24, quella che si usa senza account. Adesso si aspetta il loro esame, di solito da uno a tre giorni. Se la approvano, non esce da sola: la data la scegli tu. (voce 176) [Giacomo]
