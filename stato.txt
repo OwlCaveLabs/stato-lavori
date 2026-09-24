@@ -1,5 +1,5 @@
-FamilySide, stato dei lavori. Aggiornato 23 settembre 2026. App di prova: 1.1.27 (canali di prova interni: App Store e Google Play).
-186 voci in tutto: Fatto 105 · In lavorazione 8 · In coda 44 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
+FamilySide, stato dei lavori. Aggiornato 24 settembre 2026. App di prova: 1.1.27 (canali di prova interni: App Store e Google Play).
+187 voci in tutto: Fatto 105 · In lavorazione 9 · In coda 44 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -37,7 +37,7 @@ IMMAGINE E INGRESSO
 132. L'icona dell'app dal tuo file, sul telefono e sulla scheda Play [Fatto, Giacomo] issue #205 e #209 su GitHub; app 1.1.16 sui canali di prova dal 14 settembre. Fatta con l'app 1.1.16: l'icona sul telefono (Android e iPhone) e la schermata di avvio sono disegnate dal tuo file, la F. bianca su corallo, con il foro nel pin. Nel file bianco di agosto il foro non c'era; il 14 settembre è arrivato quello giusto. La stessa icona è salita sulla scheda di Google Play il 15 settembre, col passaggio della 1.1.18 al canale beta, e si vede sul negozio. La F «all'accesso» era la schermata di avvio, quella che si vede per un attimo: i colori sono giusti, mancava solo il foro nel pin. Prima l'icona sul telefono era una versione ridisegnata, con la F più grossa e il pin pieno.
 
 REGISTRAZIONE E ACCESSO
-(Fatto 11 · In lavorazione 1 · In coda 3 · Dopo il lancio 1)
+(Fatto 11 · In lavorazione 2 · In coda 3 · Dopo il lancio 1)
 56. Accedendo di nuovo, l'app rifà tutte le domande iniziali [Fatto, Giacomo] issue #37 su GitHub. Corretta sul server il 5 settembre, vale anche con l'app già installata. Chi saltava la foto del profilo, facoltativa, restava segnato come «non ha finito» e a ogni accesso ripartiva dalla scelta del ruolo. Trovata il 4 settembre provando la registrazione passo per passo. Riaprendo l'app senza uscire non si vedeva: serviva un accesso vero. Il percorso dell'operatore non aveva il problema. Rifare quel giro non era innocuo: vedi la voce 57.
 57. I figli inseriti spariscono quando l'app rifà le domande iniziali [Fatto, Giacomo] issue #38 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. La schermata dei figli partiva vuota e premendo «Continua» cancellava i figli già registrati, dicendo che il salvataggio era riuscito. Trovata il 4 settembre insieme alla voce 56. La stessa schermata dentro il profilo i figli li caricava: il modo giusto esisteva già. Corretta da due lati, app e server.
 58. Un figlio senza data di nascita non viene salvato, e l'app non lo dice [Fatto, Giacomo] issue #39 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. Un figlio col solo nome faceva rifiutare al server tutta la richiesta, anche gli altri figli, e l'app andava avanti con un «Error» che compariva e spariva.
@@ -54,6 +54,7 @@ REGISTRAZIONE E ACCESSO
 181. Dopo l'uscita dall'account l'app resta sul profilo invece di tornare alla Home [In coda, Giacomo] issue #292 su GitHub. Trovato il 23 settembre nelle prove automatiche della voce 176. Chi esce dall'account, o lo cancella, dalla scheda Profilo resta su quella scheda, che ora mostra la versione per chi non ha un account (i due accessi, la lingua, la privacy), invece di tornare alla Home. La correzione è piccola: all'uscita si torna alla Home. Prima di farla vale la pena decidere se restare sul profilo non sia invece utile, perché mostra subito come rientrare. Non blocca la versione in revisione da Apple.
 183. Dopo aver reinstallato l'app su Android resta bloccata su «Sessione scaduta» [Fatto, Giacomo] issue #300 su GitHub. Segnalato da te il 23 settembre sulla 1.1.26. Android rimetteva da solo i dati della vecchia installazione, compreso l'accesso scaduto: l'app saltava la presentazione, ogni schermata diceva «Sessione scaduta» e non c'era modo di uscire. Dalla versione 1.1.27 i dati dell'accesso non passano più da un'installazione all'altra né a un telefono nuovo, e quando un accesso non vale più l'app torna a funzionare senza account e ti chiede di rientrare. Chi ha ancora la 1.1.26 bloccata si sblocca con «Cancella dati» nelle impostazioni dell'app.
 185. Apple: termini accettati prima dell'accesso, e la frase di tolleranza zero [In lavorazione, Giacomo] issue #306 su GitHub. Secondo rilievo del 23 settembre: le regole di Apple sui contenuti degli utenti chiedono che i termini vengano accettati prima di registrarsi o di accedere, non solo alla registrazione, e che dicano chiaramente che non c'è tolleranza per contenuti offensivi o per chi si comporta male. Oggi la spunta di accettazione manca sulle due schermate di accesso, compresi gli accessi con Google e Apple, e i testi legali non hanno ancora quella frase. La correzione aggiunge la stessa spunta anche lì e un paragrafo di tolleranza zero nei testi, che vanno aggiornati anche sul sito.
+188. Dopo la presentazione l'app chiede chi sei, e chi vuole entra senza registrarsi [In lavorazione, Giacomo] issue #311 su GitHub. Segnalato da Jessica il 23 settembre provando il percorso da attività: dopo «Iniziamo» si finisce dritti nella home, e chi non conosce l'app non capisce che esiste un profilo per le attività; da Profilo, «Fornitore di Servizi» apre l'accesso, non la registrazione. Era l'effetto della voce 176: Apple non permette di obbligare alla registrazione. Proporla però si può. Dopo la presentazione torna la domanda «Chi sei?», con «Sono un genitore», «Ho un'attività» e sotto il link «Continua senza registrarti», nella stessa veste del «Salta» delle schermate iniziali, così chi esamina l'app per Apple lo vede. I due pulsanti portano alla registrazione, che ha già «Hai già un account? Accedi»; la scheda Profilo dell'ospite resta com'è. Esce con la 1.1.28, insieme ai rilievi di Apple del 23 settembre.
 
 MAPPA, RICERCA E SCHEDE
 (Fatto 20 · In coda 10 · Aspetta una tua decisione 3 · Dopo il lancio 1)
@@ -269,6 +270,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 24 settembre
+- La domanda «Chi sei?» torna dopo la presentazione, con l'uscita da ospite in vista: esce con la 1.1.28. (voce 188) [Giacomo]
 - Apple ha respinto anche la 1.1.24 il 23 settembre: tre rilievi nuovi (posizione, contenuti degli utenti, domande sul modello di business); la modalità ospite è passata. (voce 184, voce 185, voce 186, voce 187) [Giacomo]
 - Al lavoro sui tre rilievi, tutto in una versione sola: la 1.1.28. (voce 184, voce 185, voce 186, voce 187) [Giacomo]
 
