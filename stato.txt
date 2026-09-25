@@ -1,11 +1,11 @@
 FamilySide, stato dei lavori. Aggiornato 25 settembre 2026. App di prova: 1.1.28 (canali di prova interni: App Store e Google Play).
-191 voci in tutto: Fatto 114 · In lavorazione 3 · In coda 47 · C'è ma va rifatta 2 · Aspetta una tua decisione 4 · Al team 4 · Dopo il lancio 17.
+192 voci in tutto: Fatto 114 · In lavorazione 4 · In coda 47 · C'è ma va rifatta 2 · Aspetta una tua decisione 4 · Al team 4 · Dopo il lancio 17.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
-App Store: Prova interna [x] (1.1.28, dal 24 settembre) -> Beta [x] (1.1.28, dal 25 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.28 rinviata ad Apple il 24 settembre, con le risposte e la registrazione; ora in attesa dell'esame) -> Sullo store [ ]
+App Store: Prova interna [x] (1.1.28, dal 24 settembre) -> Beta [x] (1.1.28, dal 25 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.28 rimandata indietro da Apple il 25 settembre, da rinviare con le istruzioni corrette) -> Sullo store [ ]
 Google Play: Prova interna [x] (1.1.28, dal 24 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.28, dal 24 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
@@ -16,7 +16,7 @@ Google Play: Prova interna [x] (1.1.28, dal 24 settembre) https://play.google.co
 [x] Dati del venditore nei due negozi - voce 92
 [x] Moduli su privacy e dati - voce 139, voce 105, voce 133
 [x] Beta: l'app installabile dalle attività - voce 91
-[~] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190
+[~] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190, voce 193
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
 23 di 33 voci · 70%
@@ -110,7 +110,7 @@ PANNELLO E ATTIVITÀ
 100. Le statistiche dell'attività sono a zero, con un consiglio inventato in inglese [Fatto, Jessica] issue #125 su GitHub; server e app 1.1.15 dal 14 settembre. Fatta: il consiglio inventato in inglese non c'è più, il riquadro sparisce quando non c'è niente di vero da dire, e le due voci del grafico che non potevano che valere zero sono uscite dalle schede. Il grafico adesso conta le aperture vere delle schede di quell'attività, mese per mese. Il difetto era più largo di com'era scritto: l'app chiedeva una cosa e il server ne capiva un'altra, quindi il grafico restava a zero su tutte le schede, non solo sulla prima, e nessun uso vero lo avrebbe mosso. Resta una domanda per te: le due schede rimaste, «Coinvolgimento» e «Attività totali», oggi contano la stessa cosa.
 
 PUBBLICAZIONE NEGLI STORE
-(Fatto 26 · In lavorazione 1 · In coda 1)
+(Fatto 26 · In lavorazione 2 · In coda 1)
 102. La scheda dei negozi promette «puoi suggerirlo», e ora la funzione c'è [Fatto, Giacomo] issue #130 su GitHub. Dal profilo, «Suggerisci un'attività»: una famiglia compila nome, indirizzo, categoria, descrizione e foto; la scheda entra in attesa nella stessa coda di approvazione del pannello, e la famiglia riceve una notifica quando viene approvata o rifiutata. Nell'elenco dei propri suggerimenti si vede lo stato, si modifica e si cancella; una modifica rimette la scheda in attesa. Server in linea e app 1.1.13 sui due canali di prova. La funzione l'ha costruita il team il 10 settembre; qui è stata portata dentro, verificata e corretta dove serviva (valori inventati nell'elenco, errori chiari su dati sbagliati, la modifica che scavalcava l'approvazione).
 103. L'app chiede il permesso del microfono e non lo usa mai [Fatto, Giacomo] issue #132 su GitHub. Fatta con l'app 1.1.14: il permesso del microfono non c'è più, né su Android né su iPhone. L'app non registra niente, e un permesso che non si usa Google chiede di giustificarlo, compare sulla scheda del negozio e obbligherebbe l'informativa a dire una cosa falsa. Trovata compilando l'elenco dei dati raccolti per l'informativa e per il modulo di Google. Controllato sul pacchetto costruito, non solo nel testo sorgente: nessuna libreria lo rimette di nascosto.
 105. Pagina web per cancellare l'account, che Google pretende [Fatto, Giacomo] issue #135 su GitHub. Fatta e in linea l'11 settembre su dashboard.familyside.it/elimina-account, già dichiarata a Google. Google pretende un indirizzo web per chiedere la cancellazione, oltre a quella dentro l'app (voce 84), e il link compare sulla scheda del negozio. Servirà anche ad Apple e va citato nell'informativa privacy. La pagina spiega i passaggi dall'app, dà info@familyside.it per chi l'app non ce l'ha più, e dice cosa viene eliminato, cosa resta e per quanto i dati possono ancora trovarsi in una copia di sicurezza. È sotto il pannello e non sul sito perché lì la pubblichiamo noi, subito: se preferisci familyside.it/elimina-account si sposta quando vuoi.
@@ -139,6 +139,7 @@ PUBBLICAZIONE NEGLI STORE
 184. Apple: il messaggio sulla posizione deve portare sempre al prompt di sistema [Fatto, Giacomo] issue #305 su GitHub; app 1.1.28 sui canali di prova dal 24 settembre. Corretto: quando l'app chiede la posizione, il foglio che lo spiega ha ora un solo pulsante, «Continua», che porta sempre alla richiesta vera e propria del telefono. Chi non vuole condividere la posizione la nega lì, non prima, come chiedeva Apple. Nella versione 1.1.28, sui canali di prova dal 24 settembre.
 189. Apple: risposte sul modello di business [Fatto, Giacomo] Le risposte alle domande di Apple sul modello di attività dell'app sono state mandate il 24 settembre: oggi non si paga niente, né dentro né fuori dall'app; i servizi a pagamento per le attività sono previsti in una versione successiva, seguendo le regole di Apple. Le hai ricevute per email, a titolo informativo.
 190. Apple: nuovo invio della versione con le correzioni [Fatto, Giacomo] La versione 1.1.28 è stata rimandata in esame ad Apple il 24 settembre, con le risposte alle loro domande e la registrazione dello schermo su un iPhone vero. Ora si aspetta l'esito dell'esame di Apple; la pubblicazione resta manuale e la data resta una tua decisione.
+193. Apple: terzo esame, il revisore non trovava la recensione da segnalare [In lavorazione, Giacomo] issue #322 su GitHub. Il 25 settembre Apple ha rimandato indietro la 1.1.28 solo sul punto dei contenuti scritti dagli utenti. Le altre due richieste sono passate. La causa è nostra: le istruzioni per il revisore nominavano la scheda dimostrativa con un nome sbagliato, quindi non poteva trovare la recensione da segnalare e l'utente da bloccare. Istruzioni corrette, con l'impegno che Apple chiede di intervenire entro 24 ore su ogni segnalazione. Si rimanda la stessa versione, senza aggiornare l'app.
 
 CONTATTI E CONTENUTI
 (Fatto 3 · In lavorazione 2 · In coda 6 · Dopo il lancio 1)
@@ -274,6 +275,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 25 settembre
+- Apple ha rimandato indietro la 1.1.28 sul solo punto dei contenuti scritti dagli utenti: le nostre istruzioni al revisore nominavano la scheda dimostrativa in modo sbagliato, e non trovava la recensione da segnalare. Istruzioni corrette; la stessa versione torna in esame appena rifatta la prova sul telefono. (voce 193) [Giacomo]
 - Lette le tue risposte sulle voci in attesa di una tua decisione: la 5, la 147 e la 104 passano a me, la 5 si divide in tre (191 per salvare dal riquadro, 192 per gratuito o prezzo); per la 159 servono ancora l'elenco delle sottocategorie mediche e le domande; per la 129 ti do fattibilità e tempi insieme a quelli delle urgenze che mi hai mandato. Il blocco «Prima di invitare le attività a provare l'app» resta aperto: quali voci ci entrano lo decidi tu. (voce 5, voce 104, voce 129, voce 147, voce 159, voce 191, voce 192) [Giacomo]
 - Apple ha approvato la 1.1.28 per la Versione Beta su iPhone: dal link di TestFlight ora si installa la stessa versione di Android, con gli orari per giorno e la domanda «Chi sei?». La 1.1.28 mandata all'App Store è ancora in attesa dell'esame di Apple, nessuna novità. (voce 172, voce 184, voce 185, voce 186, voce 187, voce 188) [Giacomo]
 
