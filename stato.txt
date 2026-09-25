@@ -1,11 +1,11 @@
-FamilySide, stato dei lavori. Aggiornato 24 settembre 2026. App di prova: 1.1.28 (canali di prova interni: App Store e Google Play).
+FamilySide, stato dei lavori. Aggiornato 25 settembre 2026. App di prova: 1.1.28 (canali di prova interni: App Store e Google Play).
 189 voci in tutto: Fatto 114 · In lavorazione 3 · In coda 43 · C'è ma va rifatta 2 · Aspetta una tua decisione 6 · Al team 4 · Dopo il lancio 17.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
-App Store: Prova interna [x] (1.1.28, dal 24 settembre) -> Beta [x] (1.1.27, dal 24 settembre) (in revisione: 1.1.28, dal 24 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.28 rinviata ad Apple il 24 settembre, con le risposte e la registrazione; ora in attesa dell'esame) -> Sullo store [ ]
+App Store: Prova interna [x] (1.1.28, dal 24 settembre) -> Beta [x] (1.1.28, dal 25 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.28 rinviata ad Apple il 24 settembre, con le risposte e la registrazione; ora in attesa dell'esame) -> Sullo store [ ]
 Google Play: Prova interna [x] (1.1.28, dal 24 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.28, dal 24 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
@@ -271,6 +271,9 @@ TESTI E TRADUZIONI
 120. Le etichette proposte nei moduli sono in inglese [Fatto, Giacomo] issue #159 su GitHub; app 1.1.15 sui canali di prova dal 14 settembre. Fatto: nei moduli i tag si leggono «Bambini piccoli», «Al chiuso», «Sempre attivo», «Gratuito», «A pagamento» e i giorni «Lun», «Mar». Il valore che viaggia verso il server resta quello di prima, quindi le schede già salvate continuano a trovarsi con i filtri. Gli stessi elenchi in inglese erano copiati in cinque schermate, non solo nelle due segnalate: modulo dei suggerimenti, attività, eventi, regali e modifica di una scheda.
 
 NOVITÀ, DALLA PIÙ RECENTE
+25 settembre
+- Apple ha approvato la 1.1.28 per la Versione Beta su iPhone: dal link di TestFlight ora si installa la stessa versione di Android, con gli orari per giorno e la domanda «Chi sei?». La 1.1.28 mandata all'App Store è ancora in attesa dell'esame di Apple, nessuna novità. (voce 172, voce 184, voce 185, voce 186, voce 187, voce 188) [Giacomo]
+
 24 settembre
 - La versione 1.1.28 è stata rimandata in esame ad Apple il 24 settembre, con le risposte alle loro domande e la registrazione dello schermo. Ora si aspetta l'esito dell'esame di Apple; la pubblicazione resta una tua decisione, dopo l'approvazione. (voce 189, voce 190) [Giacomo]
 - La versione 1.1.28 è sui canali di prova dal 24 settembre: le quattro correzioni chieste da Apple (posizione, termini d'uso, filtro sulle parole delle recensioni, blocco di un utente), la domanda «Chi sei?» dopo la presentazione e i nuovi orari per giorno delle attività, con la pausa di mezzogiorno. La parte sul server del filtro e del blocco è già in funzione. Resta da rimandare la versione ad Apple: prima servono una breve registrazione dello schermo e le tue risposte alle loro domande sul modello di attività. (voce 184, voce 185, voce 186, voce 187, voce 188, voce 97, voce 172, voce 189, voce 190) [Giacomo]
