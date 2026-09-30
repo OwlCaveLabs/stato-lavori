@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 30 settembre 2026. App di prova: 1.1.30 (canali di prova interni: App Store e Google Play).
-223 voci in tutto: Fatto 128 · In lavorazione 4 · In coda 65 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
+224 voci in tutto: Fatto 128 · In lavorazione 5 · In coda 65 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -299,10 +299,11 @@ POSIZIONE E MAPPA
 98. Sulla mappa la scheda in basso è tagliata su molti telefoni Android [Fatto, Giacomo] issue #115 su GitHub; app 1.1.13 sui canali di prova dal 12 settembre. Fatta, nell'app 1.1.13 sui due canali di prova: la scheda che compare toccando un luogo sulla mappa non viene più tagliata sugli schermi 1080x1920, la forma di moltissimi telefoni Android. Trovata producendo le immagini per i negozi: nella fotografia della mappa compariva la fascia di avviso che in versione di prova segnala questi casi. Il contenuto ora si adatta allo spazio che ha; dove lo spazio basta non cambia niente.
 
 TESTI E TRADUZIONI
-(Fatto 2 · In coda 1)
+(Fatto 2 · In lavorazione 1 · In coda 1)
 106. Nella scheda Cerca compare «For you, Father», in inglese [Fatto, Giacomo] issue #139 su GitHub. Fatta insieme alla voce 76, con il server in linea e l'app 1.1.14: nella scheda Cerca la fascia parla italiano. La fotografia della vetrina che la conteneva va rifatta, con le altre (voce 90).
 120. Le etichette proposte nei moduli sono in inglese [Fatto, Giacomo] issue #159 su GitHub; app 1.1.15 sui canali di prova dal 14 settembre. Fatto: nei moduli i tag si leggono «Bambini piccoli», «Al chiuso», «Sempre attivo», «Gratuito», «A pagamento» e i giorni «Lun», «Mar». Il valore che viaggia verso il server resta quello di prima, quindi le schede già salvate continuano a trovarsi con i filtri. Gli stessi elenchi in inglese erano copiati in cinque schermate, non solo nelle due segnalate: modulo dei suggerimenti, attività, eventi, regali e modifica di una scheda.
 207. Testi e campi da chiarire nelle schermate delle attività [In coda, Giacomo] issue #340 su GitHub. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punti 1.2, 3.2, 5.2, 8.9, 8.10, in coda). Maiuscole all'inglese in tutta l'app («Cura e Supporto Esperti» diventa «Supporto da esperti»), una riga per le attività sotto «Chi sei?» («Fatti trovare dalle famiglie di Como, Varese e Lugano»), «Registra la tua attività» come titolo della registrazione delle attività, un esempio nella descrizione («Questa è la sezione che vedranno gli utenti. Descrivi la tua attività e i servizi che offri.»), e «Instagram (@nome utente)». Sul campo Instagram c'è anche un difetto: se un'attività incolla l'indirizzo intero, il link sulla scheda non funziona.
+225. Scritte in inglese nei filtri delle famiglie [In lavorazione, Giacomo] issue #376 su GitHub. Nei fogli dei filtri dell'app delle famiglie alcune scelte sono ancora in inglese: il prezzo («All», «Free», «Paid»), le distanze e le recensioni nell'elenco di una sottocategoria, e nei filtri delle idee regalo «Recipient», «Price», «Child», «Adult», «Boy», «Girl», «Unisex». Diventano italiane senza cambiare come funzionano i filtri. Le categorie fisse del filtro in Home restano alla voce 79, le fasce di prezzo dei regali alla 224.
 
 NOVITÀ, DALLA PIÙ RECENTE
 30 settembre
