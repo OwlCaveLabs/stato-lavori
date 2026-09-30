@@ -306,6 +306,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 30 settembre
+- Nel pannello ogni scheda ha ora «A chi è rivolta» (Gravidanza, Mamma, Papà, fasce d'età) e la scelta del prezzo: Gratuito, A pagamento con cifra, unità e valuta, oppure Non applicabile. Le schede del tuo file con «Gratuito / Pubblico» sono diventate Gratuito (594), quelle con «A pagamento / Privato» A pagamento (654, senza cifra: chi le modifica ne mette una o sceglie Non applicabile). Nell'app delle famiglie il filtro Gratis / A pagamento adesso filtra davvero. Nei moduli dell'app per le attività arriva con la prossima versione di prova. (voce 202, voce 79) [Giacomo]
 - Il lettore dei volantini usa ora il tuo conto OpenAI: il tasto «Compila automaticamente dal volantino» funziona di nuovo, provato da te. (voce 217) [Giacomo]
 
 29 settembre
