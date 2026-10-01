@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 1 ottobre 2026. App di prova: 1.1.31 (canali di prova interni: App Store e Google Play).
-236 voci in tutto: Fatto 134 · In lavorazione 7 · In coda 70 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 19.
+236 voci in tutto: Fatto 135 · In lavorazione 6 · In coda 70 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 19.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -19,13 +19,13 @@ Google Play: Prova interna [x] (1.1.31, dal 1 ottobre) https://play.google.com/a
 [~] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190, voce 193, voce 194, voce 195, voce 196
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
-36 di 57 voci · 63%
+37 di 57 voci · 65%
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
 [x] Prima di invitare le attività a provare l'app - 33 di 33 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 182, voce 175, voce 200, voce 197, voce 198, voce 204, voce 201, voce 203, voce 135, voce 205, voce 202, voce 214, voce 215, voce 217
     Versione Beta per Android: https://play.google.com/apps/testing/com.fs.familyside
     Versione Beta per iPhone: https://testflight.apple.com/join/TCArPDTS
-[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 3 di 24 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 199, voce 235, voce 237, voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 77
+[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 4 di 24 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 199, voce 235, voce 237, voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 77
 
 IMMAGINE E INGRESSO
 (Fatto 5 · In coda 3 · Dopo il lancio 1)
@@ -223,7 +223,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 3 · In lavorazione 1 · In coda 10 · Dopo il lancio 4)
+(Fatto 4 · In coda 10 · Dopo il lancio 4)
 19. Modifica in blocco delle attività selezionate [Dopo il lancio, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Dopo il lancio, Giacomo]
@@ -241,7 +241,7 @@ DASHBOARD
 220. Pannello: etichette e categoria inventate nelle schede di dettaglio [In coda, Giacomo] issue #366 su GitHub. Emerso lavorando alla voce 205: nel pannello, aprendo dalla pagina Attività una scheda senza etichette, compaiono «Indoor», «Ongoing» e «Free», che la scheda non ha, e una scheda senza categoria comparirebbe come «Uncategorized». Il rischio vero è in modifica: salvando quella scheda dal pannello, le etichette inventate potrebbero restarle attaccate. Oggi nessuna scheda le ha ancora; 47 attività senza etichette sono esposte.
 233. Pannello: scegliendo l'attività, evento e idea regalo si compilano da soli [In coda, Giacomo] Segnalato da te il 1 ottobre: creando un evento o un'idea regalo dal pannello, scegliere l'attività non compila niente, mentre nell'app sì (voce 200). Verificato. Il pannello prenderà dall'attività scelta indirizzo, categoria e sottocategorie, che restano modificabili.
 234. Pannello: l'anteprima della scheda anche per quelle create dal pannello [In coda, Giacomo] Chiesto da te il 1 ottobre, non urgente: vedere come risulta la scheda nell'app prima che sia in linea, per esempio se l'immagine ci sta. L'anteprima esiste già per le schede che arrivano dall'app e aspettano l'approvazione (voce 205). Quelle che crei tu dal pannello invece vanno in linea subito, senza anteprima: la stessa anteprima si aggiunge al modulo di creazione e di modifica e al dettaglio negli elenchi.
-236. Pannello: gli eventi creati dal pannello perdono la data [In lavorazione, Giacomo] issue #393 su GitHub. Trovato il 1 ottobre controllando «Baby shower esempio»: l'orario è salvato, la data no, per questo non compare né sul riquadro né nella scheda. Verificato: il calendario del modulo evento manda la data in una forma che il server non riconosce, e il server la scarta senza dire niente. Succede a ogni evento creato dal pannello, e anche modificando un evento che la data ce l'aveva; quelli creati dall'app non ne sono toccati. Stessa cosa per un'idea regalo compilata dalla locandina. Correzione pronta sul pannello e sul server, da pubblicare; dopo, gli eventi già creati dal pannello vanno riaperti per rimettere la data.
+236. Pannello: gli eventi creati dal pannello perdono la data [Fatto, Giacomo] issue #393 su GitHub. Fatto e pubblicato il 1 ottobre. Il calendario del modulo evento mandava la data in una forma che il server non riconosceva, e il server la scartava senza dire niente: succedeva a ogni evento creato o modificato dal pannello, e a un'idea regalo compilata dalla locandina. Ora la data scelta arriva e resta, anche modificando l'evento; se il server riceve una data che non capisce, il salvataggio si ferma invece di perderla. Gli eventi già creati dal pannello sono ancora senza data: aprendoli in modifica il pannello chiede il giorno, che va rimesso a mano. Un'idea regalo senza data si può modificare e resta senza data.
 
 SICUREZZA E PRIVACY
 (Fatto 4 · In coda 6)
@@ -319,6 +319,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 1 ottobre
+- Gli eventi creati dal pannello tengono la data: il calendario la mandava in una forma che il server scartava in silenzio. Pubblicato in serata. Gli eventi creati prima, per esempio «Baby shower esempio», vanno riaperti in modifica per rimettere il giorno. (voce 236) [Giacomo]
 - I tuoi riscontri sulla prima scheda vera, Esserdea, controllati uno per uno. Una parte è già corretta nella versione di prova 1.1.31: Chiama e Facebook, tag e sottocategorie sulla scheda, il contenuto che finiva sotto il pulsante fisso, «Evento» in italiano. Il resto è diventato sette voci nuove: gli eventi che non compaiono sulla scheda dell'attività (229), le schede create dal pannello senza posizione (230), l'elenco di categoria in Cerca (231), la scheda dell'idea regalo (232), il pannello che compila da solo i dati dell'attività scelta (233), l'anteprima nel pannello (234), titolo e immagini della scheda su Google Play (235). Controllando i dati di Esserdea è emersa anche la 236: gli eventi creati dal pannello perdono la data. La voce 199 torna prima dell'apertura a tutti, e la 150 prende prezzo e data facoltativi. (voce 229, voce 230, voce 236, voce 231, voce 232, voce 233, voce 234, voce 235, voce 199, voce 150) [Giacomo]
 - Due voci nuove, trovate lavorando alle schede: in orizzontale su iPhone le schermate si rompono, e la soluzione che consiglio è bloccare l'app in verticale (227); una scheda non ancora approvata si apre per intero da chi ne conosce il numero, e va limitata a chi l'ha creata e agli amministratori (228). (voce 227, voce 228) [Giacomo]
 - Chiuso il blocco «Prima di invitare le attività a provare l'app». Server e pannello sono già aggiornati: nel pannello e nel file delle attività ogni scheda ha il Telefono, con la spunta «Questo numero è anche WhatsApp», e il link Facebook. Nell'app tutto è nella versione di prova 1.1.31, uscita oggi (la beta per iPhone aspetta l'approvazione di Apple): l'attività vede la propria scheda come la vedono le famiglie, con lo stato e il pulsante Modifica; la scheda ha il prezzo in alto, sottocategorie e tag, la mappa con «Indicazioni» e le icone dei contatti sotto l'indirizzo; in Salute e Benessere niente recensioni. I 615 numeri fissi che stavano nel campo WhatsApp sono passati in Telefono (voce 226). (voce 203, voce 135, voce 214, voce 223, voce 164, voce 226) [Giacomo]
