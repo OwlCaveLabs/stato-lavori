@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 1 ottobre 2026. App di prova: 1.1.31 (canali di prova interni: App Store e Google Play).
-236 voci in tutto: Fatto 134 · In lavorazione 6 · In coda 71 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 19.
+236 voci in tutto: Fatto 134 · In lavorazione 7 · In coda 70 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 19.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -223,7 +223,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 3 · In coda 11 · Dopo il lancio 4)
+(Fatto 3 · In lavorazione 1 · In coda 10 · Dopo il lancio 4)
 19. Modifica in blocco delle attività selezionate [Dopo il lancio, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Dopo il lancio, Giacomo]
@@ -241,7 +241,7 @@ DASHBOARD
 220. Pannello: etichette e categoria inventate nelle schede di dettaglio [In coda, Giacomo] issue #366 su GitHub. Emerso lavorando alla voce 205: nel pannello, aprendo dalla pagina Attività una scheda senza etichette, compaiono «Indoor», «Ongoing» e «Free», che la scheda non ha, e una scheda senza categoria comparirebbe come «Uncategorized». Il rischio vero è in modifica: salvando quella scheda dal pannello, le etichette inventate potrebbero restarle attaccate. Oggi nessuna scheda le ha ancora; 47 attività senza etichette sono esposte.
 233. Pannello: scegliendo l'attività, evento e idea regalo si compilano da soli [In coda, Giacomo] Segnalato da te il 1 ottobre: creando un evento o un'idea regalo dal pannello, scegliere l'attività non compila niente, mentre nell'app sì (voce 200). Verificato. Il pannello prenderà dall'attività scelta indirizzo, categoria e sottocategorie, che restano modificabili.
 234. Pannello: l'anteprima della scheda anche per quelle create dal pannello [In coda, Giacomo] Chiesto da te il 1 ottobre, non urgente: vedere come risulta la scheda nell'app prima che sia in linea, per esempio se l'immagine ci sta. L'anteprima esiste già per le schede che arrivano dall'app e aspettano l'approvazione (voce 205). Quelle che crei tu dal pannello invece vanno in linea subito, senza anteprima: la stessa anteprima si aggiunge al modulo di creazione e di modifica e al dettaglio negli elenchi.
-236. Pannello: gli eventi creati dal pannello perdono la data [In coda, Giacomo] Trovato il 1 ottobre controllando «Baby shower esempio»: l'orario è salvato, la data no, per questo non compare né sul riquadro né nella scheda. Verificato: il calendario del modulo evento manda la data in una forma che il server non riconosce, e il server la scarta senza dire niente. Succede a ogni evento creato dal pannello; quelli creati dall'app non ne sono toccati, e le idee regalo nemmeno. Correzione sul pannello e sul server; gli eventi già creati dal pannello vanno riaperti per rimettere la data.
+236. Pannello: gli eventi creati dal pannello perdono la data [In lavorazione, Giacomo] issue #393 su GitHub. Trovato il 1 ottobre controllando «Baby shower esempio»: l'orario è salvato, la data no, per questo non compare né sul riquadro né nella scheda. Verificato: il calendario del modulo evento manda la data in una forma che il server non riconosce, e il server la scarta senza dire niente. Succede a ogni evento creato dal pannello, e anche modificando un evento che la data ce l'aveva; quelli creati dall'app non ne sono toccati. Stessa cosa per un'idea regalo compilata dalla locandina. Correzione pronta sul pannello e sul server, da pubblicare; dopo, gli eventi già creati dal pannello vanno riaperti per rimettere la data.
 
 SICUREZZA E PRIVACY
 (Fatto 4 · In coda 6)
