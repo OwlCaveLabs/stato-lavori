@@ -1,11 +1,11 @@
-FamilySide, stato dei lavori. Aggiornato 30 settembre 2026. App di prova: 1.1.30 (canali di prova interni: App Store e Google Play).
+FamilySide, stato dei lavori. Aggiornato 1 ottobre 2026. App di prova: 1.1.30 (canali di prova interni: App Store e Google Play).
 224 voci in tutto: Fatto 128 · In lavorazione 5 · In coda 65 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
-App Store: Prova interna [x] (1.1.30, dal 30 settembre) -> Beta [x] (1.1.29, dal 30 settembre) (in revisione: 1.1.30, dal 30 settembre) https://testflight.apple.com/join/TCArPDTS -> Revisione [x] (1.1.28 approvata da Apple il 27 settembre) -> Sullo store [~]
+App Store: Prova interna [x] (1.1.30, dal 30 settembre) -> Beta [x] (1.1.30, dal 1 ottobre) https://testflight.apple.com/join/TCArPDTS -> Revisione [x] (1.1.28 approvata da Apple il 27 settembre) -> Sullo store [~]
 Google Play: Prova interna [x] (1.1.30, dal 30 settembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.30, dal 30 settembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
