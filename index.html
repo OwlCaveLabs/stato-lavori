@@ -100,7 +100,16 @@ a.pillola:hover { filter: brightness(0.92); }
 .salta a { font-size: 0.85rem; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--linea);
   background: var(--carta); color: var(--testo); text-decoration: none; }
 .salta a:hover { border-color: #D73A51; color: #D73A51; }
-h2[id] { scroll-margin-top: 12px; }
+h2[id], .area[id] { scroll-margin-top: 12px; }
+.salta summary { font-size: 0.85rem; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--linea);
+  background: var(--carta); cursor: pointer; list-style: none; }
+.salta summary::-webkit-details-marker { display: none; }
+.salta summary::after { content: " ▾"; color: var(--muto); }
+.salta details[open] { flex-basis: 100%; }
+.salta details[open] summary { display: inline-block; border-color: #D73A51; color: #D73A51; }
+.salta details[open] summary::after { content: " ▴"; }
+.salta details div { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; padding: 10px;
+  background: var(--carta); border: 1px solid var(--linea); border-radius: 10px; }
 /* Torna in cima: fuori da <main>, per non entrare nei selettori `~` del filtro.
    Compare solo dopo un po' di scorrimento (classe messa dallo script). */
 .su { position: fixed; right: 16px; bottom: 16px; width: 44px; height: 44px;
@@ -168,7 +177,7 @@ h2[id] { scroll-margin-top: 12px; }
 <input class="rb" type="radio" name="filtro" id="f-dopo_il_lancio">
 <h1>FamilySide, stato dei lavori</h1>
 <p class="sotto">Aggiornato 2 ottobre 2026. App di prova: 1.1.31 (canali di prova interni: App Store e Google Play).</p>
-<nav class="salta"><span>Vai a</span><a href="#store">Verso gli store</a><a href="#aperture">Le due aperture</a><a href="#voci">Le voci</a><a href="#novita">Novità</a></nav>
+<nav class="salta"><span>Vai a</span><a href="#store">Verso gli store</a><a href="#aperture">Le due aperture</a><a href="#voci">Le voci</a><a href="#novita">Novità</a><details class="aree"><summary>Aree delle voci</summary><div><a href="#area-immagine-e-ingresso">Immagine e ingresso</a><a href="#area-registrazione-e-accesso">Registrazione e accesso</a><a href="#area-mappa-ricerca-e-schede">Mappa, ricerca e schede</a><a href="#area-gift-voucher">Gift Voucher</a><a href="#area-pannello-e-attivita">Pannello e attività</a><a href="#area-pubblicazione-negli-store">Pubblicazione negli store</a><a href="#area-contatti-e-contenuti">Contatti e contenuti</a><a href="#area-iscrizione-delle-attivita">Iscrizione delle attività</a><a href="#area-periodo-di-prova">Periodo di prova</a><a href="#area-dashboard">Dashboard</a><a href="#area-sicurezza-e-privacy">Sicurezza e privacy</a><a href="#area-fondamenta-e-messa-in-produzione">Fondamenta e messa in produzione</a><a href="#area-al-team">Al team</a><a href="#area-dopo-il-lancio">Dopo il lancio</a><a href="#area-testi-e-lingua">Testi e lingua</a><a href="#area-recensioni">Recensioni</a><a href="#area-posizione-e-mappa">Posizione e mappa</a><a href="#area-testi-e-traduzioni">Testi e traduzioni</a></div></details></nav>
 <h2 id="store">Verso gli store</h2>
 <div class="riquadro store">
 <div class="barra-riga">
@@ -293,7 +302,7 @@ h2[id] { scroll-margin-top: 12px; }
 <h2 id="voci">Le voci</h2>
 <div class="legenda"><label class="chip tutte filtro" for="f-tutte">Tutte<span class="n">243</span></label><label class="chip filtro" for="f-fatto" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">136</span></label><label class="chip filtro" for="f-in_lavorazione" style="color:#a05a00;background:#fff4e0">In lavorazione<span class="n">8</span></label><label class="chip filtro" for="f-in_coda" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">74</span></label><label class="chip filtro" for="f-non_provare" style="color:#8a1c1c;background:#fdeaea">C&#x27;è ma va rifatta<span class="n">2</span></label><label class="chip filtro" for="f-da_decidere" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione<span class="n">1</span></label><label class="chip filtro" for="f-al_team" style="color:#0b5c8a;background:#e3f1fa">Al team<span class="n">4</span></label><label class="chip filtro" for="f-dopo_il_lancio" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">18</span></label></div>
 <p class="aiuto-filtro">Tocca un'etichetta qui sopra per vedere solo quelle voci; «Tutte» le rimette in fila.</p>
-<section class="area ha-fatto ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_coda ha-dopo_il_lancio" id="area-immagine-e-ingresso">
 <h2>Immagine e ingresso <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">5</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">3</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-1">
 <div class="num">1</div>
@@ -363,7 +372,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Proposta da te il 1 ottobre provando la 1.1.31, per evitare più giri di modifiche: quando le informazioni saranno tutte al posto giusto, una passata sola su tutti i colori. Già segnati: sulla copertina dell&#x27;attività il verde della scritta è sbagliato, mentre quello dello sfondo sembra giusto; su idea regalo ed evento è sbagliato anche quello dello sfondo; l&#x27;elenco dei tag su fondo bianco si nota poco. I messaggi di errore in viola sono la voce 218, i badge «Regalo» verde e «Evento» viola la 232.</div>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_lavorazione ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_lavorazione ha-in_coda ha-dopo_il_lancio" id="area-registrazione-e-accesso">
 <h2>Registrazione e accesso <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">13</span></span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione<span class="n">1</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">5</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-56">
 <div class="num">56</div>
@@ -515,7 +524,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Segnalato da te il 1 ottobre sulla 1.1.31. Verificato: nell&#x27;app la casella si spunta ma nessuno la legge, sia nell&#x27;accesso delle famiglie sia in quello delle attività; è così da prima che il lavoro passasse a noi. Nel pannello invece funziona. L&#x27;app tiene già aperta la sessione anche chiudendola, quindi «Ricordami» può servire solo a ritrovare l&#x27;email già scritta al prossimo accesso (la password mai). Deciso il 2 ottobre: la casella resta e fa ricordare solo l&#x27;email, mai la password. Pronta e provata sul telefono di prova il 2 ottobre: dopo l&#x27;uscita l&#x27;accesso riparte con l&#x27;email già scritta e la casella spuntata. Arriva con la prossima versione di prova.</div>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_lavorazione ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_lavorazione ha-in_coda ha-dopo_il_lancio" id="area-mappa-ricerca-e-schede">
 <h2>Mappa, ricerca e schede <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">25</span></span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione<span class="n">3</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">18</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-3">
 <div class="num">3</div>
@@ -866,7 +875,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Trovato il 2 ottobre rifacendo le immagini della scheda Play. Chi guarda l&#x27;app senza account e poi accede trova Esplora com&#x27;era prima: «N/D» al posto della distanza, schede non in ordine di vicinanza, cuori delle schede salvate spenti, finché non si aggiorna a mano. Home e Regali invece si aggiornano da soli. Correzione nell&#x27;app: all&#x27;accesso e all&#x27;uscita anche Esplora si ricarica. Pronta e provata il 2 ottobre sul telefono di prova; arriva con la prossima versione di prova.</div>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_coda">
+<section class="area ha-fatto ha-in_coda" id="area-gift-voucher">
 <h2>Gift Voucher <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">4</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">4</span></span></span></h2>
 <div class="voce s-fatto" id="voce-8">
 <div class="num">8</div>
@@ -927,7 +936,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Nella ricerca delle idee regalo, le fasce di prezzo (sotto i 25 €, 25-50, 50-100, oltre 100) danno gli stessi risultati di nessuna scelta: l&#x27;app e il server usano nomi diversi per le fasce, e il server ne conosce solo due. Si allineano le quattro fasce; sotto i 25 € comprende i regali gratuiti.</div>
 </div></div>
 </section>
-<section class="area ha-fatto">
+<section class="area ha-fatto" id="area-pannello-e-attivita">
 <h2>Pannello e attività <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-100">
 <div class="num">100</div>
@@ -938,7 +947,7 @@ h2[id] { scroll-margin-top: 12px; }
 <details class="dettaglio"><summary></summary><p>Il difetto era più largo di com&#x27;era scritto: l&#x27;app chiedeva una cosa e il server ne capiva un&#x27;altra, quindi il grafico restava a zero su tutte le schede, non solo sulla prima, e nessun uso vero lo avrebbe mosso. Resta una domanda per te: le due schede rimaste, «Coinvolgimento» e «Attività totali», oggi contano la stessa cosa.</p></details>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_lavorazione ha-in_coda">
+<section class="area ha-fatto ha-in_lavorazione ha-in_coda" id="area-pubblicazione-negli-store">
 <h2>Pubblicazione negli store <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">29</span></span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione<span class="n">1</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">3</span></span></span></h2>
 <div class="voce s-fatto" id="voce-102">
 <div class="num">102</div>
@@ -1189,7 +1198,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Chiesto da te il 1 ottobre. Il titolo è «FamilySide: Famiglie e Bambini» e si può cambiare: il limite di Google è 30 caratteri, e quello di oggi li usa tutti. «(accesso in anteprima)» lo aggiunge Google finché l&#x27;app è in prova, e sparisce da solo alla pubblicazione. Le immagini sotto non sono deformate, ma sono state scattate su uno schermo più basso dei telefoni di oggi, con una fascia grigia sopra e una nera sotto: si rifanno più alte e senza le fasce. Il 2 ottobre hai scelto il titolo nuovo, «FamilySide: Attività e Servizi», 30 caratteri giusti. Il 2 ottobre titolo e immagini nuove sono pronti: le immagini sono più alte e senza le fasce. Salgono su Google Play con la prossima versione di prova.</div>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_lavorazione ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_lavorazione ha-in_coda ha-dopo_il_lancio" id="area-contatti-e-contenuti">
 <h2>Contatti e contenuti <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">6</span></span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione<span class="n">2</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">4</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">2</span></span></span></h2>
 <div class="voce s-in_lavorazione" id="voce-11">
 <div class="num">11</div>
@@ -1296,7 +1305,7 @@ h2[id] { scroll-margin-top: 12px; }
 <details class="dettaglio"><summary></summary><p>Segnalato da te il 1 ottobre: sulle schede di Esserdea (attività, evento, idea regalo) compare «N/D» al posto della distanza e manca la mappa. Per eventi e idee regalo creati dal pannello la posizione non veniva mai salvata, anche scegliendo l&#x27;indirizzo dall&#x27;elenco di Google. Per l&#x27;attività Esserdea la causa era fuori dall&#x27;app: il progetto Google delle mappe aveva la fatturazione disattivata; l&#x27;hai riattivata la sera del 1 ottobre e subito dopo l&#x27;attività ha preso la sua posizione. Le schede già salvate senza posizione la prendono alla prima apertura nell&#x27;app, o risalvandole dal pannello.</p></details>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_coda ha-non_provare ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_coda ha-non_provare ha-dopo_il_lancio" id="area-iscrizione-delle-attivita">
 <h2>Iscrizione delle attività <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">22</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">11</span></span><span class="chip" style="color:#8a1c1c;background:#fdeaea">C&#x27;è ma va rifatta<span class="n">2</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">3</span></span></span></h2>
 <div class="voce s-non_provare" id="voce-14">
 <div class="num">14</div>
@@ -1575,7 +1584,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Emerso con la voce 202: il modulo con cui una famiglia suggerisce un posto propone ancora le etichette fisse e un prezzo libero, senza la scelta Gratuito, A pagamento o Non applicabile. Non rompe niente, ma le etichette scelte dalla famiglia si perdono. Prende gli stessi campi dei moduli delle attività.</div>
 </div></div>
 </section>
-<section class="area ha-fatto">
+<section class="area ha-fatto" id="area-periodo-di-prova">
 <h2>Periodo di prova <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">2</span></span></span></h2>
 <div class="voce s-fatto" id="voce-18">
 <div class="num">18</div>
@@ -1592,7 +1601,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Dall&#x27;elenco «Percorso attività: modifiche all&#x27;app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.</div>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_coda ha-da_decidere ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_coda ha-da_decidere ha-dopo_il_lancio" id="area-dashboard">
 <h2>Dashboard <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">4</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">12</span></span><span class="chip" style="color:#5b3a8c;background:#f1eafb">Aspetta una tua decisione<span class="n">1</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">4</span></span></span></h2>
 <div class="voce s-dopo_il_lancio" id="voce-19">
 <div class="num">19</div>
@@ -1741,7 +1750,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Trovato il 2 ottobre provando il pannello. Quando il server rifiuta un modulo perché manca un campo, il pannello invece di mostrare il messaggio va in errore: la pagina diventa bianca e quello che avevi compilato si perde. Correzione: compare il messaggio e il modulo resta compilato, in tutte le pagine del pannello.</div>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_coda">
+<section class="area ha-fatto ha-in_coda" id="area-sicurezza-e-privacy">
 <h2>Sicurezza e privacy <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">4</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">6</span></span></span></h2>
 <div class="voce s-fatto" id="voce-23">
 <div class="num">23</div>
@@ -1814,7 +1823,7 @@ h2[id] { scroll-margin-top: 12px; }
 <details class="dettaglio"><summary></summary><p>La correzione lascia leggere una scheda solo se è approvata oppure a chi l&#x27;ha inserita, perché una famiglia deve continuare a vedere i propri suggerimenti in attesa. Vale anche per i link di condivisione.</p></details>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_coda ha-dopo_il_lancio" id="area-fondamenta-e-messa-in-produzione">
 <h2>Fondamenta e messa in produzione <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">13</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">4</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-27">
 <div class="num">27</div>
@@ -1949,7 +1958,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Risposta alla tua domanda del 26 settembre. Verificato: la scheda ricorda le sue sottocategorie per nome, non per numero. Quindi aggiungerne una non tocca nessuna scheda; rinominarne una, o spostarla in un&#x27;altra categoria, fa sparire dal suo elenco tutte le schede che l&#x27;avevano, perché sulla scheda resta il nome vecchio; cancellarla non cancella le schede, che restano con un nome che non esiste più. Vale in tutte le categorie. Regola fino alla correzione: aggiungi liberamente; rinomina o cancella solo sottocategorie senza schede dentro, oppure dimmelo prima e le sposto io. Correzione: le schede puntano alla sottocategoria per numero, così rinominare non stacca niente e cancellare chiede prima dove spostare le schede; nel pannello si potranno cambiare le sottocategorie di una scheda.</div>
 </div></div>
 </section>
-<section class="area ha-al_team ha-dopo_il_lancio">
+<section class="area ha-al_team ha-dopo_il_lancio" id="area-al-team">
 <h2>Al team <span class="tag-area"><span class="chip" style="color:#0b5c8a;background:#e3f1fa">Al team<span class="n">4</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">1</span></span></span></h2>
 <div class="voce s-al_team" id="voce-35">
 <div class="num">35</div>
@@ -1986,7 +1995,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Oggi pubblicano da un archivio loro; il repository condiviso lo allineo io.</div>
 </div></div>
 </section>
-<section class="area ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-in_coda ha-dopo_il_lancio" id="area-dopo-il-lancio">
 <h2>Dopo il lancio <span class="tag-area"><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">1</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">3</span></span></span></h2>
 <div class="voce s-dopo_il_lancio" id="voce-40">
 <div class="num">40</div>
@@ -2017,7 +2026,7 @@ h2[id] { scroll-margin-top: 12px; }
 <div class="nota">Accettato il 25 agosto, non prioritario.</div>
 </div></div>
 </section>
-<section class="area ha-fatto">
+<section class="area ha-fatto" id="area-testi-e-lingua">
 <h2>Testi e lingua <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-96">
 <div class="num">96</div>
@@ -2028,7 +2037,7 @@ h2[id] { scroll-margin-top: 12px; }
 <details class="dettaglio"><summary></summary><p>Sulla schermata iniziale, sulla mappa e nei regali diceva «All», e si vedeva in due delle fotografie per i negozi. Quella parola era anche il valore che il codice usa per «nessun filtro»: cambiarla e basta avrebbe rotto i filtri in italiano. Le due cose ora sono separate, e una prova automatica controlla entrambe.</p></details>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_coda ha-dopo_il_lancio">
+<section class="area ha-fatto ha-in_coda ha-dopo_il_lancio" id="area-recensioni">
 <h2>Recensioni <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">4</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">2</span></span><span class="chip" style="color:#555;background:#f5f5f5">Dopo il lancio<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-97">
 <div class="num">97</div>
@@ -2081,7 +2090,7 @@ h2[id] { scroll-margin-top: 12px; }
 <details class="dettaglio"><summary></summary><p>Deciso il 26 settembre con la voce 159: finché non arrivano le domande guidate, nella categoria Salute e Benessere, in tutte le sue sottocategorie, non si scrivono e non si vedono recensioni: niente «Lascia una recensione», niente elenco, niente media; al loro posto una riga che dice che per i professionisti della salute arriveranno le domande guidate. Verificato: la scheda conosce già la sua categoria, quindi si fa senza toccare i dati. Mezza giornata.</p></details>
 </div></div>
 </section>
-<section class="area ha-fatto">
+<section class="area ha-fatto" id="area-posizione-e-mappa">
 <h2>Posizione e mappa <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-98">
 <div class="num">98</div>
@@ -2092,7 +2101,7 @@ h2[id] { scroll-margin-top: 12px; }
 <details class="dettaglio"><summary></summary><p>Trovata producendo le immagini per i negozi: nella fotografia della mappa compariva la fascia di avviso che in versione di prova segnala questi casi. Il contenuto ora si adatta allo spazio che ha; dove lo spazio basta non cambia niente.</p></details>
 </div></div>
 </section>
-<section class="area ha-fatto ha-in_lavorazione ha-in_coda">
+<section class="area ha-fatto ha-in_lavorazione ha-in_coda" id="area-testi-e-traduzioni">
 <h2>Testi e traduzioni <span class="tag-area"><span class="chip" style="color:#1b7f3b;background:#e6f4ea">Fatto<span class="n">2</span></span><span class="chip" style="color:#a05a00;background:#fff4e0">In lavorazione<span class="n">1</span></span><span class="chip" style="color:#4a4a4a;background:#eeeeee">In coda<span class="n">1</span></span></span></h2>
 <div class="voce s-fatto" id="voce-106">
 <div class="num">106</div>
@@ -2168,6 +2177,16 @@ for (const r of document.querySelectorAll('input[name="filtro"]')) {
     const y = window.scrollY;
     location.hash = '';
     window.scrollTo(0, y);
+  });
+}
+// Un'area nascosta dal filtro non si raggiunge: si torna a «Tutte», poi si
+// richiude l'elenco delle aree.
+const aree = document.querySelector('.salta .aree');
+for (const a of aree.querySelectorAll('a')) {
+  a.addEventListener('click', () => {
+    const dest = document.querySelector(a.getAttribute('href'));
+    if (dest && dest.offsetParent === null) document.getElementById('f-tutte').checked = true;
+    aree.open = false;
   });
 }
 // Torna in cima: niente ancora nell'indirizzo, per non toccare :target.
