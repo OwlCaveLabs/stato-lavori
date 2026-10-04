@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 4 ottobre 2026. App di prova: 1.1.33 (canali di prova interni: App Store e Google Play).
-254 voci in tutto: Fatto 143 · In lavorazione 5 · In coda 80 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
+255 voci in tutto: Fatto 143 · In lavorazione 5 · In coda 81 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -189,7 +189,7 @@ CONTATTI E CONTENUTI
 230. Le schede create dal pannello restano senza posizione: «N/D» e niente mappa [Fatto, Giacomo] issue #395 su GitHub. Fatto e pubblicato il 2 ottobre. Quando scegli l'indirizzo dall'elenco di Google, il pannello ora salva la posizione di attività, eventi e idee regalo: provato creando un evento a Como. Se l'indirizzo è scritto a mano, il server cerca la posizione come già faceva per le attività; un evento o un'idea regalo allo stesso indirizzo della sua attività ne prende la posizione. Togliere «N/D» dove la distanza non c'è è la voce 243. Segnalato da te il 1 ottobre: sulle schede di Esserdea (attività, evento, idea regalo) compare «N/D» al posto della distanza e manca la mappa. Per eventi e idee regalo creati dal pannello la posizione non veniva mai salvata, anche scegliendo l'indirizzo dall'elenco di Google. Per l'attività Esserdea la causa era fuori dall'app: il progetto Google delle mappe aveva la fatturazione disattivata; l'hai riattivata la sera del 1 ottobre e subito dopo l'attività ha preso la sua posizione. Le schede già salvate senza posizione la prendono alla prima apertura nell'app, o risalvandole dal pannello.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 22 · In coda 12 · C'è ma va rifatta 2 · Dopo il lancio 3)
+(Fatto 22 · In coda 13 · C'è ma va rifatta 2 · Dopo il lancio 3)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve. Il 17 settembre Jessica aggiunge che i link ai social all'ingresso vanno tolti del tutto: si chiederanno più avanti, quando si sarà deciso dove.
 15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -229,6 +229,7 @@ ISCRIZIONE DELLE ATTIVITÀ
 219. Sottocategorie vuote nei moduli: la sezione sparisce [In coda, Giacomo] issue #365 su GitHub. Segnalato da te il 29 settembre, non urgente: nei moduli Attività, Evento e Idea regalo, con una categoria senza sottocategorie compare «Sottocategorie» sopra uno spazio vuoto. Tra le due strade che proponevi, la sezione viene tolta quando la categoria non ha sottocategorie; in quel caso la sottocategoria non è obbligatoria.
 222. Suggerisci un posto: prezzo ed etichette come nei moduli delle attività [In coda, Giacomo] issue #372 su GitHub. Emerso con la voce 202: il modulo con cui una famiglia suggerisce un posto propone ancora le etichette fisse e un prezzo libero, senza la scelta Gratuito, A pagamento o Non applicabile. Non rompe niente, ma le etichette scelte dalla famiglia si perdono. Prende gli stessi campi dei moduli delle attività.
 253. Profilo dell'attività: riquadro «Condividi la tua scheda e ricevi recensioni!» [In coda, Giacomo] Chiesto da te il 3 ottobre; il 3 ottobre decidi che si fa prima dell'uscita per tutti. Nel profilo dell'attività, sotto la scheda caricata, un riquadro «Condividi la tua scheda e ricevi recensioni!» che apre la stessa condivisione della scheda. È piccolo, ma apre la condivisione nuova (voci 155 e 213), che è ancora da decidere: finché quella non c'è, il riquadro manderebbe il testo di oggi.
+256. «Compila automaticamente dal volantino» non funziona dal 3 ottobre: la chiave OpenAI non è più valida [In coda, Jessica] issue #420 su GitHub. Visto il 4 ottobre: il 3 ottobre un'attività appena registrata ha provato quattro volte a leggere un volantino, sempre con l'errore "compila a mano". Il server usa ancora la chiave del tuo conto messa il 30 settembre, ma OpenAI risponde che non è più valida: è stata cancellata o disattivata dal lato OpenAI fra il 30 settembre e il 3 ottobre. Non è un problema di credito. Serve che controlli la chiave nella tua console OpenAI e ne crei una nuova; la mettiamo sul server e la proviamo subito.
 
 PERIODO DI PROVA
 (Fatto 2)
@@ -336,6 +337,9 @@ TESTI E TRADUZIONI
 254. «Luoghi» al posto di «Attività» per le famiglie [In coda, Giacomo] Deciso da te il 3 ottobre, dalle prove: «attività» sembra una cosa da fare, non un posto. Confermato il 3 ottobre, prima dell'uscita per tutti. Cambia dove è il nome del tipo di scheda: nella scheda di Esplora, in Salvati, nell'etichetta sui riquadri di Home, Cerca, Esplora e mappa, nel campo «Cerca attività & eventi», in «Nessuna attività trovata» e in «Suggerisci un'attività». Dove invece vuol dire l'azienda («Ho un'attività», «Rivendica questa attività», tutta la parte delle attività) resta com'è. Solo app, lavoro piccolo.
 
 NOVITÀ, DALLA PIÙ RECENTE
+4 ottobre
+- Il tasto del volantino non funziona di nuovo dal 3 ottobre: OpenAI non accetta più la chiave del tuo conto. Serve una chiave nuova (voce 256). (voce 256) [Giacomo]
+
 3 ottobre
 - Con le tue risposte: la scheda dell'attività ridisegnata (voce 251), il riquadro «Condividi la tua scheda» (253) e «Luoghi» (254) entrano tra le cose da fare prima di aprire l'app a tutti. «Contatta ora» (252) e paese e provincia sulla foto (255) passano a dopo. Sulla condivisione (155 e 213) resta da decidere quando farla. (voce 251, voce 252, voce 253, voce 254, voce 255) [Giacomo]
 - Le tue richieste del 3 ottobre sono sulla pagina: la scheda dell'attività ridisegnata (voce 251), il pulsante «Contatta ora» (252), la condivisione sul modello di Google Maps e l'immagine per Instagram (155 e 213), il riquadro «Condividi la tua scheda» nel profilo dell'attività (253) e «Luoghi» al posto di «Attività» (254). Sono in coda: quando farle lo decidiamo insieme. (voce 251, voce 252, voce 155, voce 213, voce 253, voce 254) [Giacomo]
