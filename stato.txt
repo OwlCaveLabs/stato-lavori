@@ -6,7 +6,7 @@ VERSO GLI STORE
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
 App Store: Prova interna [x] (1.1.34, dal 5 ottobre) -> Beta [x] (1.1.33, dal 4 ottobre) (in revisione: 1.1.34, dal 5 ottobre) https://testflight.apple.com/join/TCArPDTS -> Revisione [x] (1.1.28 approvata da Apple il 27 settembre) -> Sullo store [~]
-Google Play: Prova interna [x] (1.1.34, dal 5 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.34, dal 5 ottobre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
+Google Play: Prova interna [x] (1.1.34, dal 5 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.33, dal 3 ottobre) (in revisione: 1.1.34, dal 5 ottobre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
 [x] Correzioni chieste dalle regole degli store - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
@@ -340,7 +340,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 5 ottobre
-- La parte delle famiglie è chiusa (voce 258): chi apre l'app senza un account famiglia trova solo l'ingresso per le attività e l'accesso, mentre tu e chi ha già un account famiglia la vedete come prima. La versione 1.1.34 è sui canali di prova interni e nella beta per Android; la beta per iPhone aspetta l'esame di Apple. L'interruttore va riaperto prima dell'esame per l'uscita: l'ho messo fra i passi verso gli store. (voce 258) [Giacomo]
+- La parte delle famiglie è chiusa (voce 258): chi apre l'app senza un account famiglia trova solo l'ingresso per le attività e l'accesso, mentre tu e chi ha già un account famiglia la vedete come prima. La versione 1.1.34 è sui canali di prova interni; nelle due beta aspetta l'esame di Google e di Apple. L'interruttore va riaperto prima dell'esame per l'uscita: l'ho messo fra i passi verso gli store. (voce 258) [Giacomo]
 
 4 ottobre
 - Come mi hai chiesto, la parte delle famiglie si chiude fino al lancio (voce 258): resta solo l'ingresso per le attività, e al lancio si riapre per tutti insieme. Torna quindi tra le cose da fare prima di invitare le attività. Per lo stesso indirizzo come famiglia e come attività ho segnato la tua scelta, il passaggio dentro l'app (voce 41). (voce 258, voce 41) [Giacomo]
