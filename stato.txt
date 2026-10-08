@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 8 ottobre 2026. App di prova: 1.1.37 (canali di prova interni: App Store e Google Play).
-260 voci in tutto: Fatto 155 · In lavorazione 6 · In coda 73 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
+260 voci in tutto: Fatto 156 · In lavorazione 5 · In coda 73 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 20.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -19,13 +19,13 @@ Google Play: Prova interna [x] (1.1.37, dal 8 ottobre) https://play.google.com/a
 [~] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190, voce 193, voce 194, voce 195, voce 196, voce 258
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
-52 di 67 voci · 78%
+53 di 67 voci · 79%
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
 [~] Prima di invitare le attività a provare l'app - 35 di 35 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 182, voce 175, voce 200, voce 197, voce 198, voce 204, voce 201, voce 203, voce 135, voce 205, voce 202, voce 214, voce 215, voce 217, voce 256, voce 258
     Versione Beta per Android: https://play.google.com/apps/testing/com.fs.familyside
     Versione Beta per iPhone: https://testflight.apple.com/join/TCArPDTS
-[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 17 di 32 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 251, voce 253, voce 254, voce 260, voce 261, voce 77
+[ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 18 di 32 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 251, voce 253, voce 254, voce 260, voce 261, voce 77
 
 IMMAGINE E INGRESSO
 (Fatto 6 · In coda 2 · Dopo il lancio 1)
@@ -190,7 +190,7 @@ CONTATTI E CONTENUTI
 230. Le schede create dal pannello restano senza posizione: «N/D» e niente mappa [Fatto, Giacomo] issue #395 su GitHub. Fatto e pubblicato il 2 ottobre. Quando scegli l'indirizzo dall'elenco di Google, il pannello ora salva la posizione di attività, eventi e idee regalo: provato creando un evento a Como. Se l'indirizzo è scritto a mano, il server cerca la posizione come già faceva per le attività; un evento o un'idea regalo allo stesso indirizzo della sua attività ne prende la posizione. Togliere «N/D» dove la distanza non c'è è la voce 243. Segnalato da te il 1 ottobre: sulle schede di Esserdea (attività, evento, idea regalo) compare «N/D» al posto della distanza e manca la mappa. Per eventi e idee regalo creati dal pannello la posizione non veniva mai salvata, anche scegliendo l'indirizzo dall'elenco di Google. Per l'attività Esserdea la causa era fuori dall'app: il progetto Google delle mappe aveva la fatturazione disattivata; l'hai riattivata la sera del 1 ottobre e subito dopo l'attività ha preso la sua posizione. Le schede già salvate senza posizione la prendono alla prima apertura nell'app, o risalvandole dal pannello.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 25 · In lavorazione 1 · In coda 11 · C'è ma va rifatta 2 · Dopo il lancio 3)
+(Fatto 26 · In coda 11 · C'è ma va rifatta 2 · Dopo il lancio 3)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve. Il 17 settembre Jessica aggiunge che i link ai social all'ingresso vanno tolti del tutto: si chiederanno più avanti, quando si sarà deciso dove.
 15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -231,7 +231,7 @@ ISCRIZIONE DELLE ATTIVITÀ
 222. Suggerisci un posto: prezzo ed etichette come nei moduli delle attività [In coda, Giacomo] issue #372 su GitHub. Emerso con la voce 202: il modulo con cui una famiglia suggerisce un posto propone ancora le etichette fisse e un prezzo libero, senza la scelta Gratuito, A pagamento o Non applicabile. Non rompe niente, ma le etichette scelte dalla famiglia si perdono. Prende gli stessi campi dei moduli delle attività.
 253. Profilo dell'attività: riquadro «Condividi la tua scheda e ricevi recensioni!» [In coda, Giacomo] Chiesto da te il 3 ottobre; il 3 ottobre decidi che si fa prima dell'uscita per tutti. Nel profilo dell'attività, sotto la scheda caricata, un riquadro «Condividi la tua scheda e ricevi recensioni!» che apre la stessa condivisione della scheda. È piccolo, ma apre la condivisione nuova (voci 155 e 213), che è ancora da decidere: finché quella non c'è, il riquadro manderebbe il testo di oggi.
 256. «Compila automaticamente dal volantino» non funzionava dal 3 ottobre: la chiave OpenAI non era più valida [Fatto, Giacomo] issue #420 su GitHub. Visto il 4 ottobre: il 3 ottobre un'attività appena registrata ha provato quattro volte a leggere un volantino, sempre con l'errore "compila a mano". La chiave del tuo conto messa il 30 settembre era stata revocata, e OpenAI non la accettava più. Con la chiave nuova che hai creato il 4 ottobre il server legge di nuovo i volantini: provato dall'app lo stesso giorno.
-261. La scheda appena creata non compare in Gestisci [In lavorazione, Giacomo] Segnalato da te l'8 ottobre. Non è voluto: in Gestisci devono esserci tutte le schede create dall'account, anche quelle in attesa di approvazione. Nel codice non c'è una causa evidente; ti ho chiesto il nome della scheda per cercarla sul server e capire cosa è successo.
+261. La scheda appena creata non si apriva da Gestisci [Fatto, Giacomo] issue #441 su GitHub. Segnalato da te l'8 ottobre, con lo screenshot: toccando la scheda in Gestisci compariva «La parte per le famiglie apre al lancio». Era un effetto della chiusura della parte famiglie (voce 258): il tocco apre l'anteprima della scheda come la vedono le famiglie, in modalità proprietario (voce 203), e il server la rifiutava anche all'attività che l'ha creata. Modifica ed elimina funzionavano. Corretto sul server l'8 ottobre sera: l'attività apre le proprie schede e gli eventi e le idee regalo collegate; il resto della parte famiglie resta chiuso. Nessun aggiornamento dell'app necessario.
 258. Parte famiglie chiusa fino al lancio [Fatto, Giacomo] issue #423 su GitHub. Chiesto da te il 4 ottobre: fino al lancio la parte delle famiglie non la deve vedere nessuno, nemmeno le attività invitate, perché foto, categorie e molte schede non sono ancora pronte. Dal 5 ottobre è chiusa. Sul server lo è per tutte le versioni dell'app: chi non ha un account famiglia non vede più le schede e non può registrarsi come famiglia. Con la versione 1.1.34, sui canali di prova dal 5 ottobre, chi apre l'app senza account trova solo "Ho un'attività" e "Hai già un account? Accedi"; chi ha ancora una versione precedente vede una pagina iniziale vuota finché non aggiorna. Tu e chi ha già un account famiglia continuate a vederla come prima. È provvisoria: un interruttore sul nostro server la riapre al lancio senza un'altra versione dell'app. Va riaperta già quando mandiamo l'app in esame per l'uscita, perché Apple vuole che si possa guardarla senza registrarsi.
 
 PERIODO DI PROVA
@@ -343,7 +343,7 @@ TESTI E TRADUZIONI
 
 NOVITÀ, DALLA PIÙ RECENTE
 8 ottobre
-- Dalle tue prove: voce 260, testi nuovi nella schermata Crea («Luogo, attività o servizio»), e voce 261, la scheda appena creata che non compare in Gestisci, in esame. (voce 260, voce 261) [Giacomo]
+- Dalle tue prove: voce 261 fatta la sera stessa sul server (la scheda appena creata non si apriva da Gestisci, effetto della chiusura della parte famiglie), e voce 260 in coda, i testi nuovi nella schermata Crea («Luogo, attività o servizio»). (voce 260, voce 261) [Giacomo]
 - Versione di prova 1.1.37 sui canali interni: per le famiglie «Luoghi» al posto di «Attività», idee regalo ed eventi sistemati (badge, prezzo, indirizzo), errori in rosso, niente sezione sottocategorie vuota nei moduli. Pubblicato anche il server: l'elenco di una categoria in Cerca mostra solo i luoghi, tutti, e «Altro» è fra le occasioni del pannello. (voce 254, voce 232, voce 218, voce 219, voce 231, voce 50) [Giacomo]
 - Apple ha approvato la beta per iPhone: la versione 1.1.35 è ora su tutti e quattro i canali di prova, interni e beta, iPhone e Android. (voce 259) [Giacomo]
 
