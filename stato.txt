@@ -1,5 +1,5 @@
-FamilySide, stato dei lavori. Aggiornato 11 ottobre 2026. App di prova: 1.1.40 (canali di prova interni: App Store e Google Play).
-273 voci in tutto: Fatto 163 · In lavorazione 5 · In coda 78 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 21.
+FamilySide, stato dei lavori. Aggiornato 12 ottobre 2026. App di prova: 1.1.40 (canali di prova interni: App Store e Google Play).
+274 voci in tutto: Fatto 163 · In lavorazione 6 · In coda 78 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 21.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -28,6 +28,9 @@ Le voci che restano prima di far provare l'app alle attività, e quelle prima di
 [ ] Prima di aprire l'app a tutti (la 77 solo se il lancio non è alle porte) - 19 di 38 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 251, voce 253, voce 254, voce 260, voce 261, voce 267, voce 269, voce 270, voce 271, voce 272, voce 273, voce 77
 
 NOVITÀ, DALLA PIÙ RECENTE
+12 ottobre
+- Le attività non riuscivano a sostituire la foto di una scheda (275): trovato il difetto nell'app, la correzione esce con la prossima versione. (voce 275) [Giacomo]
+
 11 ottobre
 - I primi riscontri delle attività invitate, dalla tua email del 10 ottobre, punto per punto: sede a domicilio (267), più sedi (268), prezzo «Da» (269), associazioni (270), data dell'idea regalo nel pannello (271), eventi su richiesta (272), gli utenti «di New York» nel pannello (273) e più categorie per una scheda (274). I consultori sono la voce 77; la foto dell'idea regalo sul biglietto entra nella 87. (voce 267, voce 268, voce 269, voce 270, voce 271, voce 272, voce 273, voce 274, voce 87, voce 77) [Giacomo]
 
@@ -440,7 +443,7 @@ CONTATTI E CONTENUTI
 230. Le schede create dal pannello restano senza posizione: «N/D» e niente mappa [Fatto, Giacomo] issue #395 su GitHub. Fatto e pubblicato il 2 ottobre. Quando scegli l'indirizzo dall'elenco di Google, il pannello ora salva la posizione di attività, eventi e idee regalo: provato creando un evento a Como. Se l'indirizzo è scritto a mano, il server cerca la posizione come già faceva per le attività; un evento o un'idea regalo allo stesso indirizzo della sua attività ne prende la posizione. Togliere «N/D» dove la distanza non c'è è la voce 243. Segnalato da te il 1 ottobre: sulle schede di Esserdea (attività, evento, idea regalo) compare «N/D» al posto della distanza e manca la mappa. Per eventi e idee regalo creati dal pannello la posizione non veniva mai salvata, anche scegliendo l'indirizzo dall'elenco di Google. Per l'attività Esserdea la causa era fuori dall'app: il progetto Google delle mappe aveva la fatturazione disattivata; l'hai riattivata la sera del 1 ottobre e subito dopo l'attività ha preso la sua posizione. Le schede già salvate senza posizione la prendono alla prima apertura nell'app, o risalvandole dal pannello.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 27 · In coda 14 · C'è ma va rifatta 2 · Dopo il lancio 3)
+(Fatto 27 · In lavorazione 1 · In coda 14 · C'è ma va rifatta 2 · Dopo il lancio 3)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve. Il 17 settembre Jessica aggiunge che i link ai social all'ingresso vanno tolti del tutto: si chiederanno più avanti, quando si sarà deciso dove.
 15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -487,6 +490,7 @@ ISCRIZIONE DELLE ATTIVITÀ
 268. Più sedi della stessa attività: una scheda per sede, dallo stesso account [Fatto, Giacomo] Dalla tua email del 10 ottobre (punto 3). La strada che proponi è quella che c'è già, e l'ho provata l'11 ottobre dall'inizio alla fine: un account può creare fino a dieci attività, ognuna con il suo indirizzo, i suoi contatti e i suoi orari; in Gestisci compaiono una sotto l'altra; sulla mappa ogni sede ha il suo segnaposto; un evento o un'idea regalo si collega alla sede scelta e compare solo nella sua scheda. Da dire alle attività: una scheda per sede, con il nome della sede nel titolo (per esempio «Nome, sede di Lecco»). Niente da costruire.
 269. Prezzo «Da», con una spiegazione facoltativa accanto [In coda, Giacomo] issue #463 su GitHub. Dalla tua email del 10 ottobre (punto 4). Oggi il prezzo è un numero solo. Nei moduli dell'app e del pannello, accanto al prezzo, una spunta «a partire da» e un campo facoltativo per spiegarlo (per esempio «a bambino, per lezione»); sulle carte e sulla scheda si legge «Da 30 €» e, sulla scheda, la spiegazione sotto. Tocca anche il server.
 272. Eventi «su richiesta», senza una data [In coda, Giacomo] issue #466 su GitHub. Dalla tua email del 10 ottobre (punto 9). Il server accetta già un evento senza data; sono i due moduli a chiederla. Nel modulo dell'app e in quello del pannello una spunta «Su richiesta» al posto della data, e sulle carte e sulla scheda si legge «Su richiesta» dove di solito c'è la data. Vicina alle voci 162 e 212 (eventi per data, ricorrenze).
+275. Un'attività non riesce a sostituire la foto: resta quella vecchia [In lavorazione, Giacomo] issue #468 su GitHub. Segnalato da te per email il 12 ottobre. Verificato: è un difetto dell'app, non del server. Nelle schermate delle attività (creazione e modifica da Gestisci) ogni foto scelta si aggiungeva a quella di prima invece di sostituirla, e l'app inviava sempre la prima, cioè la vecchia; per eventi e idee regalo la sostituzione funziona già. Da dove viene: il codice è del 23 maggio (creazione) e del 15 giugno (modifica), scritto prima che prendessi in mano il progetto, e non era mai stato toccato; l'unico nostro intervento in quella zona, il 9 settembre (il selettore delle foto di sistema), non l'ha cambiato. Quindi la sostituzione della foto di un'attività non ha mai funzionato. La correzione è pronta e provata, esce con la prossima versione dell'app.
 
 PERIODO DI PROVA
 (Fatto 2)
