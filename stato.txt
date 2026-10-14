@@ -19,13 +19,13 @@ Google Play: Prova interna [x] (1.1.42, dal 13 ottobre) https://play.google.com/
 [~] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190, voce 193, voce 194, voce 195, voce 196, voce 258
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
-61 di 83 voci · 73%
+61 di 84 voci · 73%
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
 [~] Prima di invitare le attività a provare l'app - 35 di 35 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 182, voce 175, voce 200, voce 197, voce 198, voce 204, voce 201, voce 203, voce 135, voce 205, voce 202, voce 214, voce 215, voce 217, voce 256, voce 258
     Versione Beta per Android: https://play.google.com/apps/testing/com.fs.familyside
     Versione Beta per iPhone: https://testflight.apple.com/join/TCArPDTS
-[ ] Prima di aprire l'app a tutti - 26 di 48 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 79, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 251, voce 253, voce 254, voce 260, voce 261, voce 269, voce 270, voce 271, voce 272, voce 273, voce 276, voce 278, voce 280, voce 147, voce 285, voce 286, voce 196, voce 297, voce 298, voce 299, voce 300
+[ ] Prima di aprire l'app a tutti - 26 di 49 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 79, voce 46, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 251, voce 253, voce 254, voce 260, voce 261, voce 269, voce 270, voce 271, voce 272, voce 273, voce 276, voce 278, voce 280, voce 147, voce 285, voce 286, voce 196, voce 297, voce 298, voce 299, voce 300, voce 301
 
 NOVITÀ, DALLA PIÙ RECENTE
 14 ottobre
@@ -395,7 +395,7 @@ MAPPA, RICERCA E SCHEDE
 284. Cerca: senza rete compare un messaggio tecnico in inglese [In coda, Giacomo] issue #479 su GitHub. Trovata il 12 ottobre controllando la 250. In Cerca, senza rete, compare una riga tecnica in inglese invece di un messaggio comprensibile: lo stesso difetto della 250, rimasto qui. Riguarda il lato famiglie, oggi chiuso. Correzione piccola.
 287. «Consigliati per te»: scegliere quali sottocategorie ci compaiono [Dopo il lancio, Giacomo] issue #485 su GitHub. Chiesto da te il 12 ottobre: per esempio le scuole, che a chi ha già iscritto il figlio non servono più, e sono tante. Oggi fra i consigliati finiscono tutte le attività approvate adatte al profilo (voce 129). Il 13 ottobre hai scelto la sottocategoria: nel pannello, su ogni sottocategoria, un interruttore "Mostra nei consigliati", acceso di partenza, e spegni solo quelle che non vuoi. Un'attività con più sottocategorie esce dai consigliati solo se sono spente tutte, e resta in ricerca, mappa, Esplora e nel suo elenco. È solo server e pannello, quindi non passa dall'esame di Apple: si fa dopo l'uscita, in qualunque giorno.
 299. "Clinic / Center" sotto ogni sottocategoria [In coda, Giacomo] issue #502 su GitHub. Trovato da noi il 13 ottobre. Toccando una categoria nella Home, sotto ogni sottocategoria dell'elenco c'è la scritta "Clinic / Center", uguale per tutte: la mette il server al posto di una descrizione che non esiste. Si toglie sul server, senza aggiornare l'app, prima dell'uscita.
-301. Esplora: tra gli eventi compaiono anche quelli già passati [In coda, Giacomo] issue #505 su GitHub. Trovata il 14 ottobre lavorando alla voce 286, leggendo il codice, non vista sul telefono. Nella sezione Eventi di Esplora le famiglie vedono anche gli eventi con la data già passata, mentre la Home e gli altri elenchi degli eventi li tolgono. Si corregge sul server, senza aggiornare l'app; gli eventi senza data restano. Riguarda il lato famiglie, oggi chiuso.
+301. Esplora: tra gli eventi compaiono anche quelli già passati [In coda, Giacomo] issue #505 su GitHub. Trovata il 14 ottobre lavorando alla voce 286, leggendo il codice, non vista sul telefono. Nella sezione Eventi di Esplora le famiglie vedono anche gli eventi con la data già passata, mentre la Home e gli altri elenchi degli eventi li tolgono. Si corregge sul server, senza aggiornare l'app; gli eventi senza data restano. Riguarda il lato famiglie, oggi chiuso. Si fa prima dell'uscita, anche mentre Apple esamina l'app.
 
 GIFT VOUCHER
 (Fatto 5 · In coda 3)
