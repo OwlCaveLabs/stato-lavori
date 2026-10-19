@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 19 ottobre 2026. App di prova: 1.1.43 (canali di prova interni: App Store e Google Play).
-313 voci in tutto: Fatto 183 · In lavorazione 8 · In coda 84 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 32.
+314 voci in tutto: Fatto 183 · In lavorazione 8 · In coda 85 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 32.
 
 VERSO GLI STORE
 8 di 9 passi · 89%
@@ -359,7 +359,7 @@ REGISTRAZIONE E ACCESSO
 307. Profilo: Salvati, il comune, i contatori a zero [In coda, Giacomo] issue #514 su GitHub. Proposta da te il 15 ottobre. "Salvati" entra nel Profilo: oggi si apre solo dall'icona in alto nella Home. Al posto dell'indirizzo intero si vede solo il comune, anche in alto nella schermata dei regali. I contatori a zero mostrano un invito: "Racconta" porta a Cerca, "Suggerisci" a "Suggerisci un luogo", "Invita" e "Condividi" aprono la condivisione del link per scaricare l'app. Prima del lancio. "Famiglie invitate" e "Regali condivisi" oggi restano sempre a zero, perché l'app non conta né gli inviti né le condivisioni: il conteggio vero resta alla voce 144, dopo il lancio. Il link per scaricare l'app funziona dal lancio, quando l'app è sui negozi.
 
 MAPPA, RICERCA E SCHEDE
-(Fatto 40 · In lavorazione 5 · In coda 19 · Dopo il lancio 6)
+(Fatto 40 · In lavorazione 5 · In coda 20 · Dopo il lancio 6)
 3. Pulsante per ricentrare la mappa [Fatto, Giacomo] Deciso da Jessica l'8 settembre e fatto con l'app 1.1.8 (voce 66): il pulsante col mirino riporta dove sei e rifà la ricerca intorno a quel punto. Prima si limitava a rimettere davanti i risultati.
 67. La mappa di Esplora e' una schermata a se', con le scritte in alto poco leggibili [In coda, Giacomo] issue #72 su GitHub. Deciso da Jessica il 9 settembre: la mappa diventa un modo di vedere Esplora, non una schermata a parte. La barra in basso resta, si passa da elenco a mappa con lo stesso interruttore, e l'intestazione sta su sfondo pieno così si legge. Il 15 ottobre Esplora sparisce (voce 303): la mappa diventa un modo di vedere i risultati di Cerca, con gli stessi filtri, e si fa lì. Oggi passando alla mappa sparisce la barra con le cinque schede, e per tornare c'è solo l'icona elenco in alto (su iPhone manca anche il tasto indietro del telefono). Le scritte in alto sono disegnate sopra la cartina, con i nomi delle strade che trapassano: su una città densa come Milano si legge male. La schermata è fatta così dall'inizio.
 68. I due comandi della riga «Intorno a...» si leggono come una frase unica [Fatto, Giacomo] issue #73 su GitHub. Corretta con l'app 1.1.9 (9 settembre): fra «Cambia» e «Usa la mia posizione», nella riga in cima alla schermata iniziale, c'è un puntino grigio e non sembrano più una frase sola. Restano scritte colorate e non pulsanti veri: se qualcuno dice di non aver capito di poterle toccare, si passa a due pastiglie col bordo, già disegnate.
@@ -430,6 +430,7 @@ MAPPA, RICERCA E SCHEDE
 311. "Novità vicino a te" nella Home [Dopo il lancio, Giacomo] Chiesto da te il 15 ottobre, per il futuro: le attività appena inserite o aggiornate vicino a te. Oggi le schede ricordano solo il giorno in cui sono state create, non quando vengono aggiornate. Dopo il lancio.
 315. Ricerca con più parole: gli eventi con una parola sola non devono sparire [In coda, Giacomo] issue #529 su GitHub. Trovato da noi il 19 ottobre. Nella sezione Eventi si cercano due parole: se un luogo le contiene tutte e due, gli eventi che ne hanno una sola non compaiono e la sezione dice "Nessun risultato". Esempio: un luogo "Robotica musica" e un evento "Robotica"; cercando "robotica musica" l'evento non si vede. Lo stesso succede in Cerca quando si sceglie un tipo (Luoghi, Eventi o Idee regalo).
 316. Mappa con il telefono in orizzontale: il pulsante per tornare alla propria posizione non si vede [In coda, Giacomo] issue #533 su GitHub. Trovato da noi il 19 ottobre. Sulla mappa di Cerca senza risultati, con il telefono girato in orizzontale o con lo schermo diviso fra due app, il pulsante che riporta la mappa sulla propria posizione resta nascosto sotto la parte alta. In verticale va bene. Lo correggiamo insieme alla mappa dentro Cerca ed Eventi.
+321. Sezione Eventi: tre rifiniture delle date e dell'ordine [In coda, Giacomo] issue #541 su GitHub. Trovate da noi il 19 ottobre provando la sezione Eventi per data. Un evento dell'anno prossimo mostra la data senza l'anno ("15 ott") e in ordine di data sembra fuori posto. Dopo "Azzera" o "Tutte le date" la fila delle date resta scorsa e "Tutte" non si vede. Senza nessuna posizione, "Per data" e "Per distanza" danno lo stesso elenco. Niente si rompe.
 
 GIFT VOUCHER
 (Fatto 6 · In coda 3 · Dopo il lancio 1)
