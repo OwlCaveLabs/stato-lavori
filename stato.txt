@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 20 ottobre 2026. App di prova: 1.1.44 (canali di prova interni: App Store e Google Play).
-320 voci in tutto: Fatto 195 · In lavorazione 3 · In coda 84 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 32.
+321 voci in tutto: Fatto 195 · In lavorazione 3 · In coda 85 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 32.
 
 VERSO GLI STORE
 8 di 9 passi · 89%
@@ -29,6 +29,7 @@ Le voci che restano prima di far provare l'app alle attività, e quelle prima di
 
 NOVITÀ, DALLA PIÙ RECENTE
 20 ottobre
+- Messa in coda la tua richiesta di avere l'email delle schede nel file che si esporta dalla pagina Attività del pannello. (voce 323) [Giacomo]
 - La versione di prova 1.1.44 è sui canali di prova (la beta per iPhone appena Apple la approva): la barra nuova con Home, Cerca, Eventi, Regali e Profilo, la ricerca unica con i filtri, la sezione Eventi per data e la mappa dentro Cerca ed Eventi. (voce 303, voce 304, voce 67, voce 48, voce 79, voce 145, voce 305, voce 161, voce 243, voce 314, voce 318) [Giacomo]
 - Corretta sul server la lista regalo creata mentre si aggiunge un regalo. Aperte tre voci trovate da noi: rifiniture della mappa, il controllo dei file caricati e «N/D» nella scheda di un'idea regalo. (voce 317, voce 319, voce 320, voce 322) [Giacomo]
 
@@ -580,7 +581,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 11 · In coda 16 · Dopo il lancio 4)
+(Fatto 11 · In coda 17 · Dopo il lancio 4)
 19. Modifica in blocco delle attività selezionate [Dopo il lancio, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Dopo il lancio, Giacomo]
@@ -612,6 +613,7 @@ DASHBOARD
 285. Pannello: non si salva un'idea regalo creata da un'attività [Fatto, Giacomo] issue #483 su GitHub. Fatta e pubblicata il 13 ottobre. Segnalato da te il 12 ottobre. Un'idea regalo creata da un'attività nell'app ora si apre nel pannello, si modifica e si salva, anche senza indirizzo. L'indirizzo è facoltativo per tutte le idee regalo, sia quando le crei sia quando le modifichi; in modifica sono facoltative anche l'attività e le sottocategorie, come nell'app. Anche la descrizione ora è davvero facoltativa: il pannello la indicava già così, ma senza descrizione il salvataggio non andava. Due cose da sapere: se svuoti l'indirizzo di un'idea regalo che l'aveva, l'idea regalo resta senza posizione sulla mappa; un'idea regalo che ha già delle sottocategorie ne deve tenere almeno una. La compilazione dal volantino non cancella più l'indirizzo che hai già scritto.
 289. Pannello: modificare un'idea regalo o un evento cancella email, Instagram e sito [In coda, Giacomo] issue #488 su GitHub. Trovato da noi il 13 ottobre, controllando il lavoro della 285. Se un'idea regalo o un evento ha email, Instagram o sito, il primo salvataggio dalla pagina di modifica del pannello li cancella, anche se cambi solo la descrizione. Al 12 ottobre nessuna idea regalo e nessun evento li aveva compilati, quindi finora non si è perso niente. Le attività non hanno il problema. Solo server e pannello, senza aggiornare l'app.
 290. Pannello: una voce di "Include" con una virgola diventa due [In coda, Giacomo] issue #489 su GitHub. Trovato da noi il 13 ottobre. Nelle idee regalo, una voce di "Include" che contiene una virgola, per esempio "Ingresso, pranzo e bevande", viene salvata come due voci: "Ingresso" e "pranzo e bevande". Al 12 ottobre nessuna idea regalo ne aveva una. Solo pannello.
+323. Pannello: l'email delle schede nel file esportato delle attività [In coda, Giacomo] issue #543 su GitHub. Chiesto da te il 20 ottobre. Il file che si scarica dalla pagina Attività del pannello non ha l'email delle schede, anche quando è compilata: va aggiunta come colonna. Solo server e pannello, senza aggiornare l'app.
 
 SICUREZZA E PRIVACY
 (Fatto 4 · In coda 6)
