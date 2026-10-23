@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 23 ottobre 2026. App di prova: 1.1.45 (canali di prova interni: App Store e Google Play).
-324 voci in tutto: Fatto 199 · In lavorazione 6 · In coda 81 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 32.
+324 voci in tutto: Fatto 199 · In lavorazione 7 · In coda 80 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 32.
 
 VERSO GLI STORE
 8 di 9 passi · 89%
@@ -29,6 +29,7 @@ Le voci che restano prima di far provare l'app alle attività, e quelle prima di
 
 NOVITÀ, DALLA PIÙ RECENTE
 23 ottobre
+- Pronta nell'app la sezione Regali in due parti, "Trova idee regalo" e "Le mie liste regalo", con una riga che spiega a cosa serve una lista regalo. Arriva con la prossima versione. (voce 306) [Giacomo]
 - Pubblicati sul server e nel pannello i tag come filtri: nella pagina Etichette ogni tag ha "Mostra nei filtri dell'app" e le sottocategorie a cui vale; partono tutti spenti. Nell'app arrivano con la prossima versione. In coda la voce 326: le due sottocategorie di Parco giochi non trovano nessuna scheda. (voce 308, voce 326) [Giacomo]
 - Versione di prova 1.1.45 sui canali di prova: alla prima apertura la schermata dei consensi, con le statistiche facoltative e l'interruttore nel Profilo; i colori della griglia di Cerca; il riquadro "Condividi la tua scheda" in Gestisci e il messaggio di condivisione in italiano; niente frase sulle domande guidate dove le recensioni sono spente; niente "N/D" nella scheda di un'idea regalo senza indirizzo. (voce 147, voce 4, voce 312, voce 322, voce 253, voce 155) [Giacomo]
 
@@ -457,7 +458,7 @@ MAPPA, RICERCA E SCHEDE
 326. Parco giochi: le sottocategorie non trovano nessuna scheda [In coda, Giacomo] issue #553 su GitHub. Trovata il 23 ottobre provando i tag come filtri (voce 308). In Cerca, scegliendo "Parchi giochi all'aperto" o "Ludoteche e spazi gioco al chiuso", l'elenco è vuoto: nessuna delle 1248 schede di Parco giochi porta una di queste due sottocategorie, perché sulle schede ci sono i nomi delle categorie di Google Maps ("Parco giochi", "Parco", "Parco divertimenti", "Attrazione turistica", "Centro commerciale" e altri). Ti mandiamo una tabella che abbina quei nomi alle due sottocategorie, da confermare. Per le circa 620 schede che non sono né l'una né l'altra (parchi divertimenti, attrazioni, centri commerciali, escape room) scegli tu: una terza sottocategoria, un'altra categoria, oppure restano solo sotto "Tutte". Prima del lancio.
 
 GIFT VOUCHER
-(Fatto 6 · In coda 3 · Dopo il lancio 1)
+(Fatto 6 · In lavorazione 1 · In coda 2 · Dopo il lancio 1)
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
 9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
 10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Fatto, Giacomo] app 1.1.7 del 7 settembre (i dati veri già dalla 1.1.2). Sistemato, già nella versione sul telefono (1.1.7): «Riscatta contattando l'attività» con la dicitura concordata, «Offerto da» col nome vero dell'attività, la riga con l'orologio con la sua descrizione, e senza «€0» quando il prezzo manca. Resta la riga degli auguri: voce 99. La dicitura concordata: è una cartolina digitale, non vale come prova di acquisto o di pagamento, il regalo si concorda e si paga direttamente con l'attività. Prima «Offerto da» portava la categoria o un nome inventato, e la riga con l'orologio diceva sempre «60-minute session».
@@ -466,7 +467,7 @@ GIFT VOUCHER
 50. Occasione "Altro": nell'app c'è, nel pannello no [Fatto, Giacomo] issue #105 su GitHub. Fatta l'8 ottobre: «Altro» è fra le occasioni del pannello dal server pubblicato la sera stessa. Deciso da Jessica il 10 settembre: «Altro» si tiene. Nell'app c'è già; nel pannello manca dall'elenco per una riga sul server che era stata disattivata. Torna con la prossima pubblicazione del server, senza aggiornare l'app. Vedi anche la voce 43.
 148. Su Android i tasti del telefono coprono il pulsante «Richiedi Voucher» [In coda, Giacomo] issue #268 su GitHub. Segnalato il 17 settembre, e messo in coda dopo il lancio per le attività, come hai chiesto. Verificato: quel pulsante è incollato al bordo basso dello schermo senza lasciare il posto alla barra dei tasti di Android, mentre la riga in alto quel posto lo lascia. Correzione: la stessa regola anche in fondo.
 224. Il filtro prezzo delle idee regalo non filtra [In coda, Giacomo] issue #374 su GitHub. Nella ricerca delle idee regalo, le fasce di prezzo (sotto i 25 €, 25-50, 50-100, oltre 100) danno gli stessi risultati di nessuna scelta: l'app e il server usano nomi diversi per le fasce, e il server ne conosce solo due. Si allineano le quattro fasce; sotto i 25 € comprende i regali gratuiti.
-306. Regali: trovare idee regalo e le proprie liste, ben distinte [In coda, Giacomo] issue #513 su GitHub. Proposta da te il 15 ottobre: quasi nessuno capisce che si possono creare liste regalo. Nella sezione due parti chiare, "Trova idee regalo" e "Le mie liste regalo", con una riga di spiegazione. Prima del lancio. Condividere le liste è la voce 309, dopo il lancio.
+306. Regali: trovare idee regalo e le proprie liste, ben distinte [In lavorazione, Giacomo] issue #513 su GitHub. Proposta da te il 15 ottobre: quasi nessuno capisce che si possono creare liste regalo. Nella sezione due parti chiare, "Trova idee regalo" e "Le mie liste regalo", con una riga di spiegazione. Prima del lancio. Condividere le liste è la voce 309, dopo il lancio. Il 23 ottobre è pronta nell'app: in Regali due schede, "Trova idee regalo" e "Le mie liste regalo". Nella seconda una riga spiega a cosa serve una lista regalo, e chi non ha l'account trova "Accedi". La ricerca dice "Cerca un'idea regalo", e sulle card delle idee regalo non c'è più il cerchio che diceva "Salvato nella mia lista" senza salvare niente. Arriva con la prossima versione, quella che va ad Apple.
 309. Condividere le liste regalo [Dopo il lancio, Giacomo] Chiesto da te il 15 ottobre: tutto deve essere condivisibile, anche le liste, per portare altre famiglie a scaricare l'app. Oggi le liste non si possono condividere. Si fa dopo il lancio, insieme all'apertura diretta delle schede nell'app (voce 313).
 
 PANNELLO E ATTIVITÀ
