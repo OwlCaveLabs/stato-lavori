@@ -6,7 +6,7 @@ VERSO GLI STORE
 Il percorso per arrivare sui due negozi: le versioni di prova, i moduli che Apple e Google chiedono, la scheda, l'invio in revisione.
 
 App Store: Prova interna [x] (1.1.46, dal 27 ottobre) -> Beta [x] (1.1.45, dal 23 ottobre) (in revisione: 1.1.46, dal 27 ottobre) https://testflight.apple.com/join/TCArPDTS -> Revisione [~] (1.1.46 inviata ad Apple il 27 ottobre) -> Sullo store [~]
-Google Play: Prova interna [x] (1.1.46, dal 27 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.46, dal 27 ottobre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (Google ha esaminato l'app e non ha chiesto modifiche) -> Sullo store [~]
+Google Play: Prova interna [x] (1.1.46, dal 27 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.46, dal 27 ottobre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [~] (1.1.46 inviata a Google il 27 ottobre) -> Sullo store [~]
 
 [x] Versioni di prova sui due store - voce 32, voce 33
 [x] Correzioni chieste dalle regole degli store - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
