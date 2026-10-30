@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 30 ottobre 2026. App di prova: 1.1.47 (canali di prova interni: App Store e Google Play).
-340 voci in tutto: Fatto 225 · In lavorazione 4 · In coda 67 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 38.
+341 voci in tutto: Fatto 225 · In lavorazione 4 · In coda 68 · C'è ma va rifatta 2 · Al team 4 · Dopo il lancio 38.
 
 VERSO GLI STORE
 8,5 di 9 passi · 94%
@@ -19,13 +19,13 @@ Google Play: Prova interna [x] (1.1.47, dal 29 ottobre) https://play.google.com/
 [~] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190, voce 193, voce 194, voce 195, voce 196, voce 258
 
 LE DUE APERTURE: ALLE ATTIVITÀ E A TUTTI
-102 di 111 voci · 92%
+102 di 112 voci · 91%
 Le voci che restano prima di far provare l'app alle attività, e quelle prima di aprirla a tutti. La divisione è quella decisa insieme il 14 settembre; ogni numero è una voce qui sotto, col colore del suo stato.
 
 [~] Prima di invitare le attività a provare l'app - 35 di 35 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 182, voce 175, voce 200, voce 197, voce 198, voce 204, voce 201, voce 203, voce 135, voce 205, voce 202, voce 214, voce 215, voce 217, voce 256, voce 258
     Versione Beta per Android: https://play.google.com/apps/testing/com.fs.familyside
     Versione Beta per iPhone: https://testflight.apple.com/join/TCArPDTS
-[ ] Prima di aprire l'app a tutti - 67 di 76 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 79, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 253, voce 254, voce 260, voce 261, voce 269, voce 271, voce 272, voce 273, voce 276, voce 278, voce 280, voce 147, voce 285, voce 286, voce 196, voce 297, voce 298, voce 299, voce 300, voce 301, voce 140, voce 302, voce 303, voce 304, voce 305, voce 306, voce 307, voce 308, voce 287, voce 155, voce 312, voce 213, voce 243, voce 323, voce 4, voce 326, voce 328, voce 329, voce 331, voce 334, voce 224, voce 335, voce 336, voce 337, voce 338, voce 292, voce 339, voce 340, voce 341, voce 342
+[ ] Prima di aprire l'app a tutti - 67 di 77 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 237, voce 183, voce 48, voce 145, voce 79, voce 26, voce 87, voce 50, voce 51, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 253, voce 254, voce 260, voce 261, voce 269, voce 271, voce 272, voce 273, voce 276, voce 278, voce 280, voce 147, voce 285, voce 286, voce 196, voce 297, voce 298, voce 299, voce 300, voce 301, voce 140, voce 302, voce 303, voce 304, voce 305, voce 306, voce 307, voce 308, voce 287, voce 155, voce 312, voce 213, voce 243, voce 323, voce 4, voce 326, voce 328, voce 329, voce 331, voce 334, voce 224, voce 335, voce 336, voce 337, voce 338, voce 292, voce 339, voce 340, voce 341, voce 342, voce 343
 
 NOVITÀ, DALLA PIÙ RECENTE
 30 ottobre
@@ -630,7 +630,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 13 · In coda 16 · Dopo il lancio 4)
+(Fatto 13 · In coda 17 · Dopo il lancio 4)
 19. Modifica in blocco delle attività selezionate [Dopo il lancio, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Dopo il lancio, Giacomo]
@@ -664,6 +664,7 @@ DASHBOARD
 290. Pannello: una voce di "Include" con una virgola diventa due [In coda, Giacomo] issue #489 su GitHub. Trovato da noi il 13 ottobre. Nelle idee regalo, una voce di "Include" che contiene una virgola, per esempio "Ingresso, pranzo e bevande", viene salvata come due voci: "Ingresso" e "pranzo e bevande". Al 12 ottobre nessuna idea regalo ne aveva una. Solo pannello.
 323. Pannello: l'email delle schede nel file esportato delle attività [In coda, Giacomo] issue #543 su GitHub. Chiesto da te il 20 ottobre. Il file che si scarica dalla pagina Attività del pannello non ha l'email delle schede, anche quando è compilata: va aggiunta come colonna. Prima del lancio, solo server e pannello, senza aggiornare l'app.
 337. Caricamento massivo: l'esito non dice quante schede né quali righe sono scartate [Fatto, Giacomo] issue #574 su GitHub. Trovato da noi il 27 ottobre. Dopo il caricamento il pannello scriveva "Importazione completata. attività aggiunte" senza il numero, non contava le schede aggiornate e non diceva quali righe aveva scartato né perché. Il 27 ottobre è pubblicata su server e pannello: il messaggio dice quante schede sono state aggiunte, aggiornate e scartate, e sopra l'elenco delle attività resta, finché non lo chiudi, un riquadro con ogni riga scartata, il valore che non va e il motivo in italiano (per esempio: Riga 6, "ragazzi": valore non riconosciuto nella colonna audience). Le righe vuote in mezzo al file vengono saltate.
+343. Pannello: ruolo e dati dei figli inventati quando mancano [In coda, Giacomo] issue #596 su GitHub. Trovato da noi il 30 ottobre, correggendo la voce 273. Nel dettaglio di un utente il pannello mostra dati che l'utente non ha mai dato: il ruolo "Father" per chi non l'ha scelto, quindi per tutte le attività (nel file esportato lo stesso utente risulta "Parent"), e per i figli il sesso "Male", il nome "Unnamed" e la data "N/A" quando non sono stati indicati. È lo stesso difetto della voce 273: il server riempie un dato mancante con un valore fisso. La correzione lascia vuoto quello che manca, tocca server e pannello, e la facciamo prima del lancio.
 
 SICUREZZA E PRIVACY
 (Fatto 7 · In coda 4 · Dopo il lancio 1)
