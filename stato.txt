@@ -5,7 +5,7 @@ NOVITÀ, DALLA PIÙ RECENTE
 2 novembre
 - Dal pannello ora salvi un'attività senza email e un evento senza ora di fine; un'email scritta deve comunque essere un indirizzo valido (150). E modificando un evento o un'idea regalo, email, Instagram e sito restano (289). Se avevi il pannello già aperto, ricarica la pagina. (voce 150, voce 289) [Giacomo]
 - Dal pomeriggio la 1.1.47 è su Google Play per tutti: la presentazione iniziale nuova (334), l'icona di Salva che si colora (335), Cerca che torna al passo prima (339), il filtro che si toglie toccando tutto il pulsante (340), luogo ed evento collegato che tengono ognuno i propri dati (341). Su iPhone Apple la sta esaminando, ed esce da sola appena la approva. (voce 334, voce 335, voce 339, voce 340, voce 341) [Giacomo]
-- La pagina è riordinata per il dopo lancio. Dopo le novità c'è "In arrivo": le voci che faccio adesso, divise fra quelle del pannello e del server, che escono appena pronte, e quelle della prossima versione dell'app. Il percorso fino al lancio è chiuso in una riga, "Il lancio", e le voci rimandate ora si chiamano "Più avanti". [Giacomo]
+- La pagina è riordinata per il dopo lancio. Dopo le novità c'è "In arrivo": le voci che faccio adesso, divise fra quelle del pannello e del server, che escono appena pronte, e quelle della prossima versione dell'app. Le voci rimandate ora si chiamano "Più avanti". [Giacomo]
 - Nella pagina ci sono i punti della tua email del 1 novembre e dei tuoi WhatsApp: sei voci nuove, e le note aggiornate di quelle che c'erano già (5, 124, 157, 288, 324, 333). (voce 348, voce 349, voce 350, voce 351, voce 352, voce 353) [Giacomo]
 - FamilySide è sui due negozi: oggi, come hai scelto, la 1.1.46 è uscita su App Store e Google Play (34). Su Android la Versione Beta passa alla 1.1.47, che Google sta esaminando. Gli eventi su richiesta (272) e la condivisione su Instagram (213) arrivano con un aggiornamento dopo il lancio, insieme alle altre quattro voci rimaste del gruppo prima dell'apertura. (voce 34) [Giacomo]
 
@@ -358,21 +358,6 @@ Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il li
 
 App Store: Prova interna [x] (1.1.47, dal 29 ottobre) -> Beta [x] (1.1.47, dal 30 ottobre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.46, dal 2 novembre) (in revisione: 1.1.47, dal 2 novembre)
 Google Play: Prova interna [x] (1.1.47, dal 29 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.47, dal 2 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.47, dal 2 novembre)
-
-IL LANCIO: 9 passi e 109 voci, completati il 2 novembre
-Il percorso fino al 2 novembre, quando FamilySide è uscita su App Store e Google Play: i passi chiesti dai due negozi, e le due aperture decise insieme il 14 settembre, prima alle attività e poi a tutti. Ogni numero è una voce qui sotto, col colore del suo stato.
-
-[x] Versioni di prova sui due store - voce 32, voce 33
-[x] Correzioni chieste dalle regole degli store - voce 23, voce 78, voce 81, voce 82, voce 83, voce 84, voce 85
-[x] Account di prova per chi esamina l'app - voce 88, voce 30
-[x] Pubblicazione con un comando solo - voce 89
-[x] Testi e immagini delle due schede - voce 90, voce 102, voce 107
-[x] Dati del venditore nei due negozi - voce 92
-[x] Moduli su privacy e dati - voce 139, voce 105, voce 133, voce 147
-[x] Beta: l'app installabile dalle attività - voce 91
-[x] Invio in revisione e pubblicazione - voce 34, voce 176, voce 189, voce 190, voce 193, voce 194, voce 195, voce 196, voce 258
-[x] Prima di invitare le attività a provare l'app - 35 di 35 fatte - voce 25, voce 94, voce 24, voce 17, voce 138, voce 137, voce 20, voce 131, voce 114, voce 64, voce 72, voce 90, voce 111, voce 136, voce 165, voce 170, voce 172, voce 173, voce 174, voce 182, voce 175, voce 200, voce 197, voce 198, voce 204, voce 201, voce 203, voce 135, voce 205, voce 202, voce 214, voce 215, voce 217, voce 256, voce 258
-[x] Prima di aprire l'app a tutti - 74 di 74 fatte - voce 229, voce 230, voce 236, voce 231, voce 232, voce 239, voce 44, voce 199, voce 244, voce 235, voce 183, voce 48, voce 145, voce 79, voce 26, voce 87, voce 50, voce 97, voce 60, voce 53, voce 129, voce 218, voce 219, voce 226, voce 253, voce 254, voce 260, voce 261, voce 269, voce 271, voce 273, voce 276, voce 278, voce 280, voce 147, voce 285, voce 286, voce 196, voce 298, voce 299, voce 300, voce 301, voce 140, voce 302, voce 303, voce 304, voce 305, voce 306, voce 307, voce 308, voce 287, voce 312, voce 243, voce 323, voce 4, voce 326, voce 328, voce 329, voce 331, voce 334, voce 224, voce 335, voce 336, voce 337, voce 338, voce 292, voce 339, voce 340, voce 341, voce 342, voce 343, voce 344, voce 345, voce 347
 
 IMMAGINE E INGRESSO
 (Fatto 7 · Più avanti 3)
