@@ -353,10 +353,10 @@ Le voci che faccio adesso, in due gruppi. Quelle del pannello e del server escon
 [ ] Con la prossima versione dell'app - 0 di 8 fatte - voce 5, voce 348, voce 333, voce 213, voce 272, voce 349, voce 324, voce 104
 
 L'APP SUI DUE NEGOZI
-Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, la revisione di Apple e di Google, e la versione che scaricano tutti. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
+Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.47, dal 29 ottobre) -> Beta [x] (1.1.47, dal 30 ottobre) https://testflight.apple.com/join/TCArPDTS -> Revisione [x] (1.1.46 approvata da Apple) (in revisione: 1.1.47, dal 2 novembre) -> Sullo store [x] (1.1.46, dal 2 novembre)
-Google Play: Prova interna [x] (1.1.47, dal 29 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.47, dal 2 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Revisione [x] (1.1.47 approvata da Google) -> Sullo store [x] (1.1.47, dal 2 novembre)
+App Store: Prova interna [x] (1.1.47, dal 29 ottobre) -> Beta [x] (1.1.47, dal 30 ottobre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.46, dal 2 novembre) (in revisione: 1.1.47, dal 2 novembre)
+Google Play: Prova interna [x] (1.1.47, dal 29 ottobre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.47, dal 2 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.47, dal 2 novembre)
 
 IL LANCIO: 9 passi e 109 voci, completati il 2 novembre
 Il percorso fino al 2 novembre, quando FamilySide è uscita su App Store e Google Play: i passi chiesti dai due negozi, e le due aperture decise insieme il 14 settembre, prima alle attività e poi a tutti. Ogni numero è una voce qui sotto, col colore del suo stato.
