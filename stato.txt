@@ -1,8 +1,9 @@
 FamilySide, stato dei lavori. Aggiornato 2 novembre 2026. Sui negozi: 1.1.47.
-352 voci in tutto: Fatto 235 · In lavorazione 1 · In coda 69 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+352 voci in tutto: Fatto 237 · In lavorazione 1 · In coda 67 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 3 novembre
+- Dal pannello ora salvi un evento anche senza descrizione (241). E quando un salvataggio non va, compare il messaggio con il campo da correggere e quello che hai scritto resta, invece della pagina bianca (242). Se avevi il pannello già aperto, ricarica la pagina. (voce 241, voce 242) [Giacomo]
 - Apple ha approvato la 1.1.47, che è su App Store dalla sera del 2 novembre: le stesse correzioni arrivate su Android (334, 335, 339, 340, 341) ora ci sono anche su iPhone. (voce 334, voce 335, voce 339, voce 340, voce 341) [Giacomo]
 
 2 novembre
@@ -350,10 +351,10 @@ NOVITÀ, DALLA PIÙ RECENTE
 - Ogni grafica delle carte regalo ha un'occasione, lista fissa di nove. (voce 8) [team]
 
 IN ARRIVO
-2 di 13 fatte
+4 di 14 fatte
 Le voci che faccio adesso, in due gruppi. Quelle del pannello e del server escono appena sono pronte, una per una; quelle dell'app arrivano insieme con la prossima versione, dopo la revisione dei due negozi. Quando qualcosa esce te lo scrivo nelle novità, e quando un gruppo è finito riparte con le voci successive.
 
-[~] Sul pannello e sul server, senza aggiornare l'app - 2 di 5 fatte - voce 150, voce 289, voce 241, voce 288, voce 350
+[~] Sul pannello e sul server, senza aggiornare l'app - 4 di 6 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350
 [ ] Con la prossima versione dell'app - 0 di 8 fatte - voce 5, voce 348, voce 333, voce 213, voce 272, voce 349, voce 324, voce 104
 
 L'APP SUI DUE NEGOZI
@@ -646,7 +647,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 21 · In coda 13 · Più avanti 6)
+(Fatto 23 · In coda 11 · Più avanti 6)
 19. Modifica in blocco delle attività selezionate [Più avanti, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Più avanti, Giacomo]
@@ -669,8 +670,8 @@ DASHBOARD
 246. Pannello: la mappina senza indirizzo né posizione si apre su New York [In coda, Giacomo] issue #412 su GitHub. Separata dalla voce 240 il 3 ottobre. Se il campo indirizzo è vuoto e il browser non concede la posizione, o se Google non trova l'indirizzo scritto, la mappina si apre ancora su New York. Correzione: in quei casi si apre sull'Italia. Esce con il prossimo aggiornamento del pannello.
 257. Pannello: nell'anteprima telefono, email e Facebook risultavano «non visibili nell'app» [Fatto, Giacomo] issue #421 su GitHub. Segnalato da te il 4 ottobre sulla scheda del Centro Educativo Iside. Nell'app la scheda di un'attività o di un evento mostra tutti i contatti, compresi telefono, email e Facebook, ma l'anteprima del pannello era stata fatta prima che li aggiungessimo e li metteva a parte. Corretta e pubblicata il 4 ottobre: ora sono tutti sotto «Contatti», e il 5 ottobre mi hai confermato che è risolto. Per le idee regalo la dicitura resta, perché la scheda del regalo nell'app non mostra contatti.
 265. Nella modifica di una scheda la spunta «anche WhatsApp» non si toglieva [Fatto, Giacomo] issue #456 su GitHub. Fatta e pubblicata il 9 ottobre. Segnalato da te lo stesso giorno con lo screenshot. Modificando nel pannello una scheda già salvata con telefono e WhatsApp uguali, togliere la spunta «Questo numero è anche WhatsApp» non bastava: il campo WhatsApp compariva già riempito con lo stesso numero, al salvataggio restava uguale al telefono e riaprendo la scheda la spunta era di nuovo messa. Creando una scheda nuova invece la spunta si toglieva già. Ora, quando togli la spunta a mano, il campo WhatsApp si svuota e puoi scrivere il numero giusto o lasciarlo vuoto. Vale per attività, eventi e idee regalo.
-241. Pannello: evento e idea regalo senza descrizione non si salvano [In coda, Giacomo] issue #398 su GitHub. Trovato il 2 ottobre provando il pannello. Nel modulo di evento e di idea regalo c'è scritto «Descrizione (facoltativa)», ma se la lasci vuota il salvataggio fallisce, e per la voce 242 la pagina diventa bianca. Correzione: la descrizione diventa davvero facoltativa. Nel frattempo, scrivi sempre una descrizione.
-242. Pannello: un salvataggio rifiutato lascia la pagina bianca [In coda, Giacomo] issue #399 su GitHub. Trovato il 2 ottobre provando il pannello. Quando il server rifiuta un modulo perché manca un campo, il pannello invece di mostrare il messaggio va in errore: la pagina diventa bianca e quello che avevi compilato si perde. Correzione: compare il messaggio e il modulo resta compilato, in tutte le pagine del pannello.
+241. Pannello: evento e idea regalo senza descrizione non si salvano [Fatto, Giacomo] issue #398 su GitHub. Fatta e pubblicata il 3 novembre. Trovato il 2 ottobre provando il pannello: nel modulo di evento e di idea regalo c'è scritto "Descrizione (facoltativa)", ma lasciandola vuota il salvataggio falliva. Per le idee regalo era già corretto dal 13 ottobre (voce 285); ora anche un evento si salva senza descrizione, e se in modifica la svuoti si cancella. Se avevi il pannello già aperto, ricarica la pagina.
+242. Pannello: un salvataggio rifiutato lascia la pagina bianca [Fatto, Giacomo] issue #399 su GitHub. Fatta e pubblicata il 3 novembre. Trovato il 2 ottobre provando il pannello: quando il server rifiutava un modulo perché mancava un campo, la pagina diventava bianca e quello che avevi compilato si perdeva. Ora compare il messaggio, che dice anche quale campo non va, e il modulo resta compilato: nelle pagine per creare e modificare attività, eventi e idee regalo, e nelle finestre di etichette, sottocategorie, notifiche, recensioni e biglietti regalo. Se avevi il pannello già aperto, ricarica la pagina.
 271. Pannello: la data dell'idea regalo è ancora obbligatoria [Fatto, Giacomo] issue #465 su GitHub. Fatta e pubblicata il 13 ottobre. Dalla tua email del 10 ottobre (punto 8). Nel pannello la data dell'idea regalo ora è facoltativa anche quando la crei: il campo si chiama "Data (facoltativa)" e un'idea regalo senza data si salva così. In modifica era già facoltativa.
 273. Pannello: gli utenti registrati risultano tutti di New York [Fatto, Giacomo] issue #467 su GitHub. Segnalato da te il 10 ottobre. Non erano gli utenti: quando un utente non aveva indicato una posizione, il server scriveva al suo posto un testo fisso americano (lo stesso difetto delle voci 240 e 246). Chi si registra come attività non indica una posizione sua, quindi la vedevano tutti. Pubblicata il 30 ottobre sul server: nella pagina "Utenti", nel dettaglio di un utente e nel file esportato, dove la posizione non c'è la casella resta vuota.
 278. Un'email a info@ per ogni scheda da approvare e ogni nuova attività iscritta [Fatto, Giacomo] issue #474 su GitHub. Chiesto da te il 12 ottobre. Pubblicata il 31 ottobre sul server: a info@ arriva un'email per ogni richiesta da approvare nel pannello, cioè attività, evento o idea regalo mandati da un'attività, suggerimento di una famiglia e richiesta di presa in carico, e una per ogni nuova attività che crea il suo account. Ogni richiesta arriva con il tipo, il nome, chi l'ha mandata e il link alle notifiche del pannello. Anche l'email che arriva a info@ per le richieste di assistenza ora è in italiano. I download dell'app invece li contano solo i due negozi: si leggono in Google Play Console e in App Store Connect, una notifica per ogni download non esiste.
