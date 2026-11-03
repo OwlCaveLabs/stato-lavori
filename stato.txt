@@ -1,8 +1,9 @@
-FamilySide, stato dei lavori. Aggiornato 2 novembre 2026. Sui negozi: 1.1.47.
-352 voci in tutto: Fatto 237 · In lavorazione 1 · In coda 67 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+FamilySide, stato dei lavori. Aggiornato 3 novembre 2026. Sui negozi: 1.1.47.
+352 voci in tutto: Fatto 238 · In lavorazione 1 · In coda 66 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 3 novembre
+- Nel pannello, il dettaglio di attività, eventi e idee regalo mostra ora l'email dell'account che gestisce la scheda, accanto all'email scritta nella scheda, e l'esportazione delle attività ha la colonna "Email dell'account" (350). Se avevi il pannello già aperto, ricarica la pagina. (voce 350) [Giacomo]
 - Dal pannello ora salvi un evento anche senza descrizione (241). E quando un salvataggio non va, compare il messaggio con il campo da correggere e quello che hai scritto resta, invece della pagina bianca (242). Se avevi il pannello già aperto, ricarica la pagina. (voce 241, voce 242) [Giacomo]
 - Apple ha approvato la 1.1.47, che è su App Store dalla sera del 2 novembre: le stesse correzioni arrivate su Android (334, 335, 339, 340, 341) ora ci sono anche su iPhone. (voce 334, voce 335, voce 339, voce 340, voce 341) [Giacomo]
 
@@ -351,10 +352,10 @@ NOVITÀ, DALLA PIÙ RECENTE
 - Ogni grafica delle carte regalo ha un'occasione, lista fissa di nove. (voce 8) [team]
 
 IN ARRIVO
-4 di 14 fatte
+5 di 14 fatte
 Le voci che faccio adesso, in due gruppi. Quelle del pannello e del server escono appena sono pronte, una per una; quelle dell'app arrivano insieme con la prossima versione, dopo la revisione dei due negozi. Quando qualcosa esce te lo scrivo nelle novità, e quando un gruppo è finito riparte con le voci successive.
 
-[~] Sul pannello e sul server, senza aggiornare l'app - 4 di 6 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350
+[~] Sul pannello e sul server, senza aggiornare l'app - 5 di 6 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350
 [ ] Con la prossima versione dell'app - 0 di 8 fatte - voce 5, voce 348, voce 333, voce 213, voce 272, voce 349, voce 324, voce 104
 
 L'APP SUI DUE NEGOZI
@@ -647,7 +648,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 23 · In coda 11 · Più avanti 6)
+(Fatto 24 · In coda 10 · Più avanti 6)
 19. Modifica in blocco delle attività selezionate [Più avanti, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Più avanti, Giacomo]
@@ -686,7 +687,7 @@ DASHBOARD
 345. Mettere in pausa una singola scheda dal pannello [Fatto, Giacomo] issue #599 su GitHub. Chiesto da te il 30 ottobre. Pubblicata il 31 ottobre su server e pannello: su Attività, Eventi e Regali ogni scheda pubblicata ha il pulsante "Metti in pausa" e ogni scheda in pausa il pulsante "Riattiva", tutti e due con una conferma. In pausa la scheda non si vede nell'app da nessuna parte, nemmeno da un link condiviso o dai salvati; nel pannello resta, con l'etichetta "In pausa", e il filtro "Stato" restringe l'elenco. Una scheda creata dal pannello è subito pubblicata, quindi puoi crearla e metterla in pausa finché l'attività non ti dà la conferma. Come hai scelto, la pausa vale per la sola scheda: gli eventi e le idee regalo di un'attività in pausa restano visibili finché non metti in pausa anche loro. Chi apre una scheda in pausa da un link condiviso legge "Questa scheda al momento non è disponibile." L'attività la vede ancora in Gestisci, segnata "Bloccata", e per ora non riceve nessun avviso: l'email è la voce 346, dopo il lancio. Riattiva la rimette com'era, anche nei salvati delle famiglie.
 346. Un'email all'attività quando la sua scheda va in pausa o torna visibile [Più avanti, Giacomo] issue #602 su GitHub. Chiesto da te il 31 ottobre, rispondendo alla domanda sulla pausa. Quando metti in pausa o riattivi la scheda di un'attività registrata, all'attività arriva un'email, con un motivo scritto da te se lo scrivi. Oggi la pausa non avvisa nessuno: l'attività lo vede solo nell'app, dove la scheda è segnata "Bloccata". Dopo il lancio.
 347. Pannello: etichette inventate nelle attività senza etichette [Fatto, Giacomo] issue #604 su GitHub. Trovato da noi il 31 ottobre. Nel pannello, aprendo con Vedi un'attività senza etichette, comparivano tre etichette che la scheda non ha, "Indoor", "Ongoing" e "Free", e modificandola e salvando le restava "Indoor", che nessuno aveva scelto. Pubblicata il 31 ottobre sul server: un'attività senza etichette resta senza etichette, nella finestra e nel modulo.
-350. Pannello: l'email dell'account che ha creato la scheda [In coda, Giacomo] issue #613 su GitHub. Dalla tua email del 1 novembre (punto 9). Capita che un'attività si registri con un'email e nei contatti della scheda ne scriva un'altra. Oggi il dettaglio della scheda nel pannello dice solo se l'ha creata un'attività, una famiglia o l'amministrazione, non con quale account. Si aggiunge l'email dell'account, visibile solo nel pannello e mai nell'app. Esce senza aggiornare l'app.
+350. Pannello: l'email dell'account che ha creato la scheda [Fatto, Giacomo] issue #613 su GitHub. Fatta e pubblicata il 3 novembre. Dalla tua email del 1 novembre (punto 9): capita che un'attività si registri con un'email e nei contatti della scheda ne scriva un'altra. Ora nel pannello il dettaglio di un'attività, di un evento e di un'idea regalo mostra "Email dell'account", quella dell'account che gestisce la scheda, accanto a "Email", quella scritta nella scheda; con un clic si apre il programma di posta. Nel dettaglio dell'evento compare anche "Creato da", come per attività e idee regalo. L'esportazione delle attività ha la colonna "Email dell'account". Se una scheda è stata presa in carico da un'attività, è l'email di chi la gestisce oggi; per le schede che carichi tu dal pannello è info@familyside.it. Si vede solo nel pannello, mai nell'app. Se avevi il pannello già aperto, ricarica la pagina.
 351. Pannello: dall'attività, i suoi eventi e le sue idee regalo [In coda, Giacomo] Dalla tua email del 1 novembre (punto 7). Oggi il dettaglio di un'attività nel pannello non mostra cosa le è collegato; gli elenchi degli eventi e delle idee regalo hanno già il filtro per attività. La strada più semplice: dal dettaglio dell'attività, un collegamento agli eventi e alle idee regalo già filtrati su di lei.
 
 SICUREZZA E PRIVACY
