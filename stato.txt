@@ -1,8 +1,9 @@
 FamilySide, stato dei lavori. Aggiornato 4 novembre 2026. Sui negozi: 1.1.47.
-358 voci in tutto: Fatto 240 · In lavorazione 6 · In coda 65 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+361 voci in tutto: Fatto 240 · In lavorazione 6 · In coda 68 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 4 novembre
+- Dopo il caso dell'asilo "Fantabosco": nel pannello, prima di assegnare una scheda a chi la chiede, comparirà un avviso quando il nome di chi la chiede non corrisponde a quello della scheda. Non serve aggiornare l'app. (voce 363) [Giacomo]
 - Le categorie di Cerca sono nell'ordine del tuo elenco, con i colori che mi hai indicato, e la fila di categorie in Home segue lo stesso ordine, come la mappa e le categorie di Regali (355). Non serve aggiornare l'app. (voce 355) [Giacomo]
 - Dai tuoi WhatsApp del 3 novembre: il prezzo 0 nelle idee regalo della lista regali sparisce con la prossima versione dell'app (356); gli eventi senza attività dal pannello sono la voce 154, già in coda, aggiornata con quello che serve; il caricamento massivo degli eventi è una voce nuova, in coda (357). (voce 356, voce 154, voce 357) [Giacomo]
 
@@ -358,11 +359,11 @@ NOVITÀ, DALLA PIÙ RECENTE
 - Ogni grafica delle carte regalo ha un'occasione, lista fissa di nove. (voce 8) [team]
 
 IN ARRIVO
-6 di 17 fatte
+6 di 19 fatte
 Le voci che faccio adesso, in due gruppi. Quelle del pannello e del server escono appena sono pronte, una per una; quelle dell'app arrivano insieme con la prossima versione, dopo la revisione dei due negozi. Quando qualcosa esce te lo scrivo nelle novità, e quando un gruppo è finito riparte con le voci successive.
 
 [~] Sul pannello e sul server, senza aggiornare l'app - 6 di 7 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350, voce 359
-[~] Con la prossima versione dell'app - 0 di 10 fatte - voce 5, voce 348, voce 333, voce 213, voce 272, voce 349, voce 324, voce 104, voce 356, voce 358
+[~] Con la prossima versione dell'app - 0 di 12 fatte - voce 5, voce 348, voce 333, voce 213, voce 272, voce 349, voce 324, voce 104, voce 356, voce 358, voce 361, voce 362
 
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
@@ -512,7 +513,7 @@ MAPPA, RICERCA E SCHEDE
 355. Cerca: un ordine nuovo per le categorie [Fatto, Giacomo] issue #619 su GitHub. Fatta e online dal 4 novembre, senza aggiornare l'app. Dal tuo WhatsApp del 3 novembre: le dodici categorie di Cerca sono nell'ordine del tuo elenco, due per riga, con i colori nuovi, e Genitorialità e famiglia e Tempo per sé hanno un colore per la prima volta. La fila di categorie in Home segue lo stesso ordine. Ordine e colori sono salvati su ogni categoria dalla voce 4. Lo stesso ordine vale per le categorie nella finestra dei filtri, sulla mappa, nelle schede di Regali e nell'elenco delle categorie quando un'attività crea una scheda. Una categoria che non metti nell'elenco va in fondo.
 
 GIFT VOUCHER
-(Fatto 8 · In lavorazione 2 · In coda 1 · Più avanti 1)
+(Fatto 8 · In lavorazione 2 · In coda 3 · Più avanti 1)
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
 9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
 10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Fatto, Giacomo] app 1.1.7 del 7 settembre (i dati veri già dalla 1.1.2). Sistemato, già nella versione sul telefono (1.1.7): «Riscatta contattando l'attività» con la dicitura concordata, «Offerto da» col nome vero dell'attività, la riga con l'orologio con la sua descrizione, e senza «€0» quando il prezzo manca. Resta la riga degli auguri: voce 99. La dicitura concordata: è una cartolina digitale, non vale come prova di acquisto o di pagamento, il regalo si concorda e si paga direttamente con l'attività. Prima «Offerto da» portava la categoria o un nome inventato, e la riga con l'orologio diceva sempre «60-minute session».
@@ -525,6 +526,8 @@ GIFT VOUCHER
 309. Condividere le liste regalo [Più avanti, Giacomo] Chiesto da te il 15 ottobre: tutto deve essere condivisibile, anche le liste, per portare altre famiglie a scaricare l'app. Oggi le liste non si possono condividere. Si fa dopo il lancio, insieme all'apertura diretta delle schede nell'app (voce 313).
 356. Lista regali: "€0" sulle idee regalo senza prezzo [In lavorazione, Giacomo] issue #621 su GitHub. Dal tuo WhatsApp del 3 novembre: aggiungendo un regalo a una lista, le idee regalo senza prezzo mostrano "€0". Lo tolgo, come sulle card: "Gratuito" se l'idea regalo è gratuita, il prezzo se c'è, altrimenti niente. Vale anche per l'elenco dei regali dentro una lista, e nello stesso riquadro va a posto l'etichetta "gift", oggi in inglese. Arriva con la prossima versione dell'app.
 358. La foto dell'idea regalo in "Aggiungi a una lista regalo" e in "Condividi" [In lavorazione, Giacomo] issue #624 su GitHub. Trovata lavorando alla voce 356. Su un'idea regalo con la foto, il riquadro in alto nel foglio "Aggiungi a una lista regalo" e nella finestra "Condividi" mostra sempre il segnaposto grigio al posto della foto: l'app la cerca fra le immagini che porta con sé invece di scaricarla. La correggo, come sulle card. Arriva con la prossima versione dell'app.
+361. Gli avvisi di "Aggiungi regalo alla lista" e "Crea nuova lista" restano sotto il foglio [In coda, Giacomo] issue #629 su GitHub. Trovata lavorando alle voci 349 e 272. Quando aggiungere un regalo a una lista o creare una lista non riesce, per esempio senza rete, il foglio resta aperto e il messaggio che lo dice finisce sotto il foglio: si tocca il pulsante e non succede niente. Lo correggo come in Gestisci: il messaggio compare sul foglio. Arriva con la prossima versione dell'app.
+362. Le liste regalo di Natale hanno la torta e il rosa del compleanno [In coda, Giacomo] issue #631 su GitHub. Trovata lavorando alla voce 361. Creando una lista regalo con l'occasione "Natale" o "Speciale", nell'elenco delle liste compare con la torta e il rosa del compleanno invece dell'albero e del verde: l'app scrive l'occasione in un modo e la legge in un altro. La correggo. Arriva con la prossima versione dell'app.
 
 PANNELLO E ATTIVITÀ
 (Fatto 1)
@@ -658,7 +661,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 24 · In coda 12 · Più avanti 6)
+(Fatto 24 · In coda 13 · Più avanti 6)
 19. Modifica in blocco delle attività selezionate [Più avanti, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Più avanti, Giacomo]
@@ -701,6 +704,7 @@ DASHBOARD
 351. Pannello: dall'attività, i suoi eventi e le sue idee regalo [In coda, Giacomo] Dalla tua email del 1 novembre (punto 7). Oggi il dettaglio di un'attività nel pannello non mostra cosa le è collegato; gli elenchi degli eventi e delle idee regalo hanno già il filtro per attività. La strada più semplice: dal dettaglio dell'attività, un collegamento agli eventi e alle idee regalo già filtrati su di lei.
 357. Caricamento massivo anche per gli eventi [In coda, Giacomo] Dal tuo WhatsApp del 3 novembre. Oggi il caricamento massivo crea solo attività. Il 4 novembre hai chiesto tutte le colonne possibili: il file degli eventi avrà tutti i campi dell'evento, cioè le colonne del modello delle attività tranne le due degli orari di apertura, più data, ora di inizio, ora di fine, "su richiesta" e attività collegata, in tutto 27. Quando arriveranno gli eventi su più giorni e ricorrenti (voce 212), si aggiungono anche le loro colonne.
 360. Pannello: tutti i campi nel file esportato degli eventi [In coda, Giacomo] Dal tuo WhatsApp del 4 novembre. Oggi il file che si scarica dalla pagina Eventi ha sei colonne, con i titoli in inglese: ID, Name, Created By, Category, Location, Fee. Diventa come quello delle attività (voce 323): una colonna in italiano per ogni campo dell'evento, con data, orari, "su richiesta" e attività collegata.
+363. Pannello: avviso quando chi chiede una scheda non sembra la sua attività [In coda, Giacomo] issue #632 su GitHub. Dopo il caso dell'asilo "Fantabosco" del 4 novembre. Nella finestra di una "Richiesta di presa in carico" il pannello dirà sempre a chi passa la scheda premendo "Assegna", e mostrerà un avviso giallo quando il nome di chi la chiede non corrisponde a quello della scheda. L'avviso non blocca niente: la scelta resta tua. Non serve aggiornare l'app.
 
 SICUREZZA E PRIVACY
 (Fatto 7 · In coda 4 · Più avanti 1)
