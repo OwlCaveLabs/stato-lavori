@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 4 novembre 2026. Sui negozi: 1.1.47.
-357 voci in tutto: Fatto 240 · In lavorazione 6 · In coda 64 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+358 voci in tutto: Fatto 240 · In lavorazione 6 · In coda 65 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 4 novembre
@@ -658,7 +658,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 24 · In coda 11 · Più avanti 6)
+(Fatto 24 · In coda 12 · Più avanti 6)
 19. Modifica in blocco delle attività selezionate [Più avanti, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Più avanti, Giacomo]
@@ -699,7 +699,8 @@ DASHBOARD
 347. Pannello: etichette inventate nelle attività senza etichette [Fatto, Giacomo] issue #604 su GitHub. Trovato da noi il 31 ottobre. Nel pannello, aprendo con Vedi un'attività senza etichette, comparivano tre etichette che la scheda non ha, "Indoor", "Ongoing" e "Free", e modificandola e salvando le restava "Indoor", che nessuno aveva scelto. Pubblicata il 31 ottobre sul server: un'attività senza etichette resta senza etichette, nella finestra e nel modulo.
 350. Pannello: l'email dell'account che ha creato la scheda [Fatto, Giacomo] issue #613 su GitHub. Fatta e pubblicata il 3 novembre. Dalla tua email del 1 novembre (punto 9): capita che un'attività si registri con un'email e nei contatti della scheda ne scriva un'altra. Ora nel pannello il dettaglio di un'attività, di un evento e di un'idea regalo mostra "Email dell'account", quella dell'account che gestisce la scheda, accanto a "Email", quella scritta nella scheda; con un clic si apre il programma di posta. Nel dettaglio dell'evento compare anche "Creato da", come per attività e idee regalo. L'esportazione delle attività ha la colonna "Email dell'account". Se una scheda è stata presa in carico da un'attività, è l'email di chi la gestisce oggi; per le schede che carichi tu dal pannello è info@familyside.it. Si vede solo nel pannello, mai nell'app. Se avevi il pannello già aperto, ricarica la pagina.
 351. Pannello: dall'attività, i suoi eventi e le sue idee regalo [In coda, Giacomo] Dalla tua email del 1 novembre (punto 7). Oggi il dettaglio di un'attività nel pannello non mostra cosa le è collegato; gli elenchi degli eventi e delle idee regalo hanno già il filtro per attività. La strada più semplice: dal dettaglio dell'attività, un collegamento agli eventi e alle idee regalo già filtrati su di lei.
-357. Caricamento massivo anche per gli eventi [In coda, Giacomo] Dal tuo WhatsApp del 3 novembre. Oggi il caricamento massivo crea solo attività. Per gli eventi servono colonne in più, come la data, gli orari e l'attività collegata quando c'è: prima di cominciare ti chiedo quali ti servono, anche perché si lega alle voci 349 (ora di fine), 212 (eventi su più giorni e ricorrenti) e 272 (eventi su richiesta).
+357. Caricamento massivo anche per gli eventi [In coda, Giacomo] Dal tuo WhatsApp del 3 novembre. Oggi il caricamento massivo crea solo attività. Il 4 novembre hai chiesto tutte le colonne possibili: il file degli eventi avrà tutti i campi dell'evento, cioè le colonne del modello delle attività tranne le due degli orari di apertura, più data, ora di inizio, ora di fine, "su richiesta" e attività collegata, in tutto 27. Quando arriveranno gli eventi su più giorni e ricorrenti (voce 212), si aggiungono anche le loro colonne.
+360. Pannello: tutti i campi nel file esportato degli eventi [In coda, Giacomo] Dal tuo WhatsApp del 4 novembre. Oggi il file che si scarica dalla pagina Eventi ha sei colonne, con i titoli in inglese: ID, Name, Created By, Category, Location, Fee. Diventa come quello delle attività (voce 323): una colonna in italiano per ogni campo dell'evento, con data, orari, "su richiesta" e attività collegata.
 
 SICUREZZA E PRIVACY
 (Fatto 7 · In coda 4 · Più avanti 1)
