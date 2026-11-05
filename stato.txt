@@ -375,8 +375,8 @@ Le voci che faccio adesso. Quelle del pannello e del server escono appena sono p
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.48, dal 5 novembre) -> Beta [x] (1.1.47, dal 30 ottobre) (in revisione: 1.1.48, dal 5 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.47, dal 2 novembre)
-Google Play: Prova interna [x] (1.1.48, dal 5 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.48, dal 5 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.47, dal 2 novembre)
+App Store: Prova interna [x] (1.1.48, dal 5 novembre) -> Beta [x] (1.1.47, dal 30 ottobre) (in revisione: 1.1.48, dal 5 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.47, dal 2 novembre) (in revisione: 1.1.48, dal 5 novembre)
+Google Play: Prova interna [x] (1.1.48, dal 5 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.48, dal 5 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.47, dal 2 novembre) (in revisione: 1.1.48, dal 5 novembre)
 
 IMMAGINE E INGRESSO
 (Fatto 7 · Più avanti 3)
