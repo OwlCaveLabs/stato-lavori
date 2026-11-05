@@ -1,5 +1,5 @@
-FamilySide, stato dei lavori. Aggiornato 4 novembre 2026. Sui negozi: 1.1.47.
-361 voci in tutto: Fatto 240 · In lavorazione 6 · In coda 68 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+FamilySide, stato dei lavori. Aggiornato 5 novembre 2026. Sui negozi: 1.1.47.
+362 voci in tutto: Fatto 240 · In lavorazione 7 · In coda 68 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 4 novembre
@@ -513,7 +513,7 @@ MAPPA, RICERCA E SCHEDE
 355. Cerca: un ordine nuovo per le categorie [Fatto, Giacomo] issue #619 su GitHub. Fatta e online dal 4 novembre, senza aggiornare l'app. Dal tuo WhatsApp del 3 novembre: le dodici categorie di Cerca sono nell'ordine del tuo elenco, due per riga, con i colori nuovi, e Genitorialità e famiglia e Tempo per sé hanno un colore per la prima volta. La fila di categorie in Home segue lo stesso ordine. Ordine e colori sono salvati su ogni categoria dalla voce 4. Lo stesso ordine vale per le categorie nella finestra dei filtri, sulla mappa, nelle schede di Regali e nell'elenco delle categorie quando un'attività crea una scheda. Una categoria che non metti nell'elenco va in fondo.
 
 GIFT VOUCHER
-(Fatto 8 · In lavorazione 2 · In coda 3 · Più avanti 1)
+(Fatto 8 · In lavorazione 3 · In coda 3 · Più avanti 1)
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
 9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
 10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Fatto, Giacomo] app 1.1.7 del 7 settembre (i dati veri già dalla 1.1.2). Sistemato, già nella versione sul telefono (1.1.7): «Riscatta contattando l'attività» con la dicitura concordata, «Offerto da» col nome vero dell'attività, la riga con l'orologio con la sua descrizione, e senza «€0» quando il prezzo manca. Resta la riga degli auguri: voce 99. La dicitura concordata: è una cartolina digitale, non vale come prova di acquisto o di pagamento, il regalo si concorda e si paga direttamente con l'attività. Prima «Offerto da» portava la categoria o un nome inventato, e la riga con l'orologio diceva sempre «60-minute session».
@@ -526,8 +526,9 @@ GIFT VOUCHER
 309. Condividere le liste regalo [Più avanti, Giacomo] Chiesto da te il 15 ottobre: tutto deve essere condivisibile, anche le liste, per portare altre famiglie a scaricare l'app. Oggi le liste non si possono condividere. Si fa dopo il lancio, insieme all'apertura diretta delle schede nell'app (voce 313).
 356. Lista regali: "€0" sulle idee regalo senza prezzo [In lavorazione, Giacomo] issue #621 su GitHub. Dal tuo WhatsApp del 3 novembre: aggiungendo un regalo a una lista, le idee regalo senza prezzo mostrano "€0". Lo tolgo, come sulle card: "Gratuito" se l'idea regalo è gratuita, il prezzo se c'è, altrimenti niente. Vale anche per l'elenco dei regali dentro una lista, e nello stesso riquadro va a posto l'etichetta "gift", oggi in inglese. Arriva con la prossima versione dell'app.
 358. La foto dell'idea regalo in "Aggiungi a una lista regalo" e in "Condividi" [In lavorazione, Giacomo] issue #624 su GitHub. Trovata lavorando alla voce 356. Su un'idea regalo con la foto, il riquadro in alto nel foglio "Aggiungi a una lista regalo" e nella finestra "Condividi" mostra sempre il segnaposto grigio al posto della foto: l'app la cerca fra le immagini che porta con sé invece di scaricarla. La correggo, come sulle card. Arriva con la prossima versione dell'app.
-361. Gli avvisi di "Aggiungi regalo alla lista" e "Crea nuova lista" restano sotto il foglio [In coda, Giacomo] issue #629 su GitHub. Trovata lavorando alle voci 349 e 272. Quando aggiungere un regalo a una lista o creare una lista non riesce, per esempio senza rete, il foglio resta aperto e il messaggio che lo dice finisce sotto il foglio: si tocca il pulsante e non succede niente. Lo correggo come in Gestisci: il messaggio compare sul foglio. Arriva con la prossima versione dell'app.
+361. Gli avvisi di "Aggiungi regalo alla lista" e "Crea nuova lista" restano sotto il foglio [In lavorazione, Giacomo] issue #629 su GitHub. Trovata lavorando alle voci 349 e 272. Quando aggiungere un regalo a una lista o creare una lista non riesce, per esempio senza rete, il foglio resta aperto e il messaggio che lo dice finisce sotto il foglio: si tocca il pulsante e non succede niente. Lo correggo come in Gestisci: il messaggio compare sul foglio. Arriva con la prossima versione dell'app.
 362. Le liste regalo di Natale hanno la torta e il rosa del compleanno [In coda, Giacomo] issue #631 su GitHub. Trovata lavorando alla voce 361. Creando una lista regalo con l'occasione "Natale" o "Speciale", nell'elenco delle liste compare con la torta e il rosa del compleanno invece dell'albero e del verde: l'app scrive l'occasione in un modo e la legge in un altro. La correggo. Arriva con la prossima versione dell'app.
+364. Chiudendo "Crea nuova lista" o "Aggiungi regalo alla lista" mentre salva, la pagina non si aggiorna [In coda, Giacomo] issue #633 su GitHub. Trovata lavorando alla voce 361. Se chiudi il foglio mentre l'app sta ancora salvando e il salvataggio poi riesce, la pagina sotto non si aggiorna: la lista nuova non compare nell'elenco, o il regalo non compare nella lista, finché non riapri la pagina. Chi crea di nuovo la lista si ritrova un doppione. La correggo nell'app.
 
 PANNELLO E ATTIVITÀ
 (Fatto 1)
