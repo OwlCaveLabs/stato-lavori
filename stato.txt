@@ -1,8 +1,9 @@
 FamilySide, stato dei lavori. Aggiornato 5 novembre 2026. Sui negozi: 1.1.47. In prova: 1.1.48.
-371 voci in tutto: Fatto 248 · In lavorazione 2 · In coda 74 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+371 voci in tutto: Fatto 249 · In lavorazione 1 · In coda 74 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 5 novembre
+- Risolta la tua segnalazione su Progetto Anemone: dieci eventi di quattro attività avevano l'anno 2023 al posto del 2026, e le famiglie non li vedevano. Ora si vedono, e la lettura del volantino non mette più una data nel passato. Non serve aggiornare l'app. (voce 373) [Giacomo]
 - La versione 1.1.48 è partita per la Beta: la trovi sui due negozi appena Google e Apple la approvano. Porta i segnaposto colorati per categoria con la legenda, l'ora di fine e "Su richiesta" negli eventi, e nelle liste regalo la foto dell'idea regalo, niente più "€0", le occasioni in italiano e i messaggi di errore sopra i fogli. Dopo la Beta va ai negozi. (voce 356, voce 358, voce 324, voce 349, voce 272, voce 361, voce 362) [Giacomo]
 - Gestisci ora mostra tutte le schede di un'attività, non solo le 10 più recenti: Spazio Intrecci vede di nuovo tutte le sue 17 attività. È sul server, non serve aggiornare l'app. (voce 372) [Giacomo]
 - Le recensioni restano senza approvazione, come hai scelto oggi: escono subito se superano il filtro delle parole offensive, e dal pannello, alla voce "Recensioni", le togli quando serve. (voce 196) [Jessica]
@@ -365,10 +366,10 @@ NOVITÀ, DALLA PIÙ RECENTE
 - Ogni grafica delle carte regalo ha un'occasione, lista fissa di nove. (voce 8) [team]
 
 IN ARRIVO
-6 di 15 fatte
+7 di 15 fatte
 Le voci che faccio adesso. Quelle del pannello e del server escono appena sono pronte, una per una. Quelle dell'app escono a gruppi, una versione per gruppo, dopo la revisione dei due negozi: prima la 1.1.49, poi le due voci più grandi, ognuna con la sua versione. Quando qualcosa esce te lo scrivo nelle novità.
 
-[~] Sul pannello e sul server, senza aggiornare l'app - 6 di 8 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350, voce 359, voce 373
+[~] Sul pannello e sul server, senza aggiornare l'app - 7 di 8 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350, voce 359, voce 373
 [ ] Con la versione 1.1.49 dell'app - 0 di 5 fatte - voce 5, voce 160, voce 348, voce 333, voce 364
 [ ] Dopo, ognuna con la sua versione dell'app - 0 di 2 fatte - voce 104, voce 213
 
@@ -603,7 +604,7 @@ CONTATTI E CONTENUTI
 338. Una guida unica al caricamento massivo [Fatto, Giacomo] Chiesta da te il 27 ottobre: tutte le regole del caricamento massivo in un posto solo, dalle colonne ai tag fino alle foto e a cosa sostituisce cosa. Mandata per email il 27 ottobre sera, dopo le correzioni delle voci 336, 337 e 292: una guida in PDF e un modello Excel con i nomi delle colonne e, nel secondo foglio, i numeri delle categorie. Sostituisce le regole dei messaggi di settembre.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 35 · In lavorazione 1 · In coda 15 · C'è ma va rifatta 2 · Più avanti 8)
+(Fatto 36 · In coda 15 · C'è ma va rifatta 2 · Più avanti 8)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve. Il 17 settembre Jessica aggiunge che i link ai social all'ingresso vanno tolti del tutto: si chiederanno più avanti, quando si sarà deciso dove.
 15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -664,7 +665,7 @@ ISCRIZIONE DELLE ATTIVITÀ
 354. Prezzo: "A pagamento" senza la cifra [In coda, Giacomo] Staccata dalla voce 150 il 2 novembre. Oggi, scegliendo "A pagamento", la cifra è obbligatoria nel pannello, nell'app e anche sul server, e l'app, per una scheda a pagamento senza cifra, non mostrerebbe nessun prezzo. Da decidere: se una scheda può essere "A pagamento" senza la cifra, e cosa si legge nell'app in quel caso, per esempio "A pagamento".
 359. Home dell'attività: "Prossimi eventi" mostra anche gli eventi passati [In coda, Giacomo] issue #628 su GitHub. Trovata lavorando alle voci 349 e 272. Nella Home dell'app per le attività, "Prossimi eventi" mostra i tre eventi con la data più vecchia, anche quelli già conclusi, e "Vedi tutto" mostra gli stessi tre. La correggo sul server: solo gli eventi da oggi in poi, in ordine di data, e quelli su richiesta in fondo. Esce senza aggiornare l'app.
 372. Gestisci mostrava solo le 10 schede più recenti [Fatto, Giacomo] issue #635 su GitHub. Fatta e online dal 5 novembre, senza aggiornare l'app. Dalla conversazione con Spazio Intrecci che mi hai girato il 5 novembre: in ognuna delle tre liste di Gestisci (Attività, Eventi, Idee regalo) comparivano solo le 10 schede più recenti, quindi a un'attività con più schede mancavano le più vecchie, spesso proprio la scheda principale. Ora le vede tutte. Le schede c'erano tutte ed erano approvate: mancavano solo dall'elenco di Gestisci. Se l'app è già aperta, l'elenco si aggiorna trascinandolo verso il basso.
-373. Eventi con l'anno sbagliato: non comparivano alle famiglie [In lavorazione, Giacomo] issue #639 su GitHub. Dalla tua segnalazione del 5 novembre su Progetto Anemone. I loro eventi erano approvati ma salvati con l'anno 2023: i volantini dicono solo giorno e mese ("10/11"), e "Compila automaticamente dal volantino" completava la data con il 2023. Per le famiglie un evento passato non esiste, quindi non comparivano. Sono dieci eventi di quattro attività, tutti creati il 4 novembre: li riporto al 2026, e correggo la lettura del volantino, nell'app e nel pannello, perché la data non finisca più nel passato. Non serve aggiornare l'app.
+373. Eventi con l'anno sbagliato: non comparivano alle famiglie [Fatto, Giacomo] issue #639 su GitHub. Fatta e online dal 5 novembre, senza aggiornare l'app. Dalla tua segnalazione su Progetto Anemone: i loro eventi erano approvati ma salvati con l'anno 2023, perché i volantini dicono solo giorno e mese ("10/11") e "Compila automaticamente dal volantino" completava la data con il 2023. Per le famiglie un evento passato non esiste, quindi non comparivano. Erano dieci eventi di quattro attività (Progetto Anemone, Spazio Intrecci, Essentially Me, Studio AltaLuna), tutti creati il 4 novembre: ora hanno la data giusta e si vedono. La lettura del volantino, nell'app e nel pannello, ora sa che giorno è: se il volantino non porta l'anno, prende il primo giorno da oggi con quel giorno e mese, e non mette più una data nel passato. La data resta da controllare nel modulo prima di inviarlo.
 
 PERIODO DI PROVA
 (Fatto 2 · Più avanti 1)
