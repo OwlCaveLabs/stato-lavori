@@ -1,8 +1,9 @@
 FamilySide, stato dei lavori. Aggiornato 5 novembre 2026. Sui negozi: 1.1.47.
-369 voci in tutto: Fatto 240 · In lavorazione 8 · In coda 74 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+370 voci in tutto: Fatto 241 · In lavorazione 8 · In coda 74 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 5 novembre
+- Gestisci ora mostra tutte le schede di un'attività, non solo le 10 più recenti: Spazio Intrecci vede di nuovo tutte le sue 17 attività. È sul server, non serve aggiornare l'app. (voce 372) [Giacomo]
 - Le recensioni restano senza approvazione, come hai scelto oggi: escono subito se superano il filtro delle parole offensive, e dal pannello, alla voce "Recensioni", le togli quando serve. (voce 196) [Jessica]
 - Ho diviso le voci dell'app in gruppi, così escono prima. La versione 1.1.48 porterà le voci 356, 358, 324, 349, 272, 361 e 362: te la mando da provare appena finisco le verifiche, poi va ai negozi. Delle quattro proposte che mi hai confermato il 4 novembre, 5 e 160, 348 e 333 arrivano con la 1.1.49, insieme alla 364; fuori zona (104) e Instagram (213) dopo, ognuna con la sua versione. I sette punti nuovi della tua email del 4 novembre sono le voci da 365 a 371, in coda. (voce 356, voce 358, voce 324, voce 349, voce 272, voce 361, voce 362, voce 5, voce 160, voce 348, voce 333, voce 364, voce 104, voce 213, voce 365, voce 366, voce 367, voce 368, voce 369, voce 370, voce 371) [Giacomo]
 
@@ -602,7 +603,7 @@ CONTATTI E CONTENUTI
 338. Una guida unica al caricamento massivo [Fatto, Giacomo] Chiesta da te il 27 ottobre: tutte le regole del caricamento massivo in un posto solo, dalle colonne ai tag fino alle foto e a cosa sostituisce cosa. Mandata per email il 27 ottobre sera, dopo le correzioni delle voci 336, 337 e 292: una guida in PDF e un modello Excel con i nomi delle colonne e, nel secondo foglio, i numeri delle categorie. Sostituisce le regole dei messaggi di settembre.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 32 · In lavorazione 2 · In coda 15 · C'è ma va rifatta 2 · Più avanti 8)
+(Fatto 33 · In lavorazione 2 · In coda 15 · C'è ma va rifatta 2 · Più avanti 8)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve. Il 17 settembre Jessica aggiunge che i link ai social all'ingresso vanno tolti del tutto: si chiederanno più avanti, quando si sarà deciso dove.
 15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -662,6 +663,7 @@ ISCRIZIONE DELLE ATTIVITÀ
 352. Attività e servizi ospitati nella scheda di un centro [Più avanti, Giacomo] Dalla tua email del 1 novembre (punto 12), un'idea per il futuro. Un'attività, per esempio un corso di sport, sta nella sua categoria ma ha come luogo un centro che ha già la sua scheda; nella scheda del centro, accanto a eventi e idee regalo, compare "Attività e servizi" con quelle collegate. Vicina alla voce 274 (una scheda in più categorie). Hai chiesto una stima del lavoro.
 354. Prezzo: "A pagamento" senza la cifra [In coda, Giacomo] Staccata dalla voce 150 il 2 novembre. Oggi, scegliendo "A pagamento", la cifra è obbligatoria nel pannello, nell'app e anche sul server, e l'app, per una scheda a pagamento senza cifra, non mostrerebbe nessun prezzo. Da decidere: se una scheda può essere "A pagamento" senza la cifra, e cosa si legge nell'app in quel caso, per esempio "A pagamento".
 359. Home dell'attività: "Prossimi eventi" mostra anche gli eventi passati [In coda, Giacomo] issue #628 su GitHub. Trovata lavorando alle voci 349 e 272. Nella Home dell'app per le attività, "Prossimi eventi" mostra i tre eventi con la data più vecchia, anche quelli già conclusi, e "Vedi tutto" mostra gli stessi tre. La correggo sul server: solo gli eventi da oggi in poi, in ordine di data, e quelli su richiesta in fondo. Esce senza aggiornare l'app.
+372. Gestisci mostrava solo le 10 schede più recenti [Fatto, Giacomo] issue #635 su GitHub. Fatta e online dal 5 novembre, senza aggiornare l'app. Dalla conversazione con Spazio Intrecci che mi hai girato il 5 novembre: in ognuna delle tre liste di Gestisci (Attività, Eventi, Idee regalo) comparivano solo le 10 schede più recenti, quindi a un'attività con più schede mancavano le più vecchie, spesso proprio la scheda principale. Ora le vede tutte. Le schede c'erano tutte ed erano approvate: mancavano solo dall'elenco di Gestisci. Se l'app è già aperta, l'elenco si aggiorna trascinandolo verso il basso.
 
 PERIODO DI PROVA
 (Fatto 2 · Più avanti 1)
