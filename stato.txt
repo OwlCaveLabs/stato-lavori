@@ -368,12 +368,19 @@ NOVITÀ, DALLA PIÙ RECENTE
 - Ogni grafica delle carte regalo ha un'occasione, lista fissa di nove. (voce 8) [team]
 
 IN ARRIVO
-7 di 17 fatte
-Le voci che faccio adesso. Quelle del pannello e del server escono appena sono pronte, una per una. Quelle dell'app escono a gruppi, una versione per gruppo, dopo la revisione dei due negozi: prima la 1.1.49, poi le due voci più grandi, ognuna con la sua versione. Quando qualcosa esce te lo scrivo nelle novità.
+Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.
 
-[~] Sul pannello e sul server, senza aggiornare l'app - 7 di 10 fatte - voce 150, voce 289, voce 241, voce 242, voce 288, voce 350, voce 359, voce 373, voce 374, voce 154
-[ ] Con la versione 1.1.49 dell'app - 0 di 5 fatte - voce 5, voce 160, voce 348, voce 333, voce 364
-[ ] Dopo, ognuna con la sua versione dell'app - 0 di 2 fatte - voce 104, voce 213
+L'app, versione per versione
+- Versione 1.1.48: In Beta su Google Play, in attesa di Apple; in revisione sui negozi dal 5 novembre. voce 356, voce 358, voce 324, voce 349, voce 272, voce 361, voce 362
+    Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
+- Versione 1.1.49: In coda · 0 di 5 fatte. voce 5, voce 160, voce 348, voce 333, voce 364
+- Poi, ognuna con la sua versione: voce 104, voce 213
+
+Pannello e server, senza aggiornare l'app
+- Da fare: voce 359, voce 374, voce 154
+- Uscite il 5 novembre: voce 373
+- Uscite il 3 novembre: voce 241, voce 242, voce 288, voce 350
+- Uscite il 2 novembre: voce 150, voce 289
 
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.

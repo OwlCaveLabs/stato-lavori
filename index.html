@@ -56,10 +56,6 @@ h2 { font-size: 1.15rem; margin: 32px 0 10px; padding-bottom: 6px; border-bottom
 
 /* Verso gli store */
 .store { padding: 16px; }
-.barra-riga { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-.barra { flex: 1 1 120px; height: 14px; border-radius: 999px; background: #ececec; }
-.barra-piena { height: 100%; border-radius: 999px; background: #2e8b57; }
-.barra-testo { font-size: 1.15rem; font-weight: 700; white-space: nowrap; }
 .corsia { margin-top: 18px; }
 .corsia-nome { font-weight: 600; font-size: 0.95rem; margin-bottom: 8px; }
 .gradini { display: flex; align-items: flex-start; }
@@ -84,17 +80,23 @@ a.pillola:hover { filter: brightness(0.92); }
 .segno.fatto { background: #2e8b57; border: 1px solid #2e8b57; color: #fff; }
 .segno.in_corso { background: linear-gradient(90deg, #e08a1e 50%, #fff 50%); border: 1px solid #e08a1e; }
 .segno.da_fare { background: #fff; border: 1px solid #cfcfcf; }
-.passo.passi-fatti { display: block; }
-.passi-fatti summary { cursor: pointer; list-style: none; display: flex; align-items: flex-start; gap: 10px; }
-.passi-fatti summary .segno { flex: 0 0 auto; margin-left: 2px; }
-.passi-fatti summary::-webkit-details-marker { display: none; }
-.passi-fatti summary .passo-titolo::after { content: " ▾"; color: var(--muto); font-weight: 400; }
-.passi-fatti details[open] summary .passo-titolo::after { content: " ▴"; }
-.passi-dentro { list-style: none; margin: 6px 0 0; padding: 0; }
-.passi-dentro .passo:first-child { border-top: 1px solid var(--linea); }
 .blocco-nota { color: var(--muto); font-size: 0.9rem; margin: 10px 0 0; }
 .blocco-nota.in-testa { margin-top: 0; }
 .passo-titolo { font-weight: 600; }
+/* Tutto quello che non è il cerchio sta nella seconda colonna: una versione ha più
+   righe del cerchio, e senza questa regola la quarta finirebbe sotto di lui. */
+.passo > :not(.segno) { grid-column: 2; }
+.passo-stato { color: var(--muto); font-size: 0.88rem; }
+.passo-stato.in-revisione { color: #e08a1e; }
+/* In arrivo: due parti, l'app e il pannello con il server */
+/* Con `h3` davanti: `.riquadro h3` toglie il margine sopra, e qui serve a staccare le parti. */
+.arrivo h3.arrivo-parte { margin: 20px 0 0; font-size: 1rem; }
+.arrivo ul.passi { margin: 4px 0 0; padding: 0; border-top: 0; }
+.arrivo .poi { margin: 6px 0 0; font-size: 0.9rem; color: var(--muto); }
+.arrivo-sotto { margin: 10px 0 2px; font-size: 0.75rem; font-weight: 600; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--muto); }
+.arrivo ul.uscite { list-style: none; margin: 0; padding: 0; }
+.arrivo ul.uscite li { margin: 4px 0; font-size: 0.9rem; }
 .passo-conteggio { color: var(--muto); font-size: 0.85rem; font-weight: 400; white-space: nowrap; }
 .passo-chi { color: var(--muto); font-size: 0.85rem; }
 .passo-voci { margin-top: 4px; }
@@ -134,7 +136,6 @@ h2[id], .area[id] { scroll-margin-top: 12px; }
   .gradini { flex-direction: column; align-items: flex-start; }
   .gradino { text-align: left; }
   .giunto { flex: 0 0 auto; width: 2px; min-width: 0; height: 14px; margin: 3px 0 3px 20px; }
-  .barra-testo { font-size: 1.05rem; }
 }
 
 /* Filtro per stato */
@@ -250,28 +251,33 @@ h2[id], .area[id] { scroll-margin-top: 12px; }
 </details>
 </div>
 <h2 id="arrivo">In arrivo</h2>
-<div class="riquadro store">
-<div class="barra-riga">
-<div class="barra"><div class="barra-piena" style="width:41.2%"></div></div>
-<div class="barra-testo">7 di 17 fatte</div>
-</div>
-<p class="blocco-nota">Le voci che faccio adesso. Quelle del pannello e del server escono appena sono pronte, una per una. Quelle dell&#x27;app escono a gruppi, una versione per gruppo, dopo la revisione dei due negozi: prima la 1.1.49, poi le due voci più grandi, ognuna con la sua versione. Quando qualcosa esce te lo scrivo nelle novità.</p>
+<div class="riquadro store arrivo">
+<p class="blocco-nota in-testa">Le voci che faccio adesso. Quelle dell&#x27;app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.</p>
+<h3 class="arrivo-parte">L&#x27;app, versione per versione</h3>
 <ul class="passi">
 <li class="passo">
 <span class="segno in_corso"></span>
-<span class="passo-titolo">Sul pannello e sul server, senza aggiornare l&#x27;app <span class="passo-conteggio">7 di 10 fatte</span></span>
-<span class="passo-voci"><a class="voce-link" href="#voce-150" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 150</a><a class="voce-link" href="#voce-289" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 289</a><a class="voce-link" href="#voce-241" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 241</a><a class="voce-link" href="#voce-242" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 242</a><a class="voce-link" href="#voce-288" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 288</a><a class="voce-link" href="#voce-350" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 350</a><a class="voce-link" href="#voce-359" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 359</a><a class="voce-link" href="#voce-373" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 373</a><a class="voce-link" href="#voce-374" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 374</a><a class="voce-link" href="#voce-154" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 154</a></span>
+<span class="passo-titolo">Versione 1.1.48</span>
+<span class="passo-stato">In Beta su Google Play, in attesa di Apple</span>
+<span class="passo-stato in-revisione">in revisione sui negozi dal 5 novembre</span>
+<span class="passo-voci"><a class="voce-link" href="#voce-356" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 356</a><a class="voce-link" href="#voce-358" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 358</a><a class="voce-link" href="#voce-324" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 324</a><a class="voce-link" href="#voce-349" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 349</a><a class="voce-link" href="#voce-272" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 272</a><a class="voce-link" href="#voce-361" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 361</a><a class="voce-link" href="#voce-362" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 362</a></span>
+<span class="passo-link"><a href="https://play.google.com/apps/testing/com.fs.familyside" target="_blank" rel="noopener">Installa la Beta su Android</a></span>
 </li>
 <li class="passo">
 <span class="segno da_fare"></span>
-<span class="passo-titolo">Con la versione 1.1.49 dell&#x27;app <span class="passo-conteggio">0 di 5 fatte</span></span>
+<span class="passo-titolo">Versione 1.1.49</span>
+<span class="passo-stato">In coda · 0 di 5 fatte</span>
 <span class="passo-voci"><a class="voce-link" href="#voce-5" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 5</a><a class="voce-link" href="#voce-160" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 160</a><a class="voce-link" href="#voce-348" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 348</a><a class="voce-link" href="#voce-333" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 333</a><a class="voce-link" href="#voce-364" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 364</a></span>
 </li>
-<li class="passo">
-<span class="segno da_fare"></span>
-<span class="passo-titolo">Dopo, ognuna con la sua versione dell&#x27;app <span class="passo-conteggio">0 di 2 fatte</span></span>
-<span class="passo-voci"><a class="voce-link" href="#voce-104" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 104</a><a class="voce-link" href="#voce-213" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 213</a></span>
-</li>
+</ul>
+<p class="poi">Poi, ognuna con la sua versione: <a class="voce-link" href="#voce-104" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 104</a><a class="voce-link" href="#voce-213" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 213</a></p>
+<h3 class="arrivo-parte">Pannello e server, senza aggiornare l&#x27;app</h3>
+<div class="arrivo-sotto">Da fare</div>
+<div class="passo-voci"><a class="voce-link" href="#voce-359" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 359</a><a class="voce-link" href="#voce-374" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 374</a><a class="voce-link" href="#voce-154" style="color:#4a4a4a;background:#eeeeee;border-color:#4a4a4a">voce 154</a></div>
+<div class="arrivo-sotto">Uscite</div><ul class="uscite">
+<li><a class="voce-link" href="#voce-373" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 373</a> il 5 novembre</li>
+<li><a class="voce-link" href="#voce-241" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 241</a><a class="voce-link" href="#voce-242" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 242</a><a class="voce-link" href="#voce-288" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 288</a><a class="voce-link" href="#voce-350" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 350</a> il 3 novembre</li>
+<li><a class="voce-link" href="#voce-150" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 150</a><a class="voce-link" href="#voce-289" style="color:#1b7f3b;background:#e6f4ea;border-color:#1b7f3b">voce 289</a> il 2 novembre</li>
 </ul>
 </div>
 <h2 id="negozi">L&#x27;app sui due negozi</h2>
