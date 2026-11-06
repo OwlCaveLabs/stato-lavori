@@ -1,8 +1,9 @@
 FamilySide, stato dei lavori. Aggiornato 6 novembre 2026. Sui negozi: 1.1.47. In prova: 1.1.48.
-373 voci in tutto: Fatto 251 · In coda 75 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+374 voci in tutto: Fatto 251 · In coda 76 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 6 novembre
+- Dal tuo WhatsApp di oggi sul modulo "Aggiungi luogo": è la voce 376. Ogni contatto dirà che è quello del luogo, così nessuno scrive la propria email. Esce con un aggiornamento dell'app. (voce 376) [Giacomo]
 - Dal tuo WhatsApp di oggi sui due utenti che non trovavano l'app: era disponibile solo in Italia e Svizzera. Ora è in tutti i paesi dell'Unione Europea, su App Store e Google Play, più San Marino e Vaticano su Google Play, dove arrivano appena Google approva. (voce 375) [Giacomo]
 
 5 novembre
@@ -618,7 +619,7 @@ CONTATTI E CONTENUTI
 338. Una guida unica al caricamento massivo [Fatto, Giacomo] Chiesta da te il 27 ottobre: tutte le regole del caricamento massivo in un posto solo, dalle colonne ai tag fino alle foto e a cosa sostituisce cosa. Mandata per email il 27 ottobre sera, dopo le correzioni delle voci 336, 337 e 292: una guida in PDF e un modello Excel con i nomi delle colonne e, nel secondo foglio, i numeri delle categorie. Sostituisce le regole dei messaggi di settembre.
 
 ISCRIZIONE DELLE ATTIVITÀ
-(Fatto 36 · In coda 15 · C'è ma va rifatta 2 · Più avanti 8)
+(Fatto 36 · In coda 16 · C'è ma va rifatta 2 · Più avanti 8)
 14. All'iscrizione prima i dati dell'attività (nome, categoria, indirizzo), poi i social [C'è ma va rifatta, Giacomo] Oggi un'attività che si iscrive dà nome, email e password, riceve il codice via email, e subito dopo le vengono chiesti solo i link ai social e una foto: dell'attività - come si chiama, di che categoria è, dove si trova - non le viene chiesto niente. Quei dati arrivano più tardi, quando crea la prima scheda. L'iscrizione va rifatta nell'ordine che hai chiesto, quindi provarla com'è adesso non serve. Il 17 settembre Jessica aggiunge che i link ai social all'ingresso vanno tolti del tutto: si chiederanno più avanti, quando si sarà deciso dove.
 15. Sezione Crea riordinata [C'è ma va rifatta, Giacomo] Oggi «Crea» propone tre riquadri - Attività, Eventi, Regalo - e il modulo dell'attività chiede in fila indirizzo, nome, categoria, sottocategorie, tag, prezzo, contatti, giorni e orari, descrizione. Si rifà insieme alla voce 14: i dati dell'attività si spostano all'iscrizione, e qui resta soltanto quello che si crea davvero. Fino ad allora l'ordine che vedi non è quello definitivo.
 16. Domanda sul vantaggio per i Best Contributor, con la risposta via email [In coda, Giacomo]
@@ -680,6 +681,7 @@ ISCRIZIONE DELLE ATTIVITÀ
 359. Home dell'attività: "Prossimi eventi" mostra anche gli eventi passati [In coda, Giacomo] issue #628 su GitHub. Trovata lavorando alle voci 349 e 272. Nella Home dell'app per le attività, "Prossimi eventi" mostra i tre eventi con la data più vecchia, anche quelli già conclusi, e "Vedi tutto" mostra gli stessi tre. La correggo sul server: solo gli eventi da oggi in poi, in ordine di data, e quelli su richiesta in fondo. Esce senza aggiornare l'app.
 372. Gestisci mostrava solo le 10 schede più recenti [Fatto, Giacomo] issue #635 su GitHub. Fatta e online dal 5 novembre, senza aggiornare l'app. Dalla conversazione con Spazio Intrecci che mi hai girato il 5 novembre: in ognuna delle tre liste di Gestisci (Attività, Eventi, Idee regalo) comparivano solo le 10 schede più recenti, quindi a un'attività con più schede mancavano le più vecchie, spesso proprio la scheda principale. Ora le vede tutte. Le schede c'erano tutte ed erano approvate: mancavano solo dall'elenco di Gestisci. Se l'app è già aperta, l'elenco si aggiorna trascinandolo verso il basso.
 373. Eventi con l'anno sbagliato: non comparivano alle famiglie [Fatto, Giacomo] issue #639 su GitHub. Fatta e online dal 5 novembre, senza aggiornare l'app. Dalla tua segnalazione su Progetto Anemone: i loro eventi erano approvati ma salvati con l'anno 2023, perché i volantini dicono solo giorno e mese ("10/11") e "Compila automaticamente dal volantino" completava la data con il 2023. Per le famiglie un evento passato non esiste, quindi non comparivano. Erano dieci eventi di quattro attività (Progetto Anemone, Spazio Intrecci, Essentially Me, Studio AltaLuna), tutti creati il 4 novembre: ora hanno la data giusta e si vedono. La lettura del volantino, nell'app e nel pannello, ora sa che giorno è: se il volantino non porta l'anno, prende il primo giorno da oggi con quel giorno e mese, e non mette più una data nel passato. La data resta da controllare nel modulo prima di inviarlo.
+376. Aggiungi luogo: email e contatti sono quelli del luogo, non della famiglia [In coda, Giacomo] issue #644 su GitHub. Dal tuo WhatsApp del 6 novembre. Oggi nel modulo "Aggiungi luogo" il campo Email dice "Inserisci il tuo indirizzo email", e gli altri contatti non dicono di chi sono. L'email scritta lì diventa quella della scheda del luogo, quindi una famiglia può pubblicare per sbaglio la propria. La correggo nell'app: ogni contatto dirà che è quello del luogo, e sotto il titolo una riga dirà che i dati da inserire sono del luogo, non i tuoi.
 
 PERIODO DI PROVA
 (Fatto 2 · Più avanti 1)
