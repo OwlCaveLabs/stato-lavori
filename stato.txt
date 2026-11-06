@@ -3,7 +3,7 @@ FamilySide, stato dei lavori. Aggiornato 6 novembre 2026. Sui negozi: 1.1.47. In
 
 NOVITÀ, DALLA PIÙ RECENTE
 6 novembre
-- Dal tuo WhatsApp di oggi sul modulo "Aggiungi luogo": è la voce 376. Ogni contatto dirà che è quello del luogo, così nessuno scrive la propria email. Esce con un aggiornamento dell'app. (voce 376) [Giacomo]
+- Dal tuo WhatsApp di oggi sul modulo "Aggiungi luogo": è la voce 376. Ogni contatto dirà che è quello del luogo, così nessuno scrive la propria email. Esce con la 1.1.49. (voce 376) [Giacomo]
 - Dal tuo WhatsApp di oggi sui due utenti che non trovavano l'app: era disponibile solo in Italia e Svizzera. Ora è in tutti i paesi dell'Unione Europea, su App Store e Google Play, più San Marino e Vaticano su Google Play, dove arrivano appena Google approva. (voce 375) [Giacomo]
 
 5 novembre
@@ -377,7 +377,7 @@ Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gru
 L'app, versione per versione
 - Versione 1.1.48: In Beta su Google Play, in attesa di Apple; in revisione sui negozi dal 5 novembre. voce 356, voce 358, voce 324, voce 349, voce 272, voce 361, voce 362
     Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
-- Versione 1.1.49: In coda · 0 di 5 fatte. voce 5, voce 160, voce 348, voce 333, voce 364
+- Versione 1.1.49: In coda · 0 di 6 fatte. voce 5, voce 160, voce 348, voce 333, voce 364, voce 376
 - Poi, nelle versioni successive: voce 104, voce 213, voce 191, voce 77
 
 Pannello e server, senza aggiornare l'app
