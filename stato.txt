@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 6 novembre 2026. Sui negozi: 1.1.48.
-375 voci in tutto: Fatto 251 · In lavorazione 6 · In coda 71 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+377 voci in tutto: Fatto 251 · In lavorazione 6 · In coda 73 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 6 novembre
@@ -378,10 +378,10 @@ Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gru
 L'app, versione per versione
 - Versione 1.1.48: Sui negozi dal 6 novembre. voce 356, voce 358, voce 324, voce 349, voce 272, voce 361, voce 362
 - Versione 1.1.49: In lavorazione · 0 di 7 fatte. voce 5, voce 160, voce 348, voce 377, voce 333, voce 364, voce 376
-- Poi, nelle versioni successive: voce 104, voce 213, voce 191, voce 77
+- Poi, nelle versioni successive: voce 104, voce 213, voce 191, voce 77, voce 379
 
 Pannello e server, senza aggiornare l'app
-- Da fare: voce 359, voce 374, voce 154, voce 296
+- Da fare: voce 359, voce 374, voce 154, voce 296, voce 378
 - Uscite il 5 novembre: voce 373
 - Uscite il 3 novembre: voce 241, voce 242, voce 288, voce 350
 - Uscite il 2 novembre: voce 150, voce 289
@@ -538,7 +538,7 @@ MAPPA, RICERCA E SCHEDE
 377. Cerca: togliendo la città, ricompare se è scritta anche nella ricerca [In lavorazione, Giacomo] issue #646 su GitHub. Trovata lavorando alla voce 348. Se scegli una città nei filtri e la scrivi anche nella ricerca, per esempio Como e "parchi a Como", togliendo la città (con "Azzera" o con la sua x) il filtro ricompare, e serve un secondo tocco per toglierlo. La correggo sul server e nell'app: togliendo la città, sparisce anche dalle parole. Arriva con la versione 1.1.49 dell'app.
 
 GIFT VOUCHER
-(Fatto 12 · In lavorazione 1 · In coda 1 · Più avanti 1)
+(Fatto 12 · In lavorazione 1 · In coda 2 · Più avanti 1)
 8. Grafiche delle carte regalo legate all'occasione [Fatto, Jessica] pannello e app 1.1.3. Le sette grafiche caricate prima vanno ricaricate scegliendo l'occasione. Dal pannello l'occasione "Altro" non si può scegliere.
 9. Costruttore della carta regalo (occasione, grafiche, stati vuoti) [Fatto, Giacomo] app 1.1.3.
 10. Biglietto con i dati veri dell'attività, la dicitura concordata e l'italiano [Fatto, Giacomo] app 1.1.7 del 7 settembre (i dati veri già dalla 1.1.2). Sistemato, già nella versione sul telefono (1.1.7): «Riscatta contattando l'attività» con la dicitura concordata, «Offerto da» col nome vero dell'attività, la riga con l'orologio con la sua descrizione, e senza «€0» quando il prezzo manca. Resta la riga degli auguri: voce 99. La dicitura concordata: è una cartolina digitale, non vale come prova di acquisto o di pagamento, il regalo si concorda e si paga direttamente con l'attività. Prima «Offerto da» portava la categoria o un nome inventato, e la riga con l'orologio diceva sempre «60-minute session».
@@ -554,6 +554,7 @@ GIFT VOUCHER
 361. Gli avvisi di "Aggiungi regalo alla lista" e "Crea nuova lista" restano sotto il foglio [Fatto, Giacomo] issue #629 su GitHub. Trovata lavorando alle voci 349 e 272. Quando aggiungere un regalo a una lista o creare una lista non riusciva, per esempio senza rete, il foglio restava aperto e il messaggio che lo diceva finiva sotto il foglio: si toccava il pulsante e non succedeva niente. Ora, come in Gestisci, il messaggio compare sul foglio. È nella versione di prova 1.1.48, dal 5 novembre. Dal 6 novembre è su App Store e Google Play per tutti.
 362. Liste regalo: l'occasione compare in inglese [Fatto, Giacomo] issue #631 su GitHub. Trovata lavorando alla voce 361. Nel foglio "Crea nuova lista" il pulsante di un'occasione diceva "special", e all'apertura nessuna occasione era scelta; in "Aggiungi a una lista regalo", sotto il nome di ogni lista, l'occasione compariva in inglese ("christmas", "Birthday"). Ora i nomi sono in italiano ("Speciale", "Natale", "Compleanno") e il foglio parte da "Compleanno". Prima avevo scritto che le liste di Natale avevano la torta e il rosa del compleanno: provando, l'elenco delle liste non mostra né emoji né colori, quindi non succede. È nella versione di prova 1.1.48, dal 5 novembre. Dal 6 novembre è su App Store e Google Play per tutti.
 364. Chiudendo "Crea nuova lista" o "Aggiungi regalo alla lista" mentre salva, la pagina non si aggiorna [In lavorazione, Giacomo] issue #633 su GitHub. Trovata lavorando alla voce 361. Se chiudi il foglio mentre l'app sta ancora salvando e il salvataggio poi riesce, la pagina sotto non si aggiorna: la lista nuova non compare nell'elenco, o il regalo non compare nella lista, finché non riapri la pagina. Chi crea di nuovo la lista si ritrova un doppione. La correggo nell'app.
+379. Liste regalo: un salvataggio che non riesce a foglio chiuso, e la lista nuova che non compare cambiando scheda [In coda, Giacomo] issue #649 su GitHub. Trovate lavorando alla voce 364, due casi rari. Se chiudi "Crea nuova lista" mentre salva e il salvataggio non riesce, oggi non compare nessun messaggio. E se crei una lista e cambi scheda prima che il salvataggio finisca, tornando la lista nuova può non comparire finché non riapri la pagina. Le correggo nell'app, con una versione dopo la 1.1.49.
 
 PANNELLO E ATTIVITÀ
 (Fatto 1)
@@ -691,7 +692,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 24 · In coda 14 · Più avanti 6)
+(Fatto 24 · In coda 15 · Più avanti 6)
 19. Modifica in blocco delle attività selezionate [Più avanti, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Più avanti, Giacomo]
@@ -736,6 +737,7 @@ DASHBOARD
 360. Pannello: tutti i campi nel file esportato degli eventi [In coda, Giacomo] Dal tuo WhatsApp del 4 novembre. Oggi il file che si scarica dalla pagina Eventi ha sei colonne, con i titoli in inglese: ID, Name, Created By, Category, Location, Fee. Diventa come quello delle attività (voce 323): una colonna in italiano per ogni campo dell'evento, con data, orari, "su richiesta" e attività collegata.
 363. Pannello: avviso quando chi chiede una scheda non sembra la sua attività [In coda, Giacomo] issue #632 su GitHub. Dopo il caso dell'asilo "Fantabosco" del 4 novembre. Nella finestra di una "Richiesta di presa in carico" il pannello dirà sempre a chi passa la scheda premendo "Assegna", e mostrerà un avviso giallo quando il nome di chi la chiede non corrisponde a quello della scheda. L'avviso non blocca niente: la scelta resta tua. Non serve aggiornare l'app.
 371. Pannello, pagina Tag: la ricerca guarda tutti i tag [In coda, Giacomo] Dalla tua email del 4 novembre (punto 11). Oggi la ricerca della pagina Tag guarda solo i tag della pagina aperta, quindi un tag a pagina due non si trova. La correggo: cerca su tutti i tag. Non serve aggiornare l'app.
+378. Email sbagliate controllate anche nel pannello, nel caricamento da file e in "Contatta l'assistenza" [In coda, Giacomo] issue #648 su GitHub. Il seguito della voce 333. Con la versione 1.1.49 l'app non accetta più nelle schede un'email con un errore evidente, come una Gmail che finisce in ".con", e propone quella giusta. Lo stesso controllo arriverà nel pannello e nel caricamento da file, senza aggiornare l'app, e poi nel campo email di "Contatta l'assistenza" con la versione successiva dell'app.
 
 SICUREZZA E PRIVACY
 (Fatto 7 · In coda 4 · Più avanti 1)
