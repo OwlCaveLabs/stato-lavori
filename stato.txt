@@ -384,11 +384,10 @@ L'app, versione per versione
 - Versione 1.1.49: Da provare in Beta. voce 5, voce 160, voce 348, voce 377, voce 333, voce 364, voce 376
     Installa la Beta su iPhone: https://testflight.apple.com/join/TCArPDTS
     Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
-- Versione 1.1.50: In coda · 0 di 3 fatte. voce 369, voce 368, voce 46
-- Poi, nelle versioni successive: voce 104, voce 370, voce 381, voce 213, voce 191, voce 77, voce 379, voce 380
+- Poi, nelle versioni successive: voce 46, voce 104, voce 213, voce 191, voce 77, voce 368, voce 369, voce 370, voce 381, voce 212, voce 379, voce 380
 
 Pannello e server, senza aggiornare l'app
-- Da fare: voce 154, voce 367, voce 374, voce 382, voce 359, voce 296, voce 378
+- Da fare: voce 154, voce 382, voce 374, voce 378, voce 296, voce 359, voce 367
 - Uscite il 5 novembre: voce 373
 - Uscite il 3 novembre: voce 241, voce 242, voce 288, voce 350
 
