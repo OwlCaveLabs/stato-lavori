@@ -1,7 +1,10 @@
 FamilySide, stato dei lavori. Aggiornato 9 novembre 2026. Sui negozi: 1.1.48. In prova: 1.1.49.
-382 voci in tutto: Fatto 258 · In coda 78 · C'è ma va rifatta 2 · Al team 4 · Più avanti 40.
+383 voci in tutto: Fatto 258 · In coda 78 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
+10 novembre
+- Dalla tua email del 10 novembre, una voce nuova: i download dell'app nel pannello (385), letti dai due negozi. Prima delle voci nuove si finiscono quelle già in corso, poi rivediamo insieme l'elenco e le priorità. (voce 385) [Jessica]
+
 9 novembre
 - Dalle tue domande del 9 novembre su Analytics, due voci. Contare (383): per ogni scheda, sul nostro server, le comparse nei risultati di ricerca, le aperture e i clic su Indicazioni e contatti, le condivisioni, e su Analytics gli eventi per vedere come si usa l'app; l'hai confermata come prima delle richieste nuove. Mostrare (384): i numeri nella schermata Analisi dell'attività e nello scarico dal pannello, quando si avvicina il premium. Il testo delle ricerche libere (332) entra nella 383. (voce 383, voce 384, voce 332) [Jessica]
 - Dalla tua email del 9 novembre, il nuovo ordine: le recensioni vengono prima. L'avviso e l'email all'attività (367) escono dal server; modifica e cancellazione delle proprie (46), il nome della scheda in "Scrivi recensione" (369) e la maiuscola (368) con la versione 1.1.50, e le domande e le etichette (370) appena scegli i tag. Il rifiuto con il motivo (382), il controllo delle email nel pannello (378) e "Per te, Mamma" e "Per te, Papà" (77) passano dopo. La 374 vale anche al contrario. (voce 367, voce 46, voce 369, voce 368, voce 370, voce 374, voce 382, voce 378, voce 77) [Jessica]
@@ -392,7 +395,6 @@ L'app, versione per versione
 Pannello e server, senza aggiornare l'app
 - Da fare: voce 154, voce 374, voce 367, voce 296, voce 359, voce 382, voce 378
 - Uscite il 5 novembre: voce 373
-- Uscite il 3 novembre: voce 241, voce 242, voce 288, voce 350
 
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
@@ -703,7 +705,7 @@ PERIODO DI PROVA
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
 
 DASHBOARD
-(Fatto 24 · In coda 16 · Più avanti 6)
+(Fatto 24 · In coda 16 · Più avanti 7)
 19. Modifica in blocco delle attività selezionate [Più avanti, Giacomo] Oggi la selezione multipla cancella soltanto.
 20. Modifica completa dell'attività e cambio di stato del profilo [Fatto, Giacomo] issue #225 su GitHub. Fatta il 16 settembre, già in funzione. Il tasto per bloccare un account dal pannello ora blocca davvero: prima scriveva «Blocked» e basta, e la persona continuava a entrare e a pubblicare come se niente fosse. Adesso chi blocchi esce alla prima richiesta, anche se in quel momento è già dentro l'app, e non può più rientrare finché non lo sblocchi. L'altra metà di questa voce, modificare l'attività dal pannello, era già a posto.
 21. Gestione degli interessi: controllo che faccia quello che serve [Più avanti, Giacomo]
@@ -750,6 +752,7 @@ DASHBOARD
 371. Pannello, pagina Tag: la ricerca guarda tutti i tag [In coda, Giacomo] Dalla tua email del 4 novembre (punto 11). Oggi la ricerca della pagina Tag guarda solo i tag della pagina aperta, quindi un tag a pagina due non si trova. La correggo: cerca su tutti i tag. Non serve aggiornare l'app.
 378. Email sbagliate controllate anche nel pannello, nel caricamento da file e in "Contatta l'assistenza" [In coda, Giacomo] issue #648 su GitHub. Il seguito della voce 333. Con la versione 1.1.49 l'app non accetta più nelle schede un'email con un errore evidente, come una Gmail che finisce in ".con", e propone quella giusta. Lo stesso controllo arriverà nel pannello e nel caricamento da file, senza aggiornare l'app, e poi nel campo email di "Contatta l'assistenza" con la versione successiva dell'app.
 382. Rifiutare una scheda dal pannello scrivendo il motivo [In coda, Giacomo] Dalla tua email dell'8 novembre: quasi sempre è la foto che non va. Oggi dal pannello si approva o si rifiuta e basta, e l'email che arriva all'attività (voce 286) dice solo che la scheda non è stata approvata, con l'indirizzo info@familyside.it per le domande. Rifiutando potrai scrivere il motivo, e l'email lo riporterà. Si fa sul pannello e sul server, senza aggiornare l'app. Si stacca dalla voce 210, che resta per il resto.
+385. I download dell'app nel pannello [Più avanti, Giacomo] issue #660 su GitHub. Dalla tua email del 10 novembre. Quante volte è stata scaricata l'app, su Android e su iPhone, letto dai due negozi e mostrato nel pannello accanto agli altri numeri. Oggi si vede solo nelle console di Google Play e di App Store Connect. Prima di cominciare verifico come i negozi danno questi numeri, per dirti quanto lavoro è.
 
 SICUREZZA E PRIVACY
 (Fatto 7 · In coda 4 · Più avanti 1)
