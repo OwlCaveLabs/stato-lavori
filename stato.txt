@@ -3,7 +3,7 @@ FamilySide, stato dei lavori. Aggiornato 11 novembre 2026. Sui negozi: 1.1.48. I
 
 NOVITÀ, DALLA PIÙ RECENTE
 11 novembre
-- Dai tuoi messaggi del 10 e dell'11 novembre, due voci: l'app si trova anche cercando "Family Side" su Google Play (386), con la versione 1.1.49 per tutti, e la categoria "Speciale Natale" rossa in Cerca (387), con la versione 1.1.50. (voce 386, voce 387) [Jessica]
+- Dai tuoi messaggi del 10 e dell'11 novembre, due voci: l'app si trova anche cercando "Family Side" su Google Play (386), con la versione 1.1.49 per tutti, e la categoria "Speciale Natale" rossa in Cerca (387), con la versione 1.1.50. La 1.1.49 è in revisione da oggi su App Store e su Google Play, ed esce per tutti appena la approvano. (voce 386, voce 387) [Jessica]
 
 10 novembre
 - Dalla tua email del 10 novembre, una voce nuova: i download dell'app nel pannello (385), letti dai due negozi. Prima delle voci nuove si finiscono quelle già in corso, poi rivediamo insieme l'elenco e le priorità. (voce 385) [Jessica]
@@ -389,7 +389,7 @@ IN ARRIVO
 Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.
 
 L'app, versione per versione
-- Versione 1.1.49: Da provare in Beta. voce 5, voce 160, voce 348, voce 377, voce 333, voce 364, voce 376, voce 386
+- Versione 1.1.49: Da provare in Beta; in revisione sui negozi dall'11 novembre. voce 5, voce 160, voce 348, voce 377, voce 333, voce 364, voce 376, voce 386
     Installa la Beta su iPhone: https://testflight.apple.com/join/TCArPDTS
     Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
 - Versione 1.1.50: In coda · 0 di 5 fatte. voce 46, voce 369, voce 368, voce 370, voce 387
@@ -402,8 +402,8 @@ Pannello e server, senza aggiornare l'app
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.49, dal 6 novembre) -> Beta [x] (1.1.49, dal 9 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.48, dal 6 novembre)
-Google Play: Prova interna [x] (1.1.49, dal 6 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.49, dal 6 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.48, dal 6 novembre)
+App Store: Prova interna [x] (1.1.49, dal 6 novembre) -> Beta [x] (1.1.49, dal 9 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.48, dal 6 novembre) (in revisione: 1.1.49, dall'11 novembre)
+Google Play: Prova interna [x] (1.1.49, dal 6 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.49, dal 6 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.48, dal 6 novembre) (in revisione: 1.1.49, dall'11 novembre)
 
 IMMAGINE E INGRESSO
 (Fatto 7 · Più avanti 3)
