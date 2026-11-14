@@ -400,8 +400,8 @@ IN ARRIVO
 Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.
 
 L'app, versione per versione
-- Versione 1.1.49: Sui negozi dal 12 novembre. voce 5, voce 160, voce 348, voce 377, voce 333, voce 364, voce 376, voce 386
-- Versione 1.1.50: In prova interna. voce 46, voce 369, voce 368, voce 370, voce 387
+- Versione 1.1.50: In Beta su Google Play, in attesa di Apple. voce 46, voce 369, voce 368, voce 370, voce 387
+    Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
 - Poi, nelle versioni successive: voce 104, voce 213, voce 191, voce 391, voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
 Pannello e server, senza aggiornare l'app
@@ -412,8 +412,8 @@ Pannello e server, senza aggiornare l'app
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.50, dal 14 novembre) -> Beta [x] (1.1.49, dal 9 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.49, dal 12 novembre)
-Google Play: Prova interna [x] (1.1.50, dal 14 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.49, dal 6 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.49, dal 12 novembre)
+App Store: Prova interna [x] (1.1.50, dal 14 novembre) -> Beta [x] (1.1.49, dal 9 novembre) (in revisione: 1.1.50, dal 14 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.49, dal 12 novembre)
+Google Play: Prova interna [x] (1.1.50, dal 14 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.50, dal 14 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.49, dal 12 novembre)
 
 IMMAGINE E INGRESSO
 (Fatto 7 · Più avanti 3)
