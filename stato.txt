@@ -405,11 +405,11 @@ Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gru
 L'app, versione per versione
 - Versione 1.1.50: In Beta su Google Play, in attesa di Apple; in revisione sui negozi dal 14 novembre. voce 46, voce 369, voce 368, voce 370, voce 387
     Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
-- Versione 1.1.51: In coda · 0 di 1 fatte. voce 104
-- Poi, nelle versioni successive: voce 213, voce 191, voce 391, voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
+- Versione 1.1.51: In coda · 0 di 4 fatte. voce 104, voce 191, voce 391, voce 394
+- Poi, nelle versioni successive: voce 213, voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
 Pannello e server, senza aggiornare l'app
-- Da fare: voce 359, voce 382, voce 378
+- Da fare: voce 389, voce 359, voce 382, voce 378
 - Uscite il 13 novembre: voce 296, voce 390
 - Uscite il 12 novembre: voce 154, voce 374, voce 367
 
