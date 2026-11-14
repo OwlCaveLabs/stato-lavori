@@ -1,8 +1,9 @@
 FamilySide, stato dei lavori. Aggiornato 14 novembre 2026. Sui negozi: 1.1.49. In prova: 1.1.50.
-392 voci in tutto: Fatto 268 · In lavorazione 1 · In coda 76 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
+393 voci in tutto: Fatto 269 · In lavorazione 1 · In coda 76 · C'è ma va rifatta 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 14 novembre
+- Registrazione più sicura: se lo stesso indirizzo viene registrato due volte con password diverse prima della conferma, non resta nessuna delle due, e chi conferma il codice riceve un'email per sceglierne una nuova. Vale subito, senza aggiornare l'app. (voce 389) [Giacomo]
 - La 1.1.50 è nella versione di prova: su Android nella Beta, su iPhone appena Apple la approva. È già in revisione anche per tutti: esce sui due negozi da sola, appena approvata. Le recensioni si modificano e si eliminano, il modulo mostra la scheda e le etichette accese nel pannello; la maiuscola a inizio frase in tutti i campi; il nome bianco sulle card di colore scuro in Cerca. (voce 46, voce 369, voce 368, voce 370, voce 387) [Giacomo]
 
 13 novembre
@@ -409,7 +410,7 @@ L'app, versione per versione
 - Poi, nelle versioni successive: voce 213, voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
 Pannello e server, senza aggiornare l'app
-- Da fare: voce 389, voce 359, voce 382, voce 378
+- Da fare: voce 359, voce 382, voce 378
 - Uscite il 13 novembre: voce 296, voce 390
 - Uscite il 12 novembre: voce 154, voce 374, voce 367
 
@@ -433,7 +434,7 @@ IMMAGINE E INGRESSO
 334. Presentazione iniziale: foto e testi nuovi [Fatto, Giacomo] issue #570 su GitHub. Separata dalla voce 206 il 27 ottobre. Foto e testi nuovi delle quattro pagine li hai mandati il 28 ottobre sera; come hai scelto, disposizione e pulsanti restano quelli di oggi. Dal 29 ottobre sono nella versione di prova 1.1.47, e il logo non finisce più sotto la barra in alto del telefono, anche nella pagina "Chi sei?". Con la 1.1.47 sono arrivate a tutti su Android il 2 novembre, e su iPhone la sera stessa. I testi inglesi li abbiamo scritti noi dai tuoi: te li mandiamo da approvare.
 
 REGISTRAZIONE E ACCESSO
-(Fatto 24 · In coda 6 · Più avanti 4)
+(Fatto 25 · In coda 6 · Più avanti 4)
 56. Accedendo di nuovo, l'app rifà tutte le domande iniziali [Fatto, Giacomo] issue #37 su GitHub. Corretta sul server il 5 settembre, vale anche con l'app già installata. Chi saltava la foto del profilo, facoltativa, restava segnato come «non ha finito» e a ogni accesso ripartiva dalla scelta del ruolo. Trovata il 4 settembre provando la registrazione passo per passo. Riaprendo l'app senza uscire non si vedeva: serviva un accesso vero. Il percorso dell'operatore non aveva il problema. Rifare quel giro non era innocuo: vedi la voce 57.
 57. I figli inseriti spariscono quando l'app rifà le domande iniziali [Fatto, Giacomo] issue #38 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. La schermata dei figli partiva vuota e premendo «Continua» cancellava i figli già registrati, dicendo che il salvataggio era riuscito. Trovata il 4 settembre insieme alla voce 56. La stessa schermata dentro il profilo i figli li caricava: il modo giusto esisteva già. Corretta da due lati, app e server.
 58. Un figlio senza data di nascita non viene salvato, e l'app non lo dice [Fatto, Giacomo] issue #39 su GitHub. Corretta: server il 5 settembre, app 1.1.5 lo stesso giorno. Un figlio col solo nome faceva rifiutare al server tutta la richiesta, anche gli altri figli, e l'app andava avanti con un «Error» che compariva e spariva.
@@ -467,7 +468,8 @@ REGISTRAZIONE E ACCESSO
 333. Email sbagliate: da scrivere due volte alla registrazione, e controllate nei contatti delle schede [Fatto, Giacomo] issue #614 su GitHub. Chiesto da te il 27 ottobre: capita spesso che chi si registra sbagli l'indirizzo email e poi non riesca a completare la registrazione. Un secondo campo "Conferma indirizzo email" deve coincidere con il primo per andare avanti. Dopo il lancio, come hai indicato tu. Il 1 novembre aggiungi le email sbagliate nei contatti delle schede, per esempio una Gmail che finisce in ".con": anche nei moduli delle schede l'indirizzo verrà controllato prima del salvataggio, così gli errori evidenti non passano. Il 4 novembre confermi, e mi chiedi anche l'elenco delle email sospette già salvate nelle schede, per correggerle in una volta sola: te l'ho mandato il 6 novembre. È nell'app per tutti dal 12 novembre, con la versione 1.1.49.
 366. Date: scrivendole, i separatori si mettono da soli [In coda, Giacomo] Dalla tua email del 4 novembre (punto 6). Le date dell'app (nascita dei figli, data prevista del parto, data degli eventi) si scelgono da un calendario; toccando la matita la data si può scrivere, e lì bisogna mettere a mano la barra fra giorno, mese e anno. La correggo, così scrivendo la data i separatori si aggiungono da soli. Se intendevi un altro campo, dimmi quale.
 374. Chi registra l'attività con l'email del suo account famiglia legge solo "Accedi" [Fatto, Giacomo] issue #641 su GitHub. Fatta e online dal 12 novembre, senza aggiornare l'app. Chi registra l'attività con l'email del suo account famiglia legge che l'indirizzo è già registrato come account famiglia e che per l'attività serve un altro indirizzo. Al contrario, chi si registra come famiglia con l'email della sua attività legge che l'indirizzo è già registrato come account di un'attività. Vale per la registrazione con email e password e con Google o Apple. Dal tuo WhatsApp del 5 novembre: tante attività non riuscivano a passare dal lato famiglie al lato attività. Un indirizzo email è un solo account, famiglia o attività, e chi registrava l'attività con l'email del suo account famiglia leggeva "Esiste già un account con questa email. Accedi.": accedendo entrava nel suo account famiglia e non trovava l'attività. Il caso al contrario è quello che chiedi il 9 novembre. La soluzione vera, lo stesso indirizzo con due profili e il passaggio dentro l'app, è la voce 41.
-389. Registrazione non confermata: resta la password della prima richiesta [In coda, Giacomo] issue #669 su GitHub. Trovato da noi il 12 novembre, controllando la voce 374. Se qualcuno inizia una registrazione con un indirizzo che non è suo e non la conferma, e poi il titolare si registra con lo stesso indirizzo, l'account resta con la password scelta la prima volta. Si corregge sul server, senza aggiornare l'app: vale la password di chi conferma il codice arrivato nella sua casella.
+389. Registrazione non confermata: resta la password della prima richiesta [Fatto, Giacomo] issue #669 su GitHub. Trovato da noi il 12 novembre, controllando la voce 374. Se qualcuno iniziava una registrazione con un indirizzo non suo e poi il titolare si registrava con lo stesso indirizzo, l'account restava con la password scelta la prima volta. Ora, se lo stesso indirizzo viene registrato con due password diverse prima della conferma, non ne resta nessuna: chi conferma il codice entra lo stesso, riceve un'email che gli spiega di sceglierne una con "Password dimenticata?", e nessun altro può accedere. Sul server dal 14 novembre, senza aggiornare l'app.
+395. Registrazione ripetuta: se l'email non parte, il codice già arrivato non vale più [In coda, Giacomo] issue #688 su GitHub. Trovato da noi il 14 novembre, controllando la voce 389. Chi ripete una registrazione non ancora confermata riceve un codice nuovo, e quello arrivato prima smette di valere; se in quel momento l'email non riesce a partire, resta in mano un codice che non funziona. Si rimedia con "Reinvia" nella schermata del codice. Si corregge sul server.
 
 MAPPA, RICERCA E SCHEDE
 (Fatto 69 · In lavorazione 1 · In coda 20 · Più avanti 9)
