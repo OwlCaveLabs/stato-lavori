@@ -3,7 +3,7 @@ FamilySide, stato dei lavori. Aggiornato 17 novembre 2026. Sui negozi: 1.1.51 su
 
 NOVITÀ, DALLA PIÙ RECENTE
 17 novembre
-- La versione 1.1.53 è nella Beta: su Android da subito, su iPhone appena Apple la approva. Contiene la condivisione di una scheda come immagine per Instagram, da mettere in una storia o in un post (voce 213), il simbolo Salva anche sugli eventi dentro la scheda di un'attività (voce 400) e la riga sulla lista d'attesa nell'informativa sulla privacy dell'app (voce 402). Con questa versione il pacchetto gratuito è completo. (voce 213, voce 400, voce 402) [Giacomo]
+- La versione 1.1.53 è nella Beta: su Android da subito, su iPhone appena Apple la approva. Contiene la condivisione di una scheda come immagine per Instagram, da mettere in una storia o in un post (voce 213), il simbolo Salva anche sugli eventi dentro la scheda di un'attività (voce 400) e la riga sulla lista d'attesa nell'informativa sulla privacy dell'app (voce 402). Con questa versione il pacchetto gratuito è completo. Su Google Play è già in revisione per tutti; su App Store la mando appena Apple pubblica la 1.1.52. (voce 213, voce 400, voce 402) [Giacomo]
 - La versione 1.1.52 è uscita per tutti su Android: "Salva" direttamente sulle card (voce 191), "Vedi luogo" con il nome del luogo nella scheda di un evento (voce 398) e il sito web negli eventi creati dall'app delle attività (voce 391). Su iPhone arriva appena Apple la approva. (voce 191, voce 391, voce 398) [Giacomo]
 - La versione 1.1.52 è in revisione per tutti, su App Store e su Google Play: esce appena la approvano. Contiene "Salva" direttamente sulle card (voce 191), "Vedi luogo" con il nome del luogo nella scheda di un evento (voce 398) e il sito web negli eventi creati dall'app delle attività (voce 391). (voce 191, voce 391, voce 398) [Giacomo]
 - Dalla tua email del 16 novembre: la riga sulla lista d'attesa entra nell'informativa dell'app con una prossima versione (402), e due voci per più avanti, i pagamenti veri (40) e il programma di affiliazione (403), su cui ti mando una proposta. (voce 402, voce 40, voce 403) [Jessica]
@@ -426,7 +426,7 @@ IN ARRIVO
 Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.
 
 L'app, versione per versione
-- Versione 1.1.53: In Beta su Google Play, in attesa di Apple. voce 213, voce 400, voce 402
+- Versione 1.1.53: In Beta su Google Play, in attesa di Apple; in revisione su Google Play dal 17 novembre. voce 213, voce 400, voce 402
     Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
 - Poi, nelle versioni successive: voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
@@ -439,7 +439,7 @@ L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
 App Store: Prova interna [x] (1.1.53, dal 17 novembre) -> Beta [x] (1.1.51, dal 16 novembre) (in revisione: 1.1.53, dal 17 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.51, dal 17 novembre) (in revisione: 1.1.52, dal 17 novembre)
-Google Play: Prova interna [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.52, dal 17 novembre)
+Google Play: Prova interna [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.52, dal 17 novembre) (in revisione: 1.1.53, dal 17 novembre)
 
 IMMAGINE E INGRESSO
 (Fatto 7 · Più avanti 3)
