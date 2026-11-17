@@ -1,8 +1,10 @@
-FamilySide, stato dei lavori. Aggiornato 15 novembre 2026. Sui negozi: 1.1.51. In prova: 1.1.52.
-399 voci in tutto: Fatto 275 · In coda 76 · C'è ma va rifatta 2 · Al team 4 · Più avanti 42.
+FamilySide, stato dei lavori. Aggiornato 17 novembre 2026. Sui negozi: 1.1.51. In prova: 1.1.52.
+401 voci in tutto: Fatto 275 · In coda 77 · C'è ma va rifatta 2 · Al team 4 · Più avanti 43.
 
 NOVITÀ, DALLA PIÙ RECENTE
 17 novembre
+- La versione 1.1.52 è in revisione per tutti, su App Store e su Google Play: esce appena la approvano. Contiene "Salva" direttamente sulle card (voce 191), "Vedi luogo" con il nome del luogo nella scheda di un evento (voce 398) e il sito web negli eventi creati dall'app delle attività (voce 391). (voce 191, voce 391, voce 398) [Giacomo]
+- Dalla tua email del 16 novembre: la riga sulla lista d'attesa entra nell'informativa dell'app con una prossima versione (402), e due voci per più avanti, i pagamenti veri (40) e il programma di affiliazione (403), su cui ti mando una proposta. (voce 402, voce 40, voce 403) [Jessica]
 - La versione 1.1.51 è uscita per tutti anche su iPhone: la schermata "Ci stiamo avvicinando a te" (voce 104) e la mappa che con una categoria scelta allarga da sola la ricerca (voce 394) ora ci sono su App Store e su Google Play. (voce 104, voce 394) [Giacomo]
 
 16 novembre
@@ -422,7 +424,7 @@ IN ARRIVO
 Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.
 
 L'app, versione per versione
-- Versione 1.1.52: In Beta su Google Play, in attesa di Apple. voce 191, voce 391, voce 398
+- Versione 1.1.52: In Beta su Google Play, in attesa di Apple; in revisione sui negozi dal 17 novembre. voce 191, voce 391, voce 398
     Installa la Beta su Android: https://play.google.com/apps/testing/com.fs.familyside
 - Poi, nelle versioni successive: voce 213, voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
@@ -434,8 +436,8 @@ Pannello e server, senza aggiornare l'app
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.52, dal 16 novembre) -> Beta [x] (1.1.51, dal 16 novembre) (in revisione: 1.1.52, dal 16 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.51, dal 17 novembre)
-Google Play: Prova interna [x] (1.1.52, dal 16 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.52, dal 16 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.51, dal 16 novembre)
+App Store: Prova interna [x] (1.1.52, dal 16 novembre) -> Beta [x] (1.1.51, dal 16 novembre) (in revisione: 1.1.52, dal 16 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.51, dal 17 novembre) (in revisione: 1.1.52, dal 17 novembre)
+Google Play: Prova interna [x] (1.1.52, dal 16 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.52, dal 16 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.51, dal 16 novembre) (in revisione: 1.1.52, dal 17 novembre)
 
 IMMAGINE E INGRESSO
 (Fatto 7 · Più avanti 3)
@@ -747,10 +749,11 @@ ISCRIZIONE DELLE ATTIVITÀ
 396. Eventi proposti dalle famiglie [Più avanti, Giacomo] issue #689 su GitHub. Dal tuo messaggio del 14 novembre. Una famiglia potrà proporre un evento dall'app, come oggi suggerisce un luogo. Hai deciso il 14 novembre: l'evento resta in attesa finché non lo approvi dal pannello; i campi obbligatori sono gli stessi degli eventi delle attività (nome, categoria, luogo, descrizione, data con ora oppure "su richiesta"); la famiglia può collegarlo a un luogo già presente, e in quel caso il gestore del luogo riceve un'email che lo avvisa e gli permette di contestare l'evento. È una funzione nuova, fra le voci del pacchetto: la mettiamo in ordine con le altre quando ne parliamo.
 
 PERIODO DI PROVA
-(Fatto 2 · Più avanti 1)
+(Fatto 2 · Più avanti 2)
 18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Fatto, Giacomo] issue #91 su GitHub; app 1.1.12 sui canali di prova dal 10 settembre. Fatta con l'app 1.1.12, nello stesso lavoro della voce 82: la vecchia schermata dei pagamenti - tre prezzi e il modulo della carta - non c'è più, e al suo posto «Il tuo piano» dice che fino al 22 novembre 2026 tutte le funzionalità sono disponibili e non c'è niente da fare. Nessuna funzione dell'app è mai stata legata a un abbonamento, quindi sono tutte accessibili davvero, non solo dichiarate tali.
-40. Pagamenti veri (incasso, rinnovi, disdette, fatture) [Più avanti, Giacomo] Da stimare a parte quando i livelli saranno definiti.
+40. Pagamenti veri (incasso, rinnovi, disdette, fatture) [Più avanti, Giacomo] Da stimare a parte quando i livelli saranno definiti. Dalla tua email del 16 novembre: da preparare per quando finiscono i primi due mesi gratuiti delle attività, insieme al programma di affiliazione (voce 403), e da capire se conviene farli insieme al sito web. Ti rispondo con una proposta.
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
+403. Programma di affiliazione: una percentuale a chi porta le attività [Più avanti, Giacomo] Dalla tua email del 16 novembre: a influencer, ambassador e collaboratori una percentuale ricorrente sugli abbonamenti Premium delle attività che portano, con una piattaforma già pronta come FirstPromoter o Rewardful, collegata a Stripe. Dipende dai pagamenti veri (voce 40): ti rispondo con una proposta per tutti e due.
 
 DASHBOARD
 (Fatto 24 · In coda 18 · Più avanti 7)
@@ -805,7 +808,7 @@ DASHBOARD
 401. Pannello: sottocategoria obbligatoria anche quando la categoria non ne ha [In coda, Giacomo] issue #704 su GitHub. Dal tuo messaggio del 16 novembre. Nel pannello attività, eventi e idee regalo chiedono sempre una sottocategoria, anche quando la categoria scelta non ne ha, come "Speciale Natale": così in quella categoria non si pubblica niente. Il pannello farà come l'app delle attività, che la chiede solo se la categoria ne ha; l'app non va aggiornata. Nel frattempo, se crei una sottocategoria dentro "Speciale Natale", puoi già pubblicare.
 
 SICUREZZA E PRIVACY
-(Fatto 7 · In coda 4 · Più avanti 1)
+(Fatto 7 · In coda 5 · Più avanti 1)
 23. Sicurezza dell'accesso all'app [Fatto, Giacomo] server, dal 10 settembre. Chiusa e pubblicata sul server il 10 settembre, vale anche con l'app già installata. Nel farlo è emerso che l'accesso con Apple non aveva mai funzionato: è la voce 86.
 24. Chiavi delle mappe limitate [Fatto, Giacomo] issue #217 su GitHub. Fatta il 14 settembre sera, col tuo ruolo Editor. Nel tuo progetto Google ci sono cinque chiavi, una per uso, ognuna limitata a dove serve e a cosa serve: server (solo dal server, solo geocodifica), pannello (solo dal suo indirizzo), mappa Android (solo dall'app firmata da te e da Google), mappa iPhone (solo dall'app), e la chiave che avevi, tenuta per le ricerche di indirizzi dal telefono e ridotta a quelle due funzioni. Provate tutte: dal server e dal container, dal pannello in linea, sull'emulatore Android e sull'iPhone con la 1.1.18; le chiamate fuori dai limiti vengono rifiutate. La mappa Android non usa più la chiave del team.
 25. Funzioni riservate alle attività protette davvero [Fatto, Giacomo] issue #224 su GitHub. Fatta il 16 settembre, già in funzione. Le funzioni del lato attività ora rispondono solo agli account delle attività: creare e gestire schede, vedere le analitiche, e soprattutto leggere i volantini, che costa a ogni lettura. Prima rispondevano a chiunque avesse un account. È stato tolto anche un indirizzo che permetteva a qualunque account di diventare un'attività con una sola richiesta. Restano aperte a tutti solo le due letture della lista delle categorie, perché le usa anche il modulo con cui una famiglia suggerisce un'attività: sono di sola lettura e non costano niente.
@@ -818,6 +821,7 @@ SICUREZZA E PRIVACY
 177. Le schede non ancora approvate si possono leggere con l'indirizzo diretto [In coda, Giacomo] issue #284 su GitHub. Trovato il 22 settembre rivedendo la modifica chiesta da Apple. Nell'app una scheda compare solo dopo la tua approvazione, e questo resta vero: ma chi conosce l'indirizzo esatto di una scheda in attesa o rifiutata può leggerla lo stesso, contatti compresi. Navigando non ci si arriva, quindi il rischio è basso, ma va chiuso. La correzione lascia leggere una scheda solo se è approvata oppure a chi l'ha inserita, perché una famiglia deve continuare a vedere i propri suggerimenti in attesa. Vale anche per i link di condivisione.
 330. Recupero della password: l'ultimo passo legato a chi ha verificato il codice [Più avanti, Giacomo] issue #562 su GitHub. Separata dalla voce 140 il 26 ottobre. Dopo il codice a sei cifre, la password nuova si sceglie con il solo indirizzo email: nel quarto d'ora dopo che il titolare ha verificato il codice, chi conosce il suo indirizzo potrebbe sceglierla al posto suo. La correzione lega l'ultimo passo a chi ha verificato il codice; vuole una versione nuova dell'app e una modifica del pannello, per questo va dopo il lancio.
 331. Iscrizione: il codice che arriva per email si può provare senza limiti [Fatto, Giacomo] issue #564 su GitHub. Separata dalla voce 140 il 26 ottobre. Il codice a sei cifre che arriva per email dopo la registrazione si può provare e far rimandare senza limiti: chi registra un account con l'indirizzo di un'altra persona potrebbe provare i codici uno dopo l'altro e ottenere un account verificato su un indirizzo che non è suo. La correzione dà al codice dell'iscrizione gli stessi limiti del recupero della password (voce 140) e si fa solo sul server. Il 27 ottobre è pubblicata sul server: dopo cinque codici sbagliati quello dell'iscrizione non vale più, e il codice si può far rimandare solo poche volte all'ora. Chi si registra di nuovo con un indirizzo non ancora confermato riceve un nuovo codice, ma nome e password restano quelli della prima registrazione.
+402. Informativa sulla privacy: la riga sulla lista d'attesa, dentro l'app [In coda, Giacomo] issue #705 su GitHub. Dalla tua email del 16 novembre, che approva la riga proposta per chi lascia email e comune con "Avvisami quando arriva" (voce 104). L'informativa che si apre dall'app è quella scritta nell'app con la voce 133, non la pagina "Informativa sulla privacy" del pannello: la riga la aggiungo io, in italiano e in inglese, ed esce con una prossima versione dell'app. Sul sito la aggiungi tu, come per l'Android ID (voce 329).
 
 FONDAMENTA E MESSA IN PRODUZIONE
 (Fatto 15 · In coda 4 · Più avanti 2)
