@@ -3,7 +3,7 @@ FamilySide, stato dei lavori. Aggiornato 17 novembre 2026. Sui negozi: 1.1.52 su
 
 NOVITÀ, DALLA PIÙ RECENTE
 18 novembre
-- La versione 1.1.52 è uscita per tutti anche su iPhone: "Salva" direttamente sulle card (voce 191), "Vedi luogo" con il nome del luogo nella scheda di un evento (voce 398) e il sito web negli eventi creati dall'app delle attività (voce 391). Adesso mando in revisione su App Store la 1.1.53. (voce 191, voce 391, voce 398) [Giacomo]
+- La versione 1.1.52 è uscita per tutti anche su iPhone: "Salva" direttamente sulle card (voce 191), "Vedi luogo" con il nome del luogo nella scheda di un evento (voce 398) e il sito web negli eventi creati dall'app delle attività (voce 391). Dal 18 novembre anche la 1.1.53 è in revisione su App Store: esce appena Apple la approva. (voce 191, voce 391, voce 398) [Giacomo]
 
 17 novembre
 - La versione 1.1.53 è uscita per tutti su Android: la condivisione di una scheda come immagine per Instagram (voce 213), il simbolo Salva anche sugli eventi dentro la scheda di un'attività (voce 400) e la riga sulla lista d'attesa nell'informativa sulla privacy dell'app (voce 402). Su iPhone la mando in revisione appena Apple pubblica la 1.1.52. (voce 213, voce 400, voce 402) [Giacomo]
@@ -430,7 +430,7 @@ IN ARRIVO
 Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gruppo, e restano qui finché non arriva in Beta la versione dopo; quelle del pannello e del server escono una per una, appena pronte.
 
 L'app, versione per versione
-- Versione 1.1.53: Su Google Play dal 17 novembre, in attesa di Apple. voce 213, voce 400, voce 402
+- Versione 1.1.53: Su Google Play dal 17 novembre, in attesa di Apple; in revisione su App Store dal 18 novembre. voce 213, voce 400, voce 402
 - Poi, nelle versioni successive: voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
 Pannello e server, senza aggiornare l'app
@@ -441,7 +441,7 @@ Pannello e server, senza aggiornare l'app
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.53, dal 17 novembre) -> Beta [x] (1.1.52, dal 18 novembre) (in revisione: 1.1.53, dal 17 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.52, dal 18 novembre)
+App Store: Prova interna [x] (1.1.53, dal 17 novembre) -> Beta [x] (1.1.52, dal 18 novembre) (in revisione: 1.1.53, dal 17 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.52, dal 18 novembre) (in revisione: 1.1.53, dal 18 novembre)
 Google Play: Prova interna [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.53, dal 17 novembre)
 
 IMMAGINE E INGRESSO
