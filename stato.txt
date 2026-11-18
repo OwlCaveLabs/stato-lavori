@@ -431,6 +431,7 @@ Le voci che faccio adesso. Quelle dell'app escono a gruppi, una versione per gru
 
 L'app, versione per versione
 - Versione 1.1.53: Su Google Play dal 17 novembre, in attesa di Apple; in revisione su App Store dal 18 novembre. voce 213, voce 400, voce 402
+    Installa la Beta su iPhone: https://testflight.apple.com/join/TCArPDTS
 - Poi, nelle versioni successive: voce 388, voce 383, voce 381, voce 212, voce 77, voce 379, voce 380
 
 Pannello e server, senza aggiornare l'app
@@ -441,7 +442,7 @@ Pannello e server, senza aggiornare l'app
 L'APP SUI DUE NEGOZI
 Dove si trova ogni versione dell'app: la prova interna, la Beta per chi ha il link, e la versione che scaricano tutti, con sotto quella che Apple o Google stanno esaminando. Dal 2 novembre gli aggiornamenti escono da soli appena il negozio li approva.
 
-App Store: Prova interna [x] (1.1.53, dal 17 novembre) -> Beta [x] (1.1.52, dal 18 novembre) (in revisione: 1.1.53, dal 17 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.52, dal 18 novembre) (in revisione: 1.1.53, dal 18 novembre)
+App Store: Prova interna [x] (1.1.53, dal 17 novembre) -> Beta [x] (1.1.53, dal 18 novembre) https://testflight.apple.com/join/TCArPDTS -> Sullo store [x] (1.1.52, dal 18 novembre) (in revisione: 1.1.53, dal 18 novembre)
 Google Play: Prova interna [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/internaltest/4701708261354884420 -> Beta [x] (1.1.53, dal 17 novembre) https://play.google.com/apps/testing/com.fs.familyside -> Sullo store [x] (1.1.53, dal 17 novembre)
 
 IMMAGINE E INGRESSO
