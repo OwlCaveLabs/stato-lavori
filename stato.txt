@@ -1,5 +1,5 @@
 FamilySide, stato dei lavori. Aggiornato 19 novembre 2026. Sui negozi: 1.1.53.
-401 voci in tutto: Fatto 278 · In coda 74 · C'è ma va rifatta 2 · Al team 4 · Più avanti 43.
+401 voci in tutto: Fatto 278 · In coda 74 · C'è ma va rifatta 2 · Aspetta una tua decisione 2 · Al team 4 · Più avanti 41.
 
 NOVITÀ, DALLA PIÙ RECENTE
 18 novembre
@@ -754,11 +754,11 @@ ISCRIZIONE DELLE ATTIVITÀ
 396. Eventi proposti dalle famiglie [Più avanti, Giacomo] issue #689 su GitHub. Dal tuo messaggio del 14 novembre. Una famiglia potrà proporre un evento dall'app, come oggi suggerisce un luogo. Hai deciso il 14 novembre: l'evento resta in attesa finché non lo approvi dal pannello; i campi obbligatori sono gli stessi degli eventi delle attività (nome, categoria, luogo, descrizione, data con ora oppure "su richiesta"); la famiglia può collegarlo a un luogo già presente, e in quel caso il gestore del luogo riceve un'email che lo avvisa e gli permette di contestare l'evento. È una funzione nuova, fra le voci del pacchetto: la mettiamo in ordine con le altre quando ne parliamo.
 
 PERIODO DI PROVA
-(Fatto 2 · Più avanti 2)
+(Fatto 2 · Aspetta una tua decisione 2)
 18. Tutte le funzioni sbloccate fino al 22 novembre, schermata della prova, via la vecchia schermata dei pagamenti [Fatto, Giacomo] issue #91 su GitHub; app 1.1.12 sui canali di prova dal 10 settembre. Fatta con l'app 1.1.12, nello stesso lavoro della voce 82: la vecchia schermata dei pagamenti - tre prezzi e il modulo della carta - non c'è più, e al suo posto «Il tuo piano» dice che fino al 22 novembre 2026 tutte le funzionalità sono disponibili e non c'è niente da fare. Nessuna funzione dell'app è mai stata legata a un abbonamento, quindi sono tutte accessibili davvero, non solo dichiarate tali.
-40. Pagamenti veri (incasso, rinnovi, disdette, fatture) [Più avanti, Giacomo] Da stimare a parte quando i livelli saranno definiti. Dalla tua email del 16 novembre: da preparare per quando finiscono i primi due mesi gratuiti delle attività, insieme al programma di affiliazione (voce 403), e da capire se conviene farli insieme al sito web. Ti rispondo con una proposta.
+40. Pagamenti veri (incasso, rinnovi, disdette, fatture) [Aspetta una tua decisione, Jessica] Dalla tua email del 16 novembre: da preparare per quando finiscono i primi due mesi gratuiti delle attività, insieme al programma di affiliazione (voce 403). La proposta te l'ho mandata per email il 19 novembre: le attività pagano sul web con Stripe, non dentro l'app, a tappe, e il sito nuovo non serve. Aspetto le tue risposte alle sei domande dell'email (cosa cambia alla fine dei due mesi, da quale data contano, prezzo, affiliati, fatture); poi la stima.
 204. Periodo gratuito: una frase sola al posto della data fissa [Fatto, Giacomo] issue #337 su GitHub; app 1.1.29 sui canali di prova dal 28 settembre. Dall'elenco «Percorso attività: modifiche all'app» del 25 settembre (punto 16.5, urgente). Fatto il 28 settembre: al posto di «fino al 22 novembre 2026» il piano dice «Tutte le funzionalità del tuo account sono disponibili gratuitamente per due mesi». La data calcolata per ogni attività si decide quando ci sarà un piano a pagamento. Nella versione 1.1.29, sui canali di prova dal 28 settembre.
-403. Programma di affiliazione: una percentuale a chi porta le attività [Più avanti, Giacomo] Dalla tua email del 16 novembre: a influencer, ambassador e collaboratori una percentuale ricorrente sugli abbonamenti Premium delle attività che portano, con una piattaforma già pronta come FirstPromoter o Rewardful, collegata a Stripe. Dipende dai pagamenti veri (voce 40): ti rispondo con una proposta per tutti e due.
+403. Programma di affiliazione: una percentuale a chi porta le attività [Aspetta una tua decisione, Jessica] Dalla tua email del 16 novembre: a influencer, ambassador e collaboratori una percentuale ricorrente sugli abbonamenti Premium delle attività che portano. Nella proposta del 19 novembre (voce 40): un codice personale per ogni affiliato, inserito dall'attività quando paga; FirstPromoter o Rewardful si collegano più avanti, quando gli affiliati sono tanti. Aspetto le tue scelte su chi può essere affiliato, percentuale e durata.
 
 DASHBOARD
 (Fatto 24 · In coda 18 · Più avanti 7)
